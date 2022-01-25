@@ -719,7 +719,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: #f5f5ff;
+  background: rgba(174, 236, 58, 0.2);
   padding: 70px 0 60px;
 }
 .counts .count-box {
