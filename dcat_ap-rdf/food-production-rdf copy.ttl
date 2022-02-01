@@ -1,0 +1,57 @@
+@prefix adms: <http://www.w3.org/ns/adms#>. 
+@prefix dcat: <http://www.w3.org/ns/dcat#>. 
+@prefix dcatap: <http://data.europa.eu/r5r/>. 
+@prefix dct: <http://purl.org/dc/terms/>. 
+@prefix foaf: <http://xmlns.com/foaf/0.1/>. 
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>. 
+@prefix prov: <http://www.w3.org/ns/prov#>. 
+
+dcat:Dataset	dct:description	"The dataset contains the production different kinds of food in Europe (27 Countries). List of food selected: cheese, whole cow milk; eggs, hen, in shell; meat, cattle; meat, chicken; meat, pig; milk, whole fresh cow; potatoes; rice, paddy; wheat.";
+		dct:title	"FOOData - Crops and livestock products FAOSTAT";
+		dcat:contactPoint	vcard:Group;
+		dcat:distribution	dcat:Distribution;
+		dcat:keyword	"food production";
+		dcat:keyword	"crops products";
+		dcat:keyword	"livestock products";
+        dcat:keyword	"europe";
+ 		dct:publisher	foaf:Person;
+		dct:publisher	foaf:Person;
+		dct:publisher	foaf:Person;
+		dct:spatial	<https://dbpedia.org/page/Europe>;
+		dct:temporal	dct:PeriodOfTime;
+		dcat:theme	<http://publications.europa.eu/resource/authority/data-theme/ENVI>;
+		dct:accessRights	"Open";	
+		dct:creator 	foaf:Person;
+		dct:creator 	foaf:Person;
+		dct:creator 	foaf:Person;
+		foaf:page	<NAME OF THE PAGE>;
+		dct:accrualPeriodicity	<http://publications.europa.eu/resource/authority/frequency/ANNUAL>;
+	 	dct:identifier	<IDENTIFIER>;
+		dct:language	<http://publications.europa.eu/resource/authority/language/ENG>;
+		dct:issued	"2022/01/22";
+		dct:source	<https://www.fao.org/faostat/en/#data>;
+		dct:modified 	"2022/01/22";
+		prov:wasGeneratedBy	"Re-use of open access datasets.".
+
+dct:PeriodOfTime	dcat:startDate	"2009";
+			dcat:endDate	"2019".
+
+dcat:Distribution	dcat:accessURL	<NAME OF THE PAGE>;
+			dct:format	<http://publications.europa.eu/resource/authority/file-type/XML>;		
+			dct:license	<https://creativecommons.org/licenses/by-nc-sa/3.0/igo/>;
+			dcat:byteSize	"5,564 KB";
+			dcat:downloadURL	<NAME OF THE PAGE>;
+			adms:status	<http://purl.org/adms/status/Completed>.
+
+foaf:Person	foaf:name	"Giorgia Sampó".
+
+foaf:Person	foaf:name	"Vanessa Bonanno".
+
+foaf:Person	foaf:name	"Sara Tew".
+
+vcard:Group	vcard:hasEmail	"".
+
+<http://purl.org/adms/status/Completed>	skos:prefLabel	"Completed".
+
+<http://publications.europa.eu/resource/authority/data-theme/ENVI>	skos:prefLabel	"Production".
