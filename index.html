@@ -28,6 +28,9 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- Javascript File -->
+  <script type="text/javascript" src="assets/js/personal_js.js"></script>
+
   <!-- =======================================================
   * Template Name: Bootslander - v4.7.1
   * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
@@ -57,23 +60,20 @@
             <ul>
               <li class="dropdown"><a href="#"><span>Dataset Food</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">Food 1</a></li>
-                  <li><a href="#">Food 2</a></li>
-                  <li><a href="#">Food 3</a></li>
+                  <li><a href="#">Food Dataset</a></li>
+                  <li><a href="#">Metadata</a></li>
                 </ul>
               </li>
               <li class="dropdown"><a href="#"><span>Dataset Pollution</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">Pollution 1</a></li>
-                  <li><a href="#">Pollution 2</a></li>
-                  <li><a href="#">Pollution 3</a></li>
+                  <li><a href="#">Pollution Dataset</a></li>
+                  <li><a href="#">Metadata</a></li>
                 </ul>
               </li>
               <li class="dropdown"><a href="#"><span>Dataset Health</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">Health 1</a></li>
-                  <li><a href="#">Health 2</a></li>
-                  <li><a href="#">Health 3</a></li>
+                  <li><a href="#">Health Dataset</a></li>
+                  <li><a href="#">Metadata</a></li>
                 </ul>
               </li>
             </ul>
@@ -138,24 +138,25 @@
 
           <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
             <h3>FOOData: food in data</h3>
-            <p>This project aims at showing connections between fodd production, pollution and health conditions in European countries from 2009 to 2019.</p>
-
+            <p>This project aims at showing connections between food production, pollution and health conditions in European countries from 2009 to 2019.</p>
+            <p>We are focusing in particular on different countries production of food and their health and pollution status</p>
+            <p>To do so we collected data from <a href="https://ec.europa.eu/eurostat" target="_blank">EUROSTAT</a>, the <a href="https://www.eea.europa.eu" target="_blank">European Environmental Agency</a> and <a href="https://www.fao.org/faostat/en/#home" target="_blank">FAO</a>.</p>
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon"><i class="bx bxs-florist"></i></div>
               <h4 class="title"><a href="">Food Production</a></h4>
-              <p class="description">Data related to the production of food in European countries.</p>
+              <p class="description">What do European country produce and how much?</p>
             </div>
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
               <div class="icon"><i class="bx bxs-factory"></i></div>
               <h4 class="title"><a href="">Pollution</a></h4>
-              <p class="description">Data related to pollution related to agriculture and food processing in European countries.</p>            
+              <p class="description">What are the environmental issue european countries have to face?</p>            
             </div>
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
               <div class="icon"><i class="bx bxs-injection"></i></div>
               <h4 class="title"><a href="">Health</a></h4>
-              <p class="description">Data related to health factors in European countries.</p>
+              <p class="description">How are european countries doing in term of health?</p>
             </div>
 
           </div>
@@ -174,77 +175,111 @@
         </div>
 
         <div class="row" data-aos="fade-left">
-          <div class="col-lg-3 col-md-4">
+          <div>
+            <p>Here you can observe the different mappings of the phenomenon we considered</p>
+          </div>
+          <div class="col-lg-4 col-md-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="50">
               <i class="ri-store-line" style="color: #ffbb2c;"></i>
-              <h3><a href="">Useless Stuff</a></h3>
+              <h3><a onclick="visualize_map('production')">Production Map</a></h3>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
               <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-              <h3><a href="">Spurious Correlations</a></h3>
+              <h3><a onclick="visualize_map('pollution')">Pollution Map</a></h3>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="150">
               <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-              <h3><a href="">Looks right but its not</a></h3>
+              <h3><a onclick="visualize_map('health')">Health Map</a></h3>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+        </div>
+
+        <div class="row" data-aos="fade-right">
+          <div class="map hide_map" id="production">
+              <h3>Map 1</h3>
+          </div>
+          <div class="map hide_map" id="pollution">
+              <h3>Map 2</h3>
+          </div>
+          <div class="map hide_map" id="health">
+              <h3>Map 3</h3>
+          </div>
+        </div>
+
+        <br><hr><hr><br>
+
+        <div class="row" data-aos="fade-left">
+          <div>
+            <p>Or generate different visualizations of our data</p>
+          </div>
+          <div class="col-lg-4 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
               <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-              <h3><a href="">Do not even know how we got it</a></h3>
+              <h3><a onclick="visualize_chart('chart_1')">Random Chart</a></h3>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-4">
+          <div class="col-lg-4 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="250">
               <i class="ri-database-2-line" style="color: #47aeff;"></i>
-              <h3><a href="">Definitely makes no sense</a></h3>
+              <h3><a onclick="visualize_chart('chart_2')">Random Chart</a></h3>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-4">
+          <div class="col-lg-4 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
               <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-              <h3><a href="">Probably right</a></h3>
+              <h3><a onclick="visualize_chart('chart_3')">Random Chart</a></h3>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="350">
-              <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-              <h3><a href="">Still right but useless</a></h3>
+        </div>
+
+        <div class="row" data-aos="fade-right">
+          <div class="chart hide_chart" id="chart_1">
+              <h3>Chart 1</h3>
+          </div>
+          <div class="chart hide_chart" id="chart_2">
+              <h3>Chart 2</h3>
+          </div>
+          <div class="chart hide_chart" id="chart_3">
+              <h3>Chart 3</h3>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row" data-aos="fade-left">
+          <div class="col-lg-4 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+              <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
+              <h3><a onclick="visualize_graph('chart_4')">Random Chart</a></h3>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
-              <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
-              <h3><a href="">We had the data so, why not?</a></h3>
+          <div class="col-lg-4 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="250">
+              <i class="ri-database-2-line" style="color: #47aeff;"></i>
+              <h3><a onclick="visualize_graph('chart_5')">Random Chart</a></h3>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="450">
-              <i class="ri-anchor-line" style="color: #b2904f;"></i>
-              <h3><a href="">Well, long story short, food is bad for everyone.</a></h3>
+          <div class="col-lg-4 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+              <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
+              <h3><a onclick="visualize_graph('chart_6')">Random Chart</a></h3>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="500">
-              <i class="ri-disc-line" style="color: #b20969;"></i>
-              <h3><a href="">You like food? Well, too bad.</a></h3>
-            </div>
+        </div>
+
+        <div class="row" data-aos="fade-right">
+          <div class="graph hide_graph" id="chart_4">
+              <h3>Chart 4</h3>
           </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="550">
-              <i class="ri-base-station-line" style="color: #ff5828;"></i>
-              <h3><a href="">Produced carrots pro capite on price of health insurances</a></h3>
-            </div>
+          <div class="graph hide_graph" id="chart_5">
+              <h3>Chart 5</h3>
           </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="600">
-              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-              <h3><a href="">Other useless stuff</a></h3>
-            </div>
+          <div class="graph hide_graph" id="chart_6">
+              <h3>Chart 6</h3>
           </div>
         </div>
 

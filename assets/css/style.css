@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #aeec3a;
+  color: rgba(32, 100, 11, 0.91);;
   text-decoration: none;
 }
 
@@ -673,7 +673,7 @@ section {
   font-size: 18px;
 }
 .about .icon-box .title a {
-  color: #343a40;
+  color: #343a40 !important;
   transition: 0.3s;
 }
 .about .icon-box .title a:hover {
@@ -718,6 +718,73 @@ section {
   background: rgba(174, 236, 58, 0.5);
 }
 
+.map{
+  height: 20em !important;
+  padding-top: 8.5em;
+}
+
+.hide_map{
+  display: none !important;
+}
+
+.display_map{
+  display: block !important;
+}
+
+#production{
+  background-color: #1acc8d;
+}
+#pollution{
+  background-color: #ccc01a;
+}
+#health{
+  background-color: #cc1a6d;
+}
+
+.chart{
+  height: 20em !important;
+  padding-top: 8.5em;
+}
+
+.hide_chart{
+  display: none !important;
+}
+
+.display_chart{
+  display: block !important;
+}
+
+.graph{
+  height: 20em !important;
+  padding-top: 8.5em;
+}
+
+.hide_graph{
+  display: none !important;
+}
+
+.display_graph{
+  display: block !important;
+}
+
+#chart_1{
+  background-color: #1acc8d;
+}
+#chart_2{
+  background-color: #ccc01a;
+}
+#chart_3{
+  background-color: #cc1a6d;
+}
+#chart_4{
+  background-color: #1acc8d;
+}
+#chart_5{
+  background-color: #ccc01a;
+}
+#chart_6{
+  background-color: #cc1a6d;
+}
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
