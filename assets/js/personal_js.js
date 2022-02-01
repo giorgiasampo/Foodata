@@ -35,14 +35,14 @@ function visualize_graph(graph_name){
 var col_num;
 
 function display_adjuster(reference_class){
+    class_count = document.getElementsByClassName(reference_class);
     element_count = document.getElementsByClassName("display_"+reference_class);
-    remove_count = document.getElementsByClassName("done");
 
-    for (x=0; x<element_count.length;x++){
-        element_count[x].classList.remove("col-lg-"+col_num);
-        element_count[x].classList.remove("col-md-"+col_num);
-        element_count[x].classList.remove("mt-4");
-        element_count[x].classList.remove("done");
+    for (x=0; x<class_count.length;x++){
+        class_count[x].classList.remove("col-lg-"+col_num);
+        class_count[x].classList.remove("col-md-"+col_num);
+        class_count[x].classList.remove("mt-4");
+        class_count[x].classList.remove("done");
     }
 
     switch (element_count.length) {
