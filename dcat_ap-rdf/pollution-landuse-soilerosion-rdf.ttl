@@ -23,6 +23,7 @@ dcat:Dataset	dct:description	"This dataset contains data from the European Union
 		dct:spatial	<https://dbpedia.org/page/Europe>;
 		dct:temporal	dct:PeriodOfTime;
 		dcat:theme	<http://publications.europa.eu/resource/authority/data-theme/ENVI>;
+		dcat:theme	<http://publications.europa.eu/resource/authority/data-theme/AGRI>;
 		dct:accessRights	"Open";	
 		dct:creator 	foaf:Person;
 		dct:creator 	foaf:Person;
