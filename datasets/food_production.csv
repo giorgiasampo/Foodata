@@ -1,0 +1,2458 @@
+﻿Area;NUTS;Item Code (FAO);Item;Year;Unit;Value;Flag;Flag Description
+Spain;ES;901;Cheese, whole cow milk;2014;tonnes;128000;*;Unofficial figure
+Czechia;CZ;901;Cheese, whole cow milk;2013;tonnes;117790;*;Unofficial figure
+Czechia;CZ;901;Cheese, whole cow milk;2012;tonnes;111550;*;Unofficial figure
+Czechia;CZ;901;Cheese, whole cow milk;2011;tonnes;110000;*;Unofficial figure
+Czechia;CZ;901;Cheese, whole cow milk;2010;tonnes;109000;*;Unofficial figure
+Czechia;CZ;901;Cheese, whole cow milk;2009;tonnes;103000;*;Unofficial figure
+Belgium;BE;901;Cheese, whole cow milk;2011;tonnes;55800;*;Unofficial figure
+Belgium;BE;901;Cheese, whole cow milk;2013;tonnes;54500;*;Unofficial figure
+Belgium;BE;901;Cheese, whole cow milk;2012;tonnes;54400;*;Unofficial figure
+Belgium;BE;901;Cheese, whole cow milk;2010;tonnes;51300;*;Unofficial figure
+Belgium;BE;901;Cheese, whole cow milk;2009;tonnes;49500;*;Unofficial figure
+France;FR;1062;Eggs, hen, in shell;2018;tonnes;994010;*;Unofficial figure
+France;FR;1062;Eggs, hen, in shell;2015;tonnes;970000;*;Unofficial figure
+France;FR;1062;Eggs, hen, in shell;2019;tonnes;926446;*;Unofficial figure
+France;FR;1062;Eggs, hen, in shell;2017;tonnes;877856;*;Unofficial figure
+Spain;ES;1062;Eggs, hen, in shell;2019;tonnes;864184;*;Unofficial figure
+France;FR;1062;Eggs, hen, in shell;2016;tonnes;816297;*;Unofficial figure
+Germany;DE;1062;Eggs, hen, in shell;2019;tonnes;763141;*;Unofficial figure
+Netherlands;NL;1062;Eggs, hen, in shell;2014;tonnes;726000;*;Unofficial figure
+Netherlands;NL;1062;Eggs, hen, in shell;2013;tonnes;699000;*;Unofficial figure
+Poland;PL;1062;Eggs, hen, in shell;2019;tonnes;657270;*;Unofficial figure
+Poland;PL;1062;Eggs, hen, in shell;2018;tonnes;645139;*;Unofficial figure
+Hungary;HU;1062;Eggs, hen, in shell;2019;tonnes;141768;*;Unofficial figure
+Hungary;HU;1062;Eggs, hen, in shell;2018;tonnes;139651;*;Unofficial figure
+Sweden;SE;1062;Eggs, hen, in shell;2016;tonnes;139538;*;Unofficial figure
+Sweden;SE;1062;Eggs, hen, in shell;2017;tonnes;137762;*;Unofficial figure
+Belgium;BE;1062;Eggs, hen, in shell;2019;tonnes;113093;*;Unofficial figure
+Belgium;BE;1062;Eggs, hen, in shell;2018;tonnes;96474;*;Unofficial figure
+Greece;EL;1062;Eggs, hen, in shell;2017;tonnes;87394;*;Unofficial figure
+Greece;EL;1062;Eggs, hen, in shell;2016;tonnes;87033;*;Unofficial figure
+Greece;EL;1062;Eggs, hen, in shell;2019;tonnes;80884;*;Unofficial figure
+Greece;EL;1062;Eggs, hen, in shell;2018;tonnes;74304;*;Unofficial figure
+Latvia;LV;1062;Eggs, hen, in shell;2017;tonnes;48100;*;Unofficial figure
+Latvia;LV;1062;Eggs, hen, in shell;2016;tonnes;46600;*;Unofficial figure
+Latvia;LV;1062;Eggs, hen, in shell;2019;tonnes;46499;*;Unofficial figure
+Latvia;LV;1062;Eggs, hen, in shell;2018;tonnes;44357;*;Unofficial figure
+Latvia;LV;1062;Eggs, hen, in shell;2015;tonnes;43500;*;Unofficial figure
+Ireland;IE;1062;Eggs, hen, in shell;2009;tonnes;41600;*;Unofficial figure
+Latvia;LV;1062;Eggs, hen, in shell;2014;tonnes;40800;*;Unofficial figure
+Croatia;HR;1062;Eggs, hen, in shell;2019;tonnes;33413;*;Unofficial figure
+Croatia;HR;1062;Eggs, hen, in shell;2018;tonnes;32388;*;Unofficial figure
+Croatia;HR;867;Meat, cattle;2010;tonnes;37500;*;Unofficial figure
+Croatia;HR;867;Meat, cattle;2009;tonnes;36800;*;Unofficial figure
+Croatia;HR;867;Meat, cattle;2011;tonnes;36200;*;Unofficial figure
+Poland;PL;1058;Meat, chicken;2013;tonnes;1517300;*;Unofficial figure
+Poland;PL;1058;Meat, chicken;2012;tonnes;1411000;*;Unofficial figure
+Poland;PL;1058;Meat, chicken;2011;tonnes;1162000;*;Unofficial figure
+Poland;PL;1058;Meat, chicken;2010;tonnes;1123000;*;Unofficial figure
+Greece;EL;1058;Meat, chicken;2010;tonnes;126000;*;Unofficial figure
+Greece;EL;1058;Meat, chicken;2009;tonnes;123550;*;Unofficial figure
+Croatia;HR;1058;Meat, chicken;2009;tonnes;29000;*;Unofficial figure
+Luxembourg;LU;1058;Meat, chicken;2009;tonnes;245;*;Unofficial figure
+Luxembourg;LU;1058;Meat, chicken;2010;tonnes;224;*;Unofficial figure
+Croatia;HR;1035;Meat, pig;2009;tonnes;131000;*;Unofficial figure
+Croatia;HR;1035;Meat, pig;2010;tonnes;121000;*;Unofficial figure
+Croatia;HR;1035;Meat, pig;2011;tonnes;120100;*;Unofficial figure
+Ireland;IE;882;Milk, whole fresh cow;2009;tonnes;5228300;*;Unofficial figure
+Czechia;CZ;882;Milk, whole fresh cow;2017;tonnes;3079213;*;Unofficial figure
+Greece;EL;901;Cheese, whole cow milk;2013;tonnes;46000;F;FAO estimate
+Greece;EL;901;Cheese, whole cow milk;2012;tonnes;45000;F;FAO estimate
+Greece;EL;901;Cheese, whole cow milk;2011;tonnes;40000;F;FAO estimate
+Greece;EL;901;Cheese, whole cow milk;2010;tonnes;37500;F;FAO estimate
+Greece;EL;901;Cheese, whole cow milk;2009;tonnes;35000;F;FAO estimate
+Cyprus;CY;901;Cheese, whole cow milk;2017;tonnes;14000;F;FAO estimate
+Cyprus;CY;901;Cheese, whole cow milk;2016;tonnes;11000;F;FAO estimate
+Cyprus;CY;901;Cheese, whole cow milk;2015;tonnes;7000;F;FAO estimate
+Cyprus;CY;901;Cheese, whole cow milk;2014;tonnes;5000;F;FAO estimate
+Cyprus;CY;901;Cheese, whole cow milk;2013;tonnes;4000;F;FAO estimate
+Cyprus;CY;901;Cheese, whole cow milk;2012;tonnes;2000;F;FAO estimate
+Italy;IT;1062;Eggs, hen, in shell;2009;tonnes;812500;F;FAO estimate
+Italy;IT;1062;Eggs, hen, in shell;2012;tonnes;765000;F;FAO estimate
+Italy;IT;1062;Eggs, hen, in shell;2011;tonnes;755000;F;FAO estimate
+Italy;IT;1062;Eggs, hen, in shell;2010;tonnes;737000;F;FAO estimate
+Netherlands;NL;1062;Eggs, hen, in shell;2015;tonnes;660600;F;FAO estimate
+Netherlands;NL;1062;Eggs, hen, in shell;2017;tonnes;643000;F;FAO estimate
+Netherlands;NL;1062;Eggs, hen, in shell;2016;tonnes;640000;F;FAO estimate
+Belgium;BE;1062;Eggs, hen, in shell;2016;tonnes;154600;F;FAO estimate
+Belgium;BE;1062;Eggs, hen, in shell;2014;tonnes;151870;F;FAO estimate
+Belgium;BE;1062;Eggs, hen, in shell;2015;tonnes;148025;F;FAO estimate
+Belgium;BE;1062;Eggs, hen, in shell;2017;tonnes;138320;F;FAO estimate
+Sweden;SE;1062;Eggs, hen, in shell;2015;tonnes;127470;F;FAO estimate
+Sweden;SE;1062;Eggs, hen, in shell;2014;tonnes;121707;F;FAO estimate
+Ireland;IE;1062;Eggs, hen, in shell;2017;tonnes;54050;F;FAO estimate
+Ireland;IE;1062;Eggs, hen, in shell;2016;tonnes;51750;F;FAO estimate
+Ireland;IE;1062;Eggs, hen, in shell;2015;tonnes;49450;F;FAO estimate
+Ireland;IE;1062;Eggs, hen, in shell;2014;tonnes;48000;F;FAO estimate
+Ireland;IE;1062;Eggs, hen, in shell;2013;tonnes;47000;F;FAO estimate
+Ireland;IE;1062;Eggs, hen, in shell;2012;tonnes;46500;F;FAO estimate
+Ireland;IE;1062;Eggs, hen, in shell;2011;tonnes;46000;F;FAO estimate
+Ireland;IE;1062;Eggs, hen, in shell;2010;tonnes;45000;F;FAO estimate
+Ireland;IE;1058;Meat, chicken;2009;tonnes;90000;F;FAO estimate
+Malta;MT;15;Wheat;2009;tonnes;13800;F;FAO estimate
+Malta;MT;15;Wheat;2015;tonnes;10000;F;FAO estimate
+France;FR;901;Cheese, whole cow milk;2017;tonnes;1573516;Im;FAO data based on imputation methodology
+France;FR;901;Cheese, whole cow milk;2015;tonnes;1546388;Im;FAO data based on imputation methodology
+France;FR;901;Cheese, whole cow milk;2014;tonnes;1539846;Im;FAO data based on imputation methodology
+France;FR;901;Cheese, whole cow milk;2016;tonnes;1520036;Im;FAO data based on imputation methodology
+Poland;PL;901;Cheese, whole cow milk;2015;tonnes;721542;Im;FAO data based on imputation methodology
+Poland;PL;901;Cheese, whole cow milk;2016;tonnes;718965;Im;FAO data based on imputation methodology
+Poland;PL;901;Cheese, whole cow milk;2017;tonnes;716700;Im;FAO data based on imputation methodology
+Poland;PL;901;Cheese, whole cow milk;2014;tonnes;716019;Im;FAO data based on imputation methodology
+Romania;RO;901;Cheese, whole cow milk;2015;tonnes;94677;Im;FAO data based on imputation methodology
+Romania;RO;901;Cheese, whole cow milk;2016;tonnes;94268;Im;FAO data based on imputation methodology
+Romania;RO;901;Cheese, whole cow milk;2017;tonnes;91056;Im;FAO data based on imputation methodology
+Slovakia;SK;901;Cheese, whole cow milk;2017;tonnes;44057;Im;FAO data based on imputation methodology
+Slovakia;SK;901;Cheese, whole cow milk;2016;tonnes;43299;Im;FAO data based on imputation methodology
+Slovakia;SK;901;Cheese, whole cow milk;2015;tonnes;42341;Im;FAO data based on imputation methodology
+Slovakia;SK;901;Cheese, whole cow milk;2014;tonnes;42266;Im;FAO data based on imputation methodology
+Greece;EL;901;Cheese, whole cow milk;2014;tonnes;36775;Im;FAO data based on imputation methodology
+Greece;EL;901;Cheese, whole cow milk;2015;tonnes;26852;Im;FAO data based on imputation methodology
+Greece;EL;901;Cheese, whole cow milk;2016;tonnes;25945;Im;FAO data based on imputation methodology
+Greece;EL;901;Cheese, whole cow milk;2017;tonnes;25336;Im;FAO data based on imputation methodology
+Poland;PL;1058;Meat, chicken;2016;tonnes;1483851;Im;FAO data based on imputation methodology
+Poland;PL;1058;Meat, chicken;2017;tonnes;1472702;Im;FAO data based on imputation methodology
+Poland;PL;1058;Meat, chicken;2014;tonnes;1468616;Im;FAO data based on imputation methodology
+Poland;PL;1058;Meat, chicken;2015;tonnes;1465639;Im;FAO data based on imputation methodology
+Ireland;IE;1058;Meat, chicken;2016;tonnes;90454;Im;FAO data based on imputation methodology
+Ireland;IE;1058;Meat, chicken;2015;tonnes;88776;Im;FAO data based on imputation methodology
+Ireland;IE;1058;Meat, chicken;2014;tonnes;88100;Im;FAO data based on imputation methodology
+Ireland;IE;1058;Meat, chicken;2012;tonnes;87459;Im;FAO data based on imputation methodology
+Ireland;IE;1058;Meat, chicken;2013;tonnes;87046;Im;FAO data based on imputation methodology
+Ireland;IE;1058;Meat, chicken;2011;tonnes;87000;Im;FAO data based on imputation methodology
+Ireland;IE;1058;Meat, chicken;2010;tonnes;85000;Im;FAO data based on imputation methodology
+Malta;MT;15;Wheat;2010;tonnes;13038;Im;FAO data based on imputation methodology
+Malta;MT;15;Wheat;2011;tonnes;12468;Im;FAO data based on imputation methodology
+Malta;MT;15;Wheat;2017;tonnes;12413;Im;FAO data based on imputation methodology
+Malta;MT;15;Wheat;2012;tonnes;12173;Im;FAO data based on imputation methodology
+Malta;MT;15;Wheat;2013;tonnes;11865;Im;FAO data based on imputation methodology
+Malta;MT;15;Wheat;2014;tonnes;11543;Im;FAO data based on imputation methodology
+Malta;MT;15;Wheat;2016;tonnes;10596;Im;FAO data based on imputation methodology
+France;FR;901;Cheese, whole cow milk;2013;tonnes;1778365;null;Official data
+France;FR;901;Cheese, whole cow milk;2012;tonnes;1773000;null;Official data
+France;FR;901;Cheese, whole cow milk;2011;tonnes;1772932;null;Official data
+France;FR;901;Cheese, whole cow milk;2010;tonnes;1755941;null;Official data
+France;FR;901;Cheese, whole cow milk;2009;tonnes;1692210;null;Official data
+Germany;DE;901;Cheese, whole cow milk;2017;tonnes;1484200;null;Official data
+Germany;DE;901;Cheese, whole cow milk;2016;tonnes;1481100;null;Official data
+Germany;DE;901;Cheese, whole cow milk;2015;tonnes;1450300;null;Official data
+Germany;DE;901;Cheese, whole cow milk;2014;tonnes;1424800;null;Official data
+Germany;DE;901;Cheese, whole cow milk;2012;tonnes;1406000;null;Official data
+Germany;DE;901;Cheese, whole cow milk;2013;tonnes;1398800;null;Official data
+Germany;DE;901;Cheese, whole cow milk;2011;tonnes;1357400;null;Official data
+Germany;DE;901;Cheese, whole cow milk;2010;tonnes;1353600;null;Official data
+Germany;DE;901;Cheese, whole cow milk;2009;tonnes;1299100;null;Official data
+Italy;IT;901;Cheese, whole cow milk;2012;tonnes;1203760;null;Official data
+Italy;IT;901;Cheese, whole cow milk;2019;tonnes;1185970;null;Official data
+Italy;IT;901;Cheese, whole cow milk;2010;tonnes;1177163;null;Official data
+Italy;IT;901;Cheese, whole cow milk;2014;tonnes;1176020;null;Official data
+Italy;IT;901;Cheese, whole cow milk;2011;tonnes;1171042;null;Official data
+Italy;IT;901;Cheese, whole cow milk;2018;tonnes;1169650;null;Official data
+Italy;IT;901;Cheese, whole cow milk;2013;tonnes;1157740;null;Official data
+Italy;IT;901;Cheese, whole cow milk;2015;tonnes;1086078;null;Official data
+Italy;IT;901;Cheese, whole cow milk;2009;tonnes;1071770;null;Official data
+Italy;IT;901;Cheese, whole cow milk;2017;tonnes;1052914;null;Official data
+Italy;IT;901;Cheese, whole cow milk;2016;tonnes;1004500;null;Official data
+Netherlands;NL;901;Cheese, whole cow milk;2019;tonnes;953000;null;Official data
+Netherlands;NL;901;Cheese, whole cow milk;2016;tonnes;911000;null;Official data
+Netherlands;NL;901;Cheese, whole cow milk;2018;tonnes;902000;null;Official data
+Netherlands;NL;901;Cheese, whole cow milk;2017;tonnes;896000;null;Official data
+Netherlands;NL;901;Cheese, whole cow milk;2015;tonnes;870000;null;Official data
+Netherlands;NL;901;Cheese, whole cow milk;2013;tonnes;793024;null;Official data
+Netherlands;NL;901;Cheese, whole cow milk;2014;tonnes;771920;null;Official data
+Netherlands;NL;901;Cheese, whole cow milk;2012;tonnes;764161;null;Official data
+Netherlands;NL;901;Cheese, whole cow milk;2010;tonnes;752638;null;Official data
+Netherlands;NL;901;Cheese, whole cow milk;2011;tonnes;749679;null;Official data
+Poland;PL;901;Cheese, whole cow milk;2013;tonnes;744000;null;Official data
+Poland;PL;901;Cheese, whole cow milk;2012;tonnes;719000;null;Official data
+Netherlands;NL;901;Cheese, whole cow milk;2009;tonnes;712094;null;Official data
+Poland;PL;901;Cheese, whole cow milk;2011;tonnes;680000;null;Official data
+Poland;PL;901;Cheese, whole cow milk;2010;tonnes;664100;null;Official data
+Poland;PL;901;Cheese, whole cow milk;2009;tonnes;633470;null;Official data
+Denmark;DK;901;Cheese, whole cow milk;2018;tonnes;457400;null;Official data
+Denmark;DK;901;Cheese, whole cow milk;2019;tonnes;457000;null;Official data
+Denmark;DK;901;Cheese, whole cow milk;2017;tonnes;449900;null;Official data
+Denmark;DK;901;Cheese, whole cow milk;2016;tonnes;428000;null;Official data
+Denmark;DK;901;Cheese, whole cow milk;2015;tonnes;389500;null;Official data
+Denmark;DK;901;Cheese, whole cow milk;2014;tonnes;369100;null;Official data
+Denmark;DK;901;Cheese, whole cow milk;2013;tonnes;323200;null;Official data
+Denmark;DK;901;Cheese, whole cow milk;2009;tonnes;320900;null;Official data
+Denmark;DK;901;Cheese, whole cow milk;2012;tonnes;302700;null;Official data
+Denmark;DK;901;Cheese, whole cow milk;2010;tonnes;292200;null;Official data
+Ireland;IE;901;Cheese, whole cow milk;2019;tonnes;278400;null;Official data
+Denmark;DK;901;Cheese, whole cow milk;2011;tonnes;274800;null;Official data
+Ireland;IE;901;Cheese, whole cow milk;2018;tonnes;269400;null;Official data
+Ireland;IE;901;Cheese, whole cow milk;2017;tonnes;259400;null;Official data
+Ireland;IE;901;Cheese, whole cow milk;2015;tonnes;207100;null;Official data
+Spain;ES;901;Cheese, whole cow milk;2016;tonnes;205716;null;Official data
+Ireland;IE;901;Cheese, whole cow milk;2016;tonnes;205000;null;Official data
+Austria;AT;901;Cheese, whole cow milk;2018;tonnes;204798;null;Official data
+Austria;AT;901;Cheese, whole cow milk;2017;tonnes;203423;null;Official data
+Austria;AT;901;Cheese, whole cow milk;2019;tonnes;203280;null;Official data
+Spain;ES;901;Cheese, whole cow milk;2017;tonnes;200511;null;Official data
+Austria;AT;901;Cheese, whole cow milk;2016;tonnes;197687;null;Official data
+Ireland;IE;901;Cheese, whole cow milk;2014;tonnes;188400;null;Official data
+Austria;AT;901;Cheese, whole cow milk;2015;tonnes;187329;null;Official data
+Spain;ES;901;Cheese, whole cow milk;2019;tonnes;185900;null;Official data
+Ireland;IE;901;Cheese, whole cow milk;2012;tonnes;185500;null;Official data
+Ireland;IE;901;Cheese, whole cow milk;2013;tonnes;182800;null;Official data
+Ireland;IE;901;Cheese, whole cow milk;2011;tonnes;179900;null;Official data
+Spain;ES;901;Cheese, whole cow milk;2018;tonnes;178831;null;Official data
+Austria;AT;901;Cheese, whole cow milk;2014;tonnes;177202;null;Official data
+Ireland;IE;901;Cheese, whole cow milk;2010;tonnes;171800;null;Official data
+Spain;ES;901;Cheese, whole cow milk;2015;tonnes;167200;null;Official data
+Austria;AT;901;Cheese, whole cow milk;2012;tonnes;167113;null;Official data
+Austria;AT;901;Cheese, whole cow milk;2013;tonnes;165747;null;Official data
+Ireland;IE;901;Cheese, whole cow milk;2009;tonnes;162600;null;Official data
+Austria;AT;901;Cheese, whole cow milk;2011;tonnes;161608;null;Official data
+Austria;AT;901;Cheese, whole cow milk;2010;tonnes;156668;null;Official data
+Austria;AT;901;Cheese, whole cow milk;2009;tonnes;151249;null;Official data
+Czechia;CZ;901;Cheese, whole cow milk;2018;tonnes;134900;null;Official data
+Czechia;CZ;901;Cheese, whole cow milk;2019;tonnes;134310;null;Official data
+Czechia;CZ;901;Cheese, whole cow milk;2017;tonnes;133300;null;Official data
+Spain;ES;901;Cheese, whole cow milk;2011;tonnes;133300;null;Official data
+Czechia;CZ;901;Cheese, whole cow milk;2016;tonnes;127480;null;Official data
+Spain;ES;901;Cheese, whole cow milk;2013;tonnes;124864;null;Official data
+Spain;ES;901;Cheese, whole cow milk;2010;tonnes;124100;null;Official data
+Spain;ES;901;Cheese, whole cow milk;2009;tonnes;123500;null;Official data
+Czechia;CZ;901;Cheese, whole cow milk;2015;tonnes;120660;null;Official data
+Belgium;BE;901;Cheese, whole cow milk;2018;tonnes;116790;null;Official data
+Czechia;CZ;901;Cheese, whole cow milk;2014;tonnes;116640;null;Official data
+Belgium;BE;901;Cheese, whole cow milk;2019;tonnes;114860;null;Official data
+Spain;ES;901;Cheese, whole cow milk;2012;tonnes;112800;null;Official data
+Belgium;BE;901;Cheese, whole cow milk;2017;tonnes;110820;null;Official data
+Finland;FI;901;Cheese, whole cow milk;2011;tonnes;108897;null;Official data
+Sweden;SE;901;Cheese, whole cow milk;2009;tonnes;107600;null;Official data
+Belgium;BE;901;Cheese, whole cow milk;2016;tonnes;104340;null;Official data
+Sweden;SE;901;Cheese, whole cow milk;2011;tonnes;103300;null;Official data
+Sweden;SE;901;Cheese, whole cow milk;2010;tonnes;103140;null;Official data
+Finland;FI;901;Cheese, whole cow milk;2013;tonnes;102295;null;Official data
+Finland;FI;901;Cheese, whole cow milk;2012;tonnes;102236;null;Official data
+Sweden;SE;901;Cheese, whole cow milk;2012;tonnes;101200;null;Official data
+Finland;FI;901;Cheese, whole cow milk;2010;tonnes;100879;null;Official data
+Finland;FI;901;Cheese, whole cow milk;2014;tonnes;99126;null;Official data
+Finland;FI;901;Cheese, whole cow milk;2009;tonnes;97393;null;Official data
+Belgium;BE;901;Cheese, whole cow milk;2015;tonnes;95740;null;Official data
+Sweden;SE;901;Cheese, whole cow milk;2015;tonnes;90240;null;Official data
+Sweden;SE;901;Cheese, whole cow milk;2013;tonnes;90000;null;Official data
+Bulgaria;BG;901;Cheese, whole cow milk;2019;tonnes;89780;null;Official data
+Finland;FI;901;Cheese, whole cow milk;2015;tonnes;88356;null;Official data
+Sweden;SE;901;Cheese, whole cow milk;2014;tonnes;88120;null;Official data
+Sweden;SE;901;Cheese, whole cow milk;2016;tonnes;87200;null;Official data
+Finland;FI;901;Cheese, whole cow milk;2018;tonnes;87187;null;Official data
+Hungary;HU;901;Cheese, whole cow milk;2017;tonnes;87018;null;Official data
+Sweden;SE;901;Cheese, whole cow milk;2019;tonnes;86500;null;Official data
+Hungary;HU;901;Cheese, whole cow milk;2019;tonnes;86130;null;Official data
+Finland;FI;901;Cheese, whole cow milk;2017;tonnes;85988;null;Official data
+Finland;FI;901;Cheese, whole cow milk;2016;tonnes;83767;null;Official data
+Finland;FI;901;Cheese, whole cow milk;2019;tonnes;83602;null;Official data
+Hungary;HU;901;Cheese, whole cow milk;2018;tonnes;83283;null;Official data
+Sweden;SE;901;Cheese, whole cow milk;2017;tonnes;82700;null;Official data
+Sweden;SE;901;Cheese, whole cow milk;2018;tonnes;81800;null;Official data
+Belgium;BE;901;Cheese, whole cow milk;2014;tonnes;80630;null;Official data
+Lithuania;LT;901;Cheese, whole cow milk;2011;tonnes;80300;null;Official data
+Hungary;HU;901;Cheese, whole cow milk;2016;tonnes;80106;null;Official data
+Hungary;HU;901;Cheese, whole cow milk;2015;tonnes;80103;null;Official data
+Bulgaria;BG;901;Cheese, whole cow milk;2018;tonnes;79098;null;Official data
+Lithuania;LT;901;Cheese, whole cow milk;2010;tonnes;77800;null;Official data
+Bulgaria;BG;901;Cheese, whole cow milk;2017;tonnes;76440;null;Official data
+Hungary;HU;901;Cheese, whole cow milk;2009;tonnes;75010;null;Official data
+Lithuania;LT;901;Cheese, whole cow milk;2009;tonnes;74900;null;Official data
+Hungary;HU;901;Cheese, whole cow milk;2014;tonnes;74403;null;Official data
+Hungary;HU;901;Cheese, whole cow milk;2012;tonnes;72215;null;Official data
+Hungary;HU;901;Cheese, whole cow milk;2010;tonnes;71992;null;Official data
+Bulgaria;BG;901;Cheese, whole cow milk;2016;tonnes;68982;null;Official data
+Bulgaria;BG;901;Cheese, whole cow milk;2015;tonnes;67718;null;Official data
+Hungary;HU;901;Cheese, whole cow milk;2013;tonnes;67598;null;Official data
+Bulgaria;BG;901;Cheese, whole cow milk;2014;tonnes;66603;null;Official data
+Portugal;PT;901;Cheese, whole cow milk;2019;tonnes;65395;null;Official data
+Hungary;HU;901;Cheese, whole cow milk;2011;tonnes;64962;null;Official data
+Romania;RO;901;Cheese, whole cow milk;2009;tonnes;64850;null;Official data
+Romania;RO;901;Cheese, whole cow milk;2014;tonnes;64380;null;Official data
+Bulgaria;BG;901;Cheese, whole cow milk;2009;tonnes;62851;null;Official data
+Romania;RO;901;Cheese, whole cow milk;2013;tonnes;62760;null;Official data
+Portugal;PT;901;Cheese, whole cow milk;2017;tonnes;62460;null;Official data
+Portugal;PT;901;Cheese, whole cow milk;2018;tonnes;60770;null;Official data
+Romania;RO;901;Cheese, whole cow milk;2010;tonnes;60390;null;Official data
+Romania;RO;901;Cheese, whole cow milk;2012;tonnes;60230;null;Official data
+Bulgaria;BG;901;Cheese, whole cow milk;2010;tonnes;60167;null;Official data
+Bulgaria;BG;901;Cheese, whole cow milk;2011;tonnes;59931;null;Official data
+Portugal;PT;901;Cheese, whole cow milk;2016;tonnes;59874;null;Official data
+Romania;RO;901;Cheese, whole cow milk;2011;tonnes;59080;null;Official data
+Portugal;PT;901;Cheese, whole cow milk;2014;tonnes;59042;null;Official data
+Bulgaria;BG;901;Cheese, whole cow milk;2012;tonnes;58945;null;Official data
+Portugal;PT;901;Cheese, whole cow milk;2011;tonnes;58926;null;Official data
+Portugal;PT;901;Cheese, whole cow milk;2012;tonnes;58583;null;Official data
+Bulgaria;BG;901;Cheese, whole cow milk;2013;tonnes;58346;null;Official data
+Portugal;PT;901;Cheese, whole cow milk;2015;tonnes;57338;null;Official data
+Portugal;PT;901;Cheese, whole cow milk;2010;tonnes;56755;null;Official data
+Slovakia;SK;901;Cheese, whole cow milk;2009;tonnes;56699;null;Official data
+Portugal;PT;901;Cheese, whole cow milk;2013;tonnes;55972;null;Official data
+Lithuania;LT;901;Cheese, whole cow milk;2013;tonnes;54232;null;Official data
+Portugal;PT;901;Cheese, whole cow milk;2009;tonnes;53694;null;Official data
+Lithuania;LT;901;Cheese, whole cow milk;2012;tonnes;52128;null;Official data
+Latvia;LV;901;Cheese, whole cow milk;2018;tonnes;47420;null;Official data
+Slovakia;SK;901;Cheese, whole cow milk;2012;tonnes;46838;null;Official data
+Latvia;LV;901;Cheese, whole cow milk;2017;tonnes;46400;null;Official data
+Estonia;EE;901;Cheese, whole cow milk;2019;tonnes;45500;null;Official data
+Slovakia;SK;901;Cheese, whole cow milk;2013;tonnes;45429;null;Official data
+Slovakia;SK;901;Cheese, whole cow milk;2011;tonnes;45286;null;Official data
+Estonia;EE;901;Cheese, whole cow milk;2018;tonnes;44800;null;Official data
+Slovakia;SK;901;Cheese, whole cow milk;2010;tonnes;44671;null;Official data
+Estonia;EE;901;Cheese, whole cow milk;2017;tonnes;44400;null;Official data
+Estonia;EE;901;Cheese, whole cow milk;2016;tonnes;43300;null;Official data
+Estonia;EE;901;Cheese, whole cow milk;2015;tonnes;43100;null;Official data
+Lithuania;LT;901;Cheese, whole cow milk;2014;tonnes;40991;null;Official data
+Estonia;EE;901;Cheese, whole cow milk;2014;tonnes;40500;null;Official data
+Latvia;LV;901;Cheese, whole cow milk;2016;tonnes;38600;null;Official data
+Latvia;LV;901;Cheese, whole cow milk;2015;tonnes;38400;null;Official data
+Lithuania;LT;901;Cheese, whole cow milk;2018;tonnes;36079;null;Official data
+Lithuania;LT;901;Cheese, whole cow milk;2015;tonnes;35950;null;Official data
+Croatia;HR;901;Cheese, whole cow milk;2016;tonnes;35670;null;Official data
+Latvia;LV;901;Cheese, whole cow milk;2014;tonnes;34740;null;Official data
+Croatia;HR;901;Cheese, whole cow milk;2017;tonnes;34496;null;Official data
+Croatia;HR;901;Cheese, whole cow milk;2015;tonnes;33600;null;Official data
+Latvia;LV;901;Cheese, whole cow milk;2013;tonnes;32610;null;Official data
+Croatia;HR;901;Cheese, whole cow milk;2013;tonnes;32300;null;Official data
+Croatia;HR;901;Cheese, whole cow milk;2014;tonnes;31948;null;Official data
+Croatia;HR;901;Cheese, whole cow milk;2012;tonnes;31600;null;Official data
+Lithuania;LT;901;Cheese, whole cow milk;2017;tonnes;31344;null;Official data
+Latvia;LV;901;Cheese, whole cow milk;2012;tonnes;31300;null;Official data
+Latvia;LV;901;Cheese, whole cow milk;2010;tonnes;31000;null;Official data
+Croatia;HR;901;Cheese, whole cow milk;2018;tonnes;30823;null;Official data
+Croatia;HR;901;Cheese, whole cow milk;2011;tonnes;29800;null;Official data
+Latvia;LV;901;Cheese, whole cow milk;2011;tonnes;29200;null;Official data
+Lithuania;LT;901;Cheese, whole cow milk;2016;tonnes;28718;null;Official data
+Croatia;HR;901;Cheese, whole cow milk;2010;tonnes;28700;null;Official data
+Croatia;HR;901;Cheese, whole cow milk;2009;tonnes;28000;null;Official data
+Latvia;LV;901;Cheese, whole cow milk;2009;tonnes;26426;null;Official data
+Estonia;EE;901;Cheese, whole cow milk;2013;tonnes;25700;null;Official data
+Estonia;EE;901;Cheese, whole cow milk;2012;tonnes;25600;null;Official data
+Estonia;EE;901;Cheese, whole cow milk;2010;tonnes;23100;null;Official data
+Estonia;EE;901;Cheese, whole cow milk;2011;tonnes;23100;null;Official data
+Estonia;EE;901;Cheese, whole cow milk;2009;tonnes;22100;null;Official data
+Slovenia;SL;901;Cheese, whole cow milk;2010;tonnes;18670;null;Official data
+Slovenia;SL;901;Cheese, whole cow milk;2011;tonnes;18657;null;Official data
+Slovenia;SL;901;Cheese, whole cow milk;2009;tonnes;18455;null;Official data
+Slovenia;SL;901;Cheese, whole cow milk;2012;tonnes;17994;null;Official data
+Slovenia;SL;901;Cheese, whole cow milk;2014;tonnes;16972;null;Official data
+Slovenia;SL;901;Cheese, whole cow milk;2017;tonnes;16927;null;Official data
+Slovenia;SL;901;Cheese, whole cow milk;2013;tonnes;16324;null;Official data
+Slovenia;SL;901;Cheese, whole cow milk;2018;tonnes;16233;null;Official data
+Slovenia;SL;901;Cheese, whole cow milk;2019;tonnes;15795;null;Official data
+Slovenia;SL;901;Cheese, whole cow milk;2016;tonnes;15550;null;Official data
+Slovenia;SL;901;Cheese, whole cow milk;2015;tonnes;15497;null;Official data
+Cyprus;CY;901;Cheese, whole cow milk;2009;tonnes;2320;null;Official data
+Cyprus;CY;901;Cheese, whole cow milk;2010;tonnes;1350;null;Official data
+Cyprus;CY;901;Cheese, whole cow milk;2011;tonnes;1305;null;Official data
+France;FR;1062;Eggs, hen, in shell;2014;tonnes;956379;null;Official data
+France;FR;1062;Eggs, hen, in shell;2010;tonnes;946500;null;Official data
+France;FR;1062;Eggs, hen, in shell;2013;tonnes;945952;null;Official data
+France;FR;1062;Eggs, hen, in shell;2009;tonnes;901700;null;Official data
+France;FR;1062;Eggs, hen, in shell;2011;tonnes;865900;null;Official data
+Spain;ES;1062;Eggs, hen, in shell;2017;tonnes;850716;null;Official data
+Germany;DE;1062;Eggs, hen, in shell;2018;tonnes;846000;null;Official data
+France;FR;1062;Eggs, hen, in shell;2012;tonnes;845300;null;Official data
+Spain;ES;1062;Eggs, hen, in shell;2018;tonnes;839347;null;Official data
+Spain;ES;1062;Eggs, hen, in shell;2016;tonnes;830557;null;Official data
+Spain;ES;1062;Eggs, hen, in shell;2009;tonnes;829465;null;Official data
+Germany;DE;1062;Eggs, hen, in shell;2017;tonnes;826200;null;Official data
+Spain;ES;1062;Eggs, hen, in shell;2011;tonnes;818700;null;Official data
+Germany;DE;1062;Eggs, hen, in shell;2016;tonnes;818300;null;Official data
+Spain;ES;1062;Eggs, hen, in shell;2010;tonnes;812470;null;Official data
+Spain;ES;1062;Eggs, hen, in shell;2015;tonnes;805140;null;Official data
+Germany;DE;1062;Eggs, hen, in shell;2015;tonnes;801100;null;Official data
+Spain;ES;1062;Eggs, hen, in shell;2014;tonnes;787374;null;Official data
+Germany;DE;1062;Eggs, hen, in shell;2014;tonnes;786500;null;Official data
+Germany;DE;1062;Eggs, hen, in shell;2011;tonnes;782300;null;Official data
+Germany;DE;1062;Eggs, hen, in shell;2013;tonnes;780800;null;Official data
+Germany;DE;1062;Eggs, hen, in shell;2012;tonnes;759300;null;Official data
+Italy;IT;1062;Eggs, hen, in shell;2016;tonnes;744800;null;Official data
+Spain;ES;1062;Eggs, hen, in shell;2013;tonnes;742607;null;Official data
+Italy;IT;1062;Eggs, hen, in shell;2018;tonnes;736400;null;Official data
+Italy;IT;1062;Eggs, hen, in shell;2017;tonnes;727700;null;Official data
+Spain;ES;1062;Eggs, hen, in shell;2012;tonnes;718774;null;Official data
+Italy;IT;1062;Eggs, hen, in shell;2019;tonnes;717400;null;Official data
+Italy;IT;1062;Eggs, hen, in shell;2014;tonnes;713900;null;Official data
+Italy;IT;1062;Eggs, hen, in shell;2013;tonnes;710000;null;Official data
+Italy;IT;1062;Eggs, hen, in shell;2015;tonnes;706800;null;Official data
+Germany;DE;1062;Eggs, hen, in shell;2009;tonnes;699000;null;Official data
+Netherlands;NL;1062;Eggs, hen, in shell;2011;tonnes;692000;null;Official data
+Netherlands;NL;1062;Eggs, hen, in shell;2012;tonnes;672000;null;Official data
+Netherlands;NL;1062;Eggs, hen, in shell;2010;tonnes;670000;null;Official data
+Germany;DE;1062;Eggs, hen, in shell;2010;tonnes;662400;null;Official data
+Netherlands;NL;1062;Eggs, hen, in shell;2009;tonnes;638000;null;Official data
+Poland;PL;1062;Eggs, hen, in shell;2010;tonnes;618496;null;Official data
+Poland;PL;1062;Eggs, hen, in shell;2009;tonnes;604994;null;Official data
+Poland;PL;1062;Eggs, hen, in shell;2017;tonnes;594560;null;Official data
+Poland;PL;1062;Eggs, hen, in shell;2016;tonnes;589338;null;Official data
+Poland;PL;1062;Eggs, hen, in shell;2015;tonnes;582349;null;Official data
+Poland;PL;1062;Eggs, hen, in shell;2011;tonnes;576711;null;Official data
+Poland;PL;1062;Eggs, hen, in shell;2014;tonnes;570195;null;Official data
+Poland;PL;1062;Eggs, hen, in shell;2013;tonnes;558330;null;Official data
+Poland;PL;1062;Eggs, hen, in shell;2012;tonnes;530228;null;Official data
+Romania;RO;1062;Eggs, hen, in shell;2014;tonnes;322422;null;Official data
+Romania;RO;1062;Eggs, hen, in shell;2015;tonnes;319158;null;Official data
+Romania;RO;1062;Eggs, hen, in shell;2012;tonnes;311741;null;Official data
+Romania;RO;1062;Eggs, hen, in shell;2013;tonnes;307938;null;Official data
+Romania;RO;1062;Eggs, hen, in shell;2011;tonnes;304275;null;Official data
+Romania;RO;1062;Eggs, hen, in shell;2016;tonnes;303099;null;Official data
+Romania;RO;1062;Eggs, hen, in shell;2010;tonnes;297535;null;Official data
+Romania;RO;1062;Eggs, hen, in shell;2009;tonnes;297283;null;Official data
+Romania;RO;1062;Eggs, hen, in shell;2017;tonnes;294046;null;Official data
+Romania;RO;1062;Eggs, hen, in shell;2018;tonnes;285656;null;Official data
+Romania;RO;1062;Eggs, hen, in shell;2019;tonnes;278203;null;Official data
+Belgium;BE;1062;Eggs, hen, in shell;2013;tonnes;173530;null;Official data
+Belgium;BE;1062;Eggs, hen, in shell;2011;tonnes;169727;null;Official data
+Belgium;BE;1062;Eggs, hen, in shell;2010;tonnes;168909;null;Official data
+Hungary;HU;1062;Eggs, hen, in shell;2009;tonnes;155922;null;Official data
+Belgium;BE;1062;Eggs, hen, in shell;2012;tonnes;153515;null;Official data
+Belgium;BE;1062;Eggs, hen, in shell;2009;tonnes;152590;null;Official data
+Hungary;HU;1062;Eggs, hen, in shell;2010;tonnes;151804;null;Official data
+Sweden;SE;1062;Eggs, hen, in shell;2019;tonnes;149800;null;Official data
+Portugal;PT;1062;Eggs, hen, in shell;2015;tonnes;144837;null;Official data
+Portugal;PT;1062;Eggs, hen, in shell;2018;tonnes;142790;null;Official data
+Hungary;HU;1062;Eggs, hen, in shell;2015;tonnes;141921;null;Official data
+Portugal;PT;1062;Eggs, hen, in shell;2019;tonnes;141599;null;Official data
+Portugal;PT;1062;Eggs, hen, in shell;2017;tonnes;141211;null;Official data
+Sweden;SE;1062;Eggs, hen, in shell;2018;tonnes;141100;null;Official data
+Hungary;HU;1062;Eggs, hen, in shell;2016;tonnes;140400;null;Official data
+Portugal;PT;1062;Eggs, hen, in shell;2016;tonnes;139306;null;Official data
+Hungary;HU;1062;Eggs, hen, in shell;2013;tonnes;137145;null;Official data
+Hungary;HU;1062;Eggs, hen, in shell;2011;tonnes;136561;null;Official data
+Hungary;HU;1062;Eggs, hen, in shell;2017;tonnes;135598;null;Official data
+Hungary;HU;1062;Eggs, hen, in shell;2014;tonnes;134427;null;Official data
+Hungary;HU;1062;Eggs, hen, in shell;2012;tonnes;133946;null;Official data
+Portugal;PT;1062;Eggs, hen, in shell;2014;tonnes;131858;null;Official data
+Portugal;PT;1062;Eggs, hen, in shell;2010;tonnes;131123;null;Official data
+Austria;AT;1062;Eggs, hen, in shell;2019;tonnes;129358;null;Official data
+Sweden;SE;1062;Eggs, hen, in shell;2013;tonnes;129000;null;Official data
+Austria;AT;1062;Eggs, hen, in shell;2018;tonnes;127585;null;Official data
+Portugal;PT;1062;Eggs, hen, in shell;2013;tonnes;125452;null;Official data
+Austria;AT;1062;Eggs, hen, in shell;2017;tonnes;124728;null;Official data
+Portugal;PT;1062;Eggs, hen, in shell;2009;tonnes;124184;null;Official data
+Portugal;PT;1062;Eggs, hen, in shell;2011;tonnes;122815;null;Official data
+Sweden;SE;1062;Eggs, hen, in shell;2012;tonnes;122000;null;Official data
+Austria;AT;1062;Eggs, hen, in shell;2016;tonnes;121467;null;Official data
+Portugal;PT;1062;Eggs, hen, in shell;2012;tonnes;120482;null;Official data
+Greece;EL;1062;Eggs, hen, in shell;2013;tonnes;116883;null;Official data
+Sweden;SE;1062;Eggs, hen, in shell;2011;tonnes;116000;null;Official data
+Austria;AT;1062;Eggs, hen, in shell;2015;tonnes;111314;null;Official data
+Sweden;SE;1062;Eggs, hen, in shell;2010;tonnes;111000;null;Official data
+Austria;AT;1062;Eggs, hen, in shell;2014;tonnes;109719;null;Official data
+Greece;EL;1062;Eggs, hen, in shell;2009;tonnes;108800;null;Official data
+Austria;AT;1062;Eggs, hen, in shell;2013;tonnes;107292;null;Official data
+Greece;EL;1062;Eggs, hen, in shell;2014;tonnes;107208;null;Official data
+Austria;AT;1062;Eggs, hen, in shell;2012;tonnes;106901;null;Official data
+Greece;EL;1062;Eggs, hen, in shell;2015;tonnes;105917;null;Official data
+Sweden;SE;1062;Eggs, hen, in shell;2009;tonnes;105000;null;Official data
+Austria;AT;1062;Eggs, hen, in shell;2011;tonnes;102678;null;Official data
+Greece;EL;1062;Eggs, hen, in shell;2010;tonnes;99800;null;Official data
+Greece;EL;1062;Eggs, hen, in shell;2012;tonnes;96300;null;Official data
+Czechia;CZ;1062;Eggs, hen, in shell;2009;tonnes;95827;null;Official data
+Austria;AT;1062;Eggs, hen, in shell;2010;tonnes;94631;null;Official data
+Greece;EL;1062;Eggs, hen, in shell;2011;tonnes;93000;null;Official data
+Austria;AT;1062;Eggs, hen, in shell;2009;tonnes;91911;null;Official data
+Bulgaria;BG;1062;Eggs, hen, in shell;2010;tonnes;89264;null;Official data
+Bulgaria;BG;1062;Eggs, hen, in shell;2009;tonnes;88681;null;Official data
+Czechia;CZ;1062;Eggs, hen, in shell;2019;tonnes;88405;null;Official data
+Denmark;DK;1062;Eggs, hen, in shell;2017;tonnes;87899;null;Official data
+Denmark;DK;1062;Eggs, hen, in shell;2016;tonnes;86211;null;Official data
+Bulgaria;BG;1062;Eggs, hen, in shell;2019;tonnes;84865;null;Official data
+Czechia;CZ;1062;Eggs, hen, in shell;2018;tonnes;84654;null;Official data
+Czechia;CZ;1062;Eggs, hen, in shell;2017;tonnes;84422;null;Official data
+Denmark;DK;1062;Eggs, hen, in shell;2015;tonnes;84102;null;Official data
+Denmark;DK;1062;Eggs, hen, in shell;2014;tonnes;82056;null;Official data
+Denmark;DK;1062;Eggs, hen, in shell;2013;tonnes;82029;null;Official data
+Denmark;DK;1062;Eggs, hen, in shell;2019;tonnes;82000;null;Official data
+Denmark;DK;1062;Eggs, hen, in shell;2012;tonnes;80179;null;Official data
+Bulgaria;BG;1062;Eggs, hen, in shell;2016;tonnes;79909;null;Official data
+Bulgaria;BG;1062;Eggs, hen, in shell;2017;tonnes;79391;null;Official data
+Denmark;DK;1062;Eggs, hen, in shell;2011;tonnes;78584;null;Official data
+Bulgaria;BG;1062;Eggs, hen, in shell;2018;tonnes;77871;null;Official data
+Denmark;DK;1062;Eggs, hen, in shell;2018;tonnes;77000;null;Official data
+Bulgaria;BG;1062;Eggs, hen, in shell;2015;tonnes;76568;null;Official data
+Denmark;DK;1062;Eggs, hen, in shell;2010;tonnes;76376;null;Official data
+Slovakia;SK;1062;Eggs, hen, in shell;2013;tonnes;75662;null;Official data
+Finland;FI;1062;Eggs, hen, in shell;2019;tonnes;75600;null;Official data
+Czechia;CZ;1062;Eggs, hen, in shell;2016;tonnes;75492;null;Official data
+Slovakia;SK;1062;Eggs, hen, in shell;2018;tonnes;74883;null;Official data
+Finland;FI;1062;Eggs, hen, in shell;2018;tonnes;74880;null;Official data
+Slovakia;SK;1062;Eggs, hen, in shell;2011;tonnes;74646;null;Official data
+Slovakia;SK;1062;Eggs, hen, in shell;2012;tonnes;74549;null;Official data
+Slovakia;SK;1062;Eggs, hen, in shell;2017;tonnes;74450;null;Official data
+Czechia;CZ;1062;Eggs, hen, in shell;2014;tonnes;74394;null;Official data
+Bulgaria;BG;1062;Eggs, hen, in shell;2014;tonnes;74232;null;Official data
+Denmark;DK;1062;Eggs, hen, in shell;2009;tonnes;73942;null;Official data
+Bulgaria;BG;1062;Eggs, hen, in shell;2013;tonnes;73891;null;Official data
+Finland;FI;1062;Eggs, hen, in shell;2017;tonnes;73550;null;Official data
+Bulgaria;BG;1062;Eggs, hen, in shell;2011;tonnes;73483;null;Official data
+Czechia;CZ;1062;Eggs, hen, in shell;2011;tonnes;73099;null;Official data
+Finland;FI;1062;Eggs, hen, in shell;2016;tonnes;72570;null;Official data
+Slovakia;SK;1062;Eggs, hen, in shell;2016;tonnes;72254;null;Official data
+Bulgaria;BG;1062;Eggs, hen, in shell;2012;tonnes;71889;null;Official data
+Czechia;CZ;1062;Eggs, hen, in shell;2015;tonnes;71594;null;Official data
+Slovakia;SK;1062;Eggs, hen, in shell;2019;tonnes;71510;null;Official data
+Finland;FI;1062;Eggs, hen, in shell;2015;tonnes;71450;null;Official data
+Czechia;CZ;1062;Eggs, hen, in shell;2010;tonnes;71082;null;Official data
+Czechia;CZ;1062;Eggs, hen, in shell;2013;tonnes;70899;null;Official data
+Slovakia;SK;1062;Eggs, hen, in shell;2009;tonnes;70581;null;Official data
+Slovakia;SK;1062;Eggs, hen, in shell;2010;tonnes;70581;null;Official data
+Slovakia;SK;1062;Eggs, hen, in shell;2014;tonnes;69765;null;Official data
+Finland;FI;1062;Eggs, hen, in shell;2014;tonnes;67100;null;Official data
+Finland;FI;1062;Eggs, hen, in shell;2013;tonnes;66900;null;Official data
+Slovakia;SK;1062;Eggs, hen, in shell;2015;tonnes;66897;null;Official data
+Czechia;CZ;1062;Eggs, hen, in shell;2012;tonnes;66064;null;Official data
+Finland;FI;1062;Eggs, hen, in shell;2011;tonnes;62800;null;Official data
+Finland;FI;1062;Eggs, hen, in shell;2012;tonnes;62200;null;Official data
+Finland;FI;1062;Eggs, hen, in shell;2010;tonnes;61500;null;Official data
+Finland;FI;1062;Eggs, hen, in shell;2009;tonnes;53900;null;Official data
+Lithuania;LT;1062;Eggs, hen, in shell;2018;tonnes;51120;null;Official data
+Croatia;HR;1062;Eggs, hen, in shell;2009;tonnes;48300;null;Official data
+Lithuania;LT;1062;Eggs, hen, in shell;2019;tonnes;48170;null;Official data
+Lithuania;LT;1062;Eggs, hen, in shell;2009;tonnes;47820;null;Official data
+Lithuania;LT;1062;Eggs, hen, in shell;2010;tonnes;46400;null;Official data
+Lithuania;LT;1062;Eggs, hen, in shell;2014;tonnes;46400;null;Official data
+Lithuania;LT;1062;Eggs, hen, in shell;2015;tonnes;45600;null;Official data
+Latvia;LV;1062;Eggs, hen, in shell;2010;tonnes;44990;null;Official data
+Lithuania;LT;1062;Eggs, hen, in shell;2016;tonnes;44500;null;Official data
+Lithuania;LT;1062;Eggs, hen, in shell;2011;tonnes;43750;null;Official data
+Lithuania;LT;1062;Eggs, hen, in shell;2012;tonnes;43500;null;Official data
+Latvia;LV;1062;Eggs, hen, in shell;2009;tonnes;42910;null;Official data
+Lithuania;LT;1062;Eggs, hen, in shell;2013;tonnes;42900;null;Official data
+Croatia;HR;1062;Eggs, hen, in shell;2010;tonnes;42300;null;Official data
+Latvia;LV;1062;Eggs, hen, in shell;2012;tonnes;42281;null;Official data
+Latvia;LV;1062;Eggs, hen, in shell;2011;tonnes;41890;null;Official data
+Lithuania;LT;1062;Eggs, hen, in shell;2017;tonnes;41670;null;Official data
+Croatia;HR;1062;Eggs, hen, in shell;2011;tonnes;41500;null;Official data
+Croatia;HR;1062;Eggs, hen, in shell;2016;tonnes;39800;null;Official data
+Latvia;LV;1062;Eggs, hen, in shell;2013;tonnes;39638;null;Official data
+Croatia;HR;1062;Eggs, hen, in shell;2017;tonnes;39234;null;Official data
+Croatia;HR;1062;Eggs, hen, in shell;2013;tonnes;36400;null;Official data
+Croatia;HR;1062;Eggs, hen, in shell;2012;tonnes;35100;null;Official data
+Croatia;HR;1062;Eggs, hen, in shell;2014;tonnes;34200;null;Official data
+Croatia;HR;1062;Eggs, hen, in shell;2015;tonnes;33300;null;Official data
+Slovenia;SL;1062;Eggs, hen, in shell;2019;tonnes;24779;null;Official data
+Slovenia;SL;1062;Eggs, hen, in shell;2018;tonnes;23820;null;Official data
+Slovenia;SL;1062;Eggs, hen, in shell;2016;tonnes;23476;null;Official data
+Slovenia;SL;1062;Eggs, hen, in shell;2017;tonnes;23217;null;Official data
+Slovenia;SL;1062;Eggs, hen, in shell;2012;tonnes;22152;null;Official data
+Slovenia;SL;1062;Eggs, hen, in shell;2010;tonnes;21618;null;Official data
+Slovenia;SL;1062;Eggs, hen, in shell;2009;tonnes;21529;null;Official data
+Slovenia;SL;1062;Eggs, hen, in shell;2014;tonnes;21455;null;Official data
+Slovenia;SL;1062;Eggs, hen, in shell;2011;tonnes;21425;null;Official data
+Slovenia;SL;1062;Eggs, hen, in shell;2015;tonnes;20419;null;Official data
+Slovenia;SL;1062;Eggs, hen, in shell;2013;tonnes;19362;null;Official data
+Estonia;EE;1062;Eggs, hen, in shell;2017;tonnes;12635;null;Official data
+Estonia;EE;1062;Eggs, hen, in shell;2018;tonnes;12591;null;Official data
+Estonia;EE;1062;Eggs, hen, in shell;2015;tonnes;12444;null;Official data
+Estonia;EE;1062;Eggs, hen, in shell;2016;tonnes;12105;null;Official data
+Estonia;EE;1062;Eggs, hen, in shell;2014;tonnes;12030;null;Official data
+Estonia;EE;1062;Eggs, hen, in shell;2011;tonnes;11411;null;Official data
+Estonia;EE;1062;Eggs, hen, in shell;2013;tonnes;11400;null;Official data
+Estonia;EE;1062;Eggs, hen, in shell;2010;tonnes;11366;null;Official data
+Estonia;EE;1062;Eggs, hen, in shell;2009;tonnes;10829;null;Official data
+Estonia;EE;1062;Eggs, hen, in shell;2012;tonnes;10750;null;Official data
+Cyprus;CY;1062;Eggs, hen, in shell;2013;tonnes;10594;null;Official data
+Cyprus;CY;1062;Eggs, hen, in shell;2014;tonnes;10556;null;Official data
+Cyprus;CY;1062;Eggs, hen, in shell;2019;tonnes;10503;null;Official data
+Cyprus;CY;1062;Eggs, hen, in shell;2009;tonnes;9787;null;Official data
+Cyprus;CY;1062;Eggs, hen, in shell;2016;tonnes;9657;null;Official data
+Cyprus;CY;1062;Eggs, hen, in shell;2017;tonnes;9635;null;Official data
+Cyprus;CY;1062;Eggs, hen, in shell;2012;tonnes;9610;null;Official data
+Cyprus;CY;1062;Eggs, hen, in shell;2011;tonnes;9472;null;Official data
+Estonia;EE;1062;Eggs, hen, in shell;2019;tonnes;9437;null;Official data
+Cyprus;CY;1062;Eggs, hen, in shell;2018;tonnes;9369;null;Official data
+Cyprus;CY;1062;Eggs, hen, in shell;2015;tonnes;9222;null;Official data
+Cyprus;CY;1062;Eggs, hen, in shell;2010;tonnes;8613;null;Official data
+Malta;MT;1062;Eggs, hen, in shell;2009;tonnes;6955;null;Official data
+Malta;MT;1062;Eggs, hen, in shell;2018;tonnes;5815;null;Official data
+Malta;MT;1062;Eggs, hen, in shell;2017;tonnes;5608;null;Official data
+Malta;MT;1062;Eggs, hen, in shell;2019;tonnes;5452;null;Official data
+Malta;MT;1062;Eggs, hen, in shell;2014;tonnes;5239;null;Official data
+Malta;MT;1062;Eggs, hen, in shell;2013;tonnes;5113;null;Official data
+Malta;MT;1062;Eggs, hen, in shell;2010;tonnes;5091;null;Official data
+Malta;MT;1062;Eggs, hen, in shell;2015;tonnes;4889;null;Official data
+Malta;MT;1062;Eggs, hen, in shell;2016;tonnes;4843;null;Official data
+Malta;MT;1062;Eggs, hen, in shell;2012;tonnes;4317;null;Official data
+Malta;MT;1062;Eggs, hen, in shell;2011;tonnes;3434;null;Official data
+Luxembourg;LU;1062;Eggs, hen, in shell;2019;tonnes;2224;null;Official data
+Luxembourg;LU;1062;Eggs, hen, in shell;2018;tonnes;2077;null;Official data
+Luxembourg;LU;1062;Eggs, hen, in shell;2017;tonnes;2063;null;Official data
+Luxembourg;LU;1062;Eggs, hen, in shell;2016;tonnes;2035;null;Official data
+Luxembourg;LU;1062;Eggs, hen, in shell;2014;tonnes;1964;null;Official data
+Luxembourg;LU;1062;Eggs, hen, in shell;2015;tonnes;1952;null;Official data
+Luxembourg;LU;1062;Eggs, hen, in shell;2013;tonnes;1869;null;Official data
+Luxembourg;LU;1062;Eggs, hen, in shell;2011;tonnes;1838;null;Official data
+Luxembourg;LU;1062;Eggs, hen, in shell;2012;tonnes;1802;null;Official data
+Luxembourg;LU;1062;Eggs, hen, in shell;2010;tonnes;1684;null;Official data
+Luxembourg;LU;1062;Eggs, hen, in shell;2009;tonnes;1567;null;Official data
+France;FR;867;Meat, cattle;2011;tonnes;1566806;null;Official data
+France;FR;867;Meat, cattle;2010;tonnes;1530258;null;Official data
+France;FR;867;Meat, cattle;2009;tonnes;1515808;null;Official data
+France;FR;867;Meat, cattle;2012;tonnes;1493865;null;Official data
+France;FR;867;Meat, cattle;2016;tonnes;1466099;null;Official data
+France;FR;867;Meat, cattle;2018;tonnes;1460000;null;Official data
+France;FR;867;Meat, cattle;2015;tonnes;1447906;null;Official data
+France;FR;867;Meat, cattle;2017;tonnes;1432780;null;Official data
+France;FR;867;Meat, cattle;2019;tonnes;1428460;null;Official data
+France;FR;867;Meat, cattle;2014;tonnes;1410854;null;Official data
+France;FR;867;Meat, cattle;2013;tonnes;1400331;null;Official data
+Germany;DE;867;Meat, cattle;2010;tonnes;1205002;null;Official data
+Germany;DE;867;Meat, cattle;2009;tonnes;1189615;null;Official data
+Germany;DE;867;Meat, cattle;2011;tonnes;1170376;null;Official data
+Germany;DE;867;Meat, cattle;2016;tonnes;1155483;null;Official data
+Germany;DE;867;Meat, cattle;2012;tonnes;1146255;null;Official data
+Germany;DE;867;Meat, cattle;2014;tonnes;1142603;null;Official data
+Germany;DE;867;Meat, cattle;2017;tonnes;1137008;null;Official data
+Germany;DE;867;Meat, cattle;2015;tonnes;1132340;null;Official data
+Germany;DE;867;Meat, cattle;2013;tonnes;1116507;null;Official data
+Germany;DE;867;Meat, cattle;2018;tonnes;1109000;null;Official data
+Germany;DE;867;Meat, cattle;2019;tonnes;1107000;null;Official data
+Italy;IT;867;Meat, cattle;2010;tonnes;1068900;null;Official data
+Italy;IT;867;Meat, cattle;2009;tonnes;1049261;null;Official data
+Italy;IT;867;Meat, cattle;2011;tonnes;1000374;null;Official data
+Italy;IT;867;Meat, cattle;2012;tonnes;957787;null;Official data
+Italy;IT;867;Meat, cattle;2013;tonnes;842122;null;Official data
+Italy;IT;867;Meat, cattle;2018;tonnes;809220;null;Official data
+Italy;IT;867;Meat, cattle;2016;tonnes;791284;null;Official data
+Italy;IT;867;Meat, cattle;2019;tonnes;779820;null;Official data
+Italy;IT;867;Meat, cattle;2015;tonnes;771767;null;Official data
+Italy;IT;867;Meat, cattle;2017;tonnes;739830;null;Official data
+Spain;ES;867;Meat, cattle;2019;tonnes;695170;null;Official data
+Italy;IT;867;Meat, cattle;2014;tonnes;694634;null;Official data
+Spain;ES;867;Meat, cattle;2018;tonnes;669010;null;Official data
+Spain;ES;867;Meat, cattle;2017;tonnes;643861;null;Official data
+Spain;ES;867;Meat, cattle;2016;tonnes;637013;null;Official data
+Spain;ES;867;Meat, cattle;2015;tonnes;626104;null;Official data
+Ireland;IE;867;Meat, cattle;2018;tonnes;622540;null;Official data
+Ireland;IE;867;Meat, cattle;2019;tonnes;619800;null;Official data
+Ireland;IE;867;Meat, cattle;2017;tonnes;617000;null;Official data
+Spain;ES;867;Meat, cattle;2010;tonnes;606596;null;Official data
+Spain;ES;867;Meat, cattle;2011;tonnes;604113;null;Official data
+Spain;ES;867;Meat, cattle;2009;tonnes;598431;null;Official data
+Spain;ES;867;Meat, cattle;2012;tonnes;591319;null;Official data
+Ireland;IE;867;Meat, cattle;2016;tonnes;588400;null;Official data
+Spain;ES;867;Meat, cattle;2014;tonnes;585218;null;Official data
+Ireland;IE;867;Meat, cattle;2014;tonnes;582100;null;Official data
+Spain;ES;867;Meat, cattle;2013;tonnes;580840;null;Official data
+Poland;PL;867;Meat, cattle;2017;tonnes;569200;null;Official data
+Poland;PL;867;Meat, cattle;2018;tonnes;564840;null;Official data
+Ireland;IE;867;Meat, cattle;2015;tonnes;564100;null;Official data
+Poland;PL;867;Meat, cattle;2019;tonnes;560500;null;Official data
+Ireland;IE;867;Meat, cattle;2010;tonnes;559100;null;Official data
+Ireland;IE;867;Meat, cattle;2011;tonnes;547100;null;Official data
+Ireland;IE;867;Meat, cattle;2013;tonnes;517600;null;Official data
+Ireland;IE;867;Meat, cattle;2009;tonnes;514500;null;Official data
+Poland;PL;867;Meat, cattle;2016;tonnes;512000;null;Official data
+Ireland;IE;867;Meat, cattle;2012;tonnes;495400;null;Official data
+Poland;PL;867;Meat, cattle;2015;tonnes;486700;null;Official data
+Netherlands;NL;867;Meat, cattle;2018;tonnes;459210;null;Official data
+Poland;PL;867;Meat, cattle;2014;tonnes;446300;null;Official data
+Netherlands;NL;867;Meat, cattle;2017;tonnes;440639;null;Official data
+Netherlands;NL;867;Meat, cattle;2019;tonnes;424300;null;Official data
+Netherlands;NL;867;Meat, cattle;2016;tonnes;416060;null;Official data
+Netherlands;NL;867;Meat, cattle;2009;tonnes;401752;null;Official data
+Poland;PL;867;Meat, cattle;2010;tonnes;400900;null;Official data
+Poland;PL;867;Meat, cattle;2009;tonnes;396900;null;Official data
+Poland;PL;867;Meat, cattle;2011;tonnes;391200;null;Official data
+Netherlands;NL;867;Meat, cattle;2010;tonnes;388610;null;Official data
+Poland;PL;867;Meat, cattle;2012;tonnes;382900;null;Official data
+Netherlands;NL;867;Meat, cattle;2015;tonnes;382520;null;Official data
+Netherlands;NL;867;Meat, cattle;2011;tonnes;381559;null;Official data
+Netherlands;NL;867;Meat, cattle;2013;tonnes;379100;null;Official data
+Netherlands;NL;867;Meat, cattle;2014;tonnes;376180;null;Official data
+Poland;PL;867;Meat, cattle;2013;tonnes;373900;null;Official data
+Netherlands;NL;867;Meat, cattle;2012;tonnes;373531;null;Official data
+Belgium;BE;867;Meat, cattle;2010;tonnes;281634;null;Official data
+Belgium;BE;867;Meat, cattle;2017;tonnes;281536;null;Official data
+Belgium;BE;867;Meat, cattle;2016;tonnes;278362;null;Official data
+Belgium;BE;867;Meat, cattle;2018;tonnes;277310;null;Official data
+Belgium;BE;867;Meat, cattle;2011;tonnes;272282;null;Official data
+Belgium;BE;867;Meat, cattle;2015;tonnes;267877;null;Official data
+Belgium;BE;867;Meat, cattle;2019;tonnes;263750;null;Official data
+Belgium;BE;867;Meat, cattle;2012;tonnes;262280;null;Official data
+Belgium;BE;867;Meat, cattle;2009;tonnes;261801;null;Official data
+Belgium;BE;867;Meat, cattle;2014;tonnes;257670;null;Official data
+Belgium;BE;867;Meat, cattle;2013;tonnes;249973;null;Official data
+Austria;AT;867;Meat, cattle;2018;tonnes;233460;null;Official data
+Austria;AT;867;Meat, cattle;2015;tonnes;229648;null;Official data
+Austria;AT;867;Meat, cattle;2019;tonnes;229610;null;Official data
+Austria;AT;867;Meat, cattle;2013;tonnes;228913;null;Official data
+Austria;AT;867;Meat, cattle;2016;tonnes;228335;null;Official data
+Austria;AT;867;Meat, cattle;2017;tonnes;226859;null;Official data
+Austria;AT;867;Meat, cattle;2010;tonnes;226677;null;Official data
+Austria;AT;867;Meat, cattle;2009;tonnes;226294;null;Official data
+Austria;AT;867;Meat, cattle;2014;tonnes;223193;null;Official data
+Austria;AT;867;Meat, cattle;2011;tonnes;222168;null;Official data
+Austria;AT;867;Meat, cattle;2012;tonnes;222156;null;Official data
+Romania;RO;867;Meat, cattle;2009;tonnes;155199;null;Official data
+Romania;RO;867;Meat, cattle;2010;tonnes;154464;null;Official data
+Sweden;SE;867;Meat, cattle;2015;tonnes;143980;null;Official data
+Romania;RO;867;Meat, cattle;2011;tonnes;142306;null;Official data
+Sweden;SE;867;Meat, cattle;2019;tonnes;141150;null;Official data
+Sweden;SE;867;Meat, cattle;2009;tonnes;139830;null;Official data
+Sweden;SE;867;Meat, cattle;2018;tonnes;138420;null;Official data
+Sweden;SE;867;Meat, cattle;2011;tonnes;137880;null;Official data
+Sweden;SE;867;Meat, cattle;2010;tonnes;137800;null;Official data
+Denmark;DK;867;Meat, cattle;2011;tonnes;134200;null;Official data
+Denmark;DK;867;Meat, cattle;2010;tonnes;132500;null;Official data
+Sweden;SE;867;Meat, cattle;2017;tonnes;132070;null;Official data
+Sweden;SE;867;Meat, cattle;2014;tonnes;131620;null;Official data
+Sweden;SE;867;Meat, cattle;2016;tonnes;131250;null;Official data
+Denmark;DK;867;Meat, cattle;2018;tonnes;130200;null;Official data
+Denmark;DK;867;Meat, cattle;2016;tonnes;129340;null;Official data
+Denmark;DK;867;Meat, cattle;2013;tonnes;128000;null;Official data
+Denmark;DK;867;Meat, cattle;2009;tonnes;127900;null;Official data
+Denmark;DK;867;Meat, cattle;2012;tonnes;126700;null;Official data
+Sweden;SE;867;Meat, cattle;2013;tonnes;125880;null;Official data
+Denmark;DK;867;Meat, cattle;2014;tonnes;125759;null;Official data
+Denmark;DK;867;Meat, cattle;2019;tonnes;125600;null;Official data
+Sweden;SE;867;Meat, cattle;2012;tonnes;125340;null;Official data
+Denmark;DK;867;Meat, cattle;2017;tonnes;124148;null;Official data
+Denmark;DK;867;Meat, cattle;2015;tonnes;120491;null;Official data
+Romania;RO;867;Meat, cattle;2015;tonnes;118851;null;Official data
+Romania;RO;867;Meat, cattle;2016;tonnes;116177;null;Official data
+Romania;RO;867;Meat, cattle;2012;tonnes;114464;null;Official data
+Romania;RO;867;Meat, cattle;2017;tonnes;110991;null;Official data
+Romania;RO;867;Meat, cattle;2014;tonnes;107581;null;Official data
+Portugal;PT;867;Meat, cattle;2009;tonnes;102995;null;Official data
+Romania;RO;867;Meat, cattle;2013;tonnes;96179;null;Official data
+Portugal;PT;867;Meat, cattle;2011;tonnes;96003;null;Official data
+Portugal;PT;867;Meat, cattle;2018;tonnes;93790;null;Official data
+Portugal;PT;867;Meat, cattle;2010;tonnes;93159;null;Official data
+Portugal;PT;867;Meat, cattle;2012;tonnes;92988;null;Official data
+Portugal;PT;867;Meat, cattle;2019;tonnes;92030;null;Official data
+Portugal;PT;867;Meat, cattle;2017;tonnes;91187;null;Official data
+Portugal;PT;867;Meat, cattle;2016;tonnes;90704;null;Official data
+Portugal;PT;867;Meat, cattle;2015;tonnes;88645;null;Official data
+Finland;FI;867;Meat, cattle;2019;tonnes;87760;null;Official data
+Finland;FI;867;Meat, cattle;2018;tonnes;87060;null;Official data
+Finland;FI;867;Meat, cattle;2016;tonnes;86720;null;Official data
+Finland;FI;867;Meat, cattle;2015;tonnes;86490;null;Official data
+Finland;FI;867;Meat, cattle;2017;tonnes;86080;null;Official data
+Portugal;PT;867;Meat, cattle;2013;tonnes;84011;null;Official data
+Finland;FI;867;Meat, cattle;2011;tonnes;83500;null;Official data
+Finland;FI;867;Meat, cattle;2014;tonnes;83069;null;Official data
+Finland;FI;867;Meat, cattle;2010;tonnes;83040;null;Official data
+Finland;FI;867;Meat, cattle;2009;tonnes;82050;null;Official data
+Finland;FI;867;Meat, cattle;2013;tonnes;81190;null;Official data
+Finland;FI;867;Meat, cattle;2012;tonnes;81180;null;Official data
+Portugal;PT;867;Meat, cattle;2014;tonnes;79843;null;Official data
+Romania;RO;867;Meat, cattle;2018;tonnes;78760;null;Official data
+Czechia;CZ;867;Meat, cattle;2009;tonnes;77026;null;Official data
+Czechia;CZ;867;Meat, cattle;2019;tonnes;74450;null;Official data
+Czechia;CZ;867;Meat, cattle;2010;tonnes;74259;null;Official data
+Greece;EL;867;Meat, cattle;2009;tonnes;73937;null;Official data
+Romania;RO;867;Meat, cattle;2019;tonnes;73730;null;Official data
+Czechia;CZ;867;Meat, cattle;2018;tonnes;72940;null;Official data
+Czechia;CZ;867;Meat, cattle;2016;tonnes;72794;null;Official data
+Czechia;CZ;867;Meat, cattle;2011;tonnes;72125;null;Official data
+Greece;EL;867;Meat, cattle;2010;tonnes;71956;null;Official data
+Greece;EL;867;Meat, cattle;2011;tonnes;69817;null;Official data
+Greece;EL;867;Meat, cattle;2012;tonnes;69463;null;Official data
+Czechia;CZ;867;Meat, cattle;2015;tonnes;69014;null;Official data
+Greece;EL;867;Meat, cattle;2013;tonnes;68746;null;Official data
+Czechia;CZ;867;Meat, cattle;2017;tonnes;67714;null;Official data
+Czechia;CZ;867;Meat, cattle;2014;tonnes;66151;null;Official data
+Czechia;CZ;867;Meat, cattle;2012;tonnes;66060;null;Official data
+Czechia;CZ;867;Meat, cattle;2013;tonnes;65322;null;Official data
+Greece;EL;867;Meat, cattle;2014;tonnes;49216;null;Official data
+Croatia;HR;867;Meat, cattle;2013;tonnes;47400;null;Official data
+Croatia;HR;867;Meat, cattle;2012;tonnes;47100;null;Official data
+Croatia;HR;867;Meat, cattle;2019;tonnes;45430;null;Official data
+Lithuania;LT;867;Meat, cattle;2009;tonnes;45114;null;Official data
+Lithuania;LT;867;Meat, cattle;2015;tonnes;45102;null;Official data
+Croatia;HR;867;Meat, cattle;2016;tonnes;44709;null;Official data
+Croatia;HR;867;Meat, cattle;2014;tonnes;44300;null;Official data
+Lithuania;LT;867;Meat, cattle;2019;tonnes;44180;null;Official data
+Croatia;HR;867;Meat, cattle;2018;tonnes;43780;null;Official data
+Lithuania;LT;867;Meat, cattle;2010;tonnes;43717;null;Official data
+Lithuania;LT;867;Meat, cattle;2016;tonnes;43319;null;Official data
+Croatia;HR;867;Meat, cattle;2017;tonnes;42562;null;Official data
+Croatia;HR;867;Meat, cattle;2015;tonnes;42000;null;Official data
+Lithuania;LT;867;Meat, cattle;2011;tonnes;41980;null;Official data
+Lithuania;LT;867;Meat, cattle;2017;tonnes;41917;null;Official data
+Greece;EL;867;Meat, cattle;2017;tonnes;41766;null;Official data
+Lithuania;LT;867;Meat, cattle;2018;tonnes;41670;null;Official data
+Lithuania;LT;867;Meat, cattle;2012;tonnes;40902;null;Official data
+Lithuania;LT;867;Meat, cattle;2014;tonnes;40240;null;Official data
+Greece;EL;867;Meat, cattle;2018;tonnes;39640;null;Official data
+Greece;EL;867;Meat, cattle;2015;tonnes;39199;null;Official data
+Greece;EL;867;Meat, cattle;2016;tonnes;39172;null;Official data
+Lithuania;LT;867;Meat, cattle;2013;tonnes;37709;null;Official data
+Slovenia;SL;867;Meat, cattle;2017;tonnes;35795;null;Official data
+Slovenia;SL;867;Meat, cattle;2010;tonnes;35772;null;Official data
+Slovenia;SL;867;Meat, cattle;2019;tonnes;35740;null;Official data
+Slovenia;SL;867;Meat, cattle;2016;tonnes;35656;null;Official data
+Slovenia;SL;867;Meat, cattle;2011;tonnes;35571;null;Official data
+Slovenia;SL;867;Meat, cattle;2009;tonnes;35260;null;Official data
+Slovenia;SL;867;Meat, cattle;2018;tonnes;34870;null;Official data
+Slovenia;SL;867;Meat, cattle;2015;tonnes;33583;null;Official data
+Greece;EL;867;Meat, cattle;2019;tonnes;33470;null;Official data
+Slovenia;SL;867;Meat, cattle;2012;tonnes;33089;null;Official data
+Slovenia;SL;867;Meat, cattle;2013;tonnes;32104;null;Official data
+Slovenia;SL;867;Meat, cattle;2014;tonnes;31566;null;Official data
+Hungary;HU;867;Meat, cattle;2019;tonnes;30820;null;Official data
+Hungary;HU;867;Meat, cattle;2018;tonnes;30180;null;Official data
+Hungary;HU;867;Meat, cattle;2009;tonnes;30149;null;Official data
+Hungary;HU;867;Meat, cattle;2016;tonnes;28939;null;Official data
+Hungary;HU;867;Meat, cattle;2017;tonnes;28162;null;Official data
+Hungary;HU;867;Meat, cattle;2010;tonnes;27598;null;Official data
+Hungary;HU;867;Meat, cattle;2015;tonnes;27315;null;Official data
+Hungary;HU;867;Meat, cattle;2011;tonnes;26432;null;Official data
+Hungary;HU;867;Meat, cattle;2012;tonnes;25394;null;Official data
+Hungary;HU;867;Meat, cattle;2014;tonnes;24080;null;Official data
+Hungary;HU;867;Meat, cattle;2013;tonnes;23457;null;Official data
+Bulgaria;BG;867;Meat, cattle;2009;tonnes;21921;null;Official data
+Bulgaria;BG;867;Meat, cattle;2011;tonnes;20886;null;Official data
+Latvia;LV;867;Meat, cattle;2009;tonnes;20452;null;Official data
+Bulgaria;BG;867;Meat, cattle;2012;tonnes;20377;null;Official data
+Bulgaria;BG;867;Meat, cattle;2010;tonnes;19610;null;Official data
+Latvia;LV;867;Meat, cattle;2016;tonnes;19468;null;Official data
+Bulgaria;BG;867;Meat, cattle;2013;tonnes;19107;null;Official data
+Latvia;LV;867;Meat, cattle;2015;tonnes;18769;null;Official data
+Bulgaria;BG;867;Meat, cattle;2015;tonnes;18548;null;Official data
+Latvia;LV;867;Meat, cattle;2017;tonnes;18450;null;Official data
+Latvia;LV;867;Meat, cattle;2010;tonnes;18414;null;Official data
+Bulgaria;BG;867;Meat, cattle;2019;tonnes;18060;null;Official data
+Latvia;LV;867;Meat, cattle;2011;tonnes;18015;null;Official data
+Slovakia;SK;867;Meat, cattle;2009;tonnes;17672;null;Official data
+Latvia;LV;867;Meat, cattle;2014;tonnes;17659;null;Official data
+Latvia;LV;867;Meat, cattle;2018;tonnes;17480;null;Official data
+Bulgaria;BG;867;Meat, cattle;2016;tonnes;17469;null;Official data
+Latvia;LV;867;Meat, cattle;2012;tonnes;17312;null;Official data
+Bulgaria;BG;867;Meat, cattle;2014;tonnes;17210;null;Official data
+Bulgaria;BG;867;Meat, cattle;2017;tonnes;17113;null;Official data
+Bulgaria;BG;867;Meat, cattle;2018;tonnes;16950;null;Official data
+Latvia;LV;867;Meat, cattle;2013;tonnes;16688;null;Official data
+Latvia;LV;867;Meat, cattle;2019;tonnes;16370;null;Official data
+Slovakia;SK;867;Meat, cattle;2010;tonnes;15611;null;Official data
+Estonia;EE;867;Meat, cattle;2016;tonnes;14800;null;Official data
+Estonia;EE;867;Meat, cattle;2009;tonnes;14172;null;Official data
+Slovakia;SK;867;Meat, cattle;2011;tonnes;13177;null;Official data
+Slovakia;SK;867;Meat, cattle;2012;tonnes;13177;null;Official data
+Estonia;EE;867;Meat, cattle;2010;tonnes;12926;null;Official data
+Estonia;EE;867;Meat, cattle;2015;tonnes;12600;null;Official data
+Estonia;EE;867;Meat, cattle;2012;tonnes;12275;null;Official data
+Estonia;EE;867;Meat, cattle;2011;tonnes;12187;null;Official data
+Estonia;EE;867;Meat, cattle;2017;tonnes;11900;null;Official data
+Slovakia;SK;867;Meat, cattle;2013;tonnes;11721;null;Official data
+Slovakia;SK;867;Meat, cattle;2014;tonnes;11597;null;Official data
+Estonia;EE;867;Meat, cattle;2013;tonnes;11481;null;Official data
+Slovakia;SK;867;Meat, cattle;2015;tonnes;10711;null;Official data
+Slovakia;SK;867;Meat, cattle;2019;tonnes;10710;null;Official data
+Slovakia;SK;867;Meat, cattle;2018;tonnes;10670;null;Official data
+Slovakia;SK;867;Meat, cattle;2017;tonnes;10534;null;Official data
+Slovakia;SK;867;Meat, cattle;2016;tonnes;10261;null;Official data
+Luxembourg;LU;867;Meat, cattle;2019;tonnes;10250;null;Official data
+Luxembourg;LU;867;Meat, cattle;2018;tonnes;9960;null;Official data
+Estonia;EE;867;Meat, cattle;2014;tonnes;9800;null;Official data
+Estonia;EE;867;Meat, cattle;2018;tonnes;9760;null;Official data
+Luxembourg;LU;867;Meat, cattle;2017;tonnes;9643;null;Official data
+Luxembourg;LU;867;Meat, cattle;2016;tonnes;9529;null;Official data
+Luxembourg;LU;867;Meat, cattle;2010;tonnes;9390;null;Official data
+Estonia;EE;867;Meat, cattle;2019;tonnes;9250;null;Official data
+Luxembourg;LU;867;Meat, cattle;2015;tonnes;9180;null;Official data
+Luxembourg;LU;867;Meat, cattle;2009;tonnes;9096;null;Official data
+Luxembourg;LU;867;Meat, cattle;2011;tonnes;9066;null;Official data
+Luxembourg;LU;867;Meat, cattle;2014;tonnes;8593;null;Official data
+Luxembourg;LU;867;Meat, cattle;2012;tonnes;8585;null;Official data
+Luxembourg;LU;867;Meat, cattle;2013;tonnes;8060;null;Official data
+Cyprus;CY;867;Meat, cattle;2019;tonnes;5610;null;Official data
+Cyprus;CY;867;Meat, cattle;2012;tonnes;5313;null;Official data
+Cyprus;CY;867;Meat, cattle;2018;tonnes;5280;null;Official data
+Cyprus;CY;867;Meat, cattle;2017;tonnes;5101;null;Official data
+Cyprus;CY;867;Meat, cattle;2016;tonnes;4954;null;Official data
+Cyprus;CY;867;Meat, cattle;2015;tonnes;4953;null;Official data
+Cyprus;CY;867;Meat, cattle;2011;tonnes;4827;null;Official data
+Cyprus;CY;867;Meat, cattle;2014;tonnes;4573;null;Official data
+Cyprus;CY;867;Meat, cattle;2013;tonnes;4562;null;Official data
+Cyprus;CY;867;Meat, cattle;2009;tonnes;4505;null;Official data
+Cyprus;CY;867;Meat, cattle;2010;tonnes;4479;null;Official data
+Malta;MT;867;Meat, cattle;2009;tonnes;1543;null;Official data
+Malta;MT;867;Meat, cattle;2010;tonnes;1422;null;Official data
+Malta;MT;867;Meat, cattle;2016;tonnes;1151;null;Official data
+Malta;MT;867;Meat, cattle;2013;tonnes;1134;null;Official data
+Malta;MT;867;Meat, cattle;2014;tonnes;1129;null;Official data
+Malta;MT;867;Meat, cattle;2011;tonnes;1128;null;Official data
+Malta;MT;867;Meat, cattle;2017;tonnes;1117;null;Official data
+Malta;MT;867;Meat, cattle;2012;tonnes;1111;null;Official data
+Malta;MT;867;Meat, cattle;2018;tonnes;1070;null;Official data
+Malta;MT;867;Meat, cattle;2015;tonnes;1032;null;Official data
+Malta;MT;867;Meat, cattle;2019;tonnes;1030;null;Official data
+Poland;PL;1058;Meat, chicken;2019;tonnes;2110670;null;Official data
+Poland;PL;1058;Meat, chicken;2018;tonnes;2079900;null;Official data
+Spain;ES;1058;Meat, chicken;2019;tonnes;1412220;null;Official data
+Spain;ES;1058;Meat, chicken;2018;tonnes;1345690;null;Official data
+Spain;ES;1058;Meat, chicken;2016;tonnes;1326577;null;Official data
+Spain;ES;1058;Meat, chicken;2017;tonnes;1317487;null;Official data
+Spain;ES;1058;Meat, chicken;2014;tonnes;1209069;null;Official data
+Spain;ES;1058;Meat, chicken;2011;tonnes;1205749;null;Official data
+Spain;ES;1058;Meat, chicken;2015;tonnes;1203022;null;Official data
+Spain;ES;1058;Meat, chicken;2012;tonnes;1193931;null;Official data
+Spain;ES;1058;Meat, chicken;2009;tonnes;1179466;null;Official data
+France;FR;1058;Meat, chicken;2017;tonnes;1161745;null;Official data
+France;FR;1058;Meat, chicken;2015;tonnes;1160040;null;Official data
+France;FR;1058;Meat, chicken;2016;tonnes;1147333;null;Official data
+France;FR;1058;Meat, chicken;2014;tonnes;1141610;null;Official data
+France;FR;1058;Meat, chicken;2018;tonnes;1131000;null;Official data
+Spain;ES;1058;Meat, chicken;2013;tonnes;1121295;null;Official data
+France;FR;1058;Meat, chicken;2019;tonnes;1121000;null;Official data
+France;FR;1058;Meat, chicken;2013;tonnes;1119868;null;Official data
+Spain;ES;1058;Meat, chicken;2010;tonnes;1115987;null;Official data
+France;FR;1058;Meat, chicken;2012;tonnes;1094076;null;Official data
+France;FR;1058;Meat, chicken;2011;tonnes;1086838;null;Official data
+France;FR;1058;Meat, chicken;2010;tonnes;1064308;null;Official data
+Poland;PL;1058;Meat, chicken;2009;tonnes;1059783;null;Official data
+Italy;IT;1058;Meat, chicken;2019;tonnes;1055270;null;Official data
+Netherlands;NL;1058;Meat, chicken;2018;tonnes;1037790;null;Official data
+Netherlands;NL;1058;Meat, chicken;2019;tonnes;1036360;null;Official data
+Netherlands;NL;1058;Meat, chicken;2016;tonnes;1036300;null;Official data
+Germany;DE;1058;Meat, chicken;2019;tonnes;1036000;null;Official data
+France;FR;1058;Meat, chicken;2009;tonnes;1035308;null;Official data
+Netherlands;NL;1058;Meat, chicken;2017;tonnes;1034319;null;Official data
+Germany;DE;1058;Meat, chicken;2015;tonnes;1027400;null;Official data
+Germany;DE;1058;Meat, chicken;2014;tonnes;1027100;null;Official data
+Italy;IT;1058;Meat, chicken;2016;tonnes;1022143;null;Official data
+Germany;DE;1058;Meat, chicken;2018;tonnes;1021000;null;Official data
+Germany;DE;1058;Meat, chicken;2017;tonnes;1009565;null;Official data
+Italy;IT;1058;Meat, chicken;2017;tonnes;1006677;null;Official data
+Germany;DE;1058;Meat, chicken;2016;tonnes;999070;null;Official data
+Netherlands;NL;1058;Meat, chicken;2015;tonnes;985710;null;Official data
+Italy;IT;1058;Meat, chicken;2018;tonnes;972840;null;Official data
+Italy;IT;1058;Meat, chicken;2015;tonnes;969179;null;Official data
+Netherlands;NL;1058;Meat, chicken;2014;tonnes;956130;null;Official data
+Germany;DE;1058;Meat, chicken;2013;tonnes;950940;null;Official data
+Italy;IT;1058;Meat, chicken;2012;tonnes;922352;null;Official data
+Netherlands;NL;1058;Meat, chicken;2013;tonnes;920794;null;Official data
+Italy;IT;1058;Meat, chicken;2014;tonnes;919545;null;Official data
+Italy;IT;1058;Meat, chicken;2013;tonnes;904913;null;Official data
+Germany;DE;1058;Meat, chicken;2012;tonnes;903293;null;Official data
+Germany;DE;1058;Meat, chicken;2011;tonnes;895880;null;Official data
+Italy;IT;1058;Meat, chicken;2011;tonnes;889338;null;Official data
+Netherlands;NL;1058;Meat, chicken;2012;tonnes;888521;null;Official data
+Italy;IT;1058;Meat, chicken;2010;tonnes;865134;null;Official data
+Netherlands;NL;1058;Meat, chicken;2011;tonnes;840922;null;Official data
+Germany;DE;1058;Meat, chicken;2010;tonnes;837134;null;Official data
+Italy;IT;1058;Meat, chicken;2009;tonnes;822429;null;Official data
+Germany;DE;1058;Meat, chicken;2009;tonnes;785869;null;Official data
+Netherlands;NL;1058;Meat, chicken;2010;tonnes;781454;null;Official data
+Netherlands;NL;1058;Meat, chicken;2009;tonnes;763541;null;Official data
+Romania;RO;1058;Meat, chicken;2019;tonnes;507106;null;Official data
+Romania;RO;1058;Meat, chicken;2018;tonnes;479867;null;Official data
+Belgium;BE;1058;Meat, chicken;2018;tonnes;461610;null;Official data
+Belgium;BE;1058;Meat, chicken;2017;tonnes;455364;null;Official data
+Belgium;BE;1058;Meat, chicken;2016;tonnes;453493;null;Official data
+Belgium;BE;1058;Meat, chicken;2015;tonnes;444954;null;Official data
+Belgium;BE;1058;Meat, chicken;2019;tonnes;440460;null;Official data
+Romania;RO;1058;Meat, chicken;2017;tonnes;436040;null;Official data
+Belgium;BE;1058;Meat, chicken;2014;tonnes;424997;null;Official data
+Romania;RO;1058;Meat, chicken;2016;tonnes;418720;null;Official data
+Romania;RO;1058;Meat, chicken;2015;tonnes;410783;null;Official data
+Belgium;BE;1058;Meat, chicken;2012;tonnes;401745;null;Official data
+Romania;RO;1058;Meat, chicken;2014;tonnes;396995;null;Official data
+Belgium;BE;1058;Meat, chicken;2010;tonnes;396065;null;Official data
+Belgium;BE;1058;Meat, chicken;2011;tonnes;394007;null;Official data
+Belgium;BE;1058;Meat, chicken;2013;tonnes;379933;null;Official data
+Romania;RO;1058;Meat, chicken;2009;tonnes;371393;null;Official data
+Belgium;BE;1058;Meat, chicken;2009;tonnes;352451;null;Official data
+Romania;RO;1058;Meat, chicken;2012;tonnes;351704;null;Official data
+Romania;RO;1058;Meat, chicken;2010;tonnes;349021;null;Official data
+Hungary;HU;1058;Meat, chicken;2017;tonnes;341107;null;Official data
+Hungary;HU;1058;Meat, chicken;2019;tonnes;335570;null;Official data
+Hungary;HU;1058;Meat, chicken;2016;tonnes;328414;null;Official data
+Romania;RO;1058;Meat, chicken;2011;tonnes;327025;null;Official data
+Hungary;HU;1058;Meat, chicken;2018;tonnes;326730;null;Official data
+Romania;RO;1058;Meat, chicken;2013;tonnes;322893;null;Official data
+Portugal;PT;1058;Meat, chicken;2017;tonnes;317918;null;Official data
+Hungary;HU;1058;Meat, chicken;2015;tonnes;313252;null;Official data
+Portugal;PT;1058;Meat, chicken;2016;tonnes;301572;null;Official data
+Portugal;PT;1058;Meat, chicken;2019;tonnes;296010;null;Official data
+Portugal;PT;1058;Meat, chicken;2018;tonnes;291720;null;Official data
+Portugal;PT;1058;Meat, chicken;2015;tonnes;288387;null;Official data
+Portugal;PT;1058;Meat, chicken;2014;tonnes;274504;null;Official data
+Portugal;PT;1058;Meat, chicken;2013;tonnes;272533;null;Official data
+Portugal;PT;1058;Meat, chicken;2010;tonnes;272308;null;Official data
+Hungary;HU;1058;Meat, chicken;2014;tonnes;271334;null;Official data
+Portugal;PT;1058;Meat, chicken;2012;tonnes;270320;null;Official data
+Portugal;PT;1058;Meat, chicken;2011;tonnes;270206;null;Official data
+Portugal;PT;1058;Meat, chicken;2009;tonnes;269573;null;Official data
+Greece;EL;1058;Meat, chicken;2016;tonnes;254896;null;Official data
+Hungary;HU;1058;Meat, chicken;2012;tonnes;253843;null;Official data
+Greece;EL;1058;Meat, chicken;2015;tonnes;251893;null;Official data
+Hungary;HU;1058;Meat, chicken;2013;tonnes;244240;null;Official data
+Greece;EL;1058;Meat, chicken;2017;tonnes;243730;null;Official data
+Hungary;HU;1058;Meat, chicken;2011;tonnes;235660;null;Official data
+Greece;EL;1058;Meat, chicken;2019;tonnes;227560;null;Official data
+Hungary;HU;1058;Meat, chicken;2010;tonnes;221370;null;Official data
+Greece;EL;1058;Meat, chicken;2018;tonnes;217410;null;Official data
+Hungary;HU;1058;Meat, chicken;2009;tonnes;213266;null;Official data
+Denmark;DK;1058;Meat, chicken;2011;tonnes;188746;null;Official data
+Czechia;CZ;1058;Meat, chicken;2009;tonnes;188431;null;Official data
+Denmark;DK;1058;Meat, chicken;2012;tonnes;187895;null;Official data
+Greece;EL;1058;Meat, chicken;2014;tonnes;187871;null;Official data
+Denmark;DK;1058;Meat, chicken;2010;tonnes;186400;null;Official data
+Czechia;CZ;1058;Meat, chicken;2010;tonnes;184947;null;Official data
+Greece;EL;1058;Meat, chicken;2013;tonnes;177731;null;Official data
+Czechia;CZ;1058;Meat, chicken;2011;tonnes;168714;null;Official data
+Denmark;DK;1058;Meat, chicken;2009;tonnes;168600;null;Official data
+Denmark;DK;1058;Meat, chicken;2013;tonnes;168268;null;Official data
+Denmark;DK;1058;Meat, chicken;2014;tonnes;159539;null;Official data
+Czechia;CZ;1058;Meat, chicken;2019;tonnes;158550;null;Official data
+Denmark;DK;1058;Meat, chicken;2019;tonnes;156900;null;Official data
+Denmark;DK;1058;Meat, chicken;2016;tonnes;154109;null;Official data
+Sweden;SE;1058;Meat, chicken;2016;tonnes;153870;null;Official data
+Sweden;SE;1058;Meat, chicken;2019;tonnes;153620;null;Official data
+Czechia;CZ;1058;Meat, chicken;2018;tonnes;152730;null;Official data
+Sweden;SE;1058;Meat, chicken;2017;tonnes;152500;null;Official data
+Czechia;CZ;1058;Meat, chicken;2017;tonnes;151981;null;Official data
+Denmark;DK;1058;Meat, chicken;2017;tonnes;151712;null;Official data
+Czechia;CZ;1058;Meat, chicken;2016;tonnes;151693;null;Official data
+Czechia;CZ;1058;Meat, chicken;2012;tonnes;151291;null;Official data
+Czechia;CZ;1058;Meat, chicken;2015;tonnes;146703;null;Official data
+Denmark;DK;1058;Meat, chicken;2018;tonnes;146400;null;Official data
+Czechia;CZ;1058;Meat, chicken;2013;tonnes;146308;null;Official data
+Sweden;SE;1058;Meat, chicken;2018;tonnes;146280;null;Official data
+Czechia;CZ;1058;Meat, chicken;2014;tonnes;146272;null;Official data
+Sweden;SE;1058;Meat, chicken;2015;tonnes;145780;null;Official data
+Denmark;DK;1058;Meat, chicken;2015;tonnes;145139;null;Official data
+Ireland;IE;1058;Meat, chicken;2019;tonnes;141000;null;Official data
+Sweden;SE;1058;Meat, chicken;2014;tonnes;135160;null;Official data
+Ireland;IE;1058;Meat, chicken;2018;tonnes;131940;null;Official data
+Finland;FI;1058;Meat, chicken;2019;tonnes;130720;null;Official data
+Ireland;IE;1058;Meat, chicken;2017;tonnes;128170;null;Official data
+Austria;AT;1058;Meat, chicken;2017;tonnes;127200;null;Official data
+Finland;FI;1058;Meat, chicken;2018;tonnes;127160;null;Official data
+Lithuania;LT;1058;Meat, chicken;2017;tonnes;126607;null;Official data
+Austria;AT;1058;Meat, chicken;2016;tonnes;125900;null;Official data
+Finland;FI;1058;Meat, chicken;2017;tonnes;120800;null;Official data
+Finland;FI;1058;Meat, chicken;2016;tonnes;117412;null;Official data
+Sweden;SE;1058;Meat, chicken;2013;tonnes;117400;null;Official data
+Austria;AT;1058;Meat, chicken;2015;tonnes;116600;null;Official data
+Greece;EL;1058;Meat, chicken;2012;tonnes;115800;null;Official data
+Austria;AT;1058;Meat, chicken;2019;tonnes;115510;null;Official data
+Austria;AT;1058;Meat, chicken;2014;tonnes;113966;null;Official data
+Austria;AT;1058;Meat, chicken;2011;tonnes;112345;null;Official data
+Sweden;SE;1058;Meat, chicken;2010;tonnes;111983;null;Official data
+Sweden;SE;1058;Meat, chicken;2011;tonnes;111530;null;Official data
+Finland;FI;1058;Meat, chicken;2015;tonnes;109848;null;Official data
+Bulgaria;BG;1058;Meat, chicken;2009;tonnes;109825;null;Official data
+Sweden;SE;1058;Meat, chicken;2012;tonnes;109670;null;Official data
+Austria;AT;1058;Meat, chicken;2018;tonnes;109590;null;Official data
+Austria;AT;1058;Meat, chicken;2013;tonnes;109176;null;Official data
+Greece;EL;1058;Meat, chicken;2011;tonnes;109100;null;Official data
+Austria;AT;1058;Meat, chicken;2012;tonnes;108794;null;Official data
+Austria;AT;1058;Meat, chicken;2010;tonnes;107195;null;Official data
+Finland;FI;1058;Meat, chicken;2014;tonnes;106060;null;Official data
+Lithuania;LT;1058;Meat, chicken;2015;tonnes;105377;null;Official data
+Sweden;SE;1058;Meat, chicken;2009;tonnes;105180;null;Official data
+Lithuania;LT;1058;Meat, chicken;2016;tonnes;105133;null;Official data
+Finland;FI;1058;Meat, chicken;2013;tonnes;103730;null;Official data
+Lithuania;LT;1058;Meat, chicken;2018;tonnes;102790;null;Official data
+Austria;AT;1058;Meat, chicken;2009;tonnes;100137;null;Official data
+Finland;FI;1058;Meat, chicken;2012;tonnes;99320;null;Official data
+Lithuania;LT;1058;Meat, chicken;2019;tonnes;96620;null;Official data
+Finland;FI;1058;Meat, chicken;2009;tonnes;94870;null;Official data
+Finland;FI;1058;Meat, chicken;2011;tonnes;93580;null;Official data
+Lithuania;LT;1058;Meat, chicken;2014;tonnes;93543;null;Official data
+Bulgaria;BG;1058;Meat, chicken;2019;tonnes;88970;null;Official data
+Finland;FI;1058;Meat, chicken;2010;tonnes;87680;null;Official data
+Lithuania;LT;1058;Meat, chicken;2013;tonnes;87489;null;Official data
+Bulgaria;BG;1058;Meat, chicken;2018;tonnes;87280;null;Official data
+Bulgaria;BG;1058;Meat, chicken;2017;tonnes;87029;null;Official data
+Bulgaria;BG;1058;Meat, chicken;2016;tonnes;86469;null;Official data
+Bulgaria;BG;1058;Meat, chicken;2010;tonnes;86029;null;Official data
+Bulgaria;BG;1058;Meat, chicken;2012;tonnes;85864;null;Official data
+Bulgaria;BG;1058;Meat, chicken;2015;tonnes;85032;null;Official data
+Bulgaria;BG;1058;Meat, chicken;2011;tonnes;80985;null;Official data
+Bulgaria;BG;1058;Meat, chicken;2014;tonnes;79543;null;Official data
+Lithuania;LT;1058;Meat, chicken;2012;tonnes;79302;null;Official data
+Bulgaria;BG;1058;Meat, chicken;2013;tonnes;76776;null;Official data
+Slovakia;SK;1058;Meat, chicken;2009;tonnes;75121;null;Official data
+Lithuania;LT;1058;Meat, chicken;2011;tonnes;74669;null;Official data
+Slovakia;SK;1058;Meat, chicken;2018;tonnes;73080;null;Official data
+Lithuania;LT;1058;Meat, chicken;2010;tonnes;72948;null;Official data
+Slovakia;SK;1058;Meat, chicken;2010;tonnes;70221;null;Official data
+Slovakia;SK;1058;Meat, chicken;2019;tonnes;70100;null;Official data
+Slovakia;SK;1058;Meat, chicken;2017;tonnes;69656;null;Official data
+Lithuania;LT;1058;Meat, chicken;2009;tonnes;66638;null;Official data
+Slovakia;SK;1058;Meat, chicken;2016;tonnes;65054;null;Official data
+Slovenia;SL;1058;Meat, chicken;2019;tonnes;64230;null;Official data
+Slovenia;SL;1058;Meat, chicken;2018;tonnes;64020;null;Official data
+Slovakia;SK;1058;Meat, chicken;2013;tonnes;63401;null;Official data
+Slovenia;SL;1058;Meat, chicken;2017;tonnes;63383;null;Official data
+Slovakia;SK;1058;Meat, chicken;2011;tonnes;62980;null;Official data
+Slovakia;SK;1058;Meat, chicken;2012;tonnes;62980;null;Official data
+Slovenia;SL;1058;Meat, chicken;2016;tonnes;58769;null;Official data
+Slovakia;SK;1058;Meat, chicken;2014;tonnes;57688;null;Official data
+Slovakia;SK;1058;Meat, chicken;2015;tonnes;57095;null;Official data
+Slovenia;SL;1058;Meat, chicken;2014;tonnes;55284;null;Official data
+Slovenia;SL;1058;Meat, chicken;2012;tonnes;54558;null;Official data
+Croatia;HR;1058;Meat, chicken;2019;tonnes;53940;null;Official data
+Slovenia;SL;1058;Meat, chicken;2015;tonnes;53939;null;Official data
+Slovenia;SL;1058;Meat, chicken;2010;tonnes;53886;null;Official data
+Slovenia;SL;1058;Meat, chicken;2009;tonnes;53737;null;Official data
+Slovenia;SL;1058;Meat, chicken;2013;tonnes;52611;null;Official data
+Croatia;HR;1058;Meat, chicken;2018;tonnes;52600;null;Official data
+Croatia;HR;1058;Meat, chicken;2017;tonnes;52400;null;Official data
+Slovenia;SL;1058;Meat, chicken;2011;tonnes;52375;null;Official data
+Croatia;HR;1058;Meat, chicken;2015;tonnes;52300;null;Official data
+Croatia;HR;1058;Meat, chicken;2016;tonnes;52000;null;Official data
+Croatia;HR;1058;Meat, chicken;2012;tonnes;50000;null;Official data
+Croatia;HR;1058;Meat, chicken;2014;tonnes;49800;null;Official data
+Croatia;HR;1058;Meat, chicken;2013;tonnes;48800;null;Official data
+Croatia;HR;1058;Meat, chicken;2011;tonnes;48500;null;Official data
+Croatia;HR;1058;Meat, chicken;2010;tonnes;47600;null;Official data
+Latvia;LV;1058;Meat, chicken;2019;tonnes;34860;null;Official data
+Latvia;LV;1058;Meat, chicken;2017;tonnes;33393;null;Official data
+Latvia;LV;1058;Meat, chicken;2018;tonnes;33170;null;Official data
+Latvia;LV;1058;Meat, chicken;2016;tonnes;29971;null;Official data
+Latvia;LV;1058;Meat, chicken;2015;tonnes;29523;null;Official data
+Latvia;LV;1058;Meat, chicken;2014;tonnes;28700;null;Official data
+Cyprus;CY;1058;Meat, chicken;2010;tonnes;27616;null;Official data
+Cyprus;CY;1058;Meat, chicken;2009;tonnes;27176;null;Official data
+Cyprus;CY;1058;Meat, chicken;2011;tonnes;26950;null;Official data
+Latvia;LV;1058;Meat, chicken;2013;tonnes;26830;null;Official data
+Cyprus;CY;1058;Meat, chicken;2019;tonnes;26650;null;Official data
+Cyprus;CY;1058;Meat, chicken;2018;tonnes;25250;null;Official data
+Cyprus;CY;1058;Meat, chicken;2012;tonnes;25147;null;Official data
+Cyprus;CY;1058;Meat, chicken;2017;tonnes;25100;null;Official data
+Latvia;LV;1058;Meat, chicken;2012;tonnes;24630;null;Official data
+Cyprus;CY;1058;Meat, chicken;2016;tonnes;23855;null;Official data
+Cyprus;CY;1058;Meat, chicken;2015;tonnes;23734;null;Official data
+Latvia;LV;1058;Meat, chicken;2010;tonnes;23484;null;Official data
+Latvia;LV;1058;Meat, chicken;2009;tonnes;23168;null;Official data
+Latvia;LV;1058;Meat, chicken;2011;tonnes;22950;null;Official data
+Cyprus;CY;1058;Meat, chicken;2013;tonnes;21819;null;Official data
+Cyprus;CY;1058;Meat, chicken;2014;tonnes;21488;null;Official data
+Estonia;EE;1058;Meat, chicken;2017;tonnes;20400;null;Official data
+Estonia;EE;1058;Meat, chicken;2019;tonnes;20288;null;Official data
+Estonia;EE;1058;Meat, chicken;2015;tonnes;19730;null;Official data
+Estonia;EE;1058;Meat, chicken;2016;tonnes;19700;null;Official data
+Estonia;EE;1058;Meat, chicken;2014;tonnes;19449;null;Official data
+Estonia;EE;1058;Meat, chicken;2018;tonnes;19300;null;Official data
+Estonia;EE;1058;Meat, chicken;2013;tonnes;18118;null;Official data
+Estonia;EE;1058;Meat, chicken;2011;tonnes;17532;null;Official data
+Estonia;EE;1058;Meat, chicken;2012;tonnes;16530;null;Official data
+Estonia;EE;1058;Meat, chicken;2010;tonnes;15997;null;Official data
+Estonia;EE;1058;Meat, chicken;2009;tonnes;14882;null;Official data
+Malta;MT;1058;Meat, chicken;2009;tonnes;4686;null;Official data
+Malta;MT;1058;Meat, chicken;2010;tonnes;4398;null;Official data
+Malta;MT;1058;Meat, chicken;2012;tonnes;4244;null;Official data
+Malta;MT;1058;Meat, chicken;2011;tonnes;4155;null;Official data
+Malta;MT;1058;Meat, chicken;2013;tonnes;4115;null;Official data
+Malta;MT;1058;Meat, chicken;2019;tonnes;3990;null;Official data
+Malta;MT;1058;Meat, chicken;2014;tonnes;3916;null;Official data
+Malta;MT;1058;Meat, chicken;2015;tonnes;3913;null;Official data
+Malta;MT;1058;Meat, chicken;2016;tonnes;3832;null;Official data
+Malta;MT;1058;Meat, chicken;2018;tonnes;3820;null;Official data
+Malta;MT;1058;Meat, chicken;2017;tonnes;3676;null;Official data
+Luxembourg;LU;1058;Meat, chicken;2017;tonnes;270;null;Official data
+Luxembourg;LU;1058;Meat, chicken;2016;tonnes;265;null;Official data
+Luxembourg;LU;1058;Meat, chicken;2011;tonnes;255;null;Official data
+Luxembourg;LU;1058;Meat, chicken;2015;tonnes;255;null;Official data
+Luxembourg;LU;1058;Meat, chicken;2013;tonnes;244;null;Official data
+Luxembourg;LU;1058;Meat, chicken;2012;tonnes;239;null;Official data
+Luxembourg;LU;1058;Meat, chicken;2014;tonnes;239;null;Official data
+Luxembourg;LU;1058;Meat, chicken;2018;tonnes;0;null;Official data
+Luxembourg;LU;1058;Meat, chicken;2019;tonnes;0;null;Official data
+Germany;DE;1035;Meat, pig;2011;tonnes;5616074;null;Official data
+Germany;DE;1035;Meat, pig;2016;tonnes;5589639;null;Official data
+Germany;DE;1035;Meat, pig;2015;tonnes;5570490;null;Official data
+Germany;DE;1035;Meat, pig;2014;tonnes;5527769;null;Official data
+Germany;DE;1035;Meat, pig;2013;tonnes;5506772;null;Official data
+Germany;DE;1035;Meat, pig;2017;tonnes;5505572;null;Official data
+Germany;DE;1035;Meat, pig;2010;tonnes;5488369;null;Official data
+Germany;DE;1035;Meat, pig;2012;tonnes;5474021;null;Official data
+Germany;DE;1035;Meat, pig;2018;tonnes;5350000;null;Official data
+Germany;DE;1035;Meat, pig;2009;tonnes;5264505;null;Official data
+Germany;DE;1035;Meat, pig;2019;tonnes;5232000;null;Official data
+Spain;ES;1035;Meat, pig;2019;tonnes;4641160;null;Official data
+Spain;ES;1035;Meat, pig;2018;tonnes;4530480;null;Official data
+Spain;ES;1035;Meat, pig;2017;tonnes;4298789;null;Official data
+Spain;ES;1035;Meat, pig;2016;tonnes;4181091;null;Official data
+Spain;ES;1035;Meat, pig;2015;tonnes;3854658;null;Official data
+Spain;ES;1035;Meat, pig;2014;tonnes;3555606;null;Official data
+Spain;ES;1035;Meat, pig;2011;tonnes;3469345;null;Official data
+Spain;ES;1035;Meat, pig;2012;tonnes;3466323;null;Official data
+Spain;ES;1035;Meat, pig;2013;tonnes;3431214;null;Official data
+Spain;ES;1035;Meat, pig;2010;tonnes;3368921;null;Official data
+Spain;ES;1035;Meat, pig;2009;tonnes;3290571;null;Official data
+France;FR;1035;Meat, pig;2009;tonnes;2261593;null;Official data
+France;FR;1035;Meat, pig;2010;tonnes;2254688;null;Official data
+France;FR;1035;Meat, pig;2011;tonnes;2217368;null;Official data
+France;FR;1035;Meat, pig;2019;tonnes;2200350;null;Official data
+France;FR;1035;Meat, pig;2018;tonnes;2181530;null;Official data
+France;FR;1035;Meat, pig;2016;tonnes;2170418;null;Official data
+France;FR;1035;Meat, pig;2012;tonnes;2161653;null;Official data
+France;FR;1035;Meat, pig;2015;tonnes;2148452;null;Official data
+France;FR;1035;Meat, pig;2017;tonnes;2147550;null;Official data
+France;FR;1035;Meat, pig;2013;tonnes;2130578;null;Official data
+France;FR;1035;Meat, pig;2014;tonnes;2120315;null;Official data
+Poland;PL;1035;Meat, pig;2018;tonnes;2093200;null;Official data
+Poland;PL;1035;Meat, pig;2017;tonnes;2032900;null;Official data
+Poland;PL;1035;Meat, pig;2016;tonnes;2008800;null;Official data
+Poland;PL;1035;Meat, pig;2019;tonnes;1988840;null;Official data
+Poland;PL;1035;Meat, pig;2015;tonnes;1976000;null;Official data
+Poland;PL;1035;Meat, pig;2011;tonnes;1936300;null;Official data
+Poland;PL;1035;Meat, pig;2010;tonnes;1894800;null;Official data
+Poland;PL;1035;Meat, pig;2014;tonnes;1864500;null;Official data
+Poland;PL;1035;Meat, pig;2012;tonnes;1848600;null;Official data
+Poland;PL;1035;Meat, pig;2013;tonnes;1775500;null;Official data
+Poland;PL;1035;Meat, pig;2009;tonnes;1735700;null;Official data
+Denmark;DK;1035;Meat, pig;2011;tonnes;1720200;null;Official data
+Italy;IT;1035;Meat, pig;2010;tonnes;1673000;null;Official data
+Denmark;DK;1035;Meat, pig;2012;tonnes;1669000;null;Official data
+Denmark;DK;1035;Meat, pig;2010;tonnes;1668200;null;Official data
+Italy;IT;1035;Meat, pig;2013;tonnes;1652424;null;Official data
+Italy;IT;1035;Meat, pig;2012;tonnes;1650837;null;Official data
+Netherlands;NL;1035;Meat, pig;2019;tonnes;1628290;null;Official data
+Italy;IT;1035;Meat, pig;2009;tonnes;1628028;null;Official data
+Italy;IT;1035;Meat, pig;2011;tonnes;1601877;null;Official data
+Denmark;DK;1035;Meat, pig;2015;tonnes;1600591;null;Official data
+Denmark;DK;1035;Meat, pig;2014;tonnes;1593900;null;Official data
+Denmark;DK;1035;Meat, pig;2013;tonnes;1589400;null;Official data
+Denmark;DK;1035;Meat, pig;2009;tonnes;1585000;null;Official data
+Denmark;DK;1035;Meat, pig;2018;tonnes;1583100;null;Official data
+Denmark;DK;1035;Meat, pig;2016;tonnes;1579405;null;Official data
+Italy;IT;1035;Meat, pig;2016;tonnes;1544132;null;Official data
+Netherlands;NL;1035;Meat, pig;2018;tonnes;1535920;null;Official data
+Denmark;DK;1035;Meat, pig;2017;tonnes;1532387;null;Official data
+Denmark;DK;1035;Meat, pig;2019;tonnes;1500400;null;Official data
+Italy;IT;1035;Meat, pig;2015;tonnes;1491414;null;Official data
+Italy;IT;1035;Meat, pig;2018;tonnes;1487000;null;Official data
+Italy;IT;1035;Meat, pig;2017;tonnes;1466949;null;Official data
+Italy;IT;1035;Meat, pig;2019;tonnes;1464490;null;Official data
+Netherlands;NL;1035;Meat, pig;2015;tonnes;1456220;null;Official data
+Netherlands;NL;1035;Meat, pig;2017;tonnes;1455677;null;Official data
+Netherlands;NL;1035;Meat, pig;2016;tonnes;1452840;null;Official data
+Netherlands;NL;1035;Meat, pig;2014;tonnes;1370890;null;Official data
+Netherlands;NL;1035;Meat, pig;2011;tonnes;1347166;null;Official data
+Netherlands;NL;1035;Meat, pig;2012;tonnes;1331731;null;Official data
+Italy;IT;1035;Meat, pig;2014;tonnes;1327822;null;Official data
+Netherlands;NL;1035;Meat, pig;2013;tonnes;1306950;null;Official data
+Netherlands;NL;1035;Meat, pig;2010;tonnes;1294000;null;Official data
+Netherlands;NL;1035;Meat, pig;2009;tonnes;1274980;null;Official data
+Belgium;BE;1035;Meat, pig;2013;tonnes;1130572;null;Official data
+Belgium;BE;1035;Meat, pig;2015;tonnes;1124310;null;Official data
+Belgium;BE;1035;Meat, pig;2010;tonnes;1123769;null;Official data
+Belgium;BE;1035;Meat, pig;2014;tonnes;1118330;null;Official data
+Belgium;BE;1035;Meat, pig;2012;tonnes;1109610;null;Official data
+Belgium;BE;1035;Meat, pig;2011;tonnes;1108255;null;Official data
+Belgium;BE;1035;Meat, pig;2009;tonnes;1082036;null;Official data
+Belgium;BE;1035;Meat, pig;2018;tonnes;1073190;null;Official data
+Belgium;BE;1035;Meat, pig;2016;tonnes;1060541;null;Official data
+Belgium;BE;1035;Meat, pig;2017;tonnes;1044561;null;Official data
+Belgium;BE;1035;Meat, pig;2019;tonnes;1038990;null;Official data
+Austria;AT;1035;Meat, pig;2010;tonnes;545818;null;Official data
+Austria;AT;1035;Meat, pig;2011;tonnes;544166;null;Official data
+Austria;AT;1035;Meat, pig;2009;tonnes;540299;null;Official data
+Austria;AT;1035;Meat, pig;2012;tonnes;530263;null;Official data
+Austria;AT;1035;Meat, pig;2013;tonnes;529284;null;Official data
+Austria;AT;1035;Meat, pig;2015;tonnes;529118;null;Official data
+Austria;AT;1035;Meat, pig;2014;tonnes;527442;null;Official data
+Austria;AT;1035;Meat, pig;2016;tonnes;514892;null;Official data
+Austria;AT;1035;Meat, pig;2018;tonnes;509520;null;Official data
+Austria;AT;1035;Meat, pig;2017;tonnes;508494;null;Official data
+Austria;AT;1035;Meat, pig;2019;tonnes;502030;null;Official data
+Romania;RO;1035;Meat, pig;2016;tonnes;500777;null;Official data
+Romania;RO;1035;Meat, pig;2017;tonnes;491906;null;Official data
+Romania;RO;1035;Meat, pig;2009;tonnes;470567;null;Official data
+Romania;RO;1035;Meat, pig;2015;tonnes;470055;null;Official data
+Hungary;HU;1035;Meat, pig;2017;tonnes;469829;null;Official data
+Hungary;HU;1035;Meat, pig;2018;tonnes;467100;null;Official data
+Hungary;HU;1035;Meat, pig;2019;tonnes;462060;null;Official data
+Romania;RO;1035;Meat, pig;2014;tonnes;459756;null;Official data
+Hungary;HU;1035;Meat, pig;2016;tonnes;457808;null;Official data
+Hungary;HU;1035;Meat, pig;2015;tonnes;455088;null;Official data
+Romania;RO;1035;Meat, pig;2011;tonnes;454415;null;Official data
+Hungary;HU;1035;Meat, pig;2009;tonnes;453484;null;Official data
+Hungary;HU;1035;Meat, pig;2010;tonnes;452073;null;Official data
+Romania;RO;1035;Meat, pig;2012;tonnes;442942;null;Official data
+Hungary;HU;1035;Meat, pig;2011;tonnes;434707;null;Official data
+Romania;RO;1035;Meat, pig;2010;tonnes;428891;null;Official data
+Romania;RO;1035;Meat, pig;2018;tonnes;426990;null;Official data
+Hungary;HU;1035;Meat, pig;2014;tonnes;412292;null;Official data
+Portugal;PT;1035;Meat, pig;2010;tonnes;407808;null;Official data
+Portugal;PT;1035;Meat, pig;2011;tonnes;406814;null;Official data
+Portugal;PT;1035;Meat, pig;2015;tonnes;400296;null;Official data
+Portugal;PT;1035;Meat, pig;2016;tonnes;399674;null;Official data
+Romania;RO;1035;Meat, pig;2019;tonnes;398730;null;Official data
+Romania;RO;1035;Meat, pig;2013;tonnes;396070;null;Official data
+Portugal;PT;1035;Meat, pig;2009;tonnes;395970;null;Official data
+Hungary;HU;1035;Meat, pig;2012;tonnes;393712;null;Official data
+Portugal;PT;1035;Meat, pig;2019;tonnes;387920;null;Official data
+Portugal;PT;1035;Meat, pig;2012;tonnes;384182;null;Official data
+Portugal;PT;1035;Meat, pig;2018;tonnes;383220;null;Official data
+Portugal;PT;1035;Meat, pig;2014;tonnes;381656;null;Official data
+Portugal;PT;1035;Meat, pig;2017;tonnes;377866;null;Official data
+Hungary;HU;1035;Meat, pig;2013;tonnes;368153;null;Official data
+Portugal;PT;1035;Meat, pig;2013;tonnes;366414;null;Official data
+Ireland;IE;1035;Meat, pig;2019;tonnes;304370;null;Official data
+Ireland;IE;1035;Meat, pig;2018;tonnes;303270;null;Official data
+Czechia;CZ;1035;Meat, pig;2009;tonnes;300136;null;Official data
+Ireland;IE;1035;Meat, pig;2017;tonnes;294200;null;Official data
+Czechia;CZ;1035;Meat, pig;2010;tonnes;291469;null;Official data
+Ireland;IE;1035;Meat, pig;2016;tonnes;282700;null;Official data
+Ireland;IE;1035;Meat, pig;2015;tonnes;276400;null;Official data
+Czechia;CZ;1035;Meat, pig;2011;tonnes;274617;null;Official data
+Sweden;SE;1035;Meat, pig;2010;tonnes;263478;null;Official data
+Sweden;SE;1035;Meat, pig;2009;tonnes;260748;null;Official data
+Sweden;SE;1035;Meat, pig;2011;tonnes;256080;null;Official data
+Ireland;IE;1035;Meat, pig;2014;tonnes;254100;null;Official data
+Sweden;SE;1035;Meat, pig;2018;tonnes;250140;null;Official data
+Czechia;CZ;1035;Meat, pig;2012;tonnes;249869;null;Official data
+Czechia;CZ;1035;Meat, pig;2014;tonnes;245610;null;Official data
+Czechia;CZ;1035;Meat, pig;2013;tonnes;242833;null;Official data
+Sweden;SE;1035;Meat, pig;2019;tonnes;241490;null;Official data
+Ireland;IE;1035;Meat, pig;2012;tonnes;241400;null;Official data
+Sweden;SE;1035;Meat, pig;2017;tonnes;240700;null;Official data
+Ireland;IE;1035;Meat, pig;2013;tonnes;239300;null;Official data
+Czechia;CZ;1035;Meat, pig;2015;tonnes;237438;null;Official data
+Sweden;SE;1035;Meat, pig;2014;tonnes;236480;null;Official data
+Sweden;SE;1035;Meat, pig;2013;tonnes;234570;null;Official data
+Sweden;SE;1035;Meat, pig;2016;tonnes;233890;null;Official data
+Ireland;IE;1035;Meat, pig;2011;tonnes;233800;null;Official data
+Sweden;SE;1035;Meat, pig;2015;tonnes;233500;null;Official data
+Sweden;SE;1035;Meat, pig;2012;tonnes;232980;null;Official data
+Czechia;CZ;1035;Meat, pig;2016;tonnes;229089;null;Official data
+Czechia;CZ;1035;Meat, pig;2017;tonnes;220267;null;Official data
+Czechia;CZ;1035;Meat, pig;2018;tonnes;219900;null;Official data
+Czechia;CZ;1035;Meat, pig;2019;tonnes;218610;null;Official data
+Ireland;IE;1035;Meat, pig;2010;tonnes;214300;null;Official data
+Finland;FI;1035;Meat, pig;2009;tonnes;205810;null;Official data
+Finland;FI;1035;Meat, pig;2010;tonnes;203210;null;Official data
+Finland;FI;1035;Meat, pig;2011;tonnes;201880;null;Official data
+Ireland;IE;1035;Meat, pig;2009;tonnes;195600;null;Official data
+Finland;FI;1035;Meat, pig;2013;tonnes;194600;null;Official data
+Finland;FI;1035;Meat, pig;2012;tonnes;192940;null;Official data
+Finland;FI;1035;Meat, pig;2015;tonnes;191990;null;Official data
+Finland;FI;1035;Meat, pig;2016;tonnes;190160;null;Official data
+Finland;FI;1035;Meat, pig;2014;tonnes;186130;null;Official data
+Finland;FI;1035;Meat, pig;2017;tonnes;181580;null;Official data
+Finland;FI;1035;Meat, pig;2019;tonnes;168950;null;Official data
+Finland;FI;1035;Meat, pig;2018;tonnes;167410;null;Official data
+Croatia;HR;1035;Meat, pig;2012;tonnes;126900;null;Official data
+Croatia;HR;1035;Meat, pig;2019;tonnes;120800;null;Official data
+Croatia;HR;1035;Meat, pig;2018;tonnes;113500;null;Official data
+Croatia;HR;1035;Meat, pig;2013;tonnes;106500;null;Official data
+Croatia;HR;1035;Meat, pig;2017;tonnes;104505;null;Official data
+Greece;EL;1035;Meat, pig;2009;tonnes;98658;null;Official data
+Croatia;HR;1035;Meat, pig;2016;tonnes;98018;null;Official data
+Greece;EL;1035;Meat, pig;2011;tonnes;95857;null;Official data
+Croatia;HR;1035;Meat, pig;2014;tonnes;95700;null;Official data
+Greece;EL;1035;Meat, pig;2010;tonnes;95226;null;Official data
+Croatia;HR;1035;Meat, pig;2015;tonnes;94000;null;Official data
+Greece;EL;1035;Meat, pig;2012;tonnes;93590;null;Official data
+Greece;EL;1035;Meat, pig;2013;tonnes;91193;null;Official data
+Slovakia;SK;1035;Meat, pig;2009;tonnes;88432;null;Official data
+Greece;EL;1035;Meat, pig;2018;tonnes;87050;null;Official data
+Lithuania;LT;1035;Meat, pig;2013;tonnes;86965;null;Official data
+Greece;EL;1035;Meat, pig;2019;tonnes;86200;null;Official data
+Lithuania;LT;1035;Meat, pig;2014;tonnes;84851;null;Official data
+Lithuania;LT;1035;Meat, pig;2015;tonnes;84314;null;Official data
+Slovakia;SK;1035;Meat, pig;2010;tonnes;84092;null;Official data
+Greece;EL;1035;Meat, pig;2014;tonnes;82850;null;Official data
+Bulgaria;BG;1035;Meat, pig;2018;tonnes;81820;null;Official data
+Bulgaria;BG;1035;Meat, pig;2019;tonnes;81590;null;Official data
+Lithuania;LT;1035;Meat, pig;2012;tonnes;79439;null;Official data
+Greece;EL;1035;Meat, pig;2015;tonnes;78066;null;Official data
+Lithuania;LT;1035;Meat, pig;2019;tonnes;77660;null;Official data
+Greece;EL;1035;Meat, pig;2017;tonnes;77319;null;Official data
+Greece;EL;1035;Meat, pig;2016;tonnes;76702;null;Official data
+Bulgaria;BG;1035;Meat, pig;2017;tonnes;75133;null;Official data
+Lithuania;LT;1035;Meat, pig;2011;tonnes;74927;null;Official data
+Lithuania;LT;1035;Meat, pig;2016;tonnes;74037;null;Official data
+Bulgaria;BG;1035;Meat, pig;2009;tonnes;73659;null;Official data
+Lithuania;LT;1035;Meat, pig;2010;tonnes;73337;null;Official data
+Bulgaria;BG;1035;Meat, pig;2012;tonnes;73159;null;Official data
+Bulgaria;BG;1035;Meat, pig;2013;tonnes;72905;null;Official data
+Bulgaria;BG;1035;Meat, pig;2016;tonnes;72737;null;Official data
+Bulgaria;BG;1035;Meat, pig;2011;tonnes;72506;null;Official data
+Slovakia;SK;1035;Meat, pig;2019;tonnes;72350;null;Official data
+Lithuania;LT;1035;Meat, pig;2018;tonnes;72060;null;Official data
+Lithuania;LT;1035;Meat, pig;2017;tonnes;71476;null;Official data
+Slovakia;SK;1035;Meat, pig;2011;tonnes;70604;null;Official data
+Slovakia;SK;1035;Meat, pig;2012;tonnes;70604;null;Official data
+Bulgaria;BG;1035;Meat, pig;2010;tonnes;70471;null;Official data
+Bulgaria;BG;1035;Meat, pig;2015;tonnes;69259;null;Official data
+Bulgaria;BG;1035;Meat, pig;2014;tonnes;67442;null;Official data
+Slovakia;SK;1035;Meat, pig;2018;tonnes;66390;null;Official data
+Slovakia;SK;1035;Meat, pig;2013;tonnes;64866;null;Official data
+Slovakia;SK;1035;Meat, pig;2014;tonnes;63073;null;Official data
+Lithuania;LT;1035;Meat, pig;2009;tonnes;60424;null;Official data
+Cyprus;CY;1035;Meat, pig;2009;tonnes;58102;null;Official data
+Slovakia;SK;1035;Meat, pig;2017;tonnes;57929;null;Official data
+Cyprus;CY;1035;Meat, pig;2010;tonnes;57058;null;Official data
+Slovakia;SK;1035;Meat, pig;2016;tonnes;55928;null;Official data
+Cyprus;CY;1035;Meat, pig;2011;tonnes;55213;null;Official data
+Slovakia;SK;1035;Meat, pig;2015;tonnes;52397;null;Official data
+Cyprus;CY;1035;Meat, pig;2012;tonnes;51722;null;Official data
+Estonia;EE;1035;Meat, pig;2011;tonnes;50226;null;Official data
+Estonia;EE;1035;Meat, pig;2015;tonnes;50100;null;Official data
+Estonia;EE;1035;Meat, pig;2013;tonnes;49500;null;Official data
+Estonia;EE;1035;Meat, pig;2012;tonnes;48800;null;Official data
+Cyprus;CY;1035;Meat, pig;2013;tonnes;48664;null;Official data
+Estonia;EE;1035;Meat, pig;2009;tonnes;46118;null;Official data
+Estonia;EE;1035;Meat, pig;2010;tonnes;45783;null;Official data
+Estonia;EE;1035;Meat, pig;2019;tonnes;45290;null;Official data
+Slovenia;SL;1035;Meat, pig;2010;tonnes;44130;null;Official data
+Slovenia;SL;1035;Meat, pig;2009;tonnes;44090;null;Official data
+Cyprus;CY;1035;Meat, pig;2016;tonnes;43899;null;Official data
+Cyprus;CY;1035;Meat, pig;2015;tonnes;43774;null;Official data
+Estonia;EE;1035;Meat, pig;2018;tonnes;43440;null;Official data
+Cyprus;CY;1035;Meat, pig;2019;tonnes;43350;null;Official data
+Cyprus;CY;1035;Meat, pig;2017;tonnes;43143;null;Official data
+Estonia;EE;1035;Meat, pig;2016;tonnes;42700;null;Official data
+Cyprus;CY;1035;Meat, pig;2014;tonnes;42618;null;Official data
+Cyprus;CY;1035;Meat, pig;2018;tonnes;41800;null;Official data
+Estonia;EE;1035;Meat, pig;2014;tonnes;41400;null;Official data
+Latvia;LV;1035;Meat, pig;2019;tonnes;40680;null;Official data
+Slovenia;SL;1035;Meat, pig;2011;tonnes;38975;null;Official data
+Latvia;LV;1035;Meat, pig;2018;tonnes;38850;null;Official data
+Latvia;LV;1035;Meat, pig;2009;tonnes;38846;null;Official data
+Estonia;EE;1035;Meat, pig;2017;tonnes;38400;null;Official data
+Latvia;LV;1035;Meat, pig;2017;tonnes;38073;null;Official data
+Latvia;LV;1035;Meat, pig;2011;tonnes;37562;null;Official data
+Latvia;LV;1035;Meat, pig;2010;tonnes;37175;null;Official data
+Latvia;LV;1035;Meat, pig;2014;tonnes;37037;null;Official data
+Latvia;LV;1035;Meat, pig;2016;tonnes;36377;null;Official data
+Latvia;LV;1035;Meat, pig;2015;tonnes;35940;null;Official data
+Latvia;LV;1035;Meat, pig;2013;tonnes;35924;null;Official data
+Latvia;LV;1035;Meat, pig;2012;tonnes;35726;null;Official data
+Slovenia;SL;1035;Meat, pig;2012;tonnes;35607;null;Official data
+Slovenia;SL;1035;Meat, pig;2019;tonnes;32210;null;Official data
+Slovenia;SL;1035;Meat, pig;2017;tonnes;31438;null;Official data
+Slovenia;SL;1035;Meat, pig;2018;tonnes;31290;null;Official data
+Slovenia;SL;1035;Meat, pig;2016;tonnes;30724;null;Official data
+Slovenia;SL;1035;Meat, pig;2014;tonnes;29709;null;Official data
+Slovenia;SL;1035;Meat, pig;2013;tonnes;29569;null;Official data
+Slovenia;SL;1035;Meat, pig;2015;tonnes;27317;null;Official data
+Luxembourg;LU;1035;Meat, pig;2016;tonnes;13982;null;Official data
+Luxembourg;LU;1035;Meat, pig;2019;tonnes;12960;null;Official data
+Luxembourg;LU;1035;Meat, pig;2017;tonnes;12944;null;Official data
+Luxembourg;LU;1035;Meat, pig;2018;tonnes;12920;null;Official data
+Luxembourg;LU;1035;Meat, pig;2015;tonnes;12506;null;Official data
+Luxembourg;LU;1035;Meat, pig;2014;tonnes;12150;null;Official data
+Luxembourg;LU;1035;Meat, pig;2013;tonnes;11121;null;Official data
+Luxembourg;LU;1035;Meat, pig;2012;tonnes;10608;null;Official data
+Luxembourg;LU;1035;Meat, pig;2009;tonnes;10102;null;Official data
+Luxembourg;LU;1035;Meat, pig;2010;tonnes;9762;null;Official data
+Luxembourg;LU;1035;Meat, pig;2011;tonnes;9747;null;Official data
+Malta;MT;1035;Meat, pig;2010;tonnes;7511;null;Official data
+Malta;MT;1035;Meat, pig;2009;tonnes;7369;null;Official data
+Malta;MT;1035;Meat, pig;2011;tonnes;7305;null;Official data
+Malta;MT;1035;Meat, pig;2014;tonnes;6153;null;Official data
+Malta;MT;1035;Meat, pig;2013;tonnes;5920;null;Official data
+Malta;MT;1035;Meat, pig;2012;tonnes;5665;null;Official data
+Malta;MT;1035;Meat, pig;2015;tonnes;5428;null;Official data
+Malta;MT;1035;Meat, pig;2016;tonnes;4931;null;Official data
+Malta;MT;1035;Meat, pig;2017;tonnes;4707;null;Official data
+Malta;MT;1035;Meat, pig;2018;tonnes;4430;null;Official data
+Malta;MT;1035;Meat, pig;2019;tonnes;4410;null;Official data
+Germany;DE;882;Milk, whole fresh cow;2018;tonnes;33086810;null;Official data
+Germany;DE;882;Milk, whole fresh cow;2019;tonnes;33080180;null;Official data
+Germany;DE;882;Milk, whole fresh cow;2015;tonnes;32684572;null;Official data
+Germany;DE;882;Milk, whole fresh cow;2016;tonnes;32672340;null;Official data
+Germany;DE;882;Milk, whole fresh cow;2017;tonnes;32598198;null;Official data
+Germany;DE;882;Milk, whole fresh cow;2014;tonnes;32394969;null;Official data
+Germany;DE;882;Milk, whole fresh cow;2013;tonnes;31324238;null;Official data
+Germany;DE;882;Milk, whole fresh cow;2012;tonnes;30672154;null;Official data
+Germany;DE;882;Milk, whole fresh cow;2011;tonnes;30323464;null;Official data
+Germany;DE;882;Milk, whole fresh cow;2010;tonnes;29616284;null;Official data
+Germany;DE;882;Milk, whole fresh cow;2009;tonnes;29163676;null;Official data
+France;FR;882;Milk, whole fresh cow;2016;tonnes;25627060;null;Official data
+France;FR;882;Milk, whole fresh cow;2017;tonnes;25539489;null;Official data
+France;FR;882;Milk, whole fresh cow;2015;tonnes;25068226;null;Official data
+France;FR;882;Milk, whole fresh cow;2019;tonnes;25062000;null;Official data
+France;FR;882;Milk, whole fresh cow;2018;tonnes;25055100;null;Official data
+France;FR;882;Milk, whole fresh cow;2014;tonnes;24978950;null;Official data
+France;FR;882;Milk, whole fresh cow;2011;tonnes;24361094;null;Official data
+France;FR;882;Milk, whole fresh cow;2012;tonnes;23998422;null;Official data
+France;FR;882;Milk, whole fresh cow;2013;tonnes;23747341;null;Official data
+France;FR;882;Milk, whole fresh cow;2010;tonnes;23301219;null;Official data
+France;FR;882;Milk, whole fresh cow;2009;tonnes;22653085;null;Official data
+Netherlands;NL;882;Milk, whole fresh cow;2019;tonnes;14555000;null;Official data
+Poland;PL;882;Milk, whole fresh cow;2019;tonnes;14502760;null;Official data
+Netherlands;NL;882;Milk, whole fresh cow;2016;tonnes;14324294;null;Official data
+Netherlands;NL;882;Milk, whole fresh cow;2017;tonnes;14297361;null;Official data
+Poland;PL;882;Milk, whole fresh cow;2018;tonnes;14171150;null;Official data
+Netherlands;NL;882;Milk, whole fresh cow;2018;tonnes;14090000;null;Official data
+Netherlands;NL;882;Milk, whole fresh cow;2015;tonnes;13330873;null;Official data
+Poland;PL;882;Milk, whole fresh cow;2017;tonnes;13304646;null;Official data
+Poland;PL;882;Milk, whole fresh cow;2016;tonnes;13244169;null;Official data
+Poland;PL;882;Milk, whole fresh cow;2015;tonnes;13236229;null;Official data
+Poland;PL;882;Milk, whole fresh cow;2014;tonnes;12985520;null;Official data
+Poland;PL;882;Milk, whole fresh cow;2013;tonnes;12718433;null;Official data
+Poland;PL;882;Milk, whole fresh cow;2012;tonnes;12667773;null;Official data
+Italy;IT;882;Milk, whole fresh cow;2019;tonnes;12494400;null;Official data
+Netherlands;NL;882;Milk, whole fresh cow;2014;tonnes;12473023;null;Official data
+Poland;PL;882;Milk, whole fresh cow;2009;tonnes;12447173;null;Official data
+Poland;PL;882;Milk, whole fresh cow;2011;tonnes;12413796;null;Official data
+Italy;IT;882;Milk, whole fresh cow;2018;tonnes;12339750;null;Official data
+Poland;PL;882;Milk, whole fresh cow;2010;tonnes;12278718;null;Official data
+Netherlands;NL;882;Milk, whole fresh cow;2013;tonnes;12212690;null;Official data
+Netherlands;NL;882;Milk, whole fresh cow;2012;tonnes;11675448;null;Official data
+Netherlands;NL;882;Milk, whole fresh cow;2011;tonnes;11641718;null;Official data
+Netherlands;NL;882;Milk, whole fresh cow;2010;tonnes;11626123;null;Official data
+Netherlands;NL;882;Milk, whole fresh cow;2009;tonnes;11468570;null;Official data
+Italy;IT;882;Milk, whole fresh cow;2017;tonnes;11380094;null;Official data
+Italy;IT;882;Milk, whole fresh cow;2015;tonnes;11159203;null;Official data
+Italy;IT;882;Milk, whole fresh cow;2014;tonnes;11044109;null;Official data
+Italy;IT;882;Milk, whole fresh cow;2016;tonnes;10773150;null;Official data
+Italy;IT;882;Milk, whole fresh cow;2012;tonnes;10597572;null;Official data
+Italy;IT;882;Milk, whole fresh cow;2009;tonnes;10560292;null;Official data
+Italy;IT;882;Milk, whole fresh cow;2010;tonnes;10500000;null;Official data
+Italy;IT;882;Milk, whole fresh cow;2011;tonnes;10479053;null;Official data
+Italy;IT;882;Milk, whole fresh cow;2013;tonnes;10397465;null;Official data
+Ireland;IE;882;Milk, whole fresh cow;2019;tonnes;8244870;null;Official data
+Ireland;IE;882;Milk, whole fresh cow;2018;tonnes;7831250;null;Official data
+Ireland;IE;882;Milk, whole fresh cow;2017;tonnes;7478160;null;Official data
+Spain;ES;882;Milk, whole fresh cow;2019;tonnes;7460360;null;Official data
+Spain;ES;882;Milk, whole fresh cow;2018;tonnes;7335620;null;Official data
+Spain;ES;882;Milk, whole fresh cow;2016;tonnes;7097328;null;Official data
+Spain;ES;882;Milk, whole fresh cow;2017;tonnes;7018786;null;Official data
+Ireland;IE;882;Milk, whole fresh cow;2016;tonnes;6851430;null;Official data
+Spain;ES;882;Milk, whole fresh cow;2015;tonnes;6825000;null;Official data
+Spain;ES;882;Milk, whole fresh cow;2014;tonnes;6786000;null;Official data
+Ireland;IE;882;Milk, whole fresh cow;2015;tonnes;6585120;null;Official data
+Spain;ES;882;Milk, whole fresh cow;2013;tonnes;6559175;null;Official data
+Spain;ES;882;Milk, whole fresh cow;2011;tonnes;6522000;null;Official data
+Spain;ES;882;Milk, whole fresh cow;2012;tonnes;6508700;null;Official data
+Spain;ES;882;Milk, whole fresh cow;2010;tonnes;6357140;null;Official data
+Spain;ES;882;Milk, whole fresh cow;2009;tonnes;6251400;null;Official data
+Ireland;IE;882;Milk, whole fresh cow;2014;tonnes;5816220;null;Official data
+Denmark;DK;882;Milk, whole fresh cow;2018;tonnes;5615200;null;Official data
+Denmark;DK;882;Milk, whole fresh cow;2019;tonnes;5615000;null;Official data
+Ireland;IE;882;Milk, whole fresh cow;2013;tonnes;5583670;null;Official data
+Denmark;DK;882;Milk, whole fresh cow;2017;tonnes;5557160;null;Official data
+Ireland;IE;882;Milk, whole fresh cow;2011;tonnes;5536680;null;Official data
+Denmark;DK;882;Milk, whole fresh cow;2016;tonnes;5454960;null;Official data
+Ireland;IE;882;Milk, whole fresh cow;2012;tonnes;5387770;null;Official data
+Denmark;DK;882;Milk, whole fresh cow;2015;tonnes;5356270;null;Official data
+Ireland;IE;882;Milk, whole fresh cow;2010;tonnes;5327000;null;Official data
+Denmark;DK;882;Milk, whole fresh cow;2014;tonnes;5191100;null;Official data
+Denmark;DK;882;Milk, whole fresh cow;2013;tonnes;5104720;null;Official data
+Denmark;DK;882;Milk, whole fresh cow;2012;tonnes;4995020;null;Official data
+Denmark;DK;882;Milk, whole fresh cow;2010;tonnes;4909400;null;Official data
+Denmark;DK;882;Milk, whole fresh cow;2011;tonnes;4880500;null;Official data
+Denmark;DK;882;Milk, whole fresh cow;2009;tonnes;4814000;null;Official data
+Romania;RO;882;Milk, whole fresh cow;2009;tonnes;4682071;null;Official data
+Belgium;BE;882;Milk, whole fresh cow;2019;tonnes;4293000;null;Official data
+Belgium;BE;882;Milk, whole fresh cow;2018;tonnes;4195000;null;Official data
+Romania;RO;882;Milk, whole fresh cow;2014;tonnes;4129838;null;Official data
+Romania;RO;882;Milk, whole fresh cow;2011;tonnes;4093735;null;Official data
+Belgium;BE;882;Milk, whole fresh cow;2017;tonnes;4025417;null;Official data
+Romania;RO;882;Milk, whole fresh cow;2015;tonnes;4005994;null;Official data
+Belgium;BE;882;Milk, whole fresh cow;2015;tonnes;3988147;null;Official data
+Romania;RO;882;Milk, whole fresh cow;2013;tonnes;3981053;null;Official data
+Romania;RO;882;Milk, whole fresh cow;2010;tonnes;3964882;null;Official data
+Romania;RO;882;Milk, whole fresh cow;2016;tonnes;3954331;null;Official data
+Romania;RO;882;Milk, whole fresh cow;2012;tonnes;3900610;null;Official data
+Belgium;BE;882;Milk, whole fresh cow;2016;tonnes;3881626;null;Official data
+Austria;AT;882;Milk, whole fresh cow;2018;tonnes;3821190;null;Official data
+Romania;RO;882;Milk, whole fresh cow;2017;tonnes;3814132;null;Official data
+Romania;RO;882;Milk, whole fresh cow;2018;tonnes;3797600;null;Official data
+Austria;AT;882;Milk, whole fresh cow;2019;tonnes;3781340;null;Official data
+Austria;AT;882;Milk, whole fresh cow;2017;tonnes;3712727;null;Official data
+Belgium;BE;882;Milk, whole fresh cow;2014;tonnes;3689440;null;Official data
+Romania;RO;882;Milk, whole fresh cow;2019;tonnes;3663200;null;Official data
+Austria;AT;882;Milk, whole fresh cow;2016;tonnes;3627606;null;Official data
+Austria;AT;882;Milk, whole fresh cow;2015;tonnes;3537757;null;Official data
+Austria;AT;882;Milk, whole fresh cow;2014;tonnes;3493861;null;Official data
+Belgium;BE;882;Milk, whole fresh cow;2013;tonnes;3474000;null;Official data
+Austria;AT;882;Milk, whole fresh cow;2013;tonnes;3393057;null;Official data
+Austria;AT;882;Milk, whole fresh cow;2012;tonnes;3382076;null;Official data
+Austria;AT;882;Milk, whole fresh cow;2011;tonnes;3307130;null;Official data
+Austria;AT;882;Milk, whole fresh cow;2010;tonnes;3257738;null;Official data
+Austria;AT;882;Milk, whole fresh cow;2009;tonnes;3229809;null;Official data
+Czechia;CZ;882;Milk, whole fresh cow;2018;tonnes;3161510;null;Official data
+Czechia;CZ;882;Milk, whole fresh cow;2019;tonnes;3155790;null;Official data
+Belgium;BE;882;Milk, whole fresh cow;2011;tonnes;3101050;null;Official data
+Belgium;BE;882;Milk, whole fresh cow;2012;tonnes;3071716;null;Official data
+Belgium;BE;882;Milk, whole fresh cow;2010;tonnes;3066630;null;Official data
+Czechia;CZ;882;Milk, whole fresh cow;2016;tonnes;3064725;null;Official data
+Czechia;CZ;882;Milk, whole fresh cow;2015;tonnes;3025882;null;Official data
+Sweden;SE;882;Milk, whole fresh cow;2009;tonnes;2974000;null;Official data
+Sweden;SE;882;Milk, whole fresh cow;2014;tonnes;2973000;null;Official data
+Belgium;BE;882;Milk, whole fresh cow;2009;tonnes;2954385;null;Official data
+Czechia;CZ;882;Milk, whole fresh cow;2014;tonnes;2933455;null;Official data
+Sweden;SE;882;Milk, whole fresh cow;2015;tonnes;2933000;null;Official data
+Sweden;SE;882;Milk, whole fresh cow;2013;tonnes;2910000;null;Official data
+Sweden;SE;882;Milk, whole fresh cow;2010;tonnes;2902100;null;Official data
+Sweden;SE;882;Milk, whole fresh cow;2012;tonnes;2901000;null;Official data
+Sweden;SE;882;Milk, whole fresh cow;2011;tonnes;2890000;null;Official data
+Sweden;SE;882;Milk, whole fresh cow;2016;tonnes;2862000;null;Official data
+Czechia;CZ;882;Milk, whole fresh cow;2013;tonnes;2849432;null;Official data
+Sweden;SE;882;Milk, whole fresh cow;2017;tonnes;2816660;null;Official data
+Czechia;CZ;882;Milk, whole fresh cow;2012;tonnes;2814680;null;Official data
+Czechia;CZ;882;Milk, whole fresh cow;2009;tonnes;2780661;null;Official data
+Sweden;SE;882;Milk, whole fresh cow;2018;tonnes;2760230;null;Official data
+Czechia;CZ;882;Milk, whole fresh cow;2011;tonnes;2735601;null;Official data
+Sweden;SE;882;Milk, whole fresh cow;2019;tonnes;2704390;null;Official data
+Czechia;CZ;882;Milk, whole fresh cow;2010;tonnes;2683034;null;Official data
+Finland;FI;882;Milk, whole fresh cow;2015;tonnes;2435847;null;Official data
+Finland;FI;882;Milk, whole fresh cow;2016;tonnes;2429595;null;Official data
+Finland;FI;882;Milk, whole fresh cow;2017;tonnes;2405761;null;Official data
+Finland;FI;882;Milk, whole fresh cow;2014;tonnes;2400003;null;Official data
+Finland;FI;882;Milk, whole fresh cow;2018;tonnes;2397880;null;Official data
+Finland;FI;882;Milk, whole fresh cow;2019;tonnes;2374360;null;Official data
+Finland;FI;882;Milk, whole fresh cow;2010;tonnes;2336253;null;Official data
+Finland;FI;882;Milk, whole fresh cow;2009;tonnes;2332023;null;Official data
+Finland;FI;882;Milk, whole fresh cow;2013;tonnes;2327800;null;Official data
+Finland;FI;882;Milk, whole fresh cow;2011;tonnes;2300711;null;Official data
+Finland;FI;882;Milk, whole fresh cow;2012;tonnes;2296694;null;Official data
+Portugal;PT;882;Milk, whole fresh cow;2015;tonnes;2049809;null;Official data
+Portugal;PT;882;Milk, whole fresh cow;2009;tonnes;1998738;null;Official data
+Portugal;PT;882;Milk, whole fresh cow;2019;tonnes;1975490;null;Official data
+Hungary;HU;882;Milk, whole fresh cow;2017;tonnes;1967496;null;Official data
+Portugal;PT;882;Milk, whole fresh cow;2016;tonnes;1963084;null;Official data
+Hungary;HU;882;Milk, whole fresh cow;2019;tonnes;1962780;null;Official data
+Portugal;PT;882;Milk, whole fresh cow;2017;tonnes;1959423;null;Official data
+Hungary;HU;882;Milk, whole fresh cow;2018;tonnes;1948830;null;Official data
+Portugal;PT;882;Milk, whole fresh cow;2014;tonnes;1942777;null;Official data
+Hungary;HU;882;Milk, whole fresh cow;2015;tonnes;1941326;null;Official data
+Portugal;PT;882;Milk, whole fresh cow;2018;tonnes;1939670;null;Official data
+Portugal;PT;882;Milk, whole fresh cow;2012;tonnes;1938126;null;Official data
+Portugal;PT;882;Milk, whole fresh cow;2011;tonnes;1918517;null;Official data
+Portugal;PT;882;Milk, whole fresh cow;2010;tonnes;1918251;null;Official data
+Hungary;HU;882;Milk, whole fresh cow;2016;tonnes;1918232;null;Official data
+Hungary;HU;882;Milk, whole fresh cow;2014;tonnes;1871885;null;Official data
+Portugal;PT;882;Milk, whole fresh cow;2013;tonnes;1850604;null;Official data
+Hungary;HU;882;Milk, whole fresh cow;2012;tonnes;1812849;null;Official data
+Lithuania;LT;882;Milk, whole fresh cow;2014;tonnes;1791134;null;Official data
+Lithuania;LT;882;Milk, whole fresh cow;2009;tonnes;1786949;null;Official data
+Lithuania;LT;882;Milk, whole fresh cow;2011;tonnes;1782326;null;Official data
+Lithuania;LT;882;Milk, whole fresh cow;2012;tonnes;1774529;null;Official data
+Hungary;HU;882;Milk, whole fresh cow;2013;tonnes;1772762;null;Official data
+Hungary;HU;882;Milk, whole fresh cow;2009;tonnes;1758219;null;Official data
+Lithuania;LT;882;Milk, whole fresh cow;2015;tonnes;1734726;null;Official data
+Lithuania;LT;882;Milk, whole fresh cow;2010;tonnes;1732512;null;Official data
+Lithuania;LT;882;Milk, whole fresh cow;2013;tonnes;1719515;null;Official data
+Hungary;HU;882;Milk, whole fresh cow;2011;tonnes;1712478;null;Official data
+Hungary;HU;882;Milk, whole fresh cow;2010;tonnes;1684896;null;Official data
+Lithuania;LT;882;Milk, whole fresh cow;2016;tonnes;1623869;null;Official data
+Lithuania;LT;882;Milk, whole fresh cow;2018;tonnes;1568010;null;Official data
+Lithuania;LT;882;Milk, whole fresh cow;2017;tonnes;1566653;null;Official data
+Lithuania;LT;882;Milk, whole fresh cow;2019;tonnes;1547430;null;Official data
+Bulgaria;BG;882;Milk, whole fresh cow;2013;tonnes;1148534;null;Official data
+Bulgaria;BG;882;Milk, whole fresh cow;2011;tonnes;1125824;null;Official data
+Bulgaria;BG;882;Milk, whole fresh cow;2010;tonnes;1124360;null;Official data
+Bulgaria;BG;882;Milk, whole fresh cow;2014;tonnes;1102732;null;Official data
+Bulgaria;BG;882;Milk, whole fresh cow;2012;tonnes;1093034;null;Official data
+Bulgaria;BG;882;Milk, whole fresh cow;2009;tonnes;1073401;null;Official data
+Bulgaria;BG;882;Milk, whole fresh cow;2015;tonnes;1028036;null;Official data
+Bulgaria;BG;882;Milk, whole fresh cow;2016;tonnes;1018567;null;Official data
+Latvia;LV;882;Milk, whole fresh cow;2017;tonnes;997992;null;Official data
+Latvia;LV;882;Milk, whole fresh cow;2016;tonnes;983515;null;Official data
+Latvia;LV;882;Milk, whole fresh cow;2018;tonnes;980200;null;Official data
+Latvia;LV;882;Milk, whole fresh cow;2019;tonnes;978900;null;Official data
+Latvia;LV;882;Milk, whole fresh cow;2015;tonnes;975357;null;Official data
+Latvia;LV;882;Milk, whole fresh cow;2014;tonnes;968899;null;Official data
+Bulgaria;BG;882;Milk, whole fresh cow;2017;tonnes;968177;null;Official data
+Slovakia;SK;882;Milk, whole fresh cow;2013;tonnes;959418;null;Official data
+Slovakia;SK;882;Milk, whole fresh cow;2016;tonnes;957422;null;Official data
+Slovakia;SK;882;Milk, whole fresh cow;2009;tonnes;957327;null;Official data
+Slovakia;SK;882;Milk, whole fresh cow;2015;tonnes;948711;null;Official data
+Slovakia;SK;882;Milk, whole fresh cow;2014;tonnes;933887;null;Official data
+Slovakia;SK;882;Milk, whole fresh cow;2017;tonnes;933298;null;Official data
+Slovakia;SK;882;Milk, whole fresh cow;2011;tonnes;928315;null;Official data
+Slovakia;SK;882;Milk, whole fresh cow;2012;tonnes;928315;null;Official data
+Slovakia;SK;882;Milk, whole fresh cow;2010;tonnes;917977;null;Official data
+Latvia;LV;882;Milk, whole fresh cow;2013;tonnes;911990;null;Official data
+Slovakia;SK;882;Milk, whole fresh cow;2018;tonnes;904620;null;Official data
+Slovakia;SK;882;Milk, whole fresh cow;2019;tonnes;904260;null;Official data
+Bulgaria;BG;882;Milk, whole fresh cow;2018;tonnes;898770;null;Official data
+Latvia;LV;882;Milk, whole fresh cow;2012;tonnes;870633;null;Official data
+Latvia;LV;882;Milk, whole fresh cow;2011;tonnes;841702;null;Official data
+Latvia;LV;882;Milk, whole fresh cow;2010;tonnes;830918;null;Official data
+Latvia;LV;882;Milk, whole fresh cow;2009;tonnes;828060;null;Official data
+Bulgaria;BG;882;Milk, whole fresh cow;2019;tonnes;822300;null;Official data
+Estonia;EE;882;Milk, whole fresh cow;2019;tonnes;820800;null;Official data
+Croatia;HR;882;Milk, whole fresh cow;2012;tonnes;809526;null;Official data
+Estonia;EE;882;Milk, whole fresh cow;2014;tonnes;804796;null;Official data
+Greece;EL;882;Milk, whole fresh cow;2009;tonnes;802814;null;Official data
+Greece;EL;882;Milk, whole fresh cow;2010;tonnes;799682;null;Official data
+Croatia;HR;882;Milk, whole fresh cow;2009;tonnes;799000;null;Official data
+Estonia;EE;882;Milk, whole fresh cow;2018;tonnes;796900;null;Official data
+Estonia;EE;882;Milk, whole fresh cow;2017;tonnes;790028;null;Official data
+Greece;EL;882;Milk, whole fresh cow;2013;tonnes;783271;null;Official data
+Estonia;EE;882;Milk, whole fresh cow;2015;tonnes;782700;null;Official data
+Estonia;EE;882;Milk, whole fresh cow;2016;tonnes;782700;null;Official data
+Croatia;HR;882;Milk, whole fresh cow;2011;tonnes;780000;null;Official data
+Greece;EL;882;Milk, whole fresh cow;2012;tonnes;778897;null;Official data
+Greece;EL;882;Milk, whole fresh cow;2011;tonnes;778268;null;Official data
+Estonia;EE;882;Milk, whole fresh cow;2013;tonnes;771632;null;Official data
+Croatia;HR;882;Milk, whole fresh cow;2010;tonnes;769000;null;Official data
+Greece;EL;882;Milk, whole fresh cow;2014;tonnes;725631;null;Official data
+Estonia;EE;882;Milk, whole fresh cow;2012;tonnes;720718;null;Official data
+Croatia;HR;882;Milk, whole fresh cow;2013;tonnes;717000;null;Official data
+Croatia;HR;882;Milk, whole fresh cow;2014;tonnes;711400;null;Official data
+Croatia;HR;882;Milk, whole fresh cow;2015;tonnes;694400;null;Official data
+Estonia;EE;882;Milk, whole fresh cow;2011;tonnes;692387;null;Official data
+Greece;EL;882;Milk, whole fresh cow;2015;tonnes;691648;null;Official data
+Estonia;EE;882;Milk, whole fresh cow;2010;tonnes;675344;null;Official data
+Croatia;HR;882;Milk, whole fresh cow;2016;tonnes;670600;null;Official data
+Estonia;EE;882;Milk, whole fresh cow;2009;tonnes;670554;null;Official data
+Greece;EL;882;Milk, whole fresh cow;2017;tonnes;662436;null;Official data
+Greece;EL;882;Milk, whole fresh cow;2019;tonnes;659380;null;Official data
+Greece;EL;882;Milk, whole fresh cow;2016;tonnes;656494;null;Official data
+Greece;EL;882;Milk, whole fresh cow;2018;tonnes;654800;null;Official data
+Slovenia;SL;882;Milk, whole fresh cow;2009;tonnes;653682;null;Official data
+Slovenia;SL;882;Milk, whole fresh cow;2016;tonnes;649675;null;Official data
+Croatia;HR;882;Milk, whole fresh cow;2017;tonnes;648400;null;Official data
+Slovenia;SL;882;Milk, whole fresh cow;2017;tonnes;647986;null;Official data
+Slovenia;SL;882;Milk, whole fresh cow;2015;tonnes;630583;null;Official data
+Slovenia;SL;882;Milk, whole fresh cow;2018;tonnes;628930;null;Official data
+Slovenia;SL;882;Milk, whole fresh cow;2010;tonnes;625521;null;Official data
+Slovenia;SL;882;Milk, whole fresh cow;2019;tonnes;623020;null;Official data
+Slovenia;SL;882;Milk, whole fresh cow;2012;tonnes;620943;null;Official data
+Croatia;HR;882;Milk, whole fresh cow;2018;tonnes;618000;null;Official data
+Slovenia;SL;882;Milk, whole fresh cow;2014;tonnes;616581;null;Official data
+Slovenia;SL;882;Milk, whole fresh cow;2011;tonnes;601591;null;Official data
+Croatia;HR;882;Milk, whole fresh cow;2019;tonnes;599000;null;Official data
+Slovenia;SL;882;Milk, whole fresh cow;2013;tonnes;595496;null;Official data
+Luxembourg;LU;882;Milk, whole fresh cow;2019;tonnes;421260;null;Official data
+Luxembourg;LU;882;Milk, whole fresh cow;2018;tonnes;407620;null;Official data
+Luxembourg;LU;882;Milk, whole fresh cow;2017;tonnes;387176;null;Official data
+Luxembourg;LU;882;Milk, whole fresh cow;2016;tonnes;376217;null;Official data
+Luxembourg;LU;882;Milk, whole fresh cow;2015;tonnes;346253;null;Official data
+Luxembourg;LU;882;Milk, whole fresh cow;2014;tonnes;317045;null;Official data
+Luxembourg;LU;882;Milk, whole fresh cow;2013;tonnes;295855;null;Official data
+Luxembourg;LU;882;Milk, whole fresh cow;2010;tonnes;295302;null;Official data
+Luxembourg;LU;882;Milk, whole fresh cow;2011;tonnes;292247;null;Official data
+Luxembourg;LU;882;Milk, whole fresh cow;2012;tonnes;289395;null;Official data
+Luxembourg;LU;882;Milk, whole fresh cow;2009;tonnes;283876;null;Official data
+Cyprus;CY;882;Milk, whole fresh cow;2019;tonnes;238760;null;Official data
+Cyprus;CY;882;Milk, whole fresh cow;2018;tonnes;228080;null;Official data
+Cyprus;CY;882;Milk, whole fresh cow;2017;tonnes;216368;null;Official data
+Cyprus;CY;882;Milk, whole fresh cow;2016;tonnes;200400;null;Official data
+Cyprus;CY;882;Milk, whole fresh cow;2014;tonnes;164552;null;Official data
+Cyprus;CY;882;Milk, whole fresh cow;2015;tonnes;163300;null;Official data
+Cyprus;CY;882;Milk, whole fresh cow;2013;tonnes;162373;null;Official data
+Cyprus;CY;882;Milk, whole fresh cow;2011;tonnes;156017;null;Official data
+Cyprus;CY;882;Milk, whole fresh cow;2012;tonnes;153740;null;Official data
+Cyprus;CY;882;Milk, whole fresh cow;2009;tonnes;152100;null;Official data
+Cyprus;CY;882;Milk, whole fresh cow;2010;tonnes;151015;null;Official data
+Malta;MT;882;Milk, whole fresh cow;2012;tonnes;43360;null;Official data
+Malta;MT;882;Milk, whole fresh cow;2016;tonnes;43213;null;Official data
+Malta;MT;882;Milk, whole fresh cow;2014;tonnes;42833;null;Official data
+Malta;MT;882;Milk, whole fresh cow;2010;tonnes;42127;null;Official data
+Malta;MT;882;Milk, whole fresh cow;2011;tonnes;41693;null;Official data
+Malta;MT;882;Milk, whole fresh cow;2015;tonnes;41638;null;Official data
+Malta;MT;882;Milk, whole fresh cow;2019;tonnes;41270;null;Official data
+Malta;MT;882;Milk, whole fresh cow;2017;tonnes;41091;null;Official data
+Malta;MT;882;Milk, whole fresh cow;2013;tonnes;40986;null;Official data
+Malta;MT;882;Milk, whole fresh cow;2018;tonnes;40410;null;Official data
+Malta;MT;882;Milk, whole fresh cow;2009;tonnes;39455;null;Official data
+Germany;DE;116;Potatoes;2011;tonnes;11837200;null;Official data
+Germany;DE;116;Potatoes;2017;tonnes;11720000;null;Official data
+Germany;DE;116;Potatoes;2009;tonnes;11683100;null;Official data
+Germany;DE;116;Potatoes;2014;tonnes;11607300;null;Official data
+Germany;DE;116;Potatoes;2016;tonnes;10772100;null;Official data
+Germany;DE;116;Potatoes;2012;tonnes;10665600;null;Official data
+Germany;DE;116;Potatoes;2019;tonnes;10602200;null;Official data
+Germany;DE;116;Potatoes;2015;tonnes;10370200;null;Official data
+Germany;DE;116;Potatoes;2010;tonnes;10143090;null;Official data
+Poland;PL;116;Potatoes;2009;tonnes;9702800;null;Official data
+Germany;DE;116;Potatoes;2013;tonnes;9669700;null;Official data
+Poland;PL;116;Potatoes;2011;tonnes;9361848;null;Official data
+Poland;PL;116;Potatoes;2017;tonnes;9171733;null;Official data
+Poland;PL;116;Potatoes;2012;tonnes;9091900;null;Official data
+Germany;DE;116;Potatoes;2018;tonnes;8920800;null;Official data
+Poland;PL;116;Potatoes;2016;tonnes;8872445;null;Official data
+France;FR;116;Potatoes;2019;tonnes;8560410;null;Official data
+France;FR;116;Potatoes;2017;tonnes;8547354;null;Official data
+Poland;PL;116;Potatoes;2010;tonnes;8448180;null;Official data
+France;FR;116;Potatoes;2014;tonnes;8085184;null;Official data
+France;FR;116;Potatoes;2018;tonnes;7860380;null;Official data
+Poland;PL;116;Potatoes;2014;tonnes;7689180;null;Official data
+France;FR;116;Potatoes;2011;tonnes;7440219;null;Official data
+Netherlands;NL;116;Potatoes;2017;tonnes;7391881;null;Official data
+Netherlands;NL;116;Potatoes;2011;tonnes;7333472;null;Official data
+Poland;PL;116;Potatoes;2018;tonnes;7311960;null;Official data
+Poland;PL;116;Potatoes;2013;tonnes;7290427;null;Official data
+Netherlands;NL;116;Potatoes;2009;tonnes;7180981;null;Official data
+France;FR;116;Potatoes;2015;tonnes;7119837;null;Official data
+France;FR;116;Potatoes;2009;tonnes;7119239;null;Official data
+Netherlands;NL;116;Potatoes;2014;tonnes;7100258;null;Official data
+Netherlands;NL;116;Potatoes;2019;tonnes;6961230;null;Official data
+France;FR;116;Potatoes;2013;tonnes;6957008;null;Official data
+France;FR;116;Potatoes;2016;tonnes;6954983;null;Official data
+Netherlands;NL;116;Potatoes;2010;tonnes;6843529;null;Official data
+Netherlands;NL;116;Potatoes;2012;tonnes;6765618;null;Official data
+Netherlands;NL;116;Potatoes;2015;tonnes;6651692;null;Official data
+France;FR;116;Potatoes;2010;tonnes;6622043;null;Official data
+Netherlands;NL;116;Potatoes;2013;tonnes;6576860;null;Official data
+Netherlands;NL;116;Potatoes;2016;tonnes;6534338;null;Official data
+Poland;PL;116;Potatoes;2019;tonnes;6481620;null;Official data
+France;FR;116;Potatoes;2012;tonnes;6376058;null;Official data
+Poland;PL;116;Potatoes;2015;tonnes;6313669;null;Official data
+Netherlands;NL;116;Potatoes;2018;tonnes;6025370;null;Official data
+Belgium;BE;116;Potatoes;2017;tonnes;4416665;null;Official data
+Belgium;BE;116;Potatoes;2014;tonnes;4380556;null;Official data
+Belgium;BE;116;Potatoes;2011;tonnes;4128669;null;Official data
+Romania;RO;116;Potatoes;2011;tonnes;4076570;null;Official data
+Belgium;BE;116;Potatoes;2019;tonnes;4027620;null;Official data
+Romania;RO;116;Potatoes;2009;tonnes;4003980;null;Official data
+Belgium;BE;116;Potatoes;2015;tonnes;3689994;null;Official data
+Romania;RO;116;Potatoes;2014;tonnes;3519329;null;Official data
+Belgium;BE;116;Potatoes;2010;tonnes;3455800;null;Official data
+Belgium;BE;116;Potatoes;2013;tonnes;3428000;null;Official data
+Belgium;BE;116;Potatoes;2016;tonnes;3402787;null;Official data
+Belgium;BE;116;Potatoes;2009;tonnes;3296077;null;Official data
+Romania;RO;116;Potatoes;2013;tonnes;3289722;null;Official data
+Romania;RO;116;Potatoes;2010;tonnes;3283866;null;Official data
+Romania;RO;116;Potatoes;2017;tonnes;3116912;null;Official data
+Belgium;BE;116;Potatoes;2018;tonnes;3045440;null;Official data
+Romania;RO;116;Potatoes;2018;tonnes;3022760;null;Official data
+Belgium;BE;116;Potatoes;2012;tonnes;2929800;null;Official data
+Spain;ES;116;Potatoes;2009;tonnes;2719291;null;Official data
+Romania;RO;116;Potatoes;2015;tonnes;2699684;null;Official data
+Romania;RO;116;Potatoes;2016;tonnes;2689733;null;Official data
+Romania;RO;116;Potatoes;2019;tonnes;2626790;null;Official data
+Spain;ES;116;Potatoes;2014;tonnes;2543930;null;Official data
+Romania;RO;116;Potatoes;2012;tonnes;2465150;null;Official data
+Spain;ES;116;Potatoes;2011;tonnes;2455101;null;Official data
+Denmark;DK;116;Potatoes;2019;tonnes;2408700;null;Official data
+Spain;ES;116;Potatoes;2010;tonnes;2326654;null;Official data
+Spain;ES;116;Potatoes;2015;tonnes;2284073;null;Official data
+Spain;ES;116;Potatoes;2019;tonnes;2259320;null;Official data
+Spain;ES;116;Potatoes;2016;tonnes;2246204;null;Official data
+Spain;ES;116;Potatoes;2017;tonnes;2239470;null;Official data
+Spain;ES;116;Potatoes;2013;tonnes;2199600;null;Official data
+Spain;ES;116;Potatoes;2012;tonnes;2192284;null;Official data
+Denmark;DK;116;Potatoes;2017;tonnes;2171000;null;Official data
+Spain;ES;116;Potatoes;2018;tonnes;2010930;null;Official data
+Denmark;DK;116;Potatoes;2016;tonnes;1954016;null;Official data
+Denmark;DK;116;Potatoes;2018;tonnes;1806800;null;Official data
+Denmark;DK;116;Potatoes;2015;tonnes;1772466;null;Official data
+Italy;IT;116;Potatoes;2009;tonnes;1753217;null;Official data
+Denmark;DK;116;Potatoes;2014;tonnes;1733400;null;Official data
+Denmark;DK;116;Potatoes;2012;tonnes;1664200;null;Official data
+Denmark;DK;116;Potatoes;2013;tonnes;1646300;null;Official data
+Denmark;DK;116;Potatoes;2011;tonnes;1620000;null;Official data
+Denmark;DK;116;Potatoes;2009;tonnes;1617700;null;Official data
+Italy;IT;116;Potatoes;2010;tonnes;1558030;null;Official data
+Italy;IT;116;Potatoes;2011;tonnes;1547047;null;Official data
+Italy;IT;116;Potatoes;2012;tonnes;1486292;null;Official data
+Italy;IT;116;Potatoes;2015;tonnes;1369101;null;Official data
+Italy;IT;116;Potatoes;2016;tonnes;1368920;null;Official data
+Italy;IT;116;Potatoes;2014;tonnes;1365440;null;Official data
+Denmark;DK;116;Potatoes;2010;tonnes;1357800;null;Official data
+Italy;IT;116;Potatoes;2017;tonnes;1346936;null;Official data
+Italy;IT;116;Potatoes;2019;tonnes;1338430;null;Official data
+Italy;IT;116;Potatoes;2018;tonnes;1307600;null;Official data
+Italy;IT;116;Potatoes;2013;tonnes;1272211;null;Official data
+Greece;EL;116;Potatoes;2009;tonnes;940932;null;Official data
+Greece;EL;116;Potatoes;2010;tonnes;922957;null;Official data
+Greece;EL;116;Potatoes;2011;tonnes;902492;null;Official data
+Greece;EL;116;Potatoes;2013;tonnes;893833;null;Official data
+Sweden;SE;116;Potatoes;2011;tonnes;882000;null;Official data
+Greece;EL;116;Potatoes;2012;tonnes;875908;null;Official data
+Sweden;SE;116;Potatoes;2016;tonnes;862500;null;Official data
+Sweden;SE;116;Potatoes;2009;tonnes;857900;null;Official data
+Sweden;SE;116;Potatoes;2017;tonnes;852500;null;Official data
+Sweden;SE;116;Potatoes;2019;tonnes;846900;null;Official data
+Sweden;SE;116;Potatoes;2014;tonnes;822100;null;Official data
+Sweden;SE;116;Potatoes;2010;tonnes;816300;null;Official data
+Austria;AT;116;Potatoes;2011;tonnes;816070;null;Official data
+Sweden;SE;116;Potatoes;2013;tonnes;806100;null;Official data
+Sweden;SE;116;Potatoes;2012;tonnes;805400;null;Official data
+Czechia;CZ;116;Potatoes;2011;tonnes;805331;null;Official data
+Sweden;SE;116;Potatoes;2015;tonnes;802500;null;Official data
+Austria;AT;116;Potatoes;2016;tonnes;767261;null;Official data
+Finland;FI;116;Potatoes;2009;tonnes;755300;null;Official data
+Czechia;CZ;116;Potatoes;2009;tonnes;752539;null;Official data
+Austria;AT;116;Potatoes;2019;tonnes;751260;null;Official data
+Austria;AT;116;Potatoes;2014;tonnes;750637;null;Official data
+Sweden;SE;116;Potatoes;2018;tonnes;723000;null;Official data
+Austria;AT;116;Potatoes;2009;tonnes;722098;null;Official data
+Czechia;CZ;116;Potatoes;2016;tonnes;699605;null;Official data
+Austria;AT;116;Potatoes;2018;tonnes;697930;null;Official data
+Czechia;CZ;116;Potatoes;2014;tonnes;697539;null;Official data
+Czechia;CZ;116;Potatoes;2017;tonnes;688970;null;Official data
+Finland;FI;116;Potatoes;2011;tonnes;673300;null;Official data
+Austria;AT;116;Potatoes;2010;tonnes;671722;null;Official data
+Austria;AT;116;Potatoes;2012;tonnes;665416;null;Official data
+Czechia;CZ;116;Potatoes;2010;tonnes;665176;null;Official data
+Lithuania;LT;116;Potatoes;2009;tonnes;662500;null;Official data
+Czechia;CZ;116;Potatoes;2012;tonnes;661795;null;Official data
+Finland;FI;116;Potatoes;2010;tonnes;659100;null;Official data
+Austria;AT;116;Potatoes;2017;tonnes;653400;null;Official data
+Czechia;CZ;116;Potatoes;2019;tonnes;622600;null;Official data
+Finland;FI;116;Potatoes;2013;tonnes;621700;null;Official data
+Finland;FI;116;Potatoes;2019;tonnes;618900;null;Official data
+Greece;EL;116;Potatoes;2014;tonnes;615429;null;Official data
+Finland;FI;116;Potatoes;2017;tonnes;611900;null;Official data
+Austria;AT;116;Potatoes;2013;tonnes;604051;null;Official data
+Finland;FI;116;Potatoes;2014;tonnes;600300;null;Official data
+Finland;FI;116;Potatoes;2018;tonnes;600300;null;Official data
+Hungary;HU;116;Potatoes;2011;tonnes;600000;null;Official data
+Lithuania;LT;116;Potatoes;2011;tonnes;587700;null;Official data
+Finland;FI;116;Potatoes;2016;tonnes;587600;null;Official data
+Czechia;CZ;116;Potatoes;2018;tonnes;583560;null;Official data
+Greece;EL;116;Potatoes;2015;tonnes;580646;null;Official data
+Hungary;HU;116;Potatoes;2014;tonnes;567430;null;Official data
+Hungary;HU;116;Potatoes;2009;tonnes;560615;null;Official data
+Lithuania;LT;116;Potatoes;2012;tonnes;549900;null;Official data
+Hungary;HU;116;Potatoes;2012;tonnes;547710;null;Official data
+Portugal;PT;116;Potatoes;2014;tonnes;539872;null;Official data
+Latvia;LV;116;Potatoes;2012;tonnes;538900;null;Official data
+Austria;AT;116;Potatoes;2015;tonnes;536473;null;Official data
+Czechia;CZ;116;Potatoes;2013;tonnes;536450;null;Official data
+Finland;FI;116;Potatoes;2015;tonnes;532100;null;Official data
+Latvia;LV;116;Potatoes;2009;tonnes;525400;null;Official data
+Portugal;PT;116;Potatoes;2017;tonnes;515030;null;Official data
+Latvia;LV;116;Potatoes;2014;tonnes;505688;null;Official data
+Czechia;CZ;116;Potatoes;2015;tonnes;504955;null;Official data
+Greece;EL;116;Potatoes;2017;tonnes;499506;null;Official data
+Latvia;LV;116;Potatoes;2011;tonnes;499000;null;Official data
+Latvia;LV;116;Potatoes;2015;tonnes;497320;null;Official data
+Latvia;LV;116;Potatoes;2013;tonnes;495900;null;Official data
+Greece;EL;116;Potatoes;2016;tonnes;491973;null;Official data
+Latvia;LV;116;Potatoes;2016;tonnes;491600;null;Official data
+Finland;FI;116;Potatoes;2012;tonnes;489600;null;Official data
+Portugal;PT;116;Potatoes;2013;tonnes;487646;null;Official data
+Hungary;HU;116;Potatoes;2013;tonnes;487360;null;Official data
+Portugal;PT;116;Potatoes;2015;tonnes;486790;null;Official data
+Latvia;LV;116;Potatoes;2010;tonnes;484000;null;Official data
+Lithuania;LT;116;Potatoes;2010;tonnes;476900;null;Official data
+Greece;EL;116;Potatoes;2019;tonnes;470210;null;Official data
+Lithuania;LT;116;Potatoes;2014;tonnes;468500;null;Official data
+Portugal;PT;116;Potatoes;2009;tonnes;467807;null;Official data
+Greece;EL;116;Potatoes;2018;tonnes;465770;null;Official data
+Hungary;HU;116;Potatoes;2015;tonnes;452008;null;Official data
+Portugal;PT;116;Potatoes;2016;tonnes;451041;null;Official data
+Portugal;PT;116;Potatoes;2012;tonnes;445649;null;Official data
+Hungary;HU;116;Potatoes;2010;tonnes;439897;null;Official data
+Portugal;PT;116;Potatoes;2018;tonnes;431690;null;Official data
+Hungary;HU;116;Potatoes;2016;tonnes;429435;null;Official data
+Lithuania;LT;116;Potatoes;2013;tonnes;426500;null;Official data
+Portugal;PT;116;Potatoes;2019;tonnes;424290;null;Official data
+Ireland;IE;116;Potatoes;2010;tonnes;419600;null;Official data
+Ireland;IE;116;Potatoes;2017;tonnes;412425;null;Official data
+Ireland;IE;116;Potatoes;2013;tonnes;410100;null;Official data
+Latvia;LV;116;Potatoes;2017;tonnes;408300;null;Official data
+Hungary;HU;116;Potatoes;2017;tonnes;402853;null;Official data
+Lithuania;LT;116;Potatoes;2015;tonnes;399191;null;Official data
+Portugal;PT;116;Potatoes;2011;tonnes;389798;null;Official data
+Portugal;PT;116;Potatoes;2010;tonnes;383835;null;Official data
+Ireland;IE;116;Potatoes;2014;tonnes;383000;null;Official data
+Ireland;IE;116;Potatoes;2019;tonnes;382370;null;Official data
+Ireland;IE;116;Potatoes;2015;tonnes;360100;null;Official data
+Ireland;IE;116;Potatoes;2011;tonnes;356100;null;Official data
+Ireland;IE;116;Potatoes;2016;tonnes;352000;null;Official data
+Lithuania;LT;116;Potatoes;2016;tonnes;351484;null;Official data
+Hungary;HU;116;Potatoes;2019;tonnes;343540;null;Official data
+Ireland;IE;116;Potatoes;2009;tonnes;336100;null;Official data
+Lithuania;LT;116;Potatoes;2019;tonnes;329780;null;Official data
+Hungary;HU;116;Potatoes;2018;tonnes;327580;null;Official data
+Lithuania;LT;116;Potatoes;2018;tonnes;289800;null;Official data
+Ireland;IE;116;Potatoes;2018;tonnes;273010;null;Official data
+Croatia;HR;116;Potatoes;2009;tonnes;270251;null;Official data
+Bulgaria;BG;116;Potatoes;2018;tonnes;261690;null;Official data
+Bulgaria;BG;116;Potatoes;2010;tonnes;251205;null;Official data
+Lithuania;LT;116;Potatoes;2017;tonnes;237045;null;Official data
+Bulgaria;BG;116;Potatoes;2011;tonnes;232314;null;Official data
+Ireland;IE;116;Potatoes;2012;tonnes;232000;null;Official data
+Bulgaria;BG;116;Potatoes;2009;tonnes;231745;null;Official data
+Bulgaria;BG;116;Potatoes;2017;tonnes;227815;null;Official data
+Latvia;LV;116;Potatoes;2019;tonnes;223700;null;Official data
+Slovakia;SK;116;Potatoes;2011;tonnes;217252;null;Official data
+Slovakia;SK;116;Potatoes;2009;tonnes;216123;null;Official data
+Bulgaria;BG;116;Potatoes;2019;tonnes;197410;null;Official data
+Latvia;LV;116;Potatoes;2018;tonnes;196200;null;Official data
+Croatia;HR;116;Potatoes;2016;tonnes;193962;null;Official data
+Bulgaria;BG;116;Potatoes;2013;tonnes;186529;null;Official data
+Slovakia;SK;116;Potatoes;2019;tonnes;182420;null;Official data
+Croatia;HR;116;Potatoes;2018;tonnes;182260;null;Official data
+Slovakia;SK;116;Potatoes;2014;tonnes;178817;null;Official data
+Croatia;HR;116;Potatoes;2010;tonnes;178611;null;Official data
+Slovakia;SK;116;Potatoes;2016;tonnes;177145;null;Official data
+Croatia;HR;116;Potatoes;2019;tonnes;173150;null;Official data
+Croatia;HR;116;Potatoes;2015;tonnes;171179;null;Official data
+Slovakia;SK;116;Potatoes;2018;tonnes;169950;null;Official data
+Croatia;HR;116;Potatoes;2011;tonnes;167524;null;Official data
+Slovakia;SK;116;Potatoes;2012;tonnes;165666;null;Official data
+Bulgaria;BG;116;Potatoes;2015;tonnes;164866;null;Official data
+Estonia;EE;116;Potatoes;2011;tonnes;164716;null;Official data
+Slovakia;SK;116;Potatoes;2013;tonnes;164458;null;Official data
+Estonia;EE;116;Potatoes;2010;tonnes;163373;null;Official data
+Croatia;HR;116;Potatoes;2013;tonnes;162501;null;Official data
+Croatia;HR;116;Potatoes;2014;tonnes;160847;null;Official data
+Croatia;HR;116;Potatoes;2017;tonnes;156089;null;Official data
+Bulgaria;BG;116;Potatoes;2012;tonnes;151319;null;Official data
+Croatia;HR;116;Potatoes;2012;tonnes;151278;null;Official data
+Slovakia;SK;116;Potatoes;2017;tonnes;149705;null;Official data
+Slovakia;SK;116;Potatoes;2015;tonnes;144625;null;Official data
+Estonia;EE;116;Potatoes;2009;tonnes;139050;null;Official data
+Estonia;EE;116;Potatoes;2012;tonnes;138872;null;Official data
+Bulgaria;BG;116;Potatoes;2014;tonnes;132651;null;Official data
+Estonia;EE;116;Potatoes;2013;tonnes;127748;null;Official data
+Bulgaria;BG;116;Potatoes;2016;tonnes;127182;null;Official data
+Cyprus;CY;116;Potatoes;2011;tonnes;126080;null;Official data
+Slovakia;SK;116;Potatoes;2010;tonnes;125921;null;Official data
+Cyprus;CY;116;Potatoes;2016;tonnes;122803;null;Official data
+Estonia;EE;116;Potatoes;2014;tonnes;117300;null;Official data
+Estonia;EE;116;Potatoes;2015;tonnes;117200;null;Official data
+Cyprus;CY;116;Potatoes;2014;tonnes;114997;null;Official data
+Cyprus;CY;116;Potatoes;2009;tonnes;112500;null;Official data
+Cyprus;CY;116;Potatoes;2017;tonnes;109923;null;Official data
+Cyprus;CY;116;Potatoes;2018;tonnes;105330;null;Official data
+Slovenia;SL;116;Potatoes;2009;tonnes;103425;null;Official data
+Slovenia;SL;116;Potatoes;2010;tonnes;101208;null;Official data
+Cyprus;CY;116;Potatoes;2013;tonnes;98480;null;Official data
+Slovenia;SL;116;Potatoes;2014;tonnes;96820;null;Official data
+Slovenia;SL;116;Potatoes;2011;tonnes;96179;null;Official data
+Cyprus;CY;116;Potatoes;2015;tonnes;95921;null;Official data
+Estonia;EE;116;Potatoes;2017;tonnes;91182;null;Official data
+Slovenia;SL;116;Potatoes;2015;tonnes;91036;null;Official data
+Estonia;EE;116;Potatoes;2016;tonnes;89842;null;Official data
+Slovenia;SL;116;Potatoes;2016;tonnes;84897;null;Official data
+Cyprus;CY;116;Potatoes;2012;tonnes;82200;null;Official data
+Cyprus;CY;116;Potatoes;2019;tonnes;82100;null;Official data
+Cyprus;CY;116;Potatoes;2010;tonnes;82000;null;Official data
+Estonia;EE;116;Potatoes;2019;tonnes;80130;null;Official data
+Slovenia;SL;116;Potatoes;2012;tonnes;79253;null;Official data
+Slovenia;SL;116;Potatoes;2017;tonnes;77076;null;Official data
+Slovenia;SL;116;Potatoes;2018;tonnes;72920;null;Official data
+Slovenia;SL;116;Potatoes;2019;tonnes;65960;null;Official data
+Slovenia;SL;116;Potatoes;2013;tonnes;62155;null;Official data
+Estonia;EE;116;Potatoes;2018;tonnes;58030;null;Official data
+Luxembourg;LU;116;Potatoes;2017;tonnes;21284;null;Official data
+Luxembourg;LU;116;Potatoes;2012;tonnes;20600;null;Official data
+Luxembourg;LU;116;Potatoes;2009;tonnes;20044;null;Official data
+Luxembourg;LU;116;Potatoes;2011;tonnes;19679;null;Official data
+Luxembourg;LU;116;Potatoes;2010;tonnes;19531;null;Official data
+Luxembourg;LU;116;Potatoes;2014;tonnes;18979;null;Official data
+Malta;MT;116;Potatoes;2011;tonnes;18919;null;Official data
+Luxembourg;LU;116;Potatoes;2016;tonnes;18714;null;Official data
+Luxembourg;LU;116;Potatoes;2013;tonnes;17540;null;Official data
+Luxembourg;LU;116;Potatoes;2018;tonnes;16210;null;Official data
+Malta;MT;116;Potatoes;2010;tonnes;15541;null;Official data
+Luxembourg;LU;116;Potatoes;2019;tonnes;15330;null;Official data
+Luxembourg;LU;116;Potatoes;2015;tonnes;12971;null;Official data
+Malta;MT;116;Potatoes;2012;tonnes;12691;null;Official data
+Malta;MT;116;Potatoes;2013;tonnes;12644;null;Official data
+Malta;MT;116;Potatoes;2014;tonnes;12559;null;Official data
+Malta;MT;116;Potatoes;2009;tonnes;10069;null;Official data
+Malta;MT;116;Potatoes;2018;tonnes;9360;null;Official data
+Malta;MT;116;Potatoes;2019;tonnes;8990;null;Official data
+Malta;MT;116;Potatoes;2017;tonnes;8740;null;Official data
+Malta;MT;116;Potatoes;2015;tonnes;8017;null;Official data
+Malta;MT;116;Potatoes;2016;tonnes;6825;null;Official data
+Italy;IT;27;Rice, paddy;2009;tonnes;1620400;null;Official data
+Italy;IT;27;Rice, paddy;2012;tonnes;1601478;null;Official data
+Italy;IT;27;Rice, paddy;2017;tonnes;1598027;null;Official data
+Italy;IT;27;Rice, paddy;2016;tonnes;1587346;null;Official data
+Italy;IT;27;Rice, paddy;2015;tonnes;1518229;null;Official data
+Italy;IT;27;Rice, paddy;2010;tonnes;1516400;null;Official data
+Italy;IT;27;Rice, paddy;2019;tonnes;1492620;null;Official data
+Italy;IT;27;Rice, paddy;2011;tonnes;1490150;null;Official data
+Italy;IT;27;Rice, paddy;2018;tonnes;1470090;null;Official data
+Italy;IT;27;Rice, paddy;2013;tonnes;1433111;null;Official data
+Italy;IT;27;Rice, paddy;2014;tonnes;1386100;null;Official data
+Spain;ES;27;Rice, paddy;2010;tonnes;927817;null;Official data
+Spain;ES;27;Rice, paddy;2011;tonnes;927554;null;Official data
+Spain;ES;27;Rice, paddy;2009;tonnes;913754;null;Official data
+Spain;ES;27;Rice, paddy;2012;tonnes;899602;null;Official data
+Spain;ES;27;Rice, paddy;2013;tonnes;872500;null;Official data
+Spain;ES;27;Rice, paddy;2014;tonnes;861103;null;Official data
+Spain;ES;27;Rice, paddy;2015;tonnes;847026;null;Official data
+Spain;ES;27;Rice, paddy;2016;tonnes;835400;null;Official data
+Spain;ES;27;Rice, paddy;2017;tonnes;835178;null;Official data
+Spain;ES;27;Rice, paddy;2018;tonnes;798880;null;Official data
+Spain;ES;27;Rice, paddy;2019;tonnes;778780;null;Official data
+Greece;EL;27;Rice, paddy;2016;tonnes;277482;null;Official data
+Greece;EL;27;Rice, paddy;2015;tonnes;263646;null;Official data
+Greece;EL;27;Rice, paddy;2017;tonnes;255418;null;Official data
+Greece;EL;27;Rice, paddy;2011;tonnes;250685;null;Official data
+Greece;EL;27;Rice, paddy;2013;tonnes;235939;null;Official data
+Greece;EL;27;Rice, paddy;2012;tonnes;230662;null;Official data
+Greece;EL;27;Rice, paddy;2014;tonnes;229381;null;Official data
+Greece;EL;27;Rice, paddy;2018;tonnes;222690;null;Official data
+Greece;EL;27;Rice, paddy;2019;tonnes;220930;null;Official data
+Greece;EL;27;Rice, paddy;2009;tonnes;214964;null;Official data
+Greece;EL;27;Rice, paddy;2010;tonnes;208210;null;Official data
+Portugal;PT;27;Rice, paddy;2012;tonnes;187028;null;Official data
+Portugal;PT;27;Rice, paddy;2011;tonnes;185016;null;Official data
+Portugal;PT;27;Rice, paddy;2015;tonnes;184918;null;Official data
+Portugal;PT;27;Rice, paddy;2013;tonnes;180155;null;Official data
+Portugal;PT;27;Rice, paddy;2017;tonnes;179777;null;Official data
+Portugal;PT;27;Rice, paddy;2010;tonnes;170216;null;Official data
+Portugal;PT;27;Rice, paddy;2016;tonnes;169289;null;Official data
+Portugal;PT;27;Rice, paddy;2014;tonnes;167322;null;Official data
+Portugal;PT;27;Rice, paddy;2009;tonnes;161761;null;Official data
+Portugal;PT;27;Rice, paddy;2019;tonnes;161500;null;Official data
+Portugal;PT;27;Rice, paddy;2018;tonnes;160790;null;Official data
+France;FR;27;Rice, paddy;2009;tonnes;137132;null;Official data
+France;FR;27;Rice, paddy;2011;tonnes;130400;null;Official data
+France;FR;27;Rice, paddy;2012;tonnes;124091;null;Official data
+France;FR;27;Rice, paddy;2010;tonnes;120170;null;Official data
+France;FR;27;Rice, paddy;2017;tonnes;92544;null;Official data
+France;FR;27;Rice, paddy;2014;tonnes;83492;null;Official data
+France;FR;27;Rice, paddy;2019;tonnes;82570;null;Official data
+France;FR;27;Rice, paddy;2015;tonnes;80858;null;Official data
+France;FR;27;Rice, paddy;2013;tonnes;80801;null;Official data
+France;FR;27;Rice, paddy;2016;tonnes;80297;null;Official data
+Romania;RO;27;Rice, paddy;2009;tonnes;72418;null;Official data
+France;FR;27;Rice, paddy;2018;tonnes;71430;null;Official data
+Bulgaria;BG;27;Rice, paddy;2019;tonnes;70920;null;Official data
+Bulgaria;BG;27;Rice, paddy;2015;tonnes;67684;null;Official data
+Romania;RO;27;Rice, paddy;2011;tonnes;65261;null;Official data
+Bulgaria;BG;27;Rice, paddy;2016;tonnes;64773;null;Official data
+Romania;RO;27;Rice, paddy;2010;tonnes;61588;null;Official data
+Bulgaria;BG;27;Rice, paddy;2018;tonnes;60720;null;Official data
+Bulgaria;BG;27;Rice, paddy;2011;tonnes;59619;null;Official data
+Bulgaria;BG;27;Rice, paddy;2017;tonnes;58523;null;Official data
+Bulgaria;BG;27;Rice, paddy;2010;tonnes;57432;null;Official data
+Bulgaria;BG;27;Rice, paddy;2013;tonnes;56121;null;Official data
+Bulgaria;BG;27;Rice, paddy;2012;tonnes;54896;null;Official data
+Romania;RO;27;Rice, paddy;2013;tonnes;54646;null;Official data
+Bulgaria;BG;27;Rice, paddy;2014;tonnes;54155;null;Official data
+Romania;RO;27;Rice, paddy;2012;tonnes;50862;null;Official data
+Romania;RO;27;Rice, paddy;2015;tonnes;49773;null;Official data
+Romania;RO;27;Rice, paddy;2014;tonnes;45159;null;Official data
+Romania;RO;27;Rice, paddy;2016;tonnes;43635;null;Official data
+Bulgaria;BG;27;Rice, paddy;2009;tonnes;43441;null;Official data
+Romania;RO;27;Rice, paddy;2017;tonnes;43311;null;Official data
+Romania;RO;27;Rice, paddy;2018;tonnes;42860;null;Official data
+Romania;RO;27;Rice, paddy;2019;tonnes;39530;null;Official data
+Hungary;HU;27;Rice, paddy;2018;tonnes;13420;null;Official data
+Hungary;HU;27;Rice, paddy;2017;tonnes;12303;null;Official data
+Hungary;HU;27;Rice, paddy;2009;tonnes;11722;null;Official data
+Hungary;HU;27;Rice, paddy;2012;tonnes;11270;null;Official data
+Hungary;HU;27;Rice, paddy;2019;tonnes;11030;null;Official data
+Hungary;HU;27;Rice, paddy;2016;tonnes;10767;null;Official data
+Hungary;HU;27;Rice, paddy;2015;tonnes;9412;null;Official data
+Hungary;HU;27;Rice, paddy;2011;tonnes;9075;null;Official data
+Hungary;HU;27;Rice, paddy;2013;tonnes;8640;null;Official data
+Hungary;HU;27;Rice, paddy;2014;tonnes;7910;null;Official data
+Hungary;HU;27;Rice, paddy;2010;tonnes;5893;null;Official data
+Belgium;BE;27;Rice, paddy;2018;tonnes;0;null;Official data
+Belgium;BE;27;Rice, paddy;2019;tonnes;0;null;Official data
+Croatia;HR;27;Rice, paddy;2018;tonnes;0;null;Official data
+Croatia;HR;27;Rice, paddy;2019;tonnes;0;null;Official data
+Cyprus;CY;27;Rice, paddy;2018;tonnes;0;null;Official data
+Cyprus;CY;27;Rice, paddy;2019;tonnes;0;null;Official data
+Czechia;CZ;27;Rice, paddy;2018;tonnes;0;null;Official data
+Czechia;CZ;27;Rice, paddy;2019;tonnes;0;null;Official data
+Denmark;DK;27;Rice, paddy;2018;tonnes;0;null;Official data
+Denmark;DK;27;Rice, paddy;2019;tonnes;0;null;Official data
+Estonia;EE;27;Rice, paddy;2018;tonnes;0;null;Official data
+Estonia;EE;27;Rice, paddy;2019;tonnes;0;null;Official data
+Finland;FI;27;Rice, paddy;2018;tonnes;0;null;Official data
+Finland;FI;27;Rice, paddy;2019;tonnes;0;null;Official data
+Germany;DE;27;Rice, paddy;2018;tonnes;0;null;Official data
+Germany;DE;27;Rice, paddy;2019;tonnes;0;null;Official data
+Ireland;IE;27;Rice, paddy;2018;tonnes;0;null;Official data
+Ireland;IE;27;Rice, paddy;2019;tonnes;0;null;Official data
+Latvia;LV;27;Rice, paddy;2018;tonnes;0;null;Official data
+Latvia;LV;27;Rice, paddy;2019;tonnes;0;null;Official data
+Lithuania;LT;27;Rice, paddy;2018;tonnes;0;null;Official data
+Lithuania;LT;27;Rice, paddy;2019;tonnes;0;null;Official data
+Luxembourg;LU;27;Rice, paddy;2018;tonnes;0;null;Official data
+Luxembourg;LU;27;Rice, paddy;2019;tonnes;0;null;Official data
+Malta;MT;27;Rice, paddy;2018;tonnes;0;null;Official data
+Malta;MT;27;Rice, paddy;2019;tonnes;0;null;Official data
+Netherlands;NL;27;Rice, paddy;2018;tonnes;0;null;Official data
+Netherlands;NL;27;Rice, paddy;2019;tonnes;0;null;Official data
+Poland;PL;27;Rice, paddy;2018;tonnes;0;null;Official data
+Poland;PL;27;Rice, paddy;2019;tonnes;0;null;Official data
+Slovakia;SK;27;Rice, paddy;2018;tonnes;0;null;Official data
+Slovakia;SK;27;Rice, paddy;2019;tonnes;0;null;Official data
+Slovenia;SL;27;Rice, paddy;2018;tonnes;0;null;Official data
+Slovenia;SL;27;Rice, paddy;2019;tonnes;0;null;Official data
+Sweden;SE;27;Rice, paddy;2018;tonnes;0;null;Official data
+Sweden;SE;27;Rice, paddy;2019;tonnes;0;null;Official data
+France;FR;15;Wheat;2015;tonnes;42750027;null;Official data
+France;FR;15;Wheat;2019;tonnes;40604960;null;Official data
+France;FR;15;Wheat;2014;tonnes;38950202;null;Official data
+France;FR;15;Wheat;2017;tonnes;38677896;null;Official data
+France;FR;15;Wheat;2013;tonnes;38651472;null;Official data
+France;FR;15;Wheat;2009;tonnes;38336865;null;Official data
+France;FR;15;Wheat;2010;tonnes;38207431;null;Official data
+France;FR;15;Wheat;2012;tonnes;37885742;null;Official data
+France;FR;15;Wheat;2011;tonnes;35992794;null;Official data
+France;FR;15;Wheat;2018;tonnes;35424140;null;Official data
+France;FR;15;Wheat;2016;tonnes;29316331;null;Official data
+Germany;DE;15;Wheat;2014;tonnes;27784700;null;Official data
+Germany;DE;15;Wheat;2015;tonnes;26549500;null;Official data
+Germany;DE;15;Wheat;2009;tonnes;25192350;null;Official data
+Germany;DE;15;Wheat;2013;tonnes;25019100;null;Official data
+Germany;DE;15;Wheat;2017;tonnes;24481600;null;Official data
+Germany;DE;15;Wheat;2016;tonnes;24463800;null;Official data
+Germany;DE;15;Wheat;2010;tonnes;23782955;null;Official data
+Germany;DE;15;Wheat;2019;tonnes;23062600;null;Official data
+Germany;DE;15;Wheat;2011;tonnes;22782700;null;Official data
+Germany;DE;15;Wheat;2012;tonnes;22409300;null;Official data
+Germany;DE;15;Wheat;2018;tonnes;20263500;null;Official data
+Poland;PL;15;Wheat;2017;tonnes;11665702;null;Official data
+Poland;PL;15;Wheat;2014;tonnes;11628670;null;Official data
+Poland;PL;15;Wheat;2015;tonnes;10957787;null;Official data
+Poland;PL;15;Wheat;2016;tonnes;10827902;null;Official data
+Poland;PL;15;Wheat;2019;tonnes;10807490;null;Official data
+Romania;RO;15;Wheat;2019;tonnes;10297110;null;Official data
+Romania;RO;15;Wheat;2018;tonnes;10143670;null;Official data
+Romania;RO;15;Wheat;2017;tonnes;10034955;null;Official data
+Poland;PL;15;Wheat;2009;tonnes;9789586;null;Official data
+Poland;PL;15;Wheat;2018;tonnes;9637620;null;Official data
+Poland;PL;15;Wheat;2013;tonnes;9485183;null;Official data
+Poland;PL;15;Wheat;2010;tonnes;9408110;null;Official data
+Poland;PL;15;Wheat;2011;tonnes;9339200;null;Official data
+Poland;PL;15;Wheat;2012;tonnes;8607600;null;Official data
+Romania;RO;15;Wheat;2016;tonnes;8431131;null;Official data
+Spain;ES;15;Wheat;2018;tonnes;8322510;null;Official data
+Italy;IT;15;Wheat;2016;tonnes;8037872;null;Official data
+Romania;RO;15;Wheat;2015;tonnes;7962421;null;Official data
+Spain;ES;15;Wheat;2016;tonnes;7873135;null;Official data
+Spain;ES;15;Wheat;2013;tonnes;7744900;null;Official data
+Italy;IT;15;Wheat;2012;tonnes;7654248;null;Official data
+Romania;RO;15;Wheat;2014;tonnes;7584814;null;Official data
+Italy;IT;15;Wheat;2015;tonnes;7394495;null;Official data
+Italy;IT;15;Wheat;2013;tonnes;7312025;null;Official data
+Romania;RO;15;Wheat;2013;tonnes;7296373;null;Official data
+Italy;IT;15;Wheat;2014;tonnes;7141926;null;Official data
+Romania;RO;15;Wheat;2011;tonnes;7131590;null;Official data
+Italy;IT;15;Wheat;2018;tonnes;7104650;null;Official data
+Italy;IT;15;Wheat;2017;tonnes;6966465;null;Official data
+Spain;ES;15;Wheat;2011;tonnes;6876657;null;Official data
+Italy;IT;15;Wheat;2010;tonnes;6849858;null;Official data
+Italy;IT;15;Wheat;2019;tonnes;6739470;null;Official data
+Italy;IT;15;Wheat;2011;tonnes;6641807;null;Official data
+Italy;IT;15;Wheat;2009;tonnes;6534746;null;Official data
+Spain;ES;15;Wheat;2014;tonnes;6471400;null;Official data
+Spain;ES;15;Wheat;2015;tonnes;6362694;null;Official data
+Bulgaria;BG;15;Wheat;2019;tonnes;6319630;null;Official data
+Bulgaria;BG;15;Wheat;2017;tonnes;6132671;null;Official data
+Spain;ES;15;Wheat;2019;tonnes;6041170;null;Official data
+Bulgaria;BG;15;Wheat;2018;tonnes;5954520;null;Official data
+Spain;ES;15;Wheat;2010;tonnes;5941197;null;Official data
+Denmark;DK;15;Wheat;2009;tonnes;5940400;null;Official data
+Romania;RO;15;Wheat;2010;tonnes;5811810;null;Official data
+Bulgaria;BG;15;Wheat;2016;tonnes;5662721;null;Official data
+Hungary;HU;15;Wheat;2016;tonnes;5603184;null;Official data
+Bulgaria;BG;15;Wheat;2013;tonnes;5504941;null;Official data
+Czechia;CZ;15;Wheat;2016;tonnes;5454663;null;Official data
+Czechia;CZ;15;Wheat;2014;tonnes;5442349;null;Official data
+Hungary;HU;15;Wheat;2019;tonnes;5377710;null;Official data
+Bulgaria;BG;15;Wheat;2014;tonnes;5347078;null;Official data
+Hungary;HU;15;Wheat;2015;tonnes;5331426;null;Official data
+Romania;RO;15;Wheat;2012;tonnes;5297748;null;Official data
+Czechia;CZ;15;Wheat;2015;tonnes;5274272;null;Official data
+Hungary;HU;15;Wheat;2014;tonnes;5261890;null;Official data
+Hungary;HU;15;Wheat;2018;tonnes;5258430;null;Official data
+Hungary;HU;15;Wheat;2017;tonnes;5246258;null;Official data
+Romania;RO;15;Wheat;2009;tonnes;5202526;null;Official data
+Spain;ES;15;Wheat;2012;tonnes;5189828;null;Official data
+Denmark;DK;15;Wheat;2014;tonnes;5153300;null;Official data
+Denmark;DK;15;Wheat;2010;tonnes;5059900;null;Official data
+Hungary;HU;15;Wheat;2013;tonnes;5058300;null;Official data
+Denmark;DK;15;Wheat;2015;tonnes;5029300;null;Official data
+Bulgaria;BG;15;Wheat;2015;tonnes;5011597;null;Official data
+Czechia;CZ;15;Wheat;2011;tonnes;4913048;null;Official data
+Spain;ES;15;Wheat;2017;tonnes;4875957;null;Official data
+Denmark;DK;15;Wheat;2017;tonnes;4834100;null;Official data
+Denmark;DK;15;Wheat;2011;tonnes;4831000;null;Official data
+Czechia;CZ;15;Wheat;2019;tonnes;4812160;null;Official data
+Spain;ES;15;Wheat;2009;tonnes;4804772;null;Official data
+Czechia;CZ;15;Wheat;2017;tonnes;4718205;null;Official data
+Czechia;CZ;15;Wheat;2013;tonnes;4700696;null;Official data
+Denmark;DK;15;Wheat;2019;tonnes;4642090;null;Official data
+Denmark;DK;15;Wheat;2012;tonnes;4525100;null;Official data
+Bulgaria;BG;15;Wheat;2011;tonnes;4458492;null;Official data
+Bulgaria;BG;15;Wheat;2012;tonnes;4455104;null;Official data
+Hungary;HU;15;Wheat;2009;tonnes;4419163;null;Official data
+Czechia;CZ;15;Wheat;2018;tonnes;4417840;null;Official data
+Lithuania;LT;15;Wheat;2015;tonnes;4380330;null;Official data
+Czechia;CZ;15;Wheat;2009;tonnes;4358073;null;Official data
+Denmark;DK;15;Wheat;2016;tonnes;4201500;null;Official data
+Czechia;CZ;15;Wheat;2010;tonnes;4161553;null;Official data
+Denmark;DK;15;Wheat;2013;tonnes;4145200;null;Official data
+Hungary;HU;15;Wheat;2011;tonnes;4107000;null;Official data
+Bulgaria;BG;15;Wheat;2010;tonnes;4094597;null;Official data
+Hungary;HU;15;Wheat;2012;tonnes;4010990;null;Official data
+Bulgaria;BG;15;Wheat;2009;tonnes;3976852;null;Official data
+Lithuania;LT;15;Wheat;2017;tonnes;3917372;null;Official data
+Lithuania;LT;15;Wheat;2016;tonnes;3844491;null;Official data
+Lithuania;LT;15;Wheat;2019;tonnes;3843850;null;Official data
+Hungary;HU;15;Wheat;2010;tonnes;3745190;null;Official data
+Czechia;CZ;15;Wheat;2012;tonnes;3518896;null;Official data
+Sweden;SE;15;Wheat;2019;tonnes;3476800;null;Official data
+Sweden;SE;15;Wheat;2015;tonnes;3300400;null;Official data
+Sweden;SE;15;Wheat;2017;tonnes;3298600;null;Official data
+Lithuania;LT;15;Wheat;2014;tonnes;3230600;null;Official data
+Sweden;SE;15;Wheat;2014;tonnes;3086400;null;Official data
+Lithuania;LT;15;Wheat;2012;tonnes;2998900;null;Official data
+Lithuania;LT;15;Wheat;2013;tonnes;2871300;null;Official data
+Lithuania;LT;15;Wheat;2018;tonnes;2838900;null;Official data
+Sweden;SE;15;Wheat;2016;tonnes;2834500;null;Official data
+Denmark;DK;15;Wheat;2018;tonnes;2623930;null;Official data
+Slovakia;SK;15;Wheat;2016;tonnes;2434213;null;Official data
+Latvia;LV;15;Wheat;2019;tonnes;2371000;null;Official data
+Sweden;SE;15;Wheat;2012;tonnes;2289300;null;Official data
+Sweden;SE;15;Wheat;2009;tonnes;2277900;null;Official data
+Sweden;SE;15;Wheat;2011;tonnes;2253100;null;Official data
+Latvia;LV;15;Wheat;2015;tonnes;2250100;null;Official data
+Sweden;SE;15;Wheat;2010;tonnes;2143000;null;Official data
+Greece;EL;15;Wheat;2009;tonnes;2139472;null;Official data
+Latvia;LV;15;Wheat;2017;tonnes;2138800;null;Official data
+Lithuania;LT;15;Wheat;2009;tonnes;2100200;null;Official data
+Slovakia;SK;15;Wheat;2015;tonnes;2082134;null;Official data
+Slovakia;SK;15;Wheat;2014;tonnes;2072405;null;Official data
+Latvia;LV;15;Wheat;2016;tonnes;2062300;null;Official data
+Belgium;BE;15;Wheat;2015;tonnes;2019347;null;Official data
+Belgium;BE;15;Wheat;2014;tonnes;1994600;null;Official data
+Austria;AT;15;Wheat;2016;tonnes;1970364;null;Official data
+Slovakia;SK;15;Wheat;2019;tonnes;1939130;null;Official data
+Slovakia;SK;15;Wheat;2018;tonnes;1927930;null;Official data
+Greece;EL;15;Wheat;2010;tonnes;1920670;null;Official data
+Belgium;BE;15;Wheat;2009;tonnes;1909768;null;Official data
+Belgium;BE;15;Wheat;2019;tonnes;1902380;null;Official data
+Lithuania;LT;15;Wheat;2011;tonnes;1869300;null;Official data
+Sweden;SE;15;Wheat;2013;tonnes;1868600;null;Official data
+Greece;EL;15;Wheat;2011;tonnes;1857429;null;Official data
+Belgium;BE;15;Wheat;2010;tonnes;1849584;null;Official data
+Greece;EL;15;Wheat;2012;tonnes;1835901;null;Official data
+Belgium;BE;15;Wheat;2012;tonnes;1834624;null;Official data
+Greece;EL;15;Wheat;2013;tonnes;1831869;null;Official data
+Austria;AT;15;Wheat;2014;tonnes;1804018;null;Official data
+Belgium;BE;15;Wheat;2013;tonnes;1803550;null;Official data
+Austria;AT;15;Wheat;2011;tonnes;1781837;null;Official data
+Slovakia;SK;15;Wheat;2017;tonnes;1770659;null;Official data
+Austria;AT;15;Wheat;2015;tonnes;1725737;null;Official data
+Lithuania;LT;15;Wheat;2010;tonnes;1710400;null;Official data
+Belgium;BE;15;Wheat;2017;tonnes;1702721;null;Official data
+Belgium;BE;15;Wheat;2011;tonnes;1687749;null;Official data
+Slovakia;SK;15;Wheat;2013;tonnes;1684274;null;Official data
+Belgium;BE;15;Wheat;2018;tonnes;1661860;null;Official data
+Slovakia;SK;15;Wheat;2011;tonnes;1631112;null;Official data
+Sweden;SE;15;Wheat;2018;tonnes;1620300;null;Official data
+Austria;AT;15;Wheat;2013;tonnes;1597706;null;Official data
+Austria;AT;15;Wheat;2019;tonnes;1596880;null;Official data
+Greece;EL;15;Wheat;2014;tonnes;1570416;null;Official data
+Greece;EL;15;Wheat;2016;tonnes;1560777;null;Official data
+Latvia;LV;15;Wheat;2012;tonnes;1539800;null;Official data
+Slovakia;SK;15;Wheat;2009;tonnes;1537905;null;Official data
+Austria;AT;15;Wheat;2009;tonnes;1523368;null;Official data
+Austria;AT;15;Wheat;2010;tonnes;1517805;null;Official data
+Latvia;LV;15;Wheat;2014;tonnes;1467500;null;Official data
+Greece;EL;15;Wheat;2015;tonnes;1458705;null;Official data
+Austria;AT;15;Wheat;2017;tonnes;1437143;null;Official data
+Latvia;LV;15;Wheat;2013;tonnes;1435000;null;Official data
+Latvia;LV;15;Wheat;2018;tonnes;1431600;null;Official data
+Netherlands;NL;15;Wheat;2009;tonnes;1402040;null;Official data
+Belgium;BE;15;Wheat;2016;tonnes;1400074;null;Official data
+Netherlands;NL;15;Wheat;2010;tonnes;1369553;null;Official data
+Austria;AT;15;Wheat;2018;tonnes;1367060;null;Official data
+Greece;EL;15;Wheat;2017;tonnes;1356772;null;Official data
+Netherlands;NL;15;Wheat;2013;tonnes;1335105;null;Official data
+Netherlands;NL;15;Wheat;2014;tonnes;1304054;null;Official data
+Netherlands;NL;15;Wheat;2012;tonnes;1302002;null;Official data
+Netherlands;NL;15;Wheat;2015;tonnes;1300085;null;Official data
+Austria;AT;15;Wheat;2012;tonnes;1275498;null;Official data
+Slovakia;SK;15;Wheat;2012;tonnes;1275302;null;Official data
+Slovakia;SK;15;Wheat;2010;tonnes;1185286;null;Official data
+Netherlands;NL;15;Wheat;2011;tonnes;1175275;null;Official data
+Netherlands;NL;15;Wheat;2019;tonnes;1130530;null;Official data
+Finland;FI;15;Wheat;2014;tonnes;1088200;null;Official data
+Greece;EL;15;Wheat;2018;tonnes;1072940;null;Official data
+Netherlands;NL;15;Wheat;2017;tonnes;1054151;null;Official data
+Latvia;LV;15;Wheat;2009;tonnes;1036400;null;Official data
+Netherlands;NL;15;Wheat;2016;tonnes;1016479;null;Official data
+Croatia;HR;15;Wheat;2012;tonnes;999681;null;Official data
+Croatia;HR;15;Wheat;2013;tonnes;998940;null;Official data
+Finland;FI;15;Wheat;2015;tonnes;992100;null;Official data
+Latvia;LV;15;Wheat;2010;tonnes;989400;null;Official data
+Greece;EL;15;Wheat;2019;tonnes;979220;null;Official data
+Finland;FI;15;Wheat;2011;tonnes;974800;null;Official data
+Croatia;HR;15;Wheat;2016;tonnes;969050;null;Official data
+Netherlands;NL;15;Wheat;2018;tonnes;961920;null;Official data
+Latvia;LV;15;Wheat;2011;tonnes;939500;null;Official data
+Croatia;HR;15;Wheat;2009;tonnes;936076;null;Official data
+Ireland;IE;15;Wheat;2011;tonnes;929200;null;Official data
+Finland;FI;15;Wheat;2019;tonnes;914180;null;Official data
+Finland;FI;15;Wheat;2012;tonnes;887100;null;Official data
+Finland;FI;15;Wheat;2009;tonnes;887000;null;Official data
+Finland;FI;15;Wheat;2013;tonnes;869400;null;Official data
+Estonia;EE;15;Wheat;2019;tonnes;846580;null;Official data
+Finland;FI;15;Wheat;2016;tonnes;823900;null;Official data
+Estonia;EE;15;Wheat;2015;tonnes;812600;null;Official data
+Croatia;HR;15;Wheat;2019;tonnes;803270;null;Official data
+Finland;FI;15;Wheat;2017;tonnes;802000;null;Official data
+Croatia;HR;15;Wheat;2011;tonnes;782499;null;Official data
+Croatia;HR;15;Wheat;2015;tonnes;758638;null;Official data
+Croatia;HR;15;Wheat;2018;tonnes;753060;null;Official data
+Finland;FI;15;Wheat;2010;tonnes;724400;null;Official data
+Ireland;IE;15;Wheat;2014;tonnes;717000;null;Official data
+Estonia;EE;15;Wheat;2017;tonnes;713263;null;Official data
+Ireland;IE;15;Wheat;2012;tonnes;707900;null;Official data
+Ireland;IE;15;Wheat;2015;tonnes;696600;null;Official data
+Ireland;IE;15;Wheat;2009;tonnes;690100;null;Official data
+Croatia;HR;15;Wheat;2017;tonnes;687595;null;Official data
+Ireland;IE;15;Wheat;2017;tonnes;681679;null;Official data
+Croatia;HR;15;Wheat;2010;tonnes;681017;null;Official data
+Ireland;IE;15;Wheat;2010;tonnes;669200;null;Official data
+Croatia;HR;15;Wheat;2014;tonnes;648917;null;Official data
+Ireland;IE;15;Wheat;2016;tonnes;647700;null;Official data
+Estonia;EE;15;Wheat;2014;tonnes;615500;null;Official data
+Ireland;IE;15;Wheat;2019;tonnes;595360;null;Official data
+Ireland;IE;15;Wheat;2013;tonnes;545300;null;Official data
+Finland;FI;15;Wheat;2018;tonnes;501600;null;Official data
+Ireland;IE;15;Wheat;2018;tonnes;485480;null;Official data
+Estonia;EE;15;Wheat;2012;tonnes;484700;null;Official data
+Estonia;EE;15;Wheat;2016;tonnes;455543;null;Official data
+Estonia;EE;15;Wheat;2018;tonnes;450270;null;Official data
+Estonia;EE;15;Wheat;2013;tonnes;406800;null;Official data
+Estonia;EE;15;Wheat;2011;tonnes;360400;null;Official data
+Estonia;EE;15;Wheat;2009;tonnes;342520;null;Official data
+Estonia;EE;15;Wheat;2010;tonnes;327600;null;Official data
+Slovenia;SL;15;Wheat;2012;tonnes;188065;null;Official data
+Slovenia;SL;15;Wheat;2014;tonnes;173245;null;Official data
+Slovenia;SL;15;Wheat;2016;tonnes;163165;null;Official data
+Slovenia;SL;15;Wheat;2015;tonnes;157058;null;Official data
+Slovenia;SL;15;Wheat;2011;tonnes;153575;null;Official data
+Slovenia;SL;15;Wheat;2010;tonnes;153481;null;Official data
+Slovenia;SL;15;Wheat;2017;tonnes;140961;null;Official data
+Slovenia;SL;15;Wheat;2019;tonnes;139810;null;Official data
+Slovenia;SL;15;Wheat;2013;tonnes;138235;null;Official data
+Slovenia;SL;15;Wheat;2009;tonnes;136904;null;Official data
+Portugal;PT;15;Wheat;2009;tonnes;124146;null;Official data
+Slovenia;SL;15;Wheat;2018;tonnes;121900;null;Official data
+Portugal;PT;15;Wheat;2014;tonnes;98794;null;Official data
+Portugal;PT;15;Wheat;2013;tonnes;92014;null;Official data
+Luxembourg;LU;15;Wheat;2015;tonnes;91058;null;Official data
+Luxembourg;LU;15;Wheat;2013;tonnes;91057;null;Official data
+Luxembourg;LU;15;Wheat;2009;tonnes;90903;null;Official data
+Portugal;PT;15;Wheat;2016;tonnes;90017;null;Official data
+Luxembourg;LU;15;Wheat;2010;tonnes;83474;null;Official data
+Portugal;PT;15;Wheat;2010;tonnes;82577;null;Official data
+Luxembourg;LU;15;Wheat;2019;tonnes;82260;null;Official data
+Portugal;PT;15;Wheat;2015;tonnes;80393;null;Official data
+Luxembourg;LU;15;Wheat;2018;tonnes;79650;null;Official data
+Luxembourg;LU;15;Wheat;2012;tonnes;79198;null;Official data
+Luxembourg;LU;15;Wheat;2014;tonnes;77943;null;Official data
+Luxembourg;LU;15;Wheat;2017;tonnes;77781;null;Official data
+Portugal;PT;15;Wheat;2019;tonnes;77070;null;Official data
+Luxembourg;LU;15;Wheat;2011;tonnes;76839;null;Official data
+Portugal;PT;15;Wheat;2018;tonnes;70110;null;Official data
+Luxembourg;LU;15;Wheat;2016;tonnes;70069;null;Official data
+Portugal;PT;15;Wheat;2017;tonnes;59610;null;Official data
+Portugal;PT;15;Wheat;2012;tonnes;58990;null;Official data
+Portugal;PT;15;Wheat;2011;tonnes;51003;null;Official data
+Cyprus;CY;15;Wheat;2015;tonnes;35356;null;Official data
+Cyprus;CY;15;Wheat;2019;tonnes;29470;null;Official data
+Cyprus;CY;15;Wheat;2011;tonnes;23740;null;Official data
+Cyprus;CY;15;Wheat;2012;tonnes;22923;null;Official data
+Cyprus;CY;15;Wheat;2010;tonnes;18889;null;Official data
+Cyprus;CY;15;Wheat;2017;tonnes;16592;null;Official data
+Cyprus;CY;15;Wheat;2018;tonnes;15330;null;Official data
+Cyprus;CY;15;Wheat;2013;tonnes;15181;null;Official data
+Cyprus;CY;15;Wheat;2009;tonnes;14690;null;Official data
+Cyprus;CY;15;Wheat;2016;tonnes;6902;null;Official data
+Cyprus;CY;15;Wheat;2014;tonnes;4445;null;Official data
+Malta;MT;15;Wheat;2018;tonnes;0;null;Official data
+Malta;MT;15;Wheat;2019;tonnes;0;null;Official data
