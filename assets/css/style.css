@@ -722,6 +722,7 @@ section {
   min-width: none;
   min-height: 20em !important;
   padding-top: 8.5em;
+  overflow: scroll;
 }
 
 .hide_map{
@@ -738,6 +739,7 @@ section {
   min-width: none;
   min-height: 20em !important;
   padding-top: 8.5em;
+  overflow: scroll;
 }
 
 .hide_chart{
@@ -753,6 +755,7 @@ section {
   min-width: none;
   min-height: 20em !important;
   padding-top: 8.5em;
+  overflow: scroll;
 }
 
 .hide_graph{
