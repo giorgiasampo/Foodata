@@ -8,7 +8,7 @@
 @prefix prov: <http://www.w3.org/ns/prov#>. 
 
 dcat:Dataset	dct:description	"This dataset contains data from the European Union regarding water and air pollution, greenhouse gas emissions, land use and soil erosion for due to agriculture and forestry and irrigable/irrigated lands in EU countries.";
-		dct:title	"DATASET TITLE";
+		dct:title	"Foodata pollution dataset";
 		dcat:contactPoint	vcard:Group;
 		dcat:distribution	dcat:Distribution;
 		dcat:keyword	"agriculture";
@@ -23,11 +23,12 @@ dcat:Dataset	dct:description	"This dataset contains data from the European Union
 		dct:spatial	<https://dbpedia.org/page/Europe>;
 		dct:temporal	dct:PeriodOfTime;
 		dcat:theme	<http://publications.europa.eu/resource/authority/data-theme/ENVI>;
+		dcat:theme	<http://publications.europa.eu/resource/authority/data-theme/AGRI>;
 		dct:accessRights	"Open";	
 		dct:creator 	foaf:Person;
 		dct:creator 	foaf:Person;
 		dct:creator 	foaf:Person;
-		foaf:page	<NAME OF THE PAGE>;
+		foaf:page	<https://github.com/giorgiasampo/Foodata/edit/main/dcat_ap-rdf/pollution-landuse-soilerosion-rdf.ttl>;
 		dct:accrualPeriodicity	<http://publications.europa.eu/resource/authority/frequency/ANNUAL>;
 	 	dct:identifier	<IDENTIFIER>;
 		dct:language	<http://publications.europa.eu/resource/authority/language/ENG>;
@@ -44,11 +45,11 @@ dcat:Dataset	dct:description	"This dataset contains data from the European Union
 dct:PeriodOfTime	dcat:startDate	"2009";
 			dcat:endDate	"2019".
 
-dcat:Distribution	dcat:accessURL	<NAME OF THE PAGE>;
+dcat:Distribution	dcat:accessURL	<https://github.com/giorgiasampo/Foodata/edit/main/dcat_ap-rdf/pollution-landuse-soilerosion-rdf.ttl>;
 			dct:format	<http://publications.europa.eu/resource/authority/file-type/XML>;		
 			dct:license	<https://creativecommons.org/licenses/by-sa/4.0/>;
 			dcat:byteSize	"5,564 KB";
-			dcat:downloadURL	<NAME OF THE PAGE>;
+			dcat:downloadURL	<https://github.com/giorgiasampo/Foodata/edit/main/dcat_ap-rdf/pollution-landuse-soilerosion-rdf.ttl>;
 			adms:status	<http://purl.org/adms/status/Completed>.
 
 foaf:Person	foaf:name	"Giorgia Sampó".

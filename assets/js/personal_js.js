@@ -32,6 +32,17 @@ function visualize_graph(graph_name){
     display_adjuster('graph')
 }
 
+function visualize_metadata(metadata_name){
+    if (document.getElementById(metadata_name).classList.contains("hide_metadata")){
+        document.getElementById(metadata_name).classList.remove("hide_metadata");
+        document.getElementById(metadata_name).classList.add("display_metadata");
+    } else {
+        document.getElementById(metadata_name).classList.add("hide_metadata");
+        document.getElementById(metadata_name).classList.remove("display_metadata");
+    }
+    display_adjuster('metadata')
+}
+
 var col_num;
 
 function display_adjuster(reference_class){
