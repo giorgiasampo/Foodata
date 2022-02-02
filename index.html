@@ -502,12 +502,10 @@
         </div>
         <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-up">
         <p class="fst-italic">
-          FOOData was created for the Open Access and Digital Ethics exam by Vanessa Bonanno, Giorgia Sampò, and Sarah Tew.<br>
-          FOOData explores food production, pollution, and health markers within Europe both individually and together to get a clearer picture of their interlation.<br>
-          FOOData uses geospatial visualizations to reconnect users with the geographic reality of food production and pollution.
+          FOOData was created for the Open Access and Digital Ethics exam by Vanessa Bonanno, Giorgia Sampò, and Sarah Tew.FOOData explores food production, pollution, and health markers within Europe both individually and together to get a clearer picture of their interlation. FOOData uses geospatial visualizations to reconnect users with the geographic reality of food production and pollution.
         </p>
         <p class="fst-italic">
-          FOODATA relies on 9 different datasets: 
+          FOODATA relies on 8 different datasets: 
             <ul>
             <li><i class=" bi bi-check"></i> <a href="https://www.fao.org/faostat/en/#data/QCL/visualize" target="_blank">Crops and Livestock Products</a></li>
             <li><i class="bi bi-check"></i> <a href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_gge&lang=en" target="_blank">Greenhouse gas emissions (Eurostat for EEA)</a> </li>
@@ -621,26 +619,26 @@
         </div>
         <div class="col-md-8 pt-5" data-aos="fade-up">
           <h3>LIFE EXPECTANCY ACROSS EUROPE</h3>
-          <p>FOOData uses life-expectancy to indicate overall population health. This data comes from Eurostat: <a href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=demo_r_mlifexp" target="_blank">Life expectancy by age, sex and NUTS 2 region</a>. The original dataset contained life expectancies by age, sex, NUTS 2, NUTS 1, and NUTS 0 regions from 1990 to 2019. 
+          <p>FOOData uses life-expectancy to indicate overall population health. This data comes from Eurostat: <a href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=demo_r_mlifexp" target="_blank">Life expectancy by age, sex and NUTS 2 region</a>. The original dataset contained life expectancies by age, sex, NUTS 2, NUTS 1, and NUTS 0 regions from 1990 to 2019. The <a href="https://github.com/giorgiasampo/Foodata/blob/main/datasets/life_expectancy.csv" target="_blank">FOOData edited dataset</a> limits the Eurostat data to life expectancy at birth from 2010-2019 in current EU member countries.
           <h4>Data availability</h4>
           <p>
             The dataset was overall of high quality however there were gaps for some regions, including in all of Germany and the Netherlands above the NUTS 0 level until 2002, Denmark until 2007, Ireland until 2013, some but not all regions of Poland until 2013. Data was also overall less consistently available for regions outside the EU but included in the dataset, including Iceland, Liechtenstein, Norway, Switzerland, the UK, Montenegro, North Macedonia, Albania, Serbia, and Turkey. To mitigate this issue the final dataset was limited to current, full EU member states from 2010-2019. For more specific information on Eurostat's use of the NUTS regions with demographic data please see Eurostat's <a href="https://ec.europa.eu/eurostat/cache/metadata/en/demo_r_gind3_esms.htm" target="_blank">metadata</a>.
 
-            <br>The original dataset also included life expectancies by age measured annually from age 0 to 84 and then in one group of 85+. The final dataset used in FOOData only looks at life expectancy in the first group. This is for clarity since FOOData is concerned with general health markers and the environment; shifts in life-expectancies over the human lifetime are less useful when understanding the impact of the physical environment on health without significant other demographic and environmental data.
+          </p><p>The original dataset also included life expectancies by age measured annually from age 0 to 84 and then in one group of 85+. The final dataset used in FOOData only looks at life expectancy in the first group. This is for clarity since FOOData is concerned with general health markers and the environment; shifts in life-expectancies over the human lifetime are less useful when understanding the impact of the physical environment on health without significant other demographic and environmental data.
 
-            <br>The data was equally available for men and women and included the average via "total".
+          </p><p>The data was equally available for men and women and included the average via "total".
 
-            <br>Although last updated in 2021, it is unspecified why data after 2019 is unavailable. Because COVID-19 had a significant and anonymous impact on health, pollution, and food production in Europe data from after 2019 has been excluded from FOOData.
+          </p><p>Although last updated in 2021, it is unspecified why data after 2019 is unavailable. Because COVID-19 had a significant and anonymous impact on health, pollution, and food production in Europe data from after 2019 has been excluded from FOOData.
 
-            <br>The edited life expectancy dataset used in FOOData will not be updated in the future.</p>
+          </p><p>The edited life expectancy dataset used in FOOData will not be updated in the future.</p>
             
           <h4>Data Quality</h4>
           <p>
             Life expectancy is frequently used as an overall population health indicator. Informed by many environmental, socio-economic, educational and other factors, life expectancy is relatively easy to calculate and collect accurately.
 
-            <br>Eurostat's dataset in particular is of very high quality since EU member states share collection, measurement, and reporting <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Eurostat_and_the_European_Statistical_System#European_Statistical_System_.28ESS.29" target="_blank">standards</a>. It is also exhaustive and seeks to represent member states and their regions equally, although, as mentioned previously, there are some gaps, especially before 2010. 
+          </p><p>Eurostat's dataset in particular is of very high quality since EU member states share collection, measurement, and reporting <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Eurostat_and_the_European_Statistical_System#European_Statistical_System_.28ESS.29" target="_blank">standards</a>. It is also exhaustive and seeks to represent member states and their regions equally, although, as mentioned previously, there are some gaps, especially before 2010. 
           </p>
-        <h4>Legal analysis<h4>
+        <h4>Legal analysis</h4>
           <p> The original and edited datasets are licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY 4.0</a> and open for distribution and reuse. The data was originally collected with the express intent to publish and share. There is no legal impediment to reproducing or remixing this data.
           </p>
           <h4>Ethical analysis</h4>
