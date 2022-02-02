@@ -504,22 +504,21 @@
         <p class="fst-italic">
           FOOData was created for the Open Access and Digital Ethics exam by Vanessa Bonanno, Giorgia Sampò, and Sarah Tew.<br>
           FOOData explores food production, pollution, and health markers within Europe both individually and together to get a clearer picture of their interlation.<br>
+          FOOData uses geospatial visualizations to reconnect users with the geographic reality of food production and pollution.
         </p>
         <p class="fst-italic">
           FOODATA relies on 9 different datasets: 
             <ul>
-              <li>Production of 10 different foods</li>
-              <li>Environmental Impact of the food chain</li>
-              <li>Greenhouse gas emissions</li>
-              <li>Soil erosion</li>
-              <li>Air pollution</li>
-              <li>Water pollution</li>
-              <li>Farm type and size</li>
-              <li>Water usage for farming</li>
-              <li>Life expectancy</li>
-            </ul>
-          FOOData, which uses geospatial visualizations to present this data, seeks to reconnect users with the physical and geographic reality of food production and pollution. Modern supply-chains and logistics often obscure where food actually comes from and the environmental costs of its production from consumers.<br>
-          FOOData seeks to change that in a small way by allowing users to interact with the visualizations and examine food production, pollution, and health across the EU.
+            <li><i class=" bi bi-check"></i> <a href="https://www.fao.org/faostat/en/#data/QCL/visualize" target="_blank">Crops and Livestock Products</a></li>
+            <li><i class="bi bi-check"></i> <a href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_gge&lang=en" target="_blank">Greenhouse gas emissions (Eurostat for EEA)</a> </li>
+            <li><i class="bi bi-check"></i> <a href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_emis&lang=en" target="_blank"> Pollution (Eurostat for EEA)</a> </li>
+            <li><i class="bi bi-check"></i> <a href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=aei_pr_soiler&lang=en" target="_blank">Soil Erosion (Eurostat for JRC)</a></li>
+            <li><i class="bi bi-check"></i> <a href="https://www.eea.europa.eu/ims/ecological-status-of-surface-waters" target="_blank">Water Pollution (EEA)</a></li>
+            <li><i class="bi bi-check"></i> <a href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=aei_ps_inp&lang=en" target="_blank">Agricultural Area By Farm Type (Eurostat for FADN)</a></li>
+            <li><i class="bi bi-check"></i> <a href="https://data.europa.eu/data/datasets/arinrajid0ph6h0uozi8w?locale=en" target="_blank">Share of irrigable and irrigated areas in utilised agricultural area (Eurostat)</a></li>
+            <li><i class=" bi bi-check"></i> <a href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=demo_r_mlifexp" target="_blank">Life expectancy by age, sex and NUTS 2 region</a></li>
+          </ul>
+          
         </p>
         </div>
       </div>
@@ -621,18 +620,36 @@
           <img src="assets/img/details-4.png" class="img-fluid" alt="">
         </div>
         <div class="col-md-8 pt-5" data-aos="fade-up">
-          <h3>HERE GOES THE DOCUMENTATION ABOUT HEALTH DATASETS.</h3>
-          <ul>
-            <li><i class="bi bi-check"></i> Want to connect cancer rates to land use levels related to agriculture? Why not!</li>
-            <li><i class="bi bi-check"></i> Ammonia levels in the air links to irrigable surface for country? Absolutely!</li>
-            <li><i class="bi bi-check"></i> Water pollution is related to production of lemons? Sure is!</li>
-          </ul>
+          <h3>LIFE EXPECTANCY ACROSS EUROPE</h3>
+          <p>FOOData uses life-expectancy to indicate overall population health. This data comes from Eurostat: <a href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=demo_r_mlifexp" target="_blank">Life expectancy by age, sex and NUTS 2 region</a>. The original dataset contained life expectancies by age, sex, NUTS 2, NUTS 1, and NUTS 0 regions from 1990 to 2019. 
+          <h4>Data availability</h4>
           <p>
-            Doesn't seem right to you? Well its just because you are dumb as a rock. Correlate stuff. It is all you need to be happy.
-          </p>
+            The dataset was overall of high quality however there were gaps for some regions, including in all of Germany and the Netherlands above the NUTS 0 level until 2002, Denmark until 2007, Ireland until 2013, some but not all regions of Poland until 2013. Data was also overall less consistently available for regions outside the EU but included in the dataset, including Iceland, Liechtenstein, Norway, Switzerland, the UK, Montenegro, North Macedonia, Albania, Serbia, and Turkey. To mitigate this issue the final dataset was limited to current, full EU member states from 2010-2019. For more specific information on Eurostat's use of the NUTS regions with demographic data please see Eurostat's <a href="https://ec.europa.eu/eurostat/cache/metadata/en/demo_r_gind3_esms.htm" target="_blank">metadata</a>.
+
+            <br>The original dataset also included life expectancies by age measured annually from age 0 to 84 and then in one group of 85+. The final dataset used in FOOData only looks at life expectancy in the first group. This is for clarity since FOOData is concerned with general health markers and the environment; shifts in life-expectancies over the human lifetime are less useful when understanding the impact of the physical environment on health without significant other demographic and environmental data.
+
+            <br>The data was equally available for men and women and included the average via "total".
+
+            <br>Although last updated in 2021, it is unspecified why data after 2019 is unavailable. Because COVID-19 had a significant and anonymous impact on health, pollution, and food production in Europe data from after 2019 has been excluded from FOOData.
+
+            <br>The edited life expectancy dataset used in FOOData will not be updated in the future.</p>
+            
+          <h4>Data Quality</h4>
           <p>
-            And one more thing: if it does't make sense it's still because you are an idiot.
+            Life expectancy is frequently used as an overall population health indicator. Informed by many environmental, socio-economic, educational and other factors, life expectancy is relatively easy to calculate and collect accurately.
+
+            <br>Eurostat's dataset in particular is of very high quality since EU member states share collection, measurement, and reporting <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Eurostat_and_the_European_Statistical_System#European_Statistical_System_.28ESS.29" target="_blank">standards</a>. It is also exhaustive and seeks to represent member states and their regions equally, although, as mentioned previously, there are some gaps, especially before 2010. 
           </p>
+        <h4>Legal analysis<h4>
+          <p> The original and edited datasets are licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY 4.0</a> and open for distribution and reuse. The data was originally collected with the express intent to publish and share. There is no legal impediment to reproducing or remixing this data.
+          </p>
+          <h4>Ethical analysis</h4>
+          <p>Life expectancy is an oft-used measure of health partly because it is much less sensitive and private than other health data. As an average it gives information about the population as a whole rather than individual members and does not pose individual privacy risks.
+          </p>
+          <h5>Gender</h5>
+          <p>This dataset is largely free of gender bias, however recently binary gender classification into male and female has come under re-evaluation. That being said, the EU member states are bound by the same statistics reporting standards so the dataset is at least consistent in its use of two and only two genders.
+          </p>
+
         </div>
       </div>
 
@@ -644,7 +661,7 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>Team</h2>
-          <p>Our Awesome Team</p>
+          <p>The FOOData Team</p>
         </div>
 
         <div class="row" data-aos="fade-left">
@@ -654,12 +671,10 @@
               <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Sarah Tew</h4>
-                <span>Magical toothfairies Expert</span>
+                <span>MA student, Digital Humanities and Digital Knowledge, University of Bologna</span>
+                <span>BA in Classics and Art History, New College of Florida</span>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/sarah-tew-31237a105/"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
             </div>
