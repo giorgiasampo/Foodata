@@ -718,10 +718,26 @@ section {
   background: rgba(174, 236, 58, 0.5);
 }
 
+.features .dropdown-toggle{
+  width: 100%;
+  border: none;
+  background: rgba(174, 236, 58, 0.2);
+  padding: 1em;
+}
+
+.features .dropdown-menu.show{
+  width: 70%;
+  border: solid 4px rgba(255, 255, 255, 0.91);
+  background: #aeec3a;
+  padding: 1em;
+}
+
+.clear{
+  height: 7em;
+}
+
 .map{
-  min-width: none;
-  min-height: 20em !important;
-  padding-top: 8.5em;
+  height: 60em;
   overflow: scroll;
 }
 
@@ -731,6 +747,7 @@ section {
 
 .display_map{
   display: block !important;
+  height: 100%;
 }
 
 

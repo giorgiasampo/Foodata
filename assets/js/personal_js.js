@@ -1,5 +1,10 @@
 function visualize_map(map_name){
-    if (document.getElementById(map_name).classList.contains("hide_map")){
+    if (map_name=="all"){
+        document.getElementsByClassName("map")[0].classList.add("hide_map");
+        document.getElementsByClassName("map")[1].classList.add("hide_map");
+        document.getElementsByClassName("map")[2].classList.add("hide_map");
+    }
+    else if (document.getElementById(map_name).classList.contains("hide_map")){
         document.getElementById(map_name).classList.remove("hide_map");
         document.getElementById(map_name).classList.add("display_map");
     } else {
