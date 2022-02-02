@@ -719,7 +719,8 @@ section {
 }
 
 .map{
-  height: 20em !important;
+  min-width: none;
+  min-height: 20em !important;
   padding-top: 8.5em;
   overflow: scroll;
 }
@@ -732,18 +733,11 @@ section {
   display: block !important;
 }
 
-#production{
-  background-color: #1acc8d;
-}
-#pollution{
-  background-color: #ccc01a;
-}
-#health{
-  background-color: #cc1a6d;
-}
+
 
 .chart{
-  height: 20em !important;
+  min-width: none;
+  min-height: 20em !important;
   padding-top: 8.5em;
   overflow: scroll;
 }
@@ -756,8 +750,10 @@ section {
   display: block !important;
 }
 
+
 .graph{
-  height: 20em !important;
+  min-width: none;
+  min-height: 20em !important;
   padding-top: 8.5em;
   overflow: scroll;
 }
