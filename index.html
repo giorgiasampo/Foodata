@@ -514,7 +514,7 @@
           <div class="col-md-8 pt-4" data-aos="fade-up">
             <h3>Crops and livestock production in European countries</h3>
             <p class="fst-italic">
-              The production section is based on data found at FAOSTAT, the Food and Agriculture Organization Corporate Statistical Database
+              The production section is based on data found at <a href="https://www.fao.org/faostat/en/#home" target="_blank">FAOSTAT</a>, the Food and Agriculture Organization Corporate Statistical Database
               maintained by the statistics division of the Food and Agriculture Organization of the United Nations.
             </p>
 
@@ -522,26 +522,46 @@
               FAOSTAT presents a huge dataset on food and agriculture with data from 
               over 245 countries and territories with a time span which goes from 1961 
               to 2020. Data are divided into 13 diverse domains, such as trade, prices, population and employment, 
-              but also forestry, land, climate change and food production. 
+              but also forestry, land, climate change and <a href="https://www.fao.org/faostat/en/#data/QCL" target="_blank">food production</a>. In turn, food production 
+              is divided in three main categories: <span class="fw-bold">Crops and livestock products</span>, Production indices, Value of agricultural production.
             </p>
 
-            <p>
-              We decided to include some data about the most common and most produced foods in Europe in order to visualise trends and areas of major production. 
-              Between the vast variety of foods we have chosen the following:  
+            <h4>Original dataset</h4>
+            <p><a href="https://www.fao.org/faostat/en/#data/QCL" target="_blank">Crop statistics</a> are recorded for 173 products, covering a huge variety of categories:
+               Crops Primary,
+               Fibre Crops Primary, Cereals, Coarse Grain, Fruit, and more. Data are expressed in terms of area harvested,
+                production quantity and yield. The objective is to cover the production of all primary crops for all countries and regions in the world.
             </p>
+
+            <p>About Livestock products, the user can select data between three main domains: Live animals, Livestock primary and Livestock processed.
+               Due to the great amount of categories and the fact that certain types of production are not common in Europe, or even non-existent (e.g., camel meat),
+                we opted for the most common and most produced foods in Europe.</p>
+
+            <p>The time span which FAOSTAT proposes goes from 1961 to 2020. In this case we narrowed it to a period of 10 years and did not include 2020,
+               as explained <a href="#covid">below</a>.</p>
+               
+            <h4>Foodata production dataset</h4>  
+            <p>The final information in Foodata production csv file is:</p>
+            
             <ul>
-              <li><i class="bi bi-check"></i>Cheese, whole cow milk</li>
-              <li><i class="bi bi-check"></i>Eggs, hen, in shell</li>
-              <li><i class="bi bi-check"></i>Meat, cattle</li>
-              <li><i class="bi bi-check"></i>Meat, chicken</li>
-              <li><i class="bi bi-check"></i>Meat, pig</li>  
-              <li><i class="bi bi-check"></i>Milk, whole fresh cow</li> 
-              <li><i class="bi bi-check"></i>Potatoes</li>  
-              <li><i class="bi bi-check"></i>Rice, paddy</li>  
-              <li><i class="bi bi-check"></i>Wheat</li>
+              <li><i class="bi bi-check"></i>Geographical area</li>
+              <li><i class="bi bi-check"></i><a href="https://ec.europa.eu/eurostat/web/nuts/nuts-maps" target="_blank">NUTS 0</a></li>
+              <li><i class="bi bi-check"></i><a href="https://www.fao.org/faostat/en/#definitions" target="_blank">FAO item codes</a></li>
+              <li><i class="bi bi-check"></i>Production items</li>
+              <li><i class="bi bi-check"></i>Year</li>
+              <li><i class="bi bi-check"></i>Unit (tonnes)</li>
+              <li><i class="bi bi-check"></i>Value</li>
+              <li><i class="bi bi-check"></i>Flag</li>
+              <li><i class="bi bi-check"></i>Flag description</li>
             </ul>
+
+            <p>Between the vast variety of foods, the chosen items are: cow milk; whole cow milk cheese; eggs, hen, in shell; cattle, 
+              chicken and pig meat; potatoes; rice; wheat. how production trends changed from 2009 until 2019. 
+            </p>
+            
             <p>
             </p>
+            
           </div>
         </div>
 
@@ -618,7 +638,7 @@
           <p>
             The dataset was overall of high quality however there were gaps for some regions, including in all of Germany and the Netherlands above the NUTS 0 level until 2002, Denmark until 2007, Ireland until 2013, some but not all regions of Poland until 2013. Data was also overall less consistently available for regions outside the EU but included in the dataset, including Iceland, Liechtenstein, Norway, Switzerland, the UK, Montenegro, North Macedonia, Albania, Serbia, and Turkey. To mitigate this issue the final dataset was limited to current, full EU member states from 2010-2019. For more specific information on Eurostat's use of the NUTS regions with demographic data please see Eurostat's <a href="https://ec.europa.eu/eurostat/cache/metadata/en/demo_r_gind3_esms.htm" target="_blank">metadata</a>.
 
-          </p><p>The original dataset also included life expectancies by age measured annually from age 0 to 84 and then in one group of 85+. The final dataset used in FOOData only looks at life expectancy in the first group. This is for clarity since FOOData is concerned with general health markers and the environment; shifts in life-expectancies over the human lifetime are less useful when understanding the impact of the physical environment on health without significant other demographic and environmental data.
+          </p><p id="covid">The original dataset also included life expectancies by age measured annually from age 0 to 84 and then in one group of 85+. The final dataset used in FOOData only looks at life expectancy in the first group. This is for clarity since FOOData is concerned with general health markers and the environment; shifts in life-expectancies over the human lifetime are less useful when understanding the impact of the physical environment on health without significant other demographic and environmental data.
 
           </p><p>The data was equally available for men and women and included the average via "total".
 
