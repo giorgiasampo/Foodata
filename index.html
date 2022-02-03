@@ -39,7 +39,7 @@
   ======================================================== -->
 </head>
 
-<body  onload="visualize_map('all')">
+<body  onload="visualize_map('all', 'map')">
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center header-transparent">
@@ -188,19 +188,19 @@
           <div class="col-lg-4 col-md-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="50">
               <i class="ri-store-line" style="color: #ffbb2c;"></i>
-              <h3><a onclick="visualize_map('production')">Production Map</a></h3>
+              <h3><a onclick="visualize_map('production', 'map')">Production Map</a></h3>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
               <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-              <h3><a onclick="visualize_map('pollution')">Pollution Map</a></h3>
+              <h3><a onclick="visualize_map('pollution', 'map')">Pollution Map</a></h3>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="150">
               <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-              <h3><a onclick="visualize_map('health')">Health Map</a></h3>
+              <h3><a onclick="visualize_map('health', 'map')">Health Map</a></h3>
             </div>
           </div>
         </div>
@@ -262,8 +262,6 @@
                 var divElement = document.getElementById('viz1643839804681');                    
                 var vizElement = divElement.getElementsByTagName('object')[0];                    
                 if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-
-
           </div>
         </div>
 
@@ -416,21 +414,21 @@
           <div class="col-lg-4 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
               <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-              <h3><a onclick="visualize_metadata('metadata_1')">Checklist</a></h3>
+              <h3><a onclick="visualize_map('metadata_1', 'metadata')">Checklist</a></h3>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-4 mt-4">
               <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
                 <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-                <h3><a onclick="visualize_metadata('metadata_2')">Original Datasets Metadata</a></h3>
+                <h3><a onclick="visualize_map('metadata_2', 'metadata')">Original Datasets Metadata</a></h3>
               </div>
           </div>
 
           <div class="col-lg-4 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
               <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-              <h3><a onclick="visualize_metadata('metadata_3')">Final Datasets Metadata</a></h3>
+              <h3><a onclick="visualize_map('metadata_3', 'metadata')">Final Datasets Metadata</a></h3>
             </div>
           </div>
         </div>

@@ -1,17 +1,22 @@
-function visualize_map(map_name){
+function visualize_map(map_name,map_class){
     if (map_name=="all"){
-        document.getElementsByClassName("map")[0].classList.add("hide_map");
-        document.getElementsByClassName("map")[1].classList.add("hide_map");
-        document.getElementsByClassName("map")[2].classList.add("hide_map");
+        to_hide = document.getElementsByClassName(map_class)[0].classList.add("hide_"+map_class);
+        document.getElementsByClassName(map_class)[1].classList.add("hide_"+map_class);
+        document.getElementsByClassName(map_class)[2].classList.add("hide_"+map_class);
     }
-    else if (document.getElementById(map_name).classList.contains("hide_map")){
-        document.getElementById(map_name).classList.remove("hide_map");
-        document.getElementById(map_name).classList.add("display_map");
+    else if (document.getElementById(map_name).classList.contains("hide_"+map_class)){
+        document.getElementsByClassName(map_class)[0].classList.add("hide_"+map_class);
+        document.getElementsByClassName(map_class)[1].classList.add("hide_"+map_class);
+        document.getElementsByClassName(map_class)[2].classList.add("hide_"+map_class);
+        document.getElementsByClassName(map_class)[0].classList.remove("display_"+map_class);
+        document.getElementsByClassName(map_class)[1].classList.remove("display_"+map_class);
+        document.getElementsByClassName(map_class)[2].classList.remove("display_"+map_class);
+        document.getElementById(map_name).classList.remove("hide_"+map_class);
+        document.getElementById(map_name).classList.add("display_"+map_class);
     } else {
-        document.getElementById(map_name).classList.add("hide_map");
-        document.getElementById(map_name).classList.remove("display_map");
+        document.getElementById(map_name).classList.add("hide_"+map_class);
+        document.getElementById(map_name).classList.remove("display_"+map_class);
     }
-    display_adjuster('map')
 }
 
 function visualize_chart(chart_name){
@@ -37,16 +42,6 @@ function visualize_graph(graph_name){
     display_adjuster('graph')
 }
 
-function visualize_metadata(metadata_name){
-    if (document.getElementById(metadata_name).classList.contains("hide_metadata")){
-        document.getElementById(metadata_name).classList.remove("hide_metadata");
-        document.getElementById(metadata_name).classList.add("display_metadata");
-    } else {
-        document.getElementById(metadata_name).classList.add("hide_metadata");
-        document.getElementById(metadata_name).classList.remove("display_metadata");
-    }
-    display_adjuster('metadata')
-}
 
 var col_num;
 
