@@ -1,0 +1,2403 @@
+TIME,GEO_NAME,GEO,IRRIGATION,CROPS,RDB_CODE,RDB_NAME,WATER_POL_PERCENTAGE
+2010,AT,Austria,Irrigable,3.2,Null,Null,Null
+2010,AT,Austria,Irrigated,0.9,Null,Null,Null
+2010,AT11,Burgenland,Irrigable,12.2,Null,Null,Null
+2010,AT11,Burgenland,Irrigated,3.9,Null,Null,Null
+2010,AT12,Lower Austria,Irrigable,6.7,Null,Null,Null
+2010,AT12,Lower Austria,Irrigated,1.7,Null,Null,Null
+2010,AT13,Vienna,Irrigable,26.9,Null,Null,Null
+2010,AT13,Vienna,Irrigated,11.2,Null,Null,Null
+2010,AT21,Carinthia,Irrigable,0.3,Null,Null,Null
+2010,AT21,Carinthia,Irrigated,0.1,Null,Null,Null
+2010,AT22,Styria,Irrigable,0.5,Null,Null,Null
+2010,AT22,Styria,Irrigated,0.3,Null,Null,Null
+2010,AT31,Upper Austria,Irrigable,0.3,Null,Null,Null
+2010,AT31,Upper Austria,Irrigated,0.1,Null,Null,Null
+2010,AT32,Salzburg,Irrigable,0.1,Null,Null,Null
+2010,AT32,Salzburg,Irrigated,0,Null,Null,Null
+2010,AT33,Tyrol,Irrigable,0.7,Null,Null,Null
+2010,AT33,Tyrol,Irrigated,0.5,Null,Null,Null
+2010,AT34,Vorarlberg,Irrigable,0.1,Null,Null,Null
+2010,AT34,Vorarlberg,Irrigated,0,Null,Null,Null
+2010,BE,Belgium,Irrigable,1,Null,Null,Null
+2010,BE,Belgium,Irrigated,0.3,Null,Null,Null
+2010,BE10,Brussels,Irrigable,0,Null,Null,Null
+2010,BE10,Brussels,Irrigated,0,Null,Null,Null
+2010,BE21,Antwerp,Irrigable,2,Null,Null,Null
+2010,BE21,Antwerp,Irrigated,0.7,Null,Null,Null
+2010,BE22,Limburg,Irrigable,3.6,Null,Null,Null
+2010,BE22,Limburg,Irrigated,1.1,Null,Null,Null
+2010,BE23,East Flanders,Irrigable,0.6,Null,Null,Null
+2010,BE23,East Flanders,Irrigated,0.2,Null,Null,Null
+2010,BE24,Flemish Barbant,Irrigable,0.3,Null,Null,Null
+2010,BE24,Flemish Barbant,Irrigated,0.1,Null,Null,Null
+2010,BE25,West Flanders,Irrigable,2.6,Null,Null,Null
+2010,BE25,West Flanders,Irrigated,0.7,Null,Null,Null
+2010,BE31,Walloon Barbant,Irrigable,0.2,Null,Null,Null
+2010,BE31,Walloon Barbant,Irrigated,0.1,Null,Null,Null
+2010,BE32,Hainaut,Irrigable,0.3,Null,Null,Null
+2010,BE32,Hainaut,Irrigated,0,Null,Null,Null
+2010,BE33,Liége,Irrigable,0.7,Null,Null,Null
+2010,BE33,Liége,Irrigated,0.2,Null,Null,Null
+2010,BE34,Luxemburg,Irrigable,: c,Null,Null,Null
+2010,BE34,Luxemburg,Irrigated,: c,Null,Null,Null
+2010,BE35,Namur,Irrigable,0.3,Null,Null,Null
+2010,BE35,Namur,Irrigated,0.2,Null,Null,Null
+2010,BG,Bulgaria,Irrigable,3.1,Null,Null,Null
+2010,BG,Bulgaria,Irrigated,2,Null,Null,Null
+2010,BG31,Severozapaden,Irrigable,0.8,Null,Null,Null
+2010,BG31,Severozapaden,Irrigated,0.6,Null,Null,Null
+2010,BG32,Severen centralen,Irrigable,0.5,Null,Null,Null
+2010,BG32,Severen centralen,Irrigated,0.2,Null,Null,Null
+2010,BG33,Severoiztoecen,Irrigable,0.8,Null,Null,Null
+2010,BG33,Severoiztoecen,Irrigated,0.5,Null,Null,Null
+2010,BG34,Jugoiztecen,Irrigable,3.5,Null,Null,Null
+2010,BG34,Jugoiztecen,Irrigated,1.9,Null,Null,Null
+2010,BG41,Jugozapaden,Irrigable,3.1,Null,Null,Null
+2010,BG41,Jugozapaden,Irrigated,2.8,Null,Null,Null
+2010,BG42,Juzen centralen,Irrigable,11.9,Null,Null,Null
+2010,BG42,Juzen centralen,Irrigated,7.9,Null,Null,Null
+2010,CH,Switzerland,Irrigable,: ,Null,Null,Null
+2010,CH,Switzerland,Irrigated,: ,Null,Null,Null
+2010,CH01,Lake Geneva region,Irrigable,: ,Null,Null,Null
+2010,CH01,Lake Geneva region,Irrigated,: ,Null,Null,Null
+2010,CH02,Espace Mittelland,Irrigable,: ,Null,Null,Null
+2010,CH02,Espace Mittelland,Irrigated,: ,Null,Null,Null
+2010,CH03,Northwest Switzerland,Irrigable,: ,Null,Null,Null
+2010,CH03,Northwest Switzerland,Irrigated,: ,Null,Null,Null
+2010,CH04,Zurich,Irrigable,: ,Null,Null,Null
+2010,CH04,Zurich,Irrigated,: ,Null,Null,Null
+2010,CH05,Eastern Switzerland,Irrigable,: ,Null,Null,Null
+2010,CH05,Eastern Switzerland,Irrigated,: ,Null,Null,Null
+2010,CH06,Central Switzerland,Irrigable,: ,Null,Null,Null
+2010,CH06,Central Switzerland,Irrigated,: ,Null,Null,Null
+2010,CH07,Ticino,Irrigable,: ,Null,Null,Null
+2010,CH07,Ticino,Irrigated,: ,Null,Null,Null
+2010,CY,Cyprus,Irrigable,34,Null,Null,Null
+2010,CY,Cyprus,Irrigated,23.9,Null,Null,Null
+2010,CY00,Cyprus,Irrigable,34,Null,Null,Null
+2010,CY00,Cyprus,Irrigated,23.9,Null,Null,Null
+2010,CZ,Czech Republic,Irrigable,0.9,Null,Null,Null
+2010,CZ,Czech Republic,Irrigated,0.6,Null,Null,Null
+2010,CZ01,Prague,Irrigable,: c,Null,Null,Null
+2010,CZ01,Prague,Irrigated,: c,Null,Null,Null
+2010,CZ02,Central Bohemia,Irrigable,1.9,Null,Null,Null
+2010,CZ02,Central Bohemia,Irrigated,1.3,Null,Null,Null
+2010,CZ03,Southwest Bohemia,Irrigable,0,Null,Null,Null
+2010,CZ03,Southwest Bohemia,Irrigated,0,Null,Null,Null
+2010,CZ04,Northwest Bohemia,Irrigable,1.5,Null,Null,Null
+2010,CZ04,Northwest Bohemia,Irrigated,0.9,Null,Null,Null
+2010,CZ05,Northeast Bohemia,Irrigable,0.8,Null,Null,Null
+2010,CZ05,Northeast Bohemia,Irrigated,0.4,Null,Null,Null
+2010,CZ06,Southeast Bohemia,Irrigable,1.4,Null,Null,Null
+2010,CZ06,Southeast Bohemia,Irrigated,0.8,Null,Null,Null
+2010,CZ07,Central Moravia,Irrigable,0.4,Null,Null,Null
+2010,CZ07,Central Moravia,Irrigated,0.2,Null,Null,Null
+2010,CZ08,Moravian-Silesian,Irrigable,0.1,Null,Null,Null
+2010,CZ08,Moravian-Silesian,Irrigated,0.1,Null,Null,Null
+2010,DE,Germany,Irrigable,3.8,Null,Null,Null
+2010,DE,Germany,Irrigated,2.2,Null,Null,Null
+2010,DE1,Baden-Württemberg,Irrigable,1.9,Null,Null,Null
+2010,DE1,Baden-Württemberg,Irrigated,1,Null,Null,Null
+2010,DE11,Stuttgart,Irrigable,: ,Null,Null,Null
+2010,DE11,Stuttgart,Irrigated,: ,Null,Null,Null
+2010,DE12,Karlsruhe,Irrigable,: ,Null,Null,Null
+2010,DE12,Karlsruhe,Irrigated,: ,Null,Null,Null
+2010,DE13,Freiburg,Irrigable,: ,Null,Null,Null
+2010,DE13,Freiburg,Irrigated,: ,Null,Null,Null
+2010,DE14,Tübingen,Irrigable,: ,Null,Null,Null
+2010,DE14,Tübingen,Irrigated,: ,Null,Null,Null
+2010,DE2,Bavaria,Irrigable,1.2,Null,Null,Null
+2010,DE2,Bavaria,Irrigated,0.5,Null,Null,Null
+2010,DE21,Oberbayern,Irrigable,: ,Null,Null,Null
+2010,DE21,Oberbayern,Irrigated,: ,Null,Null,Null
+2010,DE22,Niederbayern,Irrigable,: ,Null,Null,Null
+2010,DE22,Niederbayern,Irrigated,: ,Null,Null,Null
+2010,DE23,Oberpfalz,Irrigable,: ,Null,Null,Null
+2010,DE23,Oberpfalz,Irrigated,: ,Null,Null,Null
+2010,DE24,Oberfranken,Irrigable,: ,Null,Null,Null
+2010,DE24,Oberfranken,Irrigated,: ,Null,Null,Null
+2010,DE25,Mittelfranken,Irrigable,: ,Null,Null,Null
+2010,DE25,Mittelfranken,Irrigated,: ,Null,Null,Null
+2010,DE26,Unterfranken,Irrigable,: ,Null,Null,Null
+2010,DE26,Unterfranken,Irrigated,: ,Null,Null,Null
+2010,DE27,Schwaben,Irrigable,: ,Null,Null,Null
+2010,DE27,Schwaben,Irrigated,: ,Null,Null,Null
+2010,DE3,Berlin,Irrigable,3.7,Null,Null,Null
+2010,DE3,Berlin,Irrigated,1.4,Null,Null,Null
+2010,DE30,Berlin,Irrigable,: ,Null,Null,Null
+2010,DE30,Berlin,Irrigated,: ,Null,Null,Null
+2010,DE4,Brandenburg,Irrigable,2.9,Null,Null,Null
+2010,DE4,Brandenburg,Irrigated,1.6,Null,Null,Null
+2010,DE40,Brandenburg,Irrigable,: ,Null,Null,Null
+2010,DE40,Brandenburg,Irrigated,: ,Null,Null,Null
+2010,DE5,Bremen,Irrigable,: c,Null,Null,Null
+2010,DE5,Bremen,Irrigated,: c,Null,Null,Null
+2010,DE50,Bremen,Irrigable,: ,Null,Null,Null
+2010,DE50,Bremen,Irrigated,: ,Null,Null,Null
+2010,DE6,Hamburg,Irrigable,10.5,Null,Null,Null
+2010,DE6,Hamburg,Irrigated,5.7,Null,Null,Null
+2010,DE60,Hamburg,Irrigable,: ,Null,Null,Null
+2010,DE60,Hamburg,Irrigated,: ,Null,Null,Null
+2010,DE7,Hesse,Irrigable,4.2,Null,Null,Null
+2010,DE7,Hesse,Irrigated,2,Null,Null,Null
+2010,DE71,Darmstadt,Irrigable,: ,Null,Null,Null
+2010,DE71,Darmstadt,Irrigated,: ,Null,Null,Null
+2010,DE72,Gieben,Irrigable,: ,Null,Null,Null
+2010,DE72,Gieben,Irrigated,: ,Null,Null,Null
+2010,DE73,Kassek,Irrigable,: ,Null,Null,Null
+2010,DE73,Kassek,Irrigated,: ,Null,Null,Null
+2010,DE8,Mecklenburg-Vorpommern,Irrigable,2.3,Null,Null,Null
+2010,DE8,Mecklenburg-Vorpommern,Irrigated,1.1,Null,Null,Null
+2010,DE80,Mecklenburg-Vorpommern,Irrigable,: ,Null,Null,Null
+2010,DE80,Mecklenburg-Vorpommern,Irrigated,: ,Null,Null,Null
+2010,DE9,Lower Saxony,Irrigable,12.2,Null,Null,Null
+2010,DE9,Lower Saxony,Irrigated,8.5,Null,Null,Null
+2010,DE91,Braunschweig,Irrigable,: ,Null,Null,Null
+2010,DE91,Braunschweig,Irrigated,: ,Null,Null,Null
+2010,DE92,Hannover,Irrigable,: ,Null,Null,Null
+2010,DE92,Hannover,Irrigated,: ,Null,Null,Null
+2010,DE93,Lüneburg,Irrigable,: ,Null,Null,Null
+2010,DE93,Lüneburg,Irrigated,: ,Null,Null,Null
+2010,DE94,Weser-ems,Irrigable,: ,Null,Null,Null
+2010,DE94,Weser-ems,Irrigated,: ,Null,Null,Null
+2010,DEA,North Rgine-Westphalia,Irrigable,4.2,Null,Null,Null
+2010,DEA,North Rgine-Westphalia,Irrigated,1.9,Null,Null,Null
+2010,DEA1,Düsseldorf,Irrigable,: ,Null,Null,Null
+2010,DEA1,Düsseldorf,Irrigated,: ,Null,Null,Null
+2010,DEA2,Köln,Irrigable,: ,Null,Null,Null
+2010,DEA2,Köln,Irrigated,: ,Null,Null,Null
+2010,DEA3,Münster,Irrigable,: ,Null,Null,Null
+2010,DEA3,Münster,Irrigated,: ,Null,Null,Null
+2010,DEA4,Detmold,Irrigable,: ,Null,Null,Null
+2010,DEA4,Detmold,Irrigated,: ,Null,Null,Null
+2010,DEA5,Arnsberg,Irrigable,: ,Null,Null,Null
+2010,DEA5,Arnsberg,Irrigated,: ,Null,Null,Null
+2010,DEB,Rhineland-Palatine,Irrigable,4.5,Null,Null,Null
+2010,DEB,Rhineland-Palatine,Irrigated,2.8,Null,Null,Null
+2010,DEB1,Koblenz,Irrigable,: ,Null,Null,Null
+2010,DEB1,Koblenz,Irrigated,: ,Null,Null,Null
+2010,DEB2,Trier,Irrigable,: ,Null,Null,Null
+2010,DEB2,Trier,Irrigated,: ,Null,Null,Null
+2010,DEB3,Rheinhessen-Pflaz,Irrigable,: ,Null,Null,Null
+2010,DEB3,Rheinhessen-Pflaz,Irrigated,: ,Null,Null,Null
+2010,DEC,Saarland,Irrigated,: ,Null,Null,Null
+2010,DEC,Saarland,Irrigable,0.2,Null,Null,Null
+2010,DEC,Saarland,Irrigated,0.2,Null,Null,Null
+2010,DEC000,Saarland,Irrigable,: ,Null,Null,Null
+2010,DED,Saxony,Irrigable,1.3,Null,Null,Null
+2010,DED,Saxony,Irrigated,0.4,Null,Null,Null
+2010,DED2,Dresden,Irrigable,: ,Null,Null,Null
+2010,DED2,Dresden,Irrigated,: ,Null,Null,Null
+2010,DED4,Shemnitz,Irrigable,: ,Null,Null,Null
+2010,DED4,Shemnitz,Irrigated,: ,Null,Null,Null
+2010,DED5,Leipzig,Irrigable,: ,Null,Null,Null
+2010,DED5,Leipzig,Irrigated,: ,Null,Null,Null
+2010,DEE,Saxony-Anhalt,Irrigable,2.1,Null,Null,Null
+2010,DEE,Saxony-Anhalt,Irrigated,1.1,Null,Null,Null
+2010,DEE0,Sachsen-Anhalt,Irrigable,: ,Null,Null,Null
+2010,DEE0,Sachsen-Anhalt,Irrigated,: ,Null,Null,Null
+2010,DEF,Schleswig-Holstein,Irrigable,2.2,Null,Null,Null
+2010,DEF,Schleswig-Holstein,Irrigated,0.7,Null,Null,Null
+2010,DEF0,Schleswig-Holstein,Irrigable,: ,Null,Null,Null
+2010,DEF0,Schleswig-Holstein,Irrigated,: ,Null,Null,Null
+2010,DEG,Thuringia,Irrigable,0.7,Null,Null,Null
+2010,DEG,Thuringia,Irrigated,0.3,Null,Null,Null
+2010,DEG0,Thüringen,Irrigable,: ,Null,Null,Null
+2010,DEG0,Thüringen,Irrigated,: ,Null,Null,Null
+2010,DK,Denmark,Irrigable,18.2,Null,Null,Null
+2010,DK,Denmark,Irrigated,12.1,Null,Null,Null
+2010,DK01,Hovedstaden,Irrigable,4.7,Null,Null,Null
+2010,DK01,Hovedstaden,Irrigated,1.2,Null,Null,Null
+2010,DK02,Sjaelland,Irrigable,3.4,Null,Null,Null
+2010,DK02,Sjaelland,Irrigated,0.7,Null,Null,Null
+2010,DK03,Southern Denmark,Irrigable,26.3,Null,Null,Null
+2010,DK03,Southern Denmark,Irrigated,17.8,Null,Null,Null
+2010,DK04,Midtjylland,Irrigable,26.9,Null,Null,Null
+2010,DK04,Midtjylland,Irrigated,20.1,Null,Null,Null
+2010,DK05,Nordjylland,Irrigable,8,Null,Null,Null
+2010,DK05,Nordjylland,Irrigated,3.4,Null,Null,Null
+2010,EE,Estonia,Irrigable,0,Null,Null,Null
+2010,EE,Estonia,Irrigated,0,Null,Null,Null
+2010,EE00,Estonia,Irrigable,0,Null,Null,Null
+2010,EE00,Estonia,Irrigated,0,Null,Null,Null
+2010,EL,Greece,Irrigable,25.1,Null,Null,Null
+2010,EL,Greece,Irrigated,19.8,Null,Null,Null
+2010,EL11,"Anatoliki Makedonia, Thraki",Irrigable,30.1,Null,Null,Null
+2010,EL11,"Anatoliki Makedonia, Thraki",Irrigated,23.1,Null,Null,Null
+2010,EL12,Kentriki Makedonia,Irrigable,32,Null,Null,Null
+2010,EL12,Kentriki Makedonia,Irrigated,26.5,Null,Null,Null
+2010,EL13,Dytiki Makedonia,Irrigable,15.8,Null,Null,Null
+2010,EL13,Dytiki Makedonia,Irrigated,11.6,Null,Null,Null
+2010,EL14,Thessalia,Irrigable,33.1,Null,Null,Null
+2010,EL14,Thessalia,Irrigated,22.9,Null,Null,Null
+2010,EL21,Ipeiros,Irrigable,17.8,Null,Null,Null
+2010,EL21,Ipeiros,Irrigated,15.5,Null,Null,Null
+2010,EL22,Ionia Nisia,Irrigable,3,Null,Null,Null
+2010,EL22,Ionia Nisia,Irrigated,2.2,Null,Null,Null
+2010,EL23,Dyitiki Ellada,Irrigable,28.2,Null,Null,Null
+2010,EL23,Dyitiki Ellada,Irrigated,23.9,Null,Null,Null
+2010,EL24,Sterea Ellada,Irrigable,20.6,Null,Null,Null
+2010,EL24,Sterea Ellada,Irrigated,16.5,Null,Null,Null
+2010,EL25,Peloponnisos,Irrigable,20.4,Null,Null,Null
+2010,EL25,Peloponnisos,Irrigated,18.2,Null,Null,Null
+2010,EL30,Attica,Irrigable,27,Null,Null,Null
+2010,EL30,Attica,Irrigated,17.8,Null,Null,Null
+2010,EL41,North Aegean,Irrigable,4,Null,Null,Null
+2010,EL41,North Aegean,Irrigated,3.1,Null,Null,Null
+2010,EL42,South Aegean,Irrigable,7.8,Null,Null,Null
+2010,EL42,South Aegean,Irrigated,5.5,Null,Null,Null
+2010,EL43,Crete,Irrigable,23.6,Null,Null,Null
+2010,EL43,Crete,Irrigated,18.8,Null,Null,Null
+2010,EL51,Eastern Macedonia and Trace,Irrigable,: ,Null,Null,Null
+2010,EL51,Eastern Macedonia and Trace,Irrigated,: ,Null,Null,Null
+2010,EL52,Central Macedonia,Irrigable,: ,Null,Null,Null
+2010,EL52,Central Macedonia,Irrigated,: ,Null,Null,Null
+2010,EL53,Western Macedonia,Irrigable,: ,Null,Null,Null
+2010,EL53,Western Macedonia,Irrigated,: ,Null,Null,Null
+2010,EL54,Epirus,Irrigable,: ,Null,Null,Null
+2010,EL54,Epirus,Irrigated,: ,Null,Null,Null
+2010,EL61,Thessaly,Irrigable,: ,Null,Null,Null
+2010,EL61,Thessaly,Irrigated,: ,Null,Null,Null
+2010,EL62,Ionian Island,Irrigable,: ,Null,Null,Null
+2010,EL62,Ionian Island,Irrigated,: ,Null,Null,Null
+2010,EL63,Western Greece,Irrigable,: ,Null,Null,Null
+2010,EL63,Western Greece,Irrigated,: ,Null,Null,Null
+2010,EL64,Central Greece,Irrigable,: ,Null,Null,Null
+2010,EL64,Central Greece,Irrigated,: ,Null,Null,Null
+2010,EL65,Poloponnese,Irrigable,: ,Null,Null,Null
+2010,EL65,Poloponnese,Irrigated,: ,Null,Null,Null
+2010,ES,Spain,Irrigable,15.1,Null,Null,Null
+2010,ES,Spain,Irrigated,12.8,Null,Null,Null
+2010,ES11,Galicia,Irrigable,8.4,Null,Null,Null
+2010,ES11,Galicia,Irrigated,5,Null,Null,Null
+2010,ES12,Principato De Asturia,Irrigable,3.5,Null,Null,Null
+2010,ES12,Principato De Asturia,Irrigated,2,Null,Null,Null
+2010,ES13,Cantabria,Irrigable,1.2,Null,Null,Null
+2010,ES13,Cantabria,Irrigated,0.5,Null,Null,Null
+2010,ES21,Pais Vasco,Irrigable,4.8,Null,Null,Null
+2010,ES21,Pais Vasco,Irrigated,3.7,Null,Null,Null
+2010,ES22,Comunidad Foral De Navarra,Irrigable,16,Null,Null,Null
+2010,ES22,Comunidad Foral De Navarra,Irrigated,13.5,Null,Null,Null
+2010,ES23,La Rioja,Irrigable,19,Null,Null,Null
+2010,ES23,La Rioja,Irrigated,11.7,Null,Null,Null
+2010,ES24,Aragón,Irrigable,17.4,Null,Null,Null
+2010,ES24,Aragón,Irrigated,16,Null,Null,Null
+2010,ES30,Comunidad de Madrid,Irrigable,8.6,Null,Null,Null
+2010,ES30,Comunidad de Madrid,Irrigated,6.6,Null,Null,Null
+2010,ES41,Castilla y Leon,Irrigable,10.3,Null,Null,Null
+2010,ES41,Castilla y Leon,Irrigated,8.1,Null,Null,Null
+2010,ES42,Castilla -La Mancha,Irrigable,12.8,Null,Null,Null
+2010,ES42,Castilla -La Mancha,Irrigated,10,Null,Null,Null
+2010,ES43,Extremadura,Irrigable,9.7,Null,Null,Null
+2010,ES43,Extremadura,Irrigated,8.4,Null,Null,Null
+2010,ES51,Cataluna,Irrigable,22.6,Null,Null,Null
+2010,ES51,Cataluna,Irrigated,20.6,Null,Null,Null
+2010,ES52,Comunidad Valenciana,Irrigable,43.4,Null,Null,Null
+2010,ES52,Comunidad Valenciana,Irrigated,40.4,Null,Null,Null
+2010,ES53,Iles Balears,Irrigable,11.9,Null,Null,Null
+2010,ES53,Iles Balears,Irrigated,6.8,Null,Null,Null
+2010,ES61,Andalucia,Irrigable,20,Null,Null,Null
+2010,ES61,Andalucia,Irrigated,17.4,Null,Null,Null
+2010,ES62,Region de Murcia,Irrigable,38.7,Null,Null,Null
+2010,ES62,Region de Murcia,Irrigated,35.2,Null,Null,Null
+2010,ES63,Ciudad Autonoma da Ceuta,Irrigable,: c,Null,Null,Null
+2010,ES63,Ciudad Autonoma da Ceuta,Irrigated,: c,Null,Null,Null
+2010,ES64,Ciudad autonoma di Melilla,Irrigable,: c,Null,Null,Null
+2010,ES64,Ciudad autonoma di Melilla,Irrigated,: c,Null,Null,Null
+2010,ES70,Canarias,Irrigable,31.8,Null,Null,Null
+2010,ES70,Canarias,Irrigated,28.7,Null,Null,Null
+2010,FI,Finland,Irrigable,3,Null,Null,Null
+2010,FI,Finland,Irrigated,0.6,Null,Null,Null
+2010,FI13,Eastern Finland,Irrigable,: ,Null,Null,Null
+2010,FI13,Eastern Finland,Irrigated,: ,Null,Null,Null
+2010,FI18,Southern Finland,Irrigable,: ,Null,Null,Null
+2010,FI18,Southern Finland,Irrigated,: ,Null,Null,Null
+2010,FI19,Western Finland,Irrigable,2.2,Null,Null,Null
+2010,FI19,Western Finland,Irrigated,0.4,Null,Null,Null
+2010,FI1A,Northern Finland,Irrigable,: ,Null,Null,Null
+2010,FI1A,Northern Finland,Irrigated,: ,Null,Null,Null
+2010,FI1B,Helsinki-Uusima,Irrigable,5.3,Null,Null,Null
+2010,FI1B,Helsinki-Uusima,Irrigated,0.5,Null,Null,Null
+2010,FI1C,South Finland,Irrigable,4.4,Null,Null,Null
+2010,FI1C,South Finland,Irrigated,0.7,Null,Null,Null
+2010,FI1D,North and East Finland,Irrigable,1.8,Null,Null,Null
+2010,FI1D,North and East Finland,Irrigated,0.5,Null,Null,Null
+2010,FI20,Äland Islands,Irrigable,10.3,Null,Null,Null
+2010,FI20,Äland Islands,Irrigated,4.3,Null,Null,Null
+2010,FR,France,Irrigable,8.4,Null,Null,Null
+2010,FR,France,Irrigated,5.7,Null,Null,Null
+2010,FR10,Íle de France,Irrigable,10.1,Null,Null,Null
+2010,FR10,Íle de France,Irrigated,5.3,Null,Null,Null
+2010,FR21,Champagne-Ardenne,Irrigable,4,Null,Null,Null
+2010,FR21,Champagne-Ardenne,Irrigated,1.1,Null,Null,Null
+2010,FR22,Picardie,Irrigable,7.9,Null,Null,Null
+2010,FR22,Picardie,Irrigated,2.9,Null,Null,Null
+2010,FR23,Haute Normandie,Irrigable,1.1,Null,Null,Null
+2010,FR23,Haute Normandie,Irrigated,0.7,Null,Null,Null
+2010,FR24,Centre,Irrigable,20.5,Null,Null,Null
+2010,FR24,Centre,Irrigated,13.8,Null,Null,Null
+2010,FR25,Basse-Normandie,Irrigable,0.8,Null,Null,Null
+2010,FR25,Basse-Normandie,Irrigated,0.4,Null,Null,Null
+2010,FR26,Bourgogne,Irrigable,1.6,Null,Null,Null
+2010,FR26,Bourgogne,Irrigated,0.8,Null,Null,Null
+2010,FR30,Nord-Pas-de-Calais,Irrigable,5.5,Null,Null,Null
+2010,FR30,Nord-Pas-de-Calais,Irrigated,1.7,Null,Null,Null
+2010,FR41,Lorraine,Irrigable,0.1,Null,Null,Null
+2010,FR41,Lorraine,Irrigated,0,Null,Null,Null
+2010,FR42,Alsace,Irrigable,20.1,Null,Null,Null
+2010,FR42,Alsace,Irrigated,17.5,Null,Null,Null
+2010,FR43,Franche-Comté,Irrigable,1.1,Null,Null,Null
+2010,FR43,Franche-Comté,Irrigated,0.3,Null,Null,Null
+2010,FR51,Pays de la Loire,Irrigable,9.6,Null,Null,Null
+2010,FR51,Pays de la Loire,Irrigated,6.8,Null,Null,Null
+2010,FR52,Bretagne,Irrigable,1.7,Null,Null,Null
+2010,FR52,Bretagne,Irrigated,0.8,Null,Null,Null
+2010,FR53,Poitou-Charentes,Irrigable,11.8,Null,Null,Null
+2010,FR53,Poitou-Charentes,Irrigated,8.6,Null,Null,Null
+2010,FR61,Aquitaine,Irrigable,20.6,Null,Null,Null
+2010,FR61,Aquitaine,Irrigated,16.7,Null,Null,Null
+2010,FR62,Mifi-Pyrénées,Irrigable,11.5,Null,Null,Null
+2010,FR62,Mifi-Pyrénées,Irrigated,7.9,Null,Null,Null
+2010,FR63,Limousin,Irrigable,0.5,Null,Null,Null
+2010,FR63,Limousin,Irrigated,0.3,Null,Null,Null
+2010,FR71,Rhône-Alpes,Irrigable,9.4,Null,Null,Null
+2010,FR71,Rhône-Alpes,Irrigated,7.1,Null,Null,Null
+2010,FR72,Auvergne,Irrigable,3.2,Null,Null,Null
+2010,FR72,Auvergne,Irrigated,2.1,Null,Null,Null
+2010,FR81,Languedoc-Roussillon,Irrigable,8.9,Null,Null,Null
+2010,FR81,Languedoc-Roussillon,Irrigated,6.4,Null,Null,Null
+2010,FR82,Provence-Alpes-Côte d'Azur,Irrigable,16.3,Null,Null,Null
+2010,FR82,Provence-Alpes-Côte d'Azur,Irrigated,12,Null,Null,Null
+2010,FR83,Corse,Irrigable,7.9,Null,Null,Null
+2010,FR83,Corse,Irrigated,6.7,Null,Null,Null
+2010,FR91,Guadelupe,Irrigable,14.5,Null,Null,Null
+2010,FR91,Guadelupe,Irrigated,11.3,Null,Null,Null
+2010,FR92,Martinique,Irrigable,23.7,Null,Null,Null
+2010,FR92,Martinique,Irrigated,20.3,Null,Null,Null
+2010,FR93,Guyane,Irrigable,3.1,Null,Null,Null
+2010,FR93,Guyane,Irrigated,1.3,Null,Null,Null
+2010,FR94,La Réunion,Irrigable,21.8,Null,Null,Null
+2010,FR94,La Réunion,Irrigated,20.4,Null,Null,Null
+2010,FRA1,Guadelupe,Irrigable,: ,Null,Null,Null
+2010,FRA1,Guadelupe,Irrigated,: ,Null,Null,Null
+2010,FRA2,Martinique,Irrigable,: ,Null,Null,Null
+2010,FRA2,Martinique,Irrigated,: ,Null,Null,Null
+2010,FRA3,Guyane,Irrigable,: ,Null,Null,Null
+2010,FRA3,Guyane,Irrigated,: ,Null,Null,Null
+2010,FRA4,La Réunion,Irrigable,: ,Null,Null,Null
+2010,FRA4,La Réunion,Irrigated,: ,Null,Null,Null
+2010,HR,Croatia,Irrigable,1.7,Null,Null,Null
+2010,HR,Croatia,Irrigated,1.1,Null,Null,Null
+2010,HR03,Adriatica Croatia,Irrigable,3.9,Null,Null,Null
+2010,HR03,Adriatica Croatia,Irrigated,2.9,Null,Null,Null
+2010,HR04,Continental Croatia,Irrigable,1.3,Null,Null,Null
+2010,HR04,Continental Croatia,Irrigated,0.7,Null,Null,Null
+2010,HU,Hungary,Irrigable,5,Null,Null,Null
+2010,HU,Hungary,Irrigated,2.4,Null,Null,Null
+2010,HU10,Central Hungary,Irrigable,4.1,Null,Null,Null
+2010,HU10,Central Hungary,Irrigated,3.1,Null,Null,Null
+2010,HU21,Central Transdanubia,Irrigable,1.9,Null,Null,Null
+2010,HU21,Central Transdanubia,Irrigated,1,Null,Null,Null
+2010,HU22,Western Transdanubia,Irrigable,4,Null,Null,Null
+2010,HU22,Western Transdanubia,Irrigated,0.7,Null,Null,Null
+2010,HU23,Southern Transdanubia,Irrigable,1.2,Null,Null,Null
+2010,HU23,Southern Transdanubia,Irrigated,0.6,Null,Null,Null
+2010,HU31,Northern Hungary,Irrigable,1.1,Null,Null,Null
+2010,HU31,Northern Hungary,Irrigated,0.7,Null,Null,Null
+2010,HU32,Northern great plain,Irrigable,8.6,Null,Null,Null
+2010,HU32,Northern great plain,Irrigated,4.1,Null,Null,Null
+2010,HU33,Southern Great Plain,Irrigable,8.1,Null,Null,Null
+2010,HU33,Southern Great Plain,Irrigated,4.2,Null,Null,Null
+2010,IE,Ireland,Irrigable,0,Null,Null,Null
+2010,IE,Ireland,Irrigated,0,Null,Null,Null
+2010,IE01,"Border, Midland and Westland",Irrigable,0,Null,Null,Null
+2010,IE01,"Border, Midland and Westland",Irrigated,0,Null,Null,Null
+2010,IE02,Spouthern and Eastern Ireland,Irrigable,0,Null,Null,Null
+2010,IE02,Spouthern and Eastern Ireland,Irrigated,0,Null,Null,Null
+2010,IT,Italy,Irrigable,29.1,Null,Null,Null
+2010,IT,Italy,Irrigated,18.7,Null,Null,Null
+2010,ITC1,Piemonte,Irrigable,43.4,Null,Null,Null
+2010,ITC1,Piemonte,Irrigated,36,Null,Null,Null
+2010,ITC2,Valle d'Aosta,Irrigable,28.7,Null,Null,Null
+2010,ITC2,Valle d'Aosta,Irrigated,27.4,Null,Null,Null
+2010,ITC3,Liguria,Irrigable,18.9,Null,Null,Null
+2010,ITC3,Liguria,Irrigated,11.7,Null,Null,Null
+2010,ITC4,Lombardia,Irrigable,69.6,Null,Null,Null
+2010,ITC4,Lombardia,Irrigated,58.5,Null,Null,Null
+2010,ITD1,Trentino-Alto Adige,Irrigable,: ,Null,Null,Null
+2010,ITD1,Trentino-Alto Adige,Irrigated,: ,Null,Null,Null
+2010,ITD2,Trentino-Alto Adige,Irrigable,: ,Null,Null,Null
+2010,ITD2,Trentino-Alto Adige,Irrigated,: ,Null,Null,Null
+2010,ITD3,Veneto,Irrigable,: ,Null,Null,Null
+2010,ITD3,Veneto,Irrigated,: ,Null,Null,Null
+2010,ITD4,Friuli-Venezia Giulia,Irrigable,: ,Null,Null,Null
+2010,ITD4,Friuli-Venezia Giulia,Irrigated,: ,Null,Null,Null
+2010,ITD5,Emilia-Romagna,Irrigable,: ,Null,Null,Null
+2010,ITD5,Emilia-Romagna,Irrigated,: ,Null,Null,Null
+2010,ITE1,Toscana,Irrigable,: ,Null,Null,Null
+2010,ITE1,Toscana,Irrigated,: ,Null,Null,Null
+2010,ITE2,Umbria,Irrigable,: ,Null,Null,Null
+2010,ITE2,Umbria,Irrigated,: ,Null,Null,Null
+2010,ITE3,Marche,Irrigable,: ,Null,Null,Null
+2010,ITE3,Marche,Irrigated,: ,Null,Null,Null
+2010,ITE4,Lazio,Irrigable,: ,Null,Null,Null
+2010,ITE4,Lazio,Irrigated,: ,Null,Null,Null
+2010,ITF1,Abruzzo,Irrigable,11.7,Null,Null,Null
+2010,ITF1,Abruzzo,Irrigated,6.4,Null,Null,Null
+2010,ITF2,Molise,Irrigable,11.3,Null,Null,Null
+2010,ITF2,Molise,Irrigated,5.4,Null,Null,Null
+2010,ITF3,Campania,Irrigable,22.2,Null,Null,Null
+2010,ITF3,Campania,Irrigated,15.4,Null,Null,Null
+2010,ITF4,Puglia,Irrigable,29.1,Null,Null,Null
+2010,ITF4,Puglia,Irrigated,18.6,Null,Null,Null
+2010,ITF5,Basilicata,Irrigable,13.6,Null,Null,Null
+2010,ITF5,Basilicata,Irrigated,6.5,Null,Null,Null
+2010,ITF6,Calabria,Irrigable,19.2,Null,Null,Null
+2010,ITF6,Calabria,Irrigated,13.6,Null,Null,Null
+2010,ITG1,Sicily,Irrigable,14.8,Null,Null,Null
+2010,ITG1,Sicily,Irrigated,10.6,Null,Null,Null
+2010,ITG2,Sardinia,Irrigable,13.4,Null,Null,Null
+2010,ITG2,Sardinia,Irrigated,5.5,Null,Null,Null
+2010,ITH1,Trentino-Alto Adige,Irrigable,17.7,Null,Null,Null
+2010,ITH1,Trentino-Alto Adige,Irrigated,17.2,Null,Null,Null
+2010,ITH2,Trentino-Alto Adige,Irrigable,15.5,Null,Null,Null
+2010,ITH2,Trentino-Alto Adige,Irrigated,14.4,Null,Null,Null
+2010,ITH3,Veneto,Irrigable,49.8,Null,Null,Null
+2010,ITH3,Veneto,Irrigated,29.7,Null,Null,Null
+2010,ITH4,Friuli-Venezia Giulia,Irrigable,41.6,Null,Null,Null
+2010,ITH4,Friuli-Venezia Giulia,Irrigated,28.7,Null,Null,Null
+2010,ITH5,Emilia-Romagna,Irrigable,55.5,Null,Null,Null
+2010,ITH5,Emilia-Romagna,Irrigated,24.1,Null,Null,Null
+2010,ITI1,Toscana,Irrigable,12.1,Null,Null,Null
+2010,ITI1,Toscana,Irrigated,4.3,Null,Null,Null
+2010,ITI2,Umbria,Irrigable,15.2,Null,Null,Null
+2010,ITI2,Umbria,Irrigated,6.1,Null,Null,Null
+2010,ITI3,Marche,Irrigable,8.8,Null,Null,Null
+2010,ITI3,Marche,Irrigated,3.4,Null,Null,Null
+2010,ITI4,Lazio,Irrigable,22.7,Null,Null,Null
+2010,ITI4,Lazio,Irrigated,11.9,Null,Null,Null
+2010,LT,Lithuania,Irrigable,0.1,Null,Null,Null
+2010,LT,Lithuania,Irrigated,0.1,Null,Null,Null
+2010,LT00,Lithuania,Irrigable,0.1,Null,Null,Null
+2010,LT00,Lithuania,Irrigated,0.1,Null,Null,Null
+2010,LU,Luxembourg,Irrigable,: ,Null,Null,Null
+2010,LU,Luxembourg,Irrigated,: ,Null,Null,Null
+2010,LU00,Luxembourg,Irrigable,: ,Null,Null,Null
+2010,LU00,Luxembourg,Irrigated,: ,Null,Null,Null
+2010,LV,Latvia,Irrigable,0.1,Null,Null,Null
+2010,LV,Latvia,Irrigated,0,Null,Null,Null
+2010,LV00,Latvia,Irrigable,0.1,Null,Null,Null
+2010,LV00,Latvia,Irrigated,0,Null,Null,Null
+2010,ME,Montenegro,Irrigable,2.3,Null,Null,Null
+2010,ME,Montenegro,Irrigated,2.3,Null,Null,Null
+2010,ME00,Montenegro,Irrigable,2.3,Null,Null,Null
+2010,ME00,Montenegro,Irrigated,2.3,Null,Null,Null
+2010,MK,North Macedonia,Irrigable,: ,Null,Null,Null
+2010,MK,North Macedonia,Irrigated,: ,Null,Null,Null
+2010,MK00,North Macedonia,Irrigable,: ,Null,Null,Null
+2010,MK00,North Macedonia,Irrigated,: ,Null,Null,Null
+2010,MT,Malta,Irrigable,27.5,Null,Null,Null
+2010,MT,Malta,Irrigated,24.7,Null,Null,Null
+2010,MT00,Malta,Irrigable,27.5,Null,Null,Null
+2010,MT00,Malta,Irrigated,24.7,Null,Null,Null
+2010,NL,Netherlands,Irrigable,26,Null,Null,Null
+2010,NL,Netherlands,Irrigated,7.3,Null,Null,Null
+2010,NL11,Groningen,Irrigable,16.2,Null,Null,Null
+2010,NL11,Groningen,Irrigated,1.3,Null,Null,Null
+2010,NL12,Friesland,Irrigable,13,Null,Null,Null
+2010,NL12,Friesland,Irrigated,0.5,Null,Null,Null
+2010,NL13,Drenthe,Irrigable,13.6,Null,Null,Null
+2010,NL13,Drenthe,Irrigated,3.5,Null,Null,Null
+2010,NL21,Overijessel,Irrigable,15,Null,Null,Null
+2010,NL21,Overijessel,Irrigated,2.5,Null,Null,Null
+2010,NL22,Gelderland,Irrigable,20.3,Null,Null,Null
+2010,NL22,Gelderland,Irrigated,4.1,Null,Null,Null
+2010,NL23,Flevoland,Irrigable,69.3,Null,Null,Null
+2010,NL23,Flevoland,Irrigated,16.4,Null,Null,Null
+2010,NL31,Uthrecht,Irrigable,18.1,Null,Null,Null
+2010,NL31,Uthrecht,Irrigated,3.4,Null,Null,Null
+2010,NL32,North Holland,Irrigable,36.9,Null,Null,Null
+2010,NL32,North Holland,Irrigated,11.4,Null,Null,Null
+2010,NL33,South Holland,Irrigable,25.9,Null,Null,Null
+2010,NL33,South Holland,Irrigated,5.8,Null,Null,Null
+2010,NL34,Zeeland,Irrigable,7.9,Null,Null,Null
+2010,NL34,Zeeland,Irrigated,2.5,Null,Null,Null
+2010,NL41,North Brabant,Irrigable,48.2,Null,Null,Null
+2010,NL41,North Brabant,Irrigated,19.1,Null,Null,Null
+2010,NL42,Limburg,Irrigable,43,Null,Null,Null
+2010,NL42,Limburg,Irrigated,23.1,Null,Null,Null
+2010,NO,Norway,Irrigable,9.3,Null,Null,Null
+2010,NO,Norway,Irrigated,4,Null,Null,Null
+2010,NO01,Oslo and Akersus,Irrigable,6.3,Null,Null,Null
+2010,NO01,Oslo and Akersus,Irrigated,1.6,Null,Null,Null
+2010,NO02,Hedmark and Oppland,Irrigable,19.2,Null,Null,Null
+2010,NO02,Hedmark and Oppland,Irrigated,9.1,Null,Null,Null
+2010,NO03,Sor-Ostlandet,Irrigable,15.8,Null,Null,Null
+2010,NO03,Sor-Ostlandet,Irrigated,6.8,Null,Null,Null
+2010,NO04,Agder and Rogaland,Irrigable,5.7,Null,Null,Null
+2010,NO04,Agder and Rogaland,Irrigated,2.7,Null,Null,Null
+2010,NO05,Vestlandet,Irrigable,4,Null,Null,Null
+2010,NO05,Vestlandet,Irrigated,1.8,Null,Null,Null
+2010,NO06,Trondelag,Irrigable,1.8,Null,Null,Null
+2010,NO06,Trondelag,Irrigated,0.6,Null,Null,Null
+2010,NO07,Nord-Norge,Irrigable,1.8,Null,Null,Null
+2010,NO07,Nord-Norge,Irrigated,0.2,Null,Null,Null
+2010,PL,Poland,Irrigable,0.6,Null,Null,Null
+2010,PL,Poland,Irrigated,0.3,Null,Null,Null
+2010,PL11,Lodzkie,Irrigable,1.5,Null,Null,Null
+2010,PL11,Lodzkie,Irrigated,0.9,Null,Null,Null
+2010,PL12,Mozowieckie,Irrigable,0.9,Null,Null,Null
+2010,PL12,Mozowieckie,Irrigated,0.5,Null,Null,Null
+2010,PL21,Malopolskie,Irrigable,0.1,Null,Null,Null
+2010,PL21,Malopolskie,Irrigated,0.1,Null,Null,Null
+2010,PL22,Slaskie,Irrigable,0.2,Null,Null,Null
+2010,PL22,Slaskie,Irrigated,0.1,Null,Null,Null
+2010,PL31,Lubelskie,Irrigable,0.2,Null,Null,Null
+2010,PL31,Lubelskie,Irrigated,0.2,Null,Null,Null
+2010,PL32,Podkarpackie,Irrigable,0.1,Null,Null,Null
+2010,PL32,Podkarpackie,Irrigated,0,Null,Null,Null
+2010,PL33,Swietokrzyskie,Irrigable,0.2,Null,Null,Null
+2010,PL33,Swietokrzyskie,Irrigated,0.1,Null,Null,Null
+2010,PL34,Podlaskie,Irrigable,0.2,Null,Null,Null
+2010,PL34,Podlaskie,Irrigated,0,Null,Null,Null
+2010,PL41,Wielkopolskie,Irrigable,0.8,Null,Null,Null
+2010,PL41,Wielkopolskie,Irrigated,0.4,Null,Null,Null
+2010,PL42,Zachodniopomorskie,Irrigable,0.3,Null,Null,Null
+2010,PL42,Zachodniopomorskie,Irrigated,0.1,Null,Null,Null
+2010,PL43,Lubuskie,Irrigable,0.6,Null,Null,Null
+2010,PL43,Lubuskie,Irrigated,0.3,Null,Null,Null
+2010,PL51,Dolnoslaskie,Irrigable,0.5,Null,Null,Null
+2010,PL51,Dolnoslaskie,Irrigated,0.2,Null,Null,Null
+2010,PL52,Opolskie,Irrigable,0.5,Null,Null,Null
+2010,PL52,Opolskie,Irrigated,0.1,Null,Null,Null
+2010,PL61,Kujawsko-Pomorskie,Irrigable,1.3,Null,Null,Null
+2010,PL61,Kujawsko-Pomorskie,Irrigated,0.8,Null,Null,Null
+2010,PL62,Warninsko-Mazurskie,Irrigable,0.2,Null,Null,Null
+2010,PL62,Warninsko-Mazurskie,Irrigated,0.1,Null,Null,Null
+2010,PL63,Pomorskie,Irrigable,0.8,Null,Null,Null
+2010,PL63,Pomorskie,Irrigated,0.4,Null,Null,Null
+2010,PT,Portugal,Irrigable,14.7,Null,Null,Null
+2010,PT,Portugal,Irrigated,12.7,Null,Null,Null
+2010,PT11,Norte,Irrigable,22,Null,Null,Null
+2010,PT11,Norte,Irrigated,18.8,Null,Null,Null
+2010,PT15,Algarve,Irrigable,18.4,Null,Null,Null
+2010,PT15,Algarve,Irrigated,17.9,Null,Null,Null
+2010,PT16,Centro,Irrigable,23.7,Null,Null,Null
+2010,PT16,Centro,Irrigated,19.1,Null,Null,Null
+2010,PT17,Area Metropolitana de Lisboa,Irrigable,31.5,Null,Null,Null
+2010,PT17,Area Metropolitana de Lisboa,Irrigated,25.9,Null,Null,Null
+2010,PT18,Alantejo,Irrigable,10,Null,Null,Null
+2010,PT18,Alantejo,Irrigated,9,Null,Null,Null
+2010,PT20,Regiao Autonoma dos Acores,Irrigable,0.2,Null,Null,Null
+2010,PT20,Regiao Autonoma dos Acores,Irrigated,0.2,Null,Null,Null
+2010,PT30,Regiao Autonoma de Madeira,Irrigable,82.3,Null,Null,Null
+2010,PT30,Regiao Autonoma de Madeira,Irrigated,75.3,Null,Null,Null
+2010,RO,Romenia,Irrigable,3.1,Null,Null,Null
+2010,RO,Romenia,Irrigated,1,Null,Null,Null
+2010,RO11,Nord-Vest,Irrigable,0,Null,Null,Null
+2010,RO11,Nord-Vest,Irrigated,0,Null,Null,Null
+2010,RO12,Centru,Irrigable,0.1,Null,Null,Null
+2010,RO12,Centru,Irrigated,0.1,Null,Null,Null
+2010,RO21,Macroregion 2 Nord-Est,Irrigable,0.3,Null,Null,Null
+2010,RO21,Macroregion 2 Nord-Est,Irrigated,0.1,Null,Null,Null
+2010,RO22,Macroregion 2 Sud-Est,Irrigable,12.6,Null,Null,Null
+2010,RO22,Macroregion 2 Sud-Est,Irrigated,4.3,Null,Null,Null
+2010,RO31,Sud Muntenia,Irrigable,3.8,Null,Null,Null
+2010,RO31,Sud Muntenia,Irrigated,1.2,Null,Null,Null
+2010,RO32,Bucaresti-Iifov,Irrigable,0.4,Null,Null,Null
+2010,RO32,Bucaresti-Iifov,Irrigated,0.2,Null,Null,Null
+2010,RO41,Sud-Vest Oltenia,Irrigable,2.6,Null,Null,Null
+2010,RO41,Sud-Vest Oltenia,Irrigated,0.4,Null,Null,Null
+2010,RO42,Vest,Irrigable,0.2,Null,Null,Null
+2010,RO42,Vest,Irrigated,0.1,Null,Null,Null
+2010,SE,Sweden,Irrigable,5.4,Null,Null,Null
+2010,SE,Sweden,Irrigated,2.1,Null,Null,Null
+2010,SE11,Stockholm,Irrigable,2.3,Null,Null,Null
+2010,SE11,Stockholm,Irrigated,0.9,Null,Null,Null
+2010,SE12,East-middle Sweden,Irrigable,2.6,Null,Null,Null
+2010,SE12,East-middle Sweden,Irrigated,0.8,Null,Null,Null
+2010,SE21,Smaland and islands,Irrigable,5,Null,Null,Null
+2010,SE21,Smaland and islands,Irrigated,1.9,Null,Null,Null
+2010,SE22,South Sweden,Irrigable,13.3,Null,Null,Null
+2010,SE22,South Sweden,Irrigated,6.1,Null,Null,Null
+2010,SE23,West Sweden,Irrigable,5.4,Null,Null,Null
+2010,SE23,West Sweden,Irrigated,1.5,Null,Null,Null
+2010,SE31,North-middle Sweden,Irrigable,2.2,Null,Null,Null
+2010,SE31,North-middle Sweden,Irrigated,0.7,Null,Null,Null
+2010,SE32,Middle Norrland,Irrigable,1.1,Null,Null,Null
+2010,SE32,Middle Norrland,Irrigated,0.6,Null,Null,Null
+2010,SE33,Upper Norrland,Irrigable,1.2,Null,Null,Null
+2010,SE33,Upper Norrland,Irrigated,0.6,Null,Null,Null
+2010,SI,Slovenia,Irrigable,1.1,Null,Null,Null
+2010,SI,Slovenia,Irrigated,0.3,Null,Null,Null
+2010,SI01,Eastern Slovenia,Irrigable,1,Null,Null,Null
+2010,SI01,Eastern Slovenia,Irrigated,0.2,Null,Null,Null
+2010,SI02,Western Slovenia,Irrigable,1.4,Null,Null,Null
+2010,SI02,Western Slovenia,Irrigated,0.4,Null,Null,Null
+2010,SI03,Eastern Slovenia,Irrigable,: ,Null,Null,Null
+2010,SI03,Eastern Slovenia,Irrigated,: ,Null,Null,Null
+2010,SI04,Western Slovenia,Irrigable,: ,Null,Null,Null
+2010,SI04,Western Slovenia,Irrigated,: ,Null,Null,Null
+2010,SK,Slovakia,Irrigable,5.7,Null,Null,Null
+2010,SK,Slovakia,Irrigated,0.8,Null,Null,Null
+2010,SK01,Bratislava Region,Irrigable,20.2,Null,Null,Null
+2010,SK01,Bratislava Region,Irrigated,5.5,Null,Null,Null
+2010,SK02,Western Slovakia,Irrigable,10.7,Null,Null,Null
+2010,SK02,Western Slovakia,Irrigated,1.2,Null,Null,Null
+2010,SK03,Central Slovakia,Irrigable,1,Null,Null,Null
+2010,SK03,Central Slovakia,Irrigated,0.1,Null,Null,Null
+2010,SK04,Eastern Slovakia,Irrigable,0.3,Null,Null,Null
+2010,SK04,Eastern Slovakia,Irrigated,0,Null,Null,Null
+2010,UK,United Kingdom,Irrigable,0.6,Null,Null,Null
+2010,UK,United Kingdom,Irrigated,0.4,Null,Null,Null
+2010,UKC1,Tees Valley and Durham,Irrigable,: c,Null,Null,Null
+2010,UKC1,Tees Valley and Durham,Irrigated,: c,Null,Null,Null
+2010,UKC2,Northumberland and Tyne and Wear,Irrigable,0.1,Null,Null,Null
+2010,UKC2,Northumberland and Tyne and Wear,Irrigated,0.1,Null,Null,Null
+2010,UKD1,Cumbria,Irrigable,: c,Null,Null,Null
+2010,UKD1,Cumbria,Irrigated,: c,Null,Null,Null
+2010,UKD2,Cheshire,Irrigable,: ,Null,Null,Null
+2010,UKD2,Cheshire,Irrigated,: ,Null,Null,Null
+2010,UKD3,Greater Manchester,Irrigable,: c,Null,Null,Null
+2010,UKD3,Greater Manchester,Irrigated,: c,Null,Null,Null
+2010,UKD4,Lancashire,Irrigable,0.4,Null,Null,Null
+2010,UKD4,Lancashire,Irrigated,0.4,Null,Null,Null
+2010,UKD5,Merseyside,Irrigable,: ,Null,Null,Null
+2010,UKD5,Merseyside,Irrigated,: ,Null,Null,Null
+2010,UKD6,Cheshire,Irrigable,0.3,Null,Null,Null
+2010,UKD6,Cheshire,Irrigated,0.3,Null,Null,Null
+2010,UKD7,Merseyside,Irrigable,: c,Null,Null,Null
+2010,UKD7,Merseyside,Irrigated,: c,Null,Null,Null
+2010,UKE1,East Riding and North Lincolnshire,Irrigable,1,Null,Null,Null
+2010,UKE1,East Riding and North Lincolnshire,Irrigated,0.9,Null,Null,Null
+2010,UKE2,North Yorkshire,Irrigable,0.4,Null,Null,Null
+2010,UKE2,North Yorkshire,Irrigated,0.4,Null,Null,Null
+2010,UKE3,South Yorkshire,Irrigable,0.6,Null,Null,Null
+2010,UKE3,South Yorkshire,Irrigated,0.5,Null,Null,Null
+2010,UKE4,West Yorkshire,Irrigable,0.1,Null,Null,Null
+2010,UKE4,West Yorkshire,Irrigated,0.1,Null,Null,Null
+2010,UKF1,Derbyshire and Nottinghamshire,Irrigable,1.4,Null,Null,Null
+2010,UKF1,Derbyshire and Nottinghamshire,Irrigated,1.2,Null,Null,Null
+2010,UKF2,"Leicestershire, Rutland and Northamptonshire",Irrigable,0,Null,Null,Null
+2010,UKF2,"Leicestershire, Rutland and Northamptonshire",Irrigated,0,Null,Null,Null
+2010,UKF3,Lincolnshire,Irrigable,1.3,Null,Null,Null
+2010,UKF3,Lincolnshire,Irrigated,1.1,Null,Null,Null
+2010,UKG1,"Herefordshire, Worcestersire and Warwickshire",Irrigable,0.6,Null,Null,Null
+2010,UKG1,"Herefordshire, Worcestersire and Warwickshire",Irrigated,0.5,Null,Null,Null
+2010,UKG2,Shropshire and Staffordshire,Irrigable,1.3,Null,Null,Null
+2010,UKG2,Shropshire and Staffordshire,Irrigated,1.1,Null,Null,Null
+2010,UKG3,West midlands,Irrigable,: c,Null,Null,Null
+2010,UKG3,West midlands,Irrigated,: c,Null,Null,Null
+2010,UKH1,East Anglia,Irrigable,3.5,Null,Null,Null
+2010,UKH1,East Anglia,Irrigated,3,Null,Null,Null
+2010,UKH2,Bedfordshire and Hertfordshire,Irrigable,0.6,Null,Null,Null
+2010,UKH2,Bedfordshire and Hertfordshire,Irrigated,0.5,Null,Null,Null
+2010,UKH3,Essex,Irrigable,1.6,Null,Null,Null
+2010,UKH3,Essex,Irrigated,1.4,Null,Null,Null
+2010,UKI1,Derbyshire and Nottinghamshire,Irrigable,0,Null,Null,Null
+2010,UKI1,Derbyshire and Nottinghamshire,Irrigated,0,Null,Null,Null
+2010,UKI2,"Leicestershire, Rutland and Northamptonshire",Irrigable,1.5,Null,Null,Null
+2010,UKI2,"Leicestershire, Rutland and Northamptonshire",Irrigated,1.2,Null,Null,Null
+2010,UKI5,Outer London- East and north-East,Irrigable,: ,Null,Null,Null
+2010,UKI5,Outer London- East and north-East,Irrigated,: ,Null,Null,Null
+2010,UKI6,Outer London- South,Irrigable,: ,Null,Null,Null
+2010,UKI6,Outer London- South,Irrigated,: ,Null,Null,Null
+2010,UKI7,Outer London - West and North-West,Irrigable,: ,Null,Null,Null
+2010,UKI7,Outer London - West and North-West,Irrigated,: ,Null,Null,Null
+2010,UKJ1,"Berkshire, Buckinghamshire and Oxfordshire",Irrigable,0.1,Null,Null,Null
+2010,UKJ1,"Berkshire, Buckinghamshire and Oxfordshire",Irrigated,0.1,Null,Null,Null
+2010,UKJ2,"Surrey, East and West Sussex",Irrigable,0.7,Null,Null,Null
+2010,UKJ2,"Surrey, East and West Sussex",Irrigated,0.7,Null,Null,Null
+2010,UKJ3,Hampshire and Isle of Wight,Irrigable,0.4,Null,Null,Null
+2010,UKJ3,Hampshire and Isle of Wight,Irrigated,0.4,Null,Null,Null
+2010,UKJ4,Kent,Irrigable,1.5,Null,Null,Null
+2010,UKJ4,Kent,Irrigated,1.5,Null,Null,Null
+2010,UKK1,"Gloucestershire, Wiltshire and Bristol/Bath area",Irrigable,0.1,Null,Null,Null
+2010,UKK1,"Gloucestershire, Wiltshire and Bristol/Bath area",Irrigated,0.1,Null,Null,Null
+2010,UKK2,Dorset and Somerset,Irrigable,0.1,Null,Null,Null
+2010,UKK2,Dorset and Somerset,Irrigated,0.1,Null,Null,Null
+2010,UKK3,Cornwall and Isles of Scilly,Irrigable,0.1,Null,Null,Null
+2010,UKK3,Cornwall and Isles of Scilly,Irrigated,0,Null,Null,Null
+2010,UKK4,Devon,Irrigable,0,Null,Null,Null
+2010,UKK4,Devon,Irrigated,0,Null,Null,Null
+2010,UKL1,West Wales and the Valleys,Irrigable,0,Null,Null,Null
+2010,UKL1,West Wales and the Valleys,Irrigated,0,Null,Null,Null
+2010,UKL2,East Wales,Irrigable,0,Null,Null,Null
+2010,UKL2,East Wales,Irrigated,0,Null,Null,Null
+2010,UKM2,Eastern Scotland,Irrigable,1.7,Null,Null,Null
+2010,UKM2,Eastern Scotland,Irrigated,0.4,Null,Null,Null
+2010,UKM3,South Western Scotland,Irrigable,0,Null,Null,Null
+2010,UKM3,South Western Scotland,Irrigated,0,Null,Null,Null
+2010,UKM5,Nprth Eastern Scotland,Irrigable,0.2,Null,Null,Null
+2010,UKM5,Nprth Eastern Scotland,Irrigated,0,Null,Null,Null
+2010,UKM6,Highlands and Islands,Irrigable,0,Null,Null,Null
+2010,UKM6,Highlands and Islands,Irrigated,0,Null,Null,Null
+2010,UKN0,Northern Ireland,Irrigable,0,Null,Null,Null
+2010,UKN0,Northern Ireland,Irrigated,0,Null,Null,Null
+2013,AT,Austria,Irrigable,4.4,Null,Null,Null
+2013,AT,Austria,Irrigated,1.9,Null,Null,Null
+2013,AT11,Burgenland,Irrigable,14.6,Null,Null,Null
+2013,AT11,Burgenland,Irrigated,7.5,Null,Null,Null
+2013,AT12,Lower Austria,Irrigable,8.9,Null,Null,Null
+2013,AT12,Lower Austria,Irrigated,3.5,Null,Null,Null
+2013,AT13,Vienna,Irrigable,27.6,Null,Null,Null
+2013,AT13,Vienna,Irrigated,12.7,Null,Null,Null
+2013,AT21,Carinthia,Irrigable,0.6,Null,Null,Null
+2013,AT21,Carinthia,Irrigated,0.1,Null,Null,Null
+2013,AT22,Styria,Irrigable,1,Null,Null,Null
+2013,AT22,Styria,Irrigated,0.5,Null,Null,Null
+2013,AT31,Upper Austria,Irrigable,0.4,Null,Null,Null
+2013,AT31,Upper Austria,Irrigated,0.1,Null,Null,Null
+2013,AT32,Salzburg,Irrigable,0.1,Null,Null,Null
+2013,AT32,Salzburg,Irrigated,0.1,Null,Null,Null
+2013,AT33,Tyrol,Irrigable,1.1,Null,Null,Null
+2013,AT33,Tyrol,Irrigated,0.7,Null,Null,Null
+2013,AT34,Vorarlberg,Irrigable,0.1,Null,Null,Null
+2013,AT34,Vorarlberg,Irrigated,0.1,Null,Null,Null
+2013,BE,Belgium,Irrigable,1.5,Null,Null,Null
+2013,BE,Belgium,Irrigated,0.4,Null,Null,Null
+2013,BE10,Brussels,Irrigable,0,Null,Null,Null
+2013,BE10,Brussels,Irrigated,0,Null,Null,Null
+2013,BE21,Antwerp,Irrigable,3,Null,Null,Null
+2013,BE21,Antwerp,Irrigated,0.9,Null,Null,Null
+2013,BE22,Limburg,Irrigable,4,Null,Null,Null
+2013,BE22,Limburg,Irrigated,1.5,Null,Null,Null
+2013,BE23,East Flanders,Irrigable,0.7,Null,Null,Null
+2013,BE23,East Flanders,Irrigated,0.2,Null,Null,Null
+2013,BE24,Flemish Barbant,Irrigable,0.8,Null,Null,Null
+2013,BE24,Flemish Barbant,Irrigated,0.4,Null,Null,Null
+2013,BE25,West Flanders,Irrigable,3.7,Null,Null,Null
+2013,BE25,West Flanders,Irrigated,0.8,Null,Null,Null
+2013,BE31,Walloon Barbant,Irrigable,0.8,Null,Null,Null
+2013,BE31,Walloon Barbant,Irrigated,0.5,Null,Null,Null
+2013,BE32,Hainaut,Irrigable,0.4,Null,Null,Null
+2013,BE32,Hainaut,Irrigated,0.1,Null,Null,Null
+2013,BE33,Liége,Irrigable,1.2,Null,Null,Null
+2013,BE33,Liége,Irrigated,0.3,Null,Null,Null
+2013,BE34,Luxemburg,Irrigable,: c,Null,Null,Null
+2013,BE34,Luxemburg,Irrigated,0,Null,Null,Null
+2013,BE35,Namur,Irrigable,0.6,Null,Null,Null
+2013,BE35,Namur,Irrigated,0.2,Null,Null,Null
+2013,BG,Bulgaria,Irrigable,2.5,Null,Null,Null
+2013,BG,Bulgaria,Irrigated,2.1,Null,Null,Null
+2013,BG31,Severozapaden,Irrigable,1,Null,Null,Null
+2013,BG31,Severozapaden,Irrigated,0.8,Null,Null,Null
+2013,BG32,Severen centralen,Irrigable,0.7,Null,Null,Null
+2013,BG32,Severen centralen,Irrigated,0.5,Null,Null,Null
+2013,BG33,Severoiztoecen,Irrigable,0.9,Null,Null,Null
+2013,BG33,Severoiztoecen,Irrigated,0.6,Null,Null,Null
+2013,BG34,Jugoiztecen,Irrigable,2.8,Null,Null,Null
+2013,BG34,Jugoiztecen,Irrigated,2.3,Null,Null,Null
+2013,BG41,Jugozapaden,Irrigable,3.7,Null,Null,Null
+2013,BG41,Jugozapaden,Irrigated,3.1,Null,Null,Null
+2013,BG42,Juzen centralen,Irrigable,7,Null,Null,Null
+2013,BG42,Juzen centralen,Irrigated,6.6,Null,Null,Null
+2013,CH,Switzerland,Irrigable,: ,Null,Null,Null
+2013,CH,Switzerland,Irrigated,: ,Null,Null,Null
+2013,CH01,Lake Geneva region,Irrigable,: ,Null,Null,Null
+2013,CH01,Lake Geneva region,Irrigated,: ,Null,Null,Null
+2013,CH02,Espace Mittelland,Irrigable,: ,Null,Null,Null
+2013,CH02,Espace Mittelland,Irrigated,: ,Null,Null,Null
+2013,CH03,Northwest Switzerland,Irrigable,: ,Null,Null,Null
+2013,CH03,Northwest Switzerland,Irrigated,: ,Null,Null,Null
+2013,CH04,Zurich,Irrigable,: ,Null,Null,Null
+2013,CH04,Zurich,Irrigated,: ,Null,Null,Null
+2013,CH05,Eastern Switzerland,Irrigable,: ,Null,Null,Null
+2013,CH05,Eastern Switzerland,Irrigated,: ,Null,Null,Null
+2013,CH06,Central Switzerland,Irrigable,: ,Null,Null,Null
+2013,CH06,Central Switzerland,Irrigated,: ,Null,Null,Null
+2013,CH07,Ticino,Irrigable,: ,Null,Null,Null
+2013,CH07,Ticino,Irrigated,: ,Null,Null,Null
+2013,CY,Cyprus,Irrigable,34.8,Null,Null,Null
+2013,CY,Cyprus,Irrigated,22.6,Null,Null,Null
+2013,CY00,Cyprus,Irrigable,34.8,Null,Null,Null
+2013,CY00,Cyprus,Irrigated,22.6,Null,Null,Null
+2013,CZ,Czech Republic,Irrigable,1,Null,Null,Null
+2013,CZ,Czech Republic,Irrigated,0.5,Null,Null,Null
+2013,CZ01,Prague,Irrigable,: c,Null,Null,Null
+2013,CZ01,Prague,Irrigated,: c,Null,Null,Null
+2013,CZ02,Central Bohemia,Irrigable,2.1,Null,Null,Null
+2013,CZ02,Central Bohemia,Irrigated,1.2,Null,Null,Null
+2013,CZ03,Southwest Bohemia,Irrigable,0.1,Null,Null,Null
+2013,CZ03,Southwest Bohemia,Irrigated,0,Null,Null,Null
+2013,CZ04,Northwest Bohemia,Irrigable,1.7,Null,Null,Null
+2013,CZ04,Northwest Bohemia,Irrigated,0.8,Null,Null,Null
+2013,CZ05,Northeast Bohemia,Irrigable,0.7,Null,Null,Null
+2013,CZ05,Northeast Bohemia,Irrigated,0.3,Null,Null,Null
+2013,CZ06,Southeast Bohemia,Irrigable,1.5,Null,Null,Null
+2013,CZ06,Southeast Bohemia,Irrigated,0.9,Null,Null,Null
+2013,CZ07,Central Moravia,Irrigable,0.4,Null,Null,Null
+2013,CZ07,Central Moravia,Irrigated,0.1,Null,Null,Null
+2013,CZ08,Moravian-Silesian,Irrigable,0,Null,Null,Null
+2013,CZ08,Moravian-Silesian,Irrigated,0,Null,Null,Null
+2013,DE,Germany,Irrigable,4.1,Null,Null,Null
+2013,DE,Germany,Irrigated,2.2,Null,Null,Null
+2013,DE1,Baden-Württemberg,Irrigable,2.2,Null,Null,Null
+2013,DE1,Baden-Württemberg,Irrigated,1.1,Null,Null,Null
+2013,DE11,Stuttgart,Irrigable,: ,Null,Null,Null
+2013,DE11,Stuttgart,Irrigated,: ,Null,Null,Null
+2013,DE12,Karlsruhe,Irrigable,: ,Null,Null,Null
+2013,DE12,Karlsruhe,Irrigated,: ,Null,Null,Null
+2013,DE13,Freiburg,Irrigable,: ,Null,Null,Null
+2013,DE13,Freiburg,Irrigated,: ,Null,Null,Null
+2013,DE14,Tübingen,Irrigable,: ,Null,Null,Null
+2013,DE14,Tübingen,Irrigated,: ,Null,Null,Null
+2013,DE2,Bavaria,Irrigable,1.8,Null,Null,Null
+2013,DE2,Bavaria,Irrigated,0.5,Null,Null,Null
+2013,DE21,Oberbayern,Irrigable,: ,Null,Null,Null
+2013,DE21,Oberbayern,Irrigated,: ,Null,Null,Null
+2013,DE22,Niederbayern,Irrigable,: ,Null,Null,Null
+2013,DE22,Niederbayern,Irrigated,: ,Null,Null,Null
+2013,DE23,Oberpfalz,Irrigable,: ,Null,Null,Null
+2013,DE23,Oberpfalz,Irrigated,: ,Null,Null,Null
+2013,DE24,Oberfranken,Irrigable,: ,Null,Null,Null
+2013,DE24,Oberfranken,Irrigated,: ,Null,Null,Null
+2013,DE25,Mittelfranken,Irrigable,: ,Null,Null,Null
+2013,DE25,Mittelfranken,Irrigated,: ,Null,Null,Null
+2013,DE26,Unterfranken,Irrigable,: ,Null,Null,Null
+2013,DE26,Unterfranken,Irrigated,: ,Null,Null,Null
+2013,DE27,Schwaben,Irrigable,: ,Null,Null,Null
+2013,DE27,Schwaben,Irrigated,: ,Null,Null,Null
+2013,DE3,Berlin,Irrigable,5.6,Null,Null,Null
+2013,DE3,Berlin,Irrigated,2.5,Null,Null,Null
+2013,DE30,Berlin,Irrigable,: ,Null,Null,Null
+2013,DE30,Berlin,Irrigated,: ,Null,Null,Null
+2013,DE4,Brandenburg,Irrigable,2.9,Null,Null,Null
+2013,DE4,Brandenburg,Irrigated,1.6,Null,Null,Null
+2013,DE40,Brandenburg,Irrigable,: ,Null,Null,Null
+2013,DE40,Brandenburg,Irrigated,: ,Null,Null,Null
+2013,DE5,Bremen,Irrigable,: c,Null,Null,Null
+2013,DE5,Bremen,Irrigated,: c,Null,Null,Null
+2013,DE50,Bremen,Irrigable,: ,Null,Null,Null
+2013,DE50,Bremen,Irrigated,: ,Null,Null,Null
+2013,DE6,Hamburg,Irrigable,10.2,Null,Null,Null
+2013,DE6,Hamburg,Irrigated,4.5,Null,Null,Null
+2013,DE60,Hamburg,Irrigable,: ,Null,Null,Null
+2013,DE60,Hamburg,Irrigated,: ,Null,Null,Null
+2013,DE7,Hesse,Irrigable,4.3,Null,Null,Null
+2013,DE7,Hesse,Irrigated,1.8,Null,Null,Null
+2013,DE71,Darmstadt,Irrigable,: ,Null,Null,Null
+2013,DE71,Darmstadt,Irrigated,: ,Null,Null,Null
+2013,DE72,Gieben,Irrigable,: ,Null,Null,Null
+2013,DE72,Gieben,Irrigated,: ,Null,Null,Null
+2013,DE73,Kassek,Irrigable,: ,Null,Null,Null
+2013,DE73,Kassek,Irrigated,: ,Null,Null,Null
+2013,DE8,Mecklenburg-Vorpommern,Irrigable,2.4,Null,Null,Null
+2013,DE8,Mecklenburg-Vorpommern,Irrigated,1.4,Null,Null,Null
+2013,DE80,Mecklenburg-Vorpommern,Irrigable,: ,Null,Null,Null
+2013,DE80,Mecklenburg-Vorpommern,Irrigated,: ,Null,Null,Null
+2013,DE9,Lower Saxony,Irrigable,12.8,Null,Null,Null
+2013,DE9,Lower Saxony,Irrigated,8,Null,Null,Null
+2013,DE91,Braunschweig,Irrigable,: ,Null,Null,Null
+2013,DE91,Braunschweig,Irrigated,: ,Null,Null,Null
+2013,DE92,Hannover,Irrigable,: ,Null,Null,Null
+2013,DE92,Hannover,Irrigated,: ,Null,Null,Null
+2013,DE93,Lüneburg,Irrigable,: ,Null,Null,Null
+2013,DE93,Lüneburg,Irrigated,: ,Null,Null,Null
+2013,DE94,Weser-ems,Irrigable,: ,Null,Null,Null
+2013,DE94,Weser-ems,Irrigated,: ,Null,Null,Null
+2013,DEA,North Rgine-Westphalia,Irrigable,4.6,Null,Null,Null
+2013,DEA,North Rgine-Westphalia,Irrigated,1.8,Null,Null,Null
+2013,DEA1,Düsseldorf,Irrigable,: ,Null,Null,Null
+2013,DEA1,Düsseldorf,Irrigated,: ,Null,Null,Null
+2013,DEA2,Köln,Irrigable,: ,Null,Null,Null
+2013,DEA2,Köln,Irrigated,: ,Null,Null,Null
+2013,DEA3,Münster,Irrigable,: ,Null,Null,Null
+2013,DEA3,Münster,Irrigated,: ,Null,Null,Null
+2013,DEA4,Detmold,Irrigable,: ,Null,Null,Null
+2013,DEA4,Detmold,Irrigated,: ,Null,Null,Null
+2013,DEA5,Arnsberg,Irrigable,: ,Null,Null,Null
+2013,DEA5,Arnsberg,Irrigated,: ,Null,Null,Null
+2013,DEB,Rhineland-Palatine,Irrigable,4.4,Null,Null,Null
+2013,DEB,Rhineland-Palatine,Irrigated,2.5,Null,Null,Null
+2013,DEB1,Koblenz,Irrigable,: ,Null,Null,Null
+2013,DEB1,Koblenz,Irrigated,: ,Null,Null,Null
+2013,DEB2,Trier,Irrigable,: ,Null,Null,Null
+2013,DEB2,Trier,Irrigated,: ,Null,Null,Null
+2013,DEB3,Rheinhessen-Pflaz,Irrigable,: ,Null,Null,Null
+2013,DEB3,Rheinhessen-Pflaz,Irrigated,: ,Null,Null,Null
+2013,DEC,Saarland,Irrigated,: ,Null,Null,Null
+2013,DEC,Saarland,Irrigable,0.4,Null,Null,Null
+2013,DEC,Saarland,Irrigated,0.2,Null,Null,Null
+2013,DEC000,Saarland,Irrigable,: ,Null,Null,Null
+2013,DED,Saxony,Irrigable,1.3,Null,Null,Null
+2013,DED,Saxony,Irrigated,0.5,Null,Null,Null
+2013,DED2,Dresden,Irrigable,: ,Null,Null,Null
+2013,DED2,Dresden,Irrigated,: ,Null,Null,Null
+2013,DED4,Shemnitz,Irrigable,: ,Null,Null,Null
+2013,DED4,Shemnitz,Irrigated,: ,Null,Null,Null
+2013,DED5,Leipzig,Irrigable,: ,Null,Null,Null
+2013,DED5,Leipzig,Irrigated,: ,Null,Null,Null
+2013,DEE,Saxony-Anhalt,Irrigable,2.4,Null,Null,Null
+2013,DEE,Saxony-Anhalt,Irrigated,1.3,Null,Null,Null
+2013,DEE0,Sachsen-Anhalt,Irrigable,: ,Null,Null,Null
+2013,DEE0,Sachsen-Anhalt,Irrigated,: ,Null,Null,Null
+2013,DEF,Schleswig-Holstein,Irrigable,2.3,Null,Null,Null
+2013,DEF,Schleswig-Holstein,Irrigated,0.5,Null,Null,Null
+2013,DEF0,Schleswig-Holstein,Irrigable,: ,Null,Null,Null
+2013,DEF0,Schleswig-Holstein,Irrigated,: ,Null,Null,Null
+2013,DEG,Thuringia,Irrigable,0.8,Null,Null,Null
+2013,DEG,Thuringia,Irrigated,0.3,Null,Null,Null
+2013,DEG0,Thüringen,Irrigable,: ,Null,Null,Null
+2013,DEG0,Thüringen,Irrigated,: ,Null,Null,Null
+2013,DK,Denmark,Irrigable,16.8,Null,Null,Null
+2013,DK,Denmark,Irrigated,9.2,Null,Null,Null
+2013,DK01,Hovedstaden,Irrigable,3.8,Null,Null,Null
+2013,DK01,Hovedstaden,Irrigated,1.2,Null,Null,Null
+2013,DK02,Sjaelland,Irrigable,3.1,Null,Null,Null
+2013,DK02,Sjaelland,Irrigated,0.7,Null,Null,Null
+2013,DK03,Southern Denmark,Irrigable,24.5,Null,Null,Null
+2013,DK03,Southern Denmark,Irrigated,14.4,Null,Null,Null
+2013,DK04,Midtjylland,Irrigable,24.6,Null,Null,Null
+2013,DK04,Midtjylland,Irrigated,15,Null,Null,Null
+2013,DK05,Nordjylland,Irrigable,7.3,Null,Null,Null
+2013,DK05,Nordjylland,Irrigated,1.5,Null,Null,Null
+2013,EE,Estonia,Irrigable,0,Null,Null,Null
+2013,EE,Estonia,Irrigated,0,Null,Null,Null
+2013,EE00,Estonia,Irrigable,0,Null,Null,Null
+2013,EE00,Estonia,Irrigated,0,Null,Null,Null
+2013,EL,Greece,Irrigable,31.2,Null,Null,Null
+2013,EL,Greece,Irrigated,24,Null,Null,Null
+2013,EL11,"Anatoliki Makedonia, Thraki",Irrigable,51.1,Null,Null,Null
+2013,EL11,"Anatoliki Makedonia, Thraki",Irrigated,39.1,Null,Null,Null
+2013,EL12,Kentriki Makedonia,Irrigable,46.3,Null,Null,Null
+2013,EL12,Kentriki Makedonia,Irrigated,38.5,Null,Null,Null
+2013,EL13,Dytiki Makedonia,Irrigable,15.4,Null,Null,Null
+2013,EL13,Dytiki Makedonia,Irrigated,9.4,Null,Null,Null
+2013,EL14,Thessalia,Irrigable,48.2,Null,Null,Null
+2013,EL14,Thessalia,Irrigated,36.3,Null,Null,Null
+2013,EL21,Ipeiros,Irrigable,24.1,Null,Null,Null
+2013,EL21,Ipeiros,Irrigated,18,Null,Null,Null
+2013,EL22,Ionia Nisia,Irrigable,3.6,Null,Null,Null
+2013,EL22,Ionia Nisia,Irrigated,2.3,Null,Null,Null
+2013,EL23,Dyitiki Ellada,Irrigable,38.8,Null,Null,Null
+2013,EL23,Dyitiki Ellada,Irrigated,28.4,Null,Null,Null
+2013,EL24,Sterea Ellada,Irrigable,37.9,Null,Null,Null
+2013,EL24,Sterea Ellada,Irrigated,27.6,Null,Null,Null
+2013,EL25,Peloponnisos,Irrigable,22.1,Null,Null,Null
+2013,EL25,Peloponnisos,Irrigated,18.8,Null,Null,Null
+2013,EL30,Attica,Irrigable,25.3,Null,Null,Null
+2013,EL30,Attica,Irrigated,20.8,Null,Null,Null
+2013,EL41,North Aegean,Irrigable,5.6,Null,Null,Null
+2013,EL41,North Aegean,Irrigated,3.3,Null,Null,Null
+2013,EL42,South Aegean,Irrigable,4.8,Null,Null,Null
+2013,EL42,South Aegean,Irrigated,3.1,Null,Null,Null
+2013,EL43,Crete,Irrigable,16.2,Null,Null,Null
+2013,EL43,Crete,Irrigated,12.2,Null,Null,Null
+2013,EL51,Eastern Macedonia and Trace,Irrigable,: ,Null,Null,Null
+2013,EL51,Eastern Macedonia and Trace,Irrigated,: ,Null,Null,Null
+2013,EL52,Central Macedonia,Irrigable,: ,Null,Null,Null
+2013,EL52,Central Macedonia,Irrigated,: ,Null,Null,Null
+2013,EL53,Western Macedonia,Irrigable,: ,Null,Null,Null
+2013,EL53,Western Macedonia,Irrigated,: ,Null,Null,Null
+2013,EL54,Epirus,Irrigable,: ,Null,Null,Null
+2013,EL54,Epirus,Irrigated,: ,Null,Null,Null
+2013,EL61,Thessaly,Irrigable,: ,Null,Null,Null
+2013,EL61,Thessaly,Irrigated,: ,Null,Null,Null
+2013,EL62,Ionian Island,Irrigable,: ,Null,Null,Null
+2013,EL62,Ionian Island,Irrigated,: ,Null,Null,Null
+2013,EL63,Western Greece,Irrigable,: ,Null,Null,Null
+2013,EL63,Western Greece,Irrigated,: ,Null,Null,Null
+2013,EL64,Central Greece,Irrigable,: ,Null,Null,Null
+2013,EL64,Central Greece,Irrigated,: ,Null,Null,Null
+2013,EL65,Poloponnese,Irrigable,: ,Null,Null,Null
+2013,EL65,Poloponnese,Irrigated,: ,Null,Null,Null
+2013,ES,Spain,Irrigable,29,Null,Null,Null
+2013,ES,Spain,Irrigated,: c,Null,Null,Null
+2013,ES11,Galicia,Irrigable,22.6,Null,Null,Null
+2013,ES11,Galicia,Irrigated,2.9,Null,Null,Null
+2013,ES12,Principato De Asturia,Irrigable,12.3,Null,Null,Null
+2013,ES12,Principato De Asturia,Irrigated,1,Null,Null,Null
+2013,ES13,Cantabria,Irrigable,20.7,Null,Null,Null
+2013,ES13,Cantabria,Irrigated,0.4,Null,Null,Null
+2013,ES21,Pais Vasco,Irrigable,13.3,Null,Null,Null
+2013,ES21,Pais Vasco,Irrigated,3.6,Null,Null,Null
+2013,ES22,Comunidad Foral De Navarra,Irrigable,25.3,Null,Null,Null
+2013,ES22,Comunidad Foral De Navarra,Irrigated,15.3,Null,Null,Null
+2013,ES23,La Rioja,Irrigable,37.6,Null,Null,Null
+2013,ES23,La Rioja,Irrigated,13.6,Null,Null,Null
+2013,ES24,Aragón,Irrigable,29.2,Null,Null,Null
+2013,ES24,Aragón,Irrigated,15.4,Null,Null,Null
+2013,ES30,Comunidad de Madrid,Irrigable,27.8,Null,Null,Null
+2013,ES30,Comunidad de Madrid,Irrigated,5.1,Null,Null,Null
+2013,ES41,Castilla y Leon,Irrigable,22.4,Null,Null,Null
+2013,ES41,Castilla y Leon,Irrigated,7.6,Null,Null,Null
+2013,ES42,Castilla -La Mancha,Irrigable,23.7,Null,Null,Null
+2013,ES42,Castilla -La Mancha,Irrigated,8.8,Null,Null,Null
+2013,ES43,Extremadura,Irrigable,25.9,Null,Null,Null
+2013,ES43,Extremadura,Irrigated,8.6,Null,Null,Null
+2013,ES51,Cataluna,Irrigable,45.8,Null,Null,Null
+2013,ES51,Cataluna,Irrigated,20.4,Null,Null,Null
+2013,ES52,Comunidad Valenciana,Irrigable,50.8,Null,Null,Null
+2013,ES52,Comunidad Valenciana,Irrigated,40,Null,Null,Null
+2013,ES53,Iles Balears,Irrigable,17.5,Null,Null,Null
+2013,ES53,Iles Balears,Irrigated,5.4,Null,Null,Null
+2013,ES61,Andalucia,Irrigable,37.8,Null,Null,Null
+2013,ES61,Andalucia,Irrigated,17.7,Null,Null,Null
+2013,ES62,Region de Murcia,Irrigable,51.7,Null,Null,Null
+2013,ES62,Region de Murcia,Irrigated,36.6,Null,Null,Null
+2013,ES63,Ciudad Autonoma da Ceuta,Irrigable,: c,Null,Null,Null
+2013,ES63,Ciudad Autonoma da Ceuta,Irrigated,: c,Null,Null,Null
+2013,ES64,Ciudad autonoma di Melilla,Irrigable,0,Null,Null,Null
+2013,ES64,Ciudad autonoma di Melilla,Irrigated,0,Null,Null,Null
+2013,ES70,Canarias,Irrigable,47.3,Null,Null,Null
+2013,ES70,Canarias,Irrigated,0,Null,Null,Null
+2013,FI,Finland,Irrigable,4.5,Null,Null,Null
+2013,FI,Finland,Irrigated,0.4,Null,Null,Null
+2013,FI13,Eastern Finland,Irrigable,: ,Null,Null,Null
+2013,FI13,Eastern Finland,Irrigated,: ,Null,Null,Null
+2013,FI18,Southern Finland,Irrigable,: ,Null,Null,Null
+2013,FI18,Southern Finland,Irrigated,: ,Null,Null,Null
+2013,FI19,Western Finland,Irrigable,3.8,Null,Null,Null
+2013,FI19,Western Finland,Irrigated,0.3,Null,Null,Null
+2013,FI1A,Northern Finland,Irrigable,: ,Null,Null,Null
+2013,FI1A,Northern Finland,Irrigated,: ,Null,Null,Null
+2013,FI1B,Helsinki-Uusima,Irrigable,7.1,Null,Null,Null
+2013,FI1B,Helsinki-Uusima,Irrigated,0.5,Null,Null,Null
+2013,FI1C,South Finland,Irrigable,6,Null,Null,Null
+2013,FI1C,South Finland,Irrigated,0.7,Null,Null,Null
+2013,FI1D,North and East Finland,Irrigable,3.1,Null,Null,Null
+2013,FI1D,North and East Finland,Irrigated,0.3,Null,Null,Null
+2013,FI20,Äland Islands,Irrigable,8.7,Null,Null,Null
+2013,FI20,Äland Islands,Irrigated,3.7,Null,Null,Null
+2013,FR,France,Irrigable,10.1,Null,Null,Null
+2013,FR,France,Irrigated,5.1,Null,Null,Null
+2013,FR10,Íle de France,Irrigable,11.5,Null,Null,Null
+2013,FR10,Íle de France,Irrigated,0,Null,Null,Null
+2013,FR21,Champagne-Ardenne,Irrigable,7.7,Null,Null,Null
+2013,FR21,Champagne-Ardenne,Irrigated,: c,Null,Null,Null
+2013,FR22,Picardie,Irrigable,10.9,Null,Null,Null
+2013,FR22,Picardie,Irrigated,: c,Null,Null,Null
+2013,FR23,Haute Normandie,Irrigable,1.4,Null,Null,Null
+2013,FR23,Haute Normandie,Irrigated,: c,Null,Null,Null
+2013,FR24,Centre,Irrigable,21.8,Null,Null,Null
+2013,FR24,Centre,Irrigated,7.8,Null,Null,Null
+2013,FR25,Basse-Normandie,Irrigable,0.9,Null,Null,Null
+2013,FR25,Basse-Normandie,Irrigated,0.4,Null,Null,Null
+2013,FR26,Bourgogne,Irrigable,2.8,Null,Null,Null
+2013,FR26,Bourgogne,Irrigated,0.7,Null,Null,Null
+2013,FR30,Nord-Pas-de-Calais,Irrigable,9,Null,Null,Null
+2013,FR30,Nord-Pas-de-Calais,Irrigated,2.2,Null,Null,Null
+2013,FR41,Lorraine,Irrigable,0.1,Null,Null,Null
+2013,FR41,Lorraine,Irrigated,0.1,Null,Null,Null
+2013,FR42,Alsace,Irrigable,20.9,Null,Null,Null
+2013,FR42,Alsace,Irrigated,17.4,Null,Null,Null
+2013,FR43,Franche-Comté,Irrigable,1.5,Null,Null,Null
+2013,FR43,Franche-Comté,Irrigated,0.3,Null,Null,Null
+2013,FR51,Pays de la Loire,Irrigable,10.4,Null,Null,Null
+2013,FR51,Pays de la Loire,Irrigated,6.3,Null,Null,Null
+2013,FR52,Bretagne,Irrigable,2.2,Null,Null,Null
+2013,FR52,Bretagne,Irrigated,0.8,Null,Null,Null
+2013,FR53,Poitou-Charentes,Irrigable,13.6,Null,Null,Null
+2013,FR53,Poitou-Charentes,Irrigated,8.3,Null,Null,Null
+2013,FR61,Aquitaine,Irrigable,24.1,Null,Null,Null
+2013,FR61,Aquitaine,Irrigated,17.6,Null,Null,Null
+2013,FR62,Mifi-Pyrénées,Irrigable,14.4,Null,Null,Null
+2013,FR62,Mifi-Pyrénées,Irrigated,8.1,Null,Null,Null
+2013,FR63,Limousin,Irrigable,0.7,Null,Null,Null
+2013,FR63,Limousin,Irrigated,0.3,Null,Null,Null
+2013,FR71,Rhône-Alpes,Irrigable,10,Null,Null,Null
+2013,FR71,Rhône-Alpes,Irrigated,6.5,Null,Null,Null
+2013,FR72,Auvergne,Irrigable,3.3,Null,Null,Null
+2013,FR72,Auvergne,Irrigated,1.8,Null,Null,Null
+2013,FR81,Languedoc-Roussillon,Irrigable,13.1,Null,Null,Null
+2013,FR81,Languedoc-Roussillon,Irrigated,6.3,Null,Null,Null
+2013,FR82,Provence-Alpes-Côte d'Azur,Irrigable,20.5,Null,Null,Null
+2013,FR82,Provence-Alpes-Côte d'Azur,Irrigated,11.7,Null,Null,Null
+2013,FR83,Corse,Irrigable,12.5,Null,Null,Null
+2013,FR83,Corse,Irrigated,7.9,Null,Null,Null
+2013,FR91,Guadelupe,Irrigable,31.5,Null,Null,Null
+2013,FR91,Guadelupe,Irrigated,14.9,Null,Null,Null
+2013,FR92,Martinique,Irrigable,24.7,Null,Null,Null
+2013,FR92,Martinique,Irrigated,20.4,Null,Null,Null
+2013,FR93,Guyane,Irrigable,11.3,Null,Null,Null
+2013,FR93,Guyane,Irrigated,10.8,Null,Null,Null
+2013,FR94,La Réunion,Irrigable,29.5,Null,Null,Null
+2013,FR94,La Réunion,Irrigated,26.3,Null,Null,Null
+2013,FRA1,Guadelupe,Irrigable,: ,Null,Null,Null
+2013,FRA1,Guadelupe,Irrigated,: ,Null,Null,Null
+2013,FRA2,Martinique,Irrigable,: ,Null,Null,Null
+2013,FRA2,Martinique,Irrigated,: ,Null,Null,Null
+2013,FRA3,Guyane,Irrigable,: ,Null,Null,Null
+2013,FRA3,Guyane,Irrigated,: ,Null,Null,Null
+2013,FRA4,La Réunion,Irrigable,: ,Null,Null,Null
+2013,FRA4,La Réunion,Irrigated,: ,Null,Null,Null
+2013,HR,Croatia,Irrigable,1.6,Null,Null,Null
+2013,HR,Croatia,Irrigated,0.9,Null,Null,Null
+2013,HR03,Adriatica Croatia,Irrigable,2,Null,Null,Null
+2013,HR03,Adriatica Croatia,Irrigated,1.3,Null,Null,Null
+2013,HR04,Continental Croatia,Irrigable,1.5,Null,Null,Null
+2013,HR04,Continental Croatia,Irrigated,0.7,Null,Null,Null
+2013,HU,Hungary,Irrigable,5.6,Null,Null,Null
+2013,HU,Hungary,Irrigated,3,Null,Null,Null
+2013,HU10,Central Hungary,Irrigable,4.2,Null,Null,Null
+2013,HU10,Central Hungary,Irrigated,2.5,Null,Null,Null
+2013,HU21,Central Transdanubia,Irrigable,2.3,Null,Null,Null
+2013,HU21,Central Transdanubia,Irrigated,0.9,Null,Null,Null
+2013,HU22,Western Transdanubia,Irrigable,4.3,Null,Null,Null
+2013,HU22,Western Transdanubia,Irrigated,1.6,Null,Null,Null
+2013,HU23,Southern Transdanubia,Irrigable,1.3,Null,Null,Null
+2013,HU23,Southern Transdanubia,Irrigated,0.7,Null,Null,Null
+2013,HU31,Northern Hungary,Irrigable,1.7,Null,Null,Null
+2013,HU31,Northern Hungary,Irrigated,0.7,Null,Null,Null
+2013,HU32,Northern great plain,Irrigable,9.4,Null,Null,Null
+2013,HU32,Northern great plain,Irrigated,5.2,Null,Null,Null
+2013,HU33,Southern Great Plain,Irrigable,8.9,Null,Null,Null
+2013,HU33,Southern Great Plain,Irrigated,5.4,Null,Null,Null
+2013,IE,Ireland,Irrigable,0,Null,Null,Null
+2013,IE,Ireland,Irrigated,0,Null,Null,Null
+2013,IE01,"Border, Midland and Westland",Irrigable,0,Null,Null,Null
+2013,IE01,"Border, Midland and Westland",Irrigated,0,Null,Null,Null
+2013,IE02,Spouthern and Eastern Ireland,Irrigable,0,Null,Null,Null
+2013,IE02,Spouthern and Eastern Ireland,Irrigated,0,Null,Null,Null
+2013,IT,Italy,Irrigable,33.1,Null,Null,Null
+2013,IT,Italy,Irrigated,23.7,Null,Null,Null
+2013,ITC1,Piemonte,Irrigable,47.5,Null,Null,Null
+2013,ITC1,Piemonte,Irrigated,40.6,Null,Null,Null
+2013,ITC2,Valle d'Aosta,Irrigable,19.1,Null,Null,Null
+2013,ITC2,Valle d'Aosta,Irrigated,18.5,Null,Null,Null
+2013,ITC3,Liguria,Irrigable,31.9,Null,Null,Null
+2013,ITC3,Liguria,Irrigated,23.8,Null,Null,Null
+2013,ITC4,Lombardia,Irrigable,73,Null,Null,Null
+2013,ITC4,Lombardia,Irrigated,62.4,Null,Null,Null
+2013,ITD1,Trentino-Alto Adige,Irrigable,: ,Null,Null,Null
+2013,ITD1,Trentino-Alto Adige,Irrigated,: ,Null,Null,Null
+2013,ITD2,Trentino-Alto Adige,Irrigable,: ,Null,Null,Null
+2013,ITD2,Trentino-Alto Adige,Irrigated,: ,Null,Null,Null
+2013,ITD3,Veneto,Irrigable,: ,Null,Null,Null
+2013,ITD3,Veneto,Irrigated,: ,Null,Null,Null
+2013,ITD4,Friuli-Venezia Giulia,Irrigable,: ,Null,Null,Null
+2013,ITD4,Friuli-Venezia Giulia,Irrigated,: ,Null,Null,Null
+2013,ITD5,Emilia-Romagna,Irrigable,: ,Null,Null,Null
+2013,ITD5,Emilia-Romagna,Irrigated,: ,Null,Null,Null
+2013,ITE1,Toscana,Irrigable,: ,Null,Null,Null
+2013,ITE1,Toscana,Irrigated,: ,Null,Null,Null
+2013,ITE2,Umbria,Irrigable,: ,Null,Null,Null
+2013,ITE2,Umbria,Irrigated,: ,Null,Null,Null
+2013,ITE3,Marche,Irrigable,: ,Null,Null,Null
+2013,ITE3,Marche,Irrigated,: ,Null,Null,Null
+2013,ITE4,Lazio,Irrigable,: ,Null,Null,Null
+2013,ITE4,Lazio,Irrigated,: ,Null,Null,Null
+2013,ITF1,Abruzzo,Irrigable,14.1,Null,Null,Null
+2013,ITF1,Abruzzo,Irrigated,8.7,Null,Null,Null
+2013,ITF2,Molise,Irrigable,12.5,Null,Null,Null
+2013,ITF2,Molise,Irrigated,8.3,Null,Null,Null
+2013,ITF3,Campania,Irrigable,24.1,Null,Null,Null
+2013,ITF3,Campania,Irrigated,19.8,Null,Null,Null
+2013,ITF4,Puglia,Irrigable,30.8,Null,Null,Null
+2013,ITF4,Puglia,Irrigated,22.1,Null,Null,Null
+2013,ITF5,Basilicata,Irrigable,16,Null,Null,Null
+2013,ITF5,Basilicata,Irrigated,7.6,Null,Null,Null
+2013,ITF6,Calabria,Irrigable,20.8,Null,Null,Null
+2013,ITF6,Calabria,Irrigated,16,Null,Null,Null
+2013,ITG1,Sicily,Irrigable,17.2,Null,Null,Null
+2013,ITG1,Sicily,Irrigated,11.9,Null,Null,Null
+2013,ITG2,Sardinia,Irrigable,13.3,Null,Null,Null
+2013,ITG2,Sardinia,Irrigated,5.2,Null,Null,Null
+2013,ITH1,Trentino-Alto Adige,Irrigable,30.9,Null,Null,Null
+2013,ITH1,Trentino-Alto Adige,Irrigated,30.1,Null,Null,Null
+2013,ITH2,Trentino-Alto Adige,Irrigable,16.1,Null,Null,Null
+2013,ITH2,Trentino-Alto Adige,Irrigated,14.5,Null,Null,Null
+2013,ITH3,Veneto,Irrigable,69.9,Null,Null,Null
+2013,ITH3,Veneto,Irrigated,53.7,Null,Null,Null
+2013,ITH4,Friuli-Venezia Giulia,Irrigable,58.6,Null,Null,Null
+2013,ITH4,Friuli-Venezia Giulia,Irrigated,50.8,Null,Null,Null
+2013,ITH5,Emilia-Romagna,Irrigable,60,Null,Null,Null
+2013,ITH5,Emilia-Romagna,Irrigated,33.1,Null,Null,Null
+2013,ITI1,Toscana,Irrigable,15.1,Null,Null,Null
+2013,ITI1,Toscana,Irrigated,7.1,Null,Null,Null
+2013,ITI2,Umbria,Irrigable,15.4,Null,Null,Null
+2013,ITI2,Umbria,Irrigated,6.9,Null,Null,Null
+2013,ITI3,Marche,Irrigable,13.2,Null,Null,Null
+2013,ITI3,Marche,Irrigated,6.6,Null,Null,Null
+2013,ITI4,Lazio,Irrigable,22.4,Null,Null,Null
+2013,ITI4,Lazio,Irrigated,13.7,Null,Null,Null
+2013,LT,Lithuania,Irrigable,0.1,Null,Null,Null
+2013,LT,Lithuania,Irrigated,0.1,Null,Null,Null
+2013,LT00,Lithuania,Irrigable,0.1,Null,Null,Null
+2013,LT00,Lithuania,Irrigated,0.1,Null,Null,Null
+2013,LU,Luxembourg,Irrigable,: ,Null,Null,Null
+2013,LU,Luxembourg,Irrigated,: ,Null,Null,Null
+2013,LU00,Luxembourg,Irrigable,: ,Null,Null,Null
+2013,LU00,Luxembourg,Irrigated,: ,Null,Null,Null
+2013,LV,Latvia,Irrigable,0,Null,Null,Null
+2013,LV,Latvia,Irrigated,0,Null,Null,Null
+2013,LV00,Latvia,Irrigable,0,Null,Null,Null
+2013,LV00,Latvia,Irrigated,0,Null,Null,Null
+2013,ME,Montenegro,Irrigable,: ,Null,Null,Null
+2013,ME,Montenegro,Irrigated,: ,Null,Null,Null
+2013,ME00,Montenegro,Irrigable,: ,Null,Null,Null
+2013,ME00,Montenegro,Irrigated,: ,Null,Null,Null
+2013,MK,North Macedonia,Irrigable,39,Null,Null,Null
+2013,MK,North Macedonia,Irrigated,23.3,Null,Null,Null
+2013,MK00,North Macedonia,Irrigable,39,Null,Null,Null
+2013,MK00,North Macedonia,Irrigated,23.3,Null,Null,Null
+2013,MT,Malta,Irrigable,38.6,Null,Null,Null
+2013,MT,Malta,Irrigated,33.6,Null,Null,Null
+2013,MT00,Malta,Irrigable,38.6,Null,Null,Null
+2013,MT00,Malta,Irrigated,33.6,Null,Null,Null
+2013,NL,Netherlands,Irrigable,27,Null,Null,Null
+2013,NL,Netherlands,Irrigated,5.5,Null,Null,Null
+2013,NL11,Groningen,Irrigable,16.9,Null,Null,Null
+2013,NL11,Groningen,Irrigated,0.6,Null,Null,Null
+2013,NL12,Friesland,Irrigable,13.6,Null,Null,Null
+2013,NL12,Friesland,Irrigated,0.4,Null,Null,Null
+2013,NL13,Drenthe,Irrigable,15.8,Null,Null,Null
+2013,NL13,Drenthe,Irrigated,1.9,Null,Null,Null
+2013,NL21,Overijessel,Irrigable,16.1,Null,Null,Null
+2013,NL21,Overijessel,Irrigated,2.1,Null,Null,Null
+2013,NL22,Gelderland,Irrigable,21.8,Null,Null,Null
+2013,NL22,Gelderland,Irrigated,2.8,Null,Null,Null
+2013,NL23,Flevoland,Irrigable,70.1,Null,Null,Null
+2013,NL23,Flevoland,Irrigated,9.7,Null,Null,Null
+2013,NL31,Uthrecht,Irrigable,17.8,Null,Null,Null
+2013,NL31,Uthrecht,Irrigated,2.1,Null,Null,Null
+2013,NL32,North Holland,Irrigable,33.8,Null,Null,Null
+2013,NL32,North Holland,Irrigated,10.5,Null,Null,Null
+2013,NL33,South Holland,Irrigable,28.6,Null,Null,Null
+2013,NL33,South Holland,Irrigated,3.6,Null,Null,Null
+2013,NL34,Zeeland,Irrigable,10.6,Null,Null,Null
+2013,NL34,Zeeland,Irrigated,1.5,Null,Null,Null
+2013,NL41,North Brabant,Irrigable,50.2,Null,Null,Null
+2013,NL41,North Brabant,Irrigated,14,Null,Null,Null
+2013,NL42,Limburg,Irrigable,45.3,Null,Null,Null
+2013,NL42,Limburg,Irrigated,22.8,Null,Null,Null
+2013,NO,Norway,Irrigable,8.9,Null,Null,Null
+2013,NO,Norway,Irrigated,2,Null,Null,Null
+2013,NO01,Oslo and Akersus,Irrigable,5.2,Null,Null,Null
+2013,NO01,Oslo and Akersus,Irrigated,0.2,Null,Null,Null
+2013,NO02,Hedmark and Oppland,Irrigable,19.6,Null,Null,Null
+2013,NO02,Hedmark and Oppland,Irrigated,4.1,Null,Null,Null
+2013,NO03,Sor-Ostlandet,Irrigable,14.3,Null,Null,Null
+2013,NO03,Sor-Ostlandet,Irrigated,3.4,Null,Null,Null
+2013,NO04,Agder and Rogaland,Irrigable,5.4,Null,Null,Null
+2013,NO04,Agder and Rogaland,Irrigated,1,Null,Null,Null
+2013,NO05,Vestlandet,Irrigable,3.6,Null,Null,Null
+2013,NO05,Vestlandet,Irrigated,1.7,Null,Null,Null
+2013,NO06,Trondelag,Irrigable,1.9,Null,Null,Null
+2013,NO06,Trondelag,Irrigated,0.4,Null,Null,Null
+2013,NO07,Nord-Norge,Irrigable,1.8,Null,Null,Null
+2013,NO07,Nord-Norge,Irrigated,0,Null,Null,Null
+2013,PL,Poland,Irrigable,0.5,Null,Null,Null
+2013,PL,Poland,Irrigated,0.3,Null,Null,Null
+2013,PL11,Lodzkie,Irrigable,1.4,Null,Null,Null
+2013,PL11,Lodzkie,Irrigated,0.9,Null,Null,Null
+2013,PL12,Mozowieckie,Irrigable,1,Null,Null,Null
+2013,PL12,Mozowieckie,Irrigated,0.6,Null,Null,Null
+2013,PL21,Malopolskie,Irrigable,0.1,Null,Null,Null
+2013,PL21,Malopolskie,Irrigated,0.1,Null,Null,Null
+2013,PL22,Slaskie,Irrigable,0.3,Null,Null,Null
+2013,PL22,Slaskie,Irrigated,0.2,Null,Null,Null
+2013,PL31,Lubelskie,Irrigable,0.3,Null,Null,Null
+2013,PL31,Lubelskie,Irrigated,0.2,Null,Null,Null
+2013,PL32,Podkarpackie,Irrigable,0.1,Null,Null,Null
+2013,PL32,Podkarpackie,Irrigated,0,Null,Null,Null
+2013,PL33,Swietokrzyskie,Irrigable,0.3,Null,Null,Null
+2013,PL33,Swietokrzyskie,Irrigated,0.2,Null,Null,Null
+2013,PL34,Podlaskie,Irrigable,0.2,Null,Null,Null
+2013,PL34,Podlaskie,Irrigated,0.1,Null,Null,Null
+2013,PL41,Wielkopolskie,Irrigable,0.7,Null,Null,Null
+2013,PL41,Wielkopolskie,Irrigated,0.4,Null,Null,Null
+2013,PL42,Zachodniopomorskie,Irrigable,0.2,Null,Null,Null
+2013,PL42,Zachodniopomorskie,Irrigated,0.1,Null,Null,Null
+2013,PL43,Lubuskie,Irrigable,0.2,Null,Null,Null
+2013,PL43,Lubuskie,Irrigated,0.1,Null,Null,Null
+2013,PL51,Dolnoslaskie,Irrigable,0.2,Null,Null,Null
+2013,PL51,Dolnoslaskie,Irrigated,0.1,Null,Null,Null
+2013,PL52,Opolskie,Irrigable,0.4,Null,Null,Null
+2013,PL52,Opolskie,Irrigated,0.1,Null,Null,Null
+2013,PL61,Kujawsko-Pomorskie,Irrigable,1.2,Null,Null,Null
+2013,PL61,Kujawsko-Pomorskie,Irrigated,0.9,Null,Null,Null
+2013,PL62,Warninsko-Mazurskie,Irrigable,0.1,Null,Null,Null
+2013,PL62,Warninsko-Mazurskie,Irrigated,0,Null,Null,Null
+2013,PL63,Pomorskie,Irrigable,0.5,Null,Null,Null
+2013,PL63,Pomorskie,Irrigated,0.2,Null,Null,Null
+2013,PT,Portugal,Irrigable,15.2,Null,Null,Null
+2013,PT,Portugal,Irrigated,13.1,Null,Null,Null
+2013,PT11,Norte,Irrigable,23.7,Null,Null,Null
+2013,PT11,Norte,Irrigated,19.2,Null,Null,Null
+2013,PT15,Algarve,Irrigable,18.7,Null,Null,Null
+2013,PT15,Algarve,Irrigated,17.8,Null,Null,Null
+2013,PT16,Centro,Irrigable,21.2,Null,Null,Null
+2013,PT16,Centro,Irrigated,17,Null,Null,Null
+2013,PT17,Area Metropolitana de Lisboa,Irrigable,36.3,Null,Null,Null
+2013,PT17,Area Metropolitana de Lisboa,Irrigated,31.8,Null,Null,Null
+2013,PT18,Alantejo,Irrigable,10.8,Null,Null,Null
+2013,PT18,Alantejo,Irrigated,10,Null,Null,Null
+2013,PT20,Regiao Autonoma dos Acores,Irrigable,0.3,Null,Null,Null
+2013,PT20,Regiao Autonoma dos Acores,Irrigated,0.2,Null,Null,Null
+2013,PT30,Regiao Autonoma de Madeira,Irrigable,81.9,Null,Null,Null
+2013,PT30,Regiao Autonoma de Madeira,Irrigated,73.8,Null,Null,Null
+2013,RO,Romenia,Irrigable,1.8,Null,Null,Null
+2013,RO,Romenia,Irrigated,1.2,Null,Null,Null
+2013,RO11,Nord-Vest,Irrigable,0,Null,Null,Null
+2013,RO11,Nord-Vest,Irrigated,0,Null,Null,Null
+2013,RO12,Centru,Irrigable,0,Null,Null,Null
+2013,RO12,Centru,Irrigated,0,Null,Null,Null
+2013,RO21,Macroregion 2 Nord-Est,Irrigable,0.2,Null,Null,Null
+2013,RO21,Macroregion 2 Nord-Est,Irrigated,0.1,Null,Null,Null
+2013,RO22,Macroregion 2 Sud-Est,Irrigable,8.1,Null,Null,Null
+2013,RO22,Macroregion 2 Sud-Est,Irrigated,5.8,Null,Null,Null
+2013,RO31,Sud Muntenia,Irrigable,1.7,Null,Null,Null
+2013,RO31,Sud Muntenia,Irrigated,1,Null,Null,Null
+2013,RO32,Bucaresti-Iifov,Irrigable,0.7,Null,Null,Null
+2013,RO32,Bucaresti-Iifov,Irrigated,0.2,Null,Null,Null
+2013,RO41,Sud-Vest Oltenia,Irrigable,0.8,Null,Null,Null
+2013,RO41,Sud-Vest Oltenia,Irrigated,0.3,Null,Null,Null
+2013,RO42,Vest,Irrigable,0.2,Null,Null,Null
+2013,RO42,Vest,Irrigated,0.1,Null,Null,Null
+2013,SE,Sweden,Irrigable,5.1,Null,Null,Null
+2013,SE,Sweden,Irrigated,1.7,Null,Null,Null
+2013,SE11,Stockholm,Irrigable,1.4,Null,Null,Null
+2013,SE11,Stockholm,Irrigated,0.1,Null,Null,Null
+2013,SE12,East-middle Sweden,Irrigable,2.3,Null,Null,Null
+2013,SE12,East-middle Sweden,Irrigated,0.4,Null,Null,Null
+2013,SE21,Smaland and islands,Irrigable,4.8,Null,Null,Null
+2013,SE21,Smaland and islands,Irrigated,1.8,Null,Null,Null
+2013,SE22,South Sweden,Irrigable,13.2,Null,Null,Null
+2013,SE22,South Sweden,Irrigated,6.4,Null,Null,Null
+2013,SE23,West Sweden,Irrigable,5.2,Null,Null,Null
+2013,SE23,West Sweden,Irrigated,0.7,Null,Null,Null
+2013,SE31,North-middle Sweden,Irrigable,2.1,Null,Null,Null
+2013,SE31,North-middle Sweden,Irrigated,0.2,Null,Null,Null
+2013,SE32,Middle Norrland,Irrigable,1,Null,Null,Null
+2013,SE32,Middle Norrland,Irrigated,0.2,Null,Null,Null
+2013,SE33,Upper Norrland,Irrigable,0.6,Null,Null,Null
+2013,SE33,Upper Norrland,Irrigated,0.1,Null,Null,Null
+2013,SI,Slovenia,Irrigable,0.9,Null,Null,Null
+2013,SI,Slovenia,Irrigated,0.5,Null,Null,Null
+2013,SI01,Eastern Slovenia,Irrigable,0.9,Null,Null,Null
+2013,SI01,Eastern Slovenia,Irrigated,0.5,Null,Null,Null
+2013,SI02,Western Slovenia,Irrigable,0.8,Null,Null,Null
+2013,SI02,Western Slovenia,Irrigated,0.6,Null,Null,Null
+2013,SI03,Eastern Slovenia,Irrigable,: ,Null,Null,Null
+2013,SI03,Eastern Slovenia,Irrigated,: ,Null,Null,Null
+2013,SI04,Western Slovenia,Irrigable,: ,Null,Null,Null
+2013,SI04,Western Slovenia,Irrigated,: ,Null,Null,Null
+2013,SK,Slovakia,Irrigable,5.2,Null,Null,Null
+2013,SK,Slovakia,Irrigated,1.3,Null,Null,Null
+2013,SK01,Bratislava Region,Irrigable,18.6,Null,Null,Null
+2013,SK01,Bratislava Region,Irrigated,7.9,Null,Null,Null
+2013,SK02,Western Slovakia,Irrigable,9.9,Null,Null,Null
+2013,SK02,Western Slovakia,Irrigated,2.2,Null,Null,Null
+2013,SK03,Central Slovakia,Irrigable,0.7,Null,Null,Null
+2013,SK03,Central Slovakia,Irrigated,0.1,Null,Null,Null
+2013,SK04,Eastern Slovakia,Irrigable,0.1,Null,Null,Null
+2013,SK04,Eastern Slovakia,Irrigated,0,Null,Null,Null
+2013,UK,United Kingdom,Irrigable,0.7,Null,Null,Null
+2013,UK,United Kingdom,Irrigated,0.3,Null,Null,Null
+2013,UKC1,Tees Valley and Durham,Irrigable,: c,Null,Null,Null
+2013,UKC1,Tees Valley and Durham,Irrigated,: c,Null,Null,Null
+2013,UKC2,Northumberland and Tyne and Wear,Irrigable,0.1,Null,Null,Null
+2013,UKC2,Northumberland and Tyne and Wear,Irrigated,0.1,Null,Null,Null
+2013,UKD1,Cumbria,Irrigable,0,Null,Null,Null
+2013,UKD1,Cumbria,Irrigated,0,Null,Null,Null
+2013,UKD2,Cheshire,Irrigable,: ,Null,Null,Null
+2013,UKD2,Cheshire,Irrigated,: ,Null,Null,Null
+2013,UKD3,Greater Manchester,Irrigable,: c,Null,Null,Null
+2013,UKD3,Greater Manchester,Irrigated,: c,Null,Null,Null
+2013,UKD4,Lancashire,Irrigable,0.1,Null,Null,Null
+2013,UKD4,Lancashire,Irrigated,0.1,Null,Null,Null
+2013,UKD5,Merseyside,Irrigable,: ,Null,Null,Null
+2013,UKD5,Merseyside,Irrigated,: ,Null,Null,Null
+2013,UKD6,Cheshire,Irrigable,: c,Null,Null,Null
+2013,UKD6,Cheshire,Irrigated,: c,Null,Null,Null
+2013,UKD7,Merseyside,Irrigable,: c,Null,Null,Null
+2013,UKD7,Merseyside,Irrigated,: c,Null,Null,Null
+2013,UKE1,East Riding and North Lincolnshire,Irrigable,0.7,Null,Null,Null
+2013,UKE1,East Riding and North Lincolnshire,Irrigated,0.5,Null,Null,Null
+2013,UKE2,North Yorkshire,Irrigable,0.4,Null,Null,Null
+2013,UKE2,North Yorkshire,Irrigated,0.3,Null,Null,Null
+2013,UKE3,South Yorkshire,Irrigable,0.6,Null,Null,Null
+2013,UKE3,South Yorkshire,Irrigated,0.5,Null,Null,Null
+2013,UKE4,West Yorkshire,Irrigable,0.1,Null,Null,Null
+2013,UKE4,West Yorkshire,Irrigated,0.1,Null,Null,Null
+2013,UKF1,Derbyshire and Nottinghamshire,Irrigable,1.5,Null,Null,Null
+2013,UKF1,Derbyshire and Nottinghamshire,Irrigated,1.4,Null,Null,Null
+2013,UKF2,"Leicestershire, Rutland and Northamptonshire",Irrigable,0.1,Null,Null,Null
+2013,UKF2,"Leicestershire, Rutland and Northamptonshire",Irrigated,0,Null,Null,Null
+2013,UKF3,Lincolnshire,Irrigable,1.1,Null,Null,Null
+2013,UKF3,Lincolnshire,Irrigated,0.9,Null,Null,Null
+2013,UKG1,"Herefordshire, Worcestersire and Warwickshire",Irrigable,0.6,Null,Null,Null
+2013,UKG1,"Herefordshire, Worcestersire and Warwickshire",Irrigated,0.5,Null,Null,Null
+2013,UKG2,Shropshire and Staffordshire,Irrigable,0.7,Null,Null,Null
+2013,UKG2,Shropshire and Staffordshire,Irrigated,0.4,Null,Null,Null
+2013,UKG3,West midlands,Irrigable,: c,Null,Null,Null
+2013,UKG3,West midlands,Irrigated,: c,Null,Null,Null
+2013,UKH1,East Anglia,Irrigable,2.7,Null,Null,Null
+2013,UKH1,East Anglia,Irrigated,2.5,Null,Null,Null
+2013,UKH2,Bedfordshire and Hertfordshire,Irrigable,0.7,Null,Null,Null
+2013,UKH2,Bedfordshire and Hertfordshire,Irrigated,0.7,Null,Null,Null
+2013,UKH3,Essex,Irrigable,1.3,Null,Null,Null
+2013,UKH3,Essex,Irrigated,1.1,Null,Null,Null
+2013,UKI1,Derbyshire and Nottinghamshire,Irrigable,0,Null,Null,Null
+2013,UKI1,Derbyshire and Nottinghamshire,Irrigated,0,Null,Null,Null
+2013,UKI2,"Leicestershire, Rutland and Northamptonshire",Irrigable,0.6,Null,Null,Null
+2013,UKI2,"Leicestershire, Rutland and Northamptonshire",Irrigated,0.4,Null,Null,Null
+2013,UKI5,Outer London- East and north-East,Irrigable,: ,Null,Null,Null
+2013,UKI5,Outer London- East and north-East,Irrigated,: ,Null,Null,Null
+2013,UKI6,Outer London- South,Irrigable,: ,Null,Null,Null
+2013,UKI6,Outer London- South,Irrigated,: ,Null,Null,Null
+2013,UKI7,Outer London - West and North-West,Irrigable,: ,Null,Null,Null
+2013,UKI7,Outer London - West and North-West,Irrigated,: ,Null,Null,Null
+2013,UKJ1,"Berkshire, Buckinghamshire and Oxfordshire",Irrigable,0,Null,Null,Null
+2013,UKJ1,"Berkshire, Buckinghamshire and Oxfordshire",Irrigated,0,Null,Null,Null
+2013,UKJ2,"Surrey, East and West Sussex",Irrigable,0.2,Null,Null,Null
+2013,UKJ2,"Surrey, East and West Sussex",Irrigated,0.2,Null,Null,Null
+2013,UKJ3,Hampshire and Isle of Wight,Irrigable,0.3,Null,Null,Null
+2013,UKJ3,Hampshire and Isle of Wight,Irrigated,0.2,Null,Null,Null
+2013,UKJ4,Kent,Irrigable,0.9,Null,Null,Null
+2013,UKJ4,Kent,Irrigated,0.9,Null,Null,Null
+2013,UKK1,"Gloucestershire, Wiltshire and Bristol/Bath area",Irrigable,0.1,Null,Null,Null
+2013,UKK1,"Gloucestershire, Wiltshire and Bristol/Bath area",Irrigated,0.1,Null,Null,Null
+2013,UKK2,Dorset and Somerset,Irrigable,0,Null,Null,Null
+2013,UKK2,Dorset and Somerset,Irrigated,0,Null,Null,Null
+2013,UKK3,Cornwall and Isles of Scilly,Irrigable,0,Null,Null,Null
+2013,UKK3,Cornwall and Isles of Scilly,Irrigated,: c,Null,Null,Null
+2013,UKK4,Devon,Irrigable,0,Null,Null,Null
+2013,UKK4,Devon,Irrigated,0,Null,Null,Null
+2013,UKL1,West Wales and the Valleys,Irrigable,0,Null,Null,Null
+2013,UKL1,West Wales and the Valleys,Irrigated,: c,Null,Null,Null
+2013,UKL2,East Wales,Irrigable,0,Null,Null,Null
+2013,UKL2,East Wales,Irrigated,: c,Null,Null,Null
+2013,UKM2,Eastern Scotland,Irrigable,3.7,Null,Null,Null
+2013,UKM2,Eastern Scotland,Irrigated,0.1,Null,Null,Null
+2013,UKM3,South Western Scotland,Irrigable,0.4,Null,Null,Null
+2013,UKM3,South Western Scotland,Irrigated,0,Null,Null,Null
+2013,UKM5,Nprth Eastern Scotland,Irrigable,1.1,Null,Null,Null
+2013,UKM5,Nprth Eastern Scotland,Irrigated,0,Null,Null,Null
+2013,UKM6,Highlands and Islands,Irrigable,0.2,Null,Null,Null
+2013,UKM6,Highlands and Islands,Irrigated,0,Null,Null,Null
+2013,UKN0,Northern Ireland,Irrigable,0,Null,Null,Null
+2013,UKN0,Northern Ireland,Irrigated,0,Null,Null,Null
+2015,AT,Austria,Null,Null,AT1000,DANUBE,53
+2015,AT,Austria,Null,Null,AT2000,RHINE,46
+2015,AT,Austria,Null,Null,AT5000,ELBE,53
+2015,BE,Belgium,Null,Null,BEESCAUT_RW,INTERNATIONAL RIVER BASIN DISTRICT OF THE SCHELDT,92
+2015,BE,Belgium,Null,Null,BEESCAUT_SCHELDE_BR,INTERNATIONAL RIVER BASIN DISTRICT OF THE SCHELDT,100
+2015,BE,Belgium,Null,Null,BEMAAS_VL,INTERNATIONAL RIVER BASIN DISTRICT OF THE MEUSE,100
+2015,BE,Belgium,Null,Null,BEMEUSE_RW,INTERNATIONAL RIVER BASIN DISTRICT OF THE MEUSE,47
+2015,BE,Belgium,Null,Null,BENOORDZEE_FED,BELGIAN COASTAL ZONE,100
+2015,BE,Belgium,Null,Null,BERHIN_RW,INTERNATIONAL RIVER BASIN DISTRICT OF THE RHINE,56
+2015,BE,Belgium,Null,Null,BESCHELDE_VL,INTERNATIONAL RIVER BASIN DISTRICT OF THE SCHELDT,100
+2015,BE,Belgium,Null,Null,BESEINE_RW,INTERNATIONAL RIVER BASIN DISTRICT OF THE SEINE,0
+2015,BG,Bulgaria,Null,Null,BG1000,DANUBE,41
+2015,BG,Bulgaria,Null,Null,BG2000,BLACK SEA,62
+2015,BG,Bulgaria,Null,Null,BG3000,EAST AEGEAN,55
+2015,BG,Bulgaria,Null,Null,BG4000,WEST AEGEAN,36
+2015,CY,Cyprus,Null,Null,CY001,CYPRUS,41
+2015,CZ,Czech Republic,Null,Null,CZ1000,DANUBE,74
+2015,CZ,Czech Republic,Null,Null,CZ5000,ELBE,85
+2015,CZ,Czech Republic,Null,Null,CZ6000,ODRA,74
+2015,DE,Germany,Null,Null,DE1000,DONAU,80
+2015,DE,Germany,Null,Null,DE2000,RHEIN,87
+2015,DE,Germany,Null,Null,DE3000,EMS,99
+2015,DE,Germany,Null,Null,DE4000,WESER,95
+2015,DE,Germany,Null,Null,DE5000,ELBE,94
+2015,DE,Germany,Null,Null,DE6000,ODER,96
+2015,DE,Germany,Null,Null,DE7000,MAAS,86
+2015,DE,Germany,Null,Null,DE9500,EIDER,90
+2015,DE,Germany,Null,Null,DE9610,SCHLEI/TRAVE,99
+2015,DE,Germany,Null,Null,DE9650,WARNOW/PEENE,95
+2015,DK,Denmark,Null,Null,DK1,JUTLAND AND FUNEN,60
+2015,DK,Denmark,Null,Null,DK2,SEALAND,79
+2015,DK,Denmark,Null,Null,DK3,BORNHOLM,36
+2015,DK,Denmark,Null,Null,DK4,VIDAA-KRUSAA,61
+2015,EE,Estonia,Null,Null,EE1,L?ä?äNE-EESTI VESIKOND,41
+2015,EE,Estonia,Null,Null,EE2,IDA-EESTI VESIKOND,40
+2015,EE,Estonia,Null,Null,EE3,KOIVA VESIKOND,27
+2015,EL,Greece,Null,Null,EL01,WESTERN PELOPONNESE,28
+2015,EL,Greece,Null,Null,EL02,NORTHERN PELOPONNESE,34
+2015,EL,Greece,Null,Null,EL03,EASTERN PELOPONNESE,22
+2015,EL,Greece,Null,Null,EL04,WESTERN STEREA ELLADA,21
+2015,EL,Greece,Null,Null,EL05,EPIRUS,31
+2015,EL,Greece,Null,Null,EL06,ATTICA,64
+2015,EL,Greece,Null,Null,EL07,EASTERN STEREA ELLADA,45
+2015,EL,Greece,Null,Null,EL08,THESSALIA,52
+2015,EL,Greece,Null,Null,EL09,WESTERN MACEDONIA,42
+2015,EL,Greece,Null,Null,EL10,CENTRAL MACEDONIA,52
+2015,EL,Greece,Null,Null,EL11,EASTERN MACEDONIA,37
+2015,EL,Greece,Null,Null,EL12,THRACE,23
+2015,EL,Greece,Null,Null,EL13,CRETE,22
+2015,EL,Greece,Null,Null,EL14,AEGEAN ISLANDS,3
+2015,ES,Spain,Null,Null,ES010,MINHO,24
+2015,ES,Spain,Null,Null,ES014,GALICIAN COAST,23
+2015,ES,Spain,Null,Null,ES017,EASTERN CANTABRIAN,36
+2015,ES,Spain,Null,Null,ES018,WESTERN CANTABRIAN,17
+2015,ES,Spain,Null,Null,ES020,DUERO,70
+2015,ES,Spain,Null,Null,ES030,TAGUS,43
+2015,ES,Spain,Null,Null,ES040,GUADIANA,69
+2015,ES,Spain,Null,Null,ES050,GUADALQUIVIR,38
+2015,ES,Spain,Null,Null,ES060,ANDALUSIA MEDITERRANEAN BASINS,41
+2015,ES,Spain,Null,Null,ES063,GUADALETE AND BARBATE,55
+2015,ES,Spain,Null,Null,ES064,"TINTO, ODIEL AND PIEDRAS",48
+2015,ES,Spain,Null,Null,ES070,SEGURA,46
+2015,ES,Spain,Null,Null,ES080,JUCAR,64
+2015,ES,Spain,Null,Null,ES091,EBRO,29
+2015,ES,Spain,Null,Null,ES100,INTERNAL BASINS OF CATALONIA,59
+2015,ES,Spain,Null,Null,ES110,BALEARIC ISLANDS,36
+2015,ES,Spain,Null,Null,ES120,GRAN CANARIA,0
+2015,ES,Spain,Null,Null,ES122,FUERTEVENTURA,0
+2015,ES,Spain,Null,Null,ES123,LANZAROTE,0
+2015,ES,Spain,Null,Null,ES124,TENERIFE,0
+2015,ES,Spain,Null,Null,ES125,LA PALMA,0
+2015,ES,Spain,Null,Null,ES126,LA GOMERA,0
+2015,ES,Spain,Null,Null,ES127,EL HIERRO,0
+2015,ES,Spain,Null,Null,ES150,CEUTA,33
+2015,ES,Spain,Null,Null,ES160,MELILLA,25
+2015,FI,Finland,Null,Null,FIVHA1,VUOKSI RIVER BASIN DISTRICT,19
+2015,FI,Finland,Null,Null,FIVHA2,KYMIJOKI-GULF OF FINLAND RIVER BASIN DISTRICT,36
+2015,FI,Finland,Null,Null,FIVHA3,KOKEM?äENJOKI-ARCHIPELAGO SEA-BOTHNIAN SEA RIVER BASIN DISTRICT,53
+2015,FI,Finland,Null,Null,FIVHA4,OULUJOKI-IIJOKI RIVER BASIN DISTRICT,20
+2015,FI,Finland,Null,Null,FIVHA5,KEMIJOKI RIVER BASIN DISTRICT,4
+2015,FI,Finland,Null,Null,FIVHA6,TORNIONJOKI IRBD,7
+2015,FI,Finland,Null,Null,FIVHA7,"TENO, N?ä?äT?äM?ûJOKI AND PAATSJOKI IRBD",0
+2015,FI,Finland,Null,Null,FIWDA,?àLAND RIVER BASIN DISTRICT,87
+2015,FR,France,Null,Null,FRA,"L'ESCAUT, LA SOMME ET LES COURS D'EAU C?öTIERS DE LA MANCHE ET DE LA MER DU NORD",79
+2015,FR,France,Null,Null,FRB1,LA MEUSE,62
+2015,FR,France,Null,Null,FRB2,LA SAMBRE,92
+2015,FR,France,Null,Null,FRC,LE RHIN,82
+2015,FR,France,Null,Null,FRD,LE RH?öNE ET LES COURS D'EAU C?öTIERS M?ëDITERRAN?ëENS,47
+2015,FR,France,Null,Null,FRE,LES COURS D'EAU DE LA CORSE,17
+2015,FR,France,Null,Null,FRF,"LA GARONNE, L'ADOUR, LA DORDOGNE, LA CHARENTE ET LES COURS D'EAU C?öTIERS CHARENTAIS ET AQUITAINS",57
+2015,FR,France,Null,Null,FRG,"LA LOIRE, LES COURS D'EAU C?öTIERS VEND?ëENS ET BRETONS",73
+2015,FR,France,Null,Null,FRH,LA SEINE ET LES COURS D'EAU C?öTIERS NORMANDS,61
+2015,FR,France,Null,Null,FRI,LES COURS D'EAU DE LA GUADELOUPE,62
+2015,FR,France,Null,Null,FRJ,LES COURS D'EAU DE LA MARTINIQUE,83
+2015,FR,France,Null,Null,FRK,LES FLEUVES ET COURS D'EAU C?öTIERS DE LA GUYANE,12
+2015,FR,France,Null,Null,FRL,LES COURS D'EAU DE LA R?ëUNION,65
+2015,FR,France,Null,Null,FRM,MAYOTTE,67
+2015,HR,Croatia,Null,Null,HRC,DANUBE RIVER BASIN DISTRICT,60
+2015,HR,Croatia,Null,Null,HRJ,ADRIATIC RIVER BASIN DISTRICT,53
+2015,HU,Hungary,Null,Null,HU1000,HUNGARIAN PART OF THE DANUBE RIVER BASIN DISTRICT,90
+2015,IE,Ireland,Null,Null,IEGBNIIENB,NEAGH BANN,63
+2015,IE,Ireland,Null,Null,IEGBNIIENW,NORTH WESTERN,48
+2015,IE,Ireland,Null,Null,IEROI,REPUBLIC OF IRELAND,38
+2015,IT,Italy,Null,Null,ITA,RBD ALPI ORIENTALI,35
+2015,IT,Italy,Null,Null,ITB,RBD PADANO,51
+2015,IT,Italy,Null,Null,ITC,RBD APPENNINO SETTENTRIONALE,63
+2015,IT,Italy,Null,Null,ITD,RBD BACINO PILOTA SERCHIO,47
+2015,IT,Italy,Null,Null,ITE,RBD APPENNINO CENTRALE,61
+2015,IT,Italy,Null,Null,ITF,RBD APPENNINO MERIDIONALE,67
+2015,IT,Italy,Null,Null,ITG,RBD SARDEGNA,23
+2015,IT,Italy,Null,Null,ITH,RBD SICILIA,83
+2015,LT,Lithuania,Null,Null,LT1100,NEMUNAS,44
+2015,LT,Lithuania,Null,Null,LT2300,VENTA,45
+2015,LT,Lithuania,Null,Null,LT3400,LIELUPE,84
+2015,LT,Lithuania,Null,Null,LT4500,DAUGUVA,20
+2015,LU,Luxembourg,Null,Null,LU000,RHINE,97
+2015,LU,Luxembourg,Null,Null,LU001,MEUSE,100
+2015,LV,Latvia,Null,Null,LVDUBA,DAUGAVAS UPJU BASEINU APGABALS,79
+2015,LV,Latvia,Null,Null,LVGUBA,GAUJAS UPJU BASEINU APGABALS,66
+2015,LV,Latvia,Null,Null,LVLUBA,LIELUPES UPJU BASEINU APGABALS,89
+2015,LV,Latvia,Null,Null,LVVUBA,VENTAS UPJU BASEINU APGABALS,84
+2015,MT,Malta,Null,Null,MTMALTA,MALTA,22
+2015,NL,Netherlands,Null,Null,NLEM,EEMS,100
+2015,NL,Netherlands,Null,Null,NLMS,MAAS,100
+2015,NL,Netherlands,Null,Null,NLRN,RIJN,100
+2015,NL,Netherlands,Null,Null,NLSC,SCHELDE,100
+2015,NO,Norway,Null,Null,NO1,BOTHNIAN BAY,3
+2015,NO,Norway,Null,Null,NO1101,MOERE AND ROMSDAL,22
+2015,NO,Norway,Null,Null,NO1102,TROENDELAG,32
+2015,NO,Norway,Null,Null,NO1103,NORDLAND,18
+2015,NO,Norway,Null,Null,NO1104,TROMS,15
+2015,NO,Norway,Null,Null,NO1105,FINNMARK,4
+2015,NO,Norway,Null,Null,NO1106,NORWEGIAN - FINNISH,12
+2015,NO,Norway,Null,Null,NO1TO,BOTHNIAN BAY (INTERNATIONAL DISTRICT TORNE RIVER - NORWAY),0
+2015,NO,Norway,Null,Null,NO2,BOTHNIAN SEA,6
+2015,NO,Norway,Null,Null,NO5,SKAGERRAK AND KATTEGAT,21
+2015,NO,Norway,Null,Null,NO5101,GLOMMA,38
+2015,NO,Norway,Null,Null,NO5102,WEST-BAY,37
+2015,NO,Norway,Null,Null,NO5103,AGDER,77
+2015,NO,Norway,Null,Null,NO5104,ROGALAND,52
+2015,NO,Norway,Null,Null,NO5105,HORDALAND,57
+2015,NO,Norway,Null,Null,NO5106,SOGN OG FJORDANE,57
+2015,NO,Norway,Null,Null,NOVHA5,KEMIJOKI,0
+2015,NO,Norway,Null,Null,NOVHA6,TORNIONJOKI,0
+2015,PL,Poland,Null,Null,PL1000,DANUBE RIVER BASIN DISTRICT,36
+2015,PL,Poland,Null,Null,PL2000,VISTULA RIVER BASIN DISTRICT,71
+2015,PL,Poland,Null,Null,PL3000,SWIEZA RIVER BASIN DISTRICT,40
+2015,PL,Poland,Null,Null,PL4000,JARFT RIVER BASIN DISTRICT,100
+2015,PL,Poland,Null,Null,PL5000,RIVER BASIN DISTRICT,38
+2015,PL,Poland,Null,Null,PL6000,ODER RIVER BASIN DISTRICT,68
+2015,PL,Poland,Null,Null,PL7000,PREGOLYA RIVER BASIN DISTRICT,45
+2015,PL,Poland,Null,Null,PL8000,NEMUNAS RIVER BASIN DISTRICT,59
+2015,PL,Poland,Null,Null,PL9000,DNIESTER RIVER BASIN DISTRICT,100
+2015,PT,Portugal,Null,Null,PTRH1,MINHO AND LIMA,32
+2015,PT,Portugal,Null,Null,PTRH10,MADEIRA,36
+2015,PT,Portugal,Null,Null,PTRH2,"CAVADO, AVE AND LECA",44
+2015,PT,Portugal,Null,Null,PTRH3,DOURO,37
+2015,PT,Portugal,Null,Null,PTRH4A,"VOUGA, MONDEGO AND LIS",31
+2015,PT,Portugal,Null,Null,PTRH5A,TAGUS AND WEST RIVERS,52
+2015,PT,Portugal,Null,Null,PTRH6,SADO AND MIRA,58
+2015,PT,Portugal,Null,Null,PTRH7,GUADIANA,61
+2015,PT,Portugal,Null,Null,PTRH8,ALGARVE RIVERS,25
+2015,PT,Portugal,Null,Null,PTRH9,AZORES,30
+2015,RO,Romania,Null,Null,RO1000,DANUBE RIVER BASIN DISTRICT,34
+2015,SE,Sweden,Null,Null,SE1,BOTHNIAN BAY (SWEDEN),47
+2015,SE,Sweden,Null,Null,SE1102,BOTHNIAN SEA (INTERNATIONAL DRAINAGE BASIN TRONDELAGSFYLKENE - SWEDEN),28
+2015,SE,Sweden,Null,Null,SE1103,BOTHNIAN BAY (INTERNATIONAL DRAINAGE BASIN NORDLAND - SWEDEN),2
+2015,SE,Sweden,Null,Null,SE1104,BOTHNIAN BAY (INTERNATIONAL DRAINAGE BASIN TROMS - SWEDEN),0
+2015,SE,Sweden,Null,Null,SE1TO,BOTHNIAN BAY (INTERNATIONAL DISTRICT TORNE RIVER - SWEDEN),21
+2015,SE,Sweden,Null,Null,SE2,BOTHNIAN SEA (SWEDEN),67
+2015,SE,Sweden,Null,Null,SE3,NORTH BALTIC SEA (SWEDEN),83
+2015,SE,Sweden,Null,Null,SE4,SOUTH BALTIC SEA (SWEDEN),80
+2015,SE,Sweden,Null,Null,SE5,SKAGERRAK AND KATTEGAT (SWEDEN),82
+2015,SE,Sweden,Null,Null,SE5101,SKAGERRAK AND KATTEGAT (INTERNATIONAL DRAINAGE BASIN GLOMMA - SWEDEN),64
+2015,SI,Slovenia,Null,Null,SIRBD1,DANUBE,46
+2015,SI,Slovenia,Null,Null,SIRBD2,ADRIATIC,16
+2015,SK,Slovakia,Null,Null,SK30000,VISTULA,24
+2015,SK,Slovakia,Null,Null,SK40000,DANUBE,45
+2015,UK,England,Null,Null,UK01,SCOTLAND,42
+2015,UK,England,Null,Null,UK02,SOLWAY TWEED,56
+2015,UK,England,Null,Null,UK03,NORTHUMBRIA,73
+2015,UK,England,Null,Null,UK04,HUMBER,85
+2015,UK,England,Null,Null,UK05,ANGLIAN,89
+2015,UK,England,Null,Null,UK06,THAMES,92
+2015,UK,England,Null,Null,UK07,SOUTH EAST,85
+2015,UK,England,Null,Null,UK08,SOUTH WEST,77
+2015,UK,England,Null,Null,UK09,SEVERN,80
+2015,UK,England,Null,Null,UK10,WESTERN WALES,57
+2015,UK,England,Null,Null,UK11,DEE,73
+2015,UK,England,Null,Null,UK12,NORTH WEST,78
+2015,UK,England,Null,Null,UKGBNIIENB,NEAGH BANN,73
+2015,UK,England,Null,Null,UKGBNIIENW,NORTH WESTERN,55
+2015,UK,England,Null,Null,UKGBNINE,NORTH EASTERN,76
+2015,UK,England,Null,Null,UKGI17,GIBRALTAR,0
+2016,AT,Austria,Irrigable,3.7,Null,Null,Null
+2016,AT,Austria,Irrigated,1.4,Null,Null,Null
+2016,AT11,Burgenland,Irrigable,12.5,Null,Null,Null
+2016,AT11,Burgenland,Irrigated,5.6,Null,Null,Null
+2016,AT12,Lower Austria,Irrigable,7.2,Null,Null,Null
+2016,AT12,Lower Austria,Irrigated,2.7,Null,Null,Null
+2016,AT13,Vienna,Irrigable,34.3,Null,Null,Null
+2016,AT13,Vienna,Irrigated,15.4,Null,Null,Null
+2016,AT21,Carinthia,Irrigable,0.6,Null,Null,Null
+2016,AT21,Carinthia,Irrigated,0,Null,Null,Null
+2016,AT22,Styria,Irrigable,0.9,Null,Null,Null
+2016,AT22,Styria,Irrigated,0.4,Null,Null,Null
+2016,AT31,Upper Austria,Irrigable,0.5,Null,Null,Null
+2016,AT31,Upper Austria,Irrigated,0.1,Null,Null,Null
+2016,AT32,Salzburg,Irrigable,0.2,Null,Null,Null
+2016,AT32,Salzburg,Irrigated,0,Null,Null,Null
+2016,AT33,Tyrol,Irrigable,1.2,Null,Null,Null
+2016,AT33,Tyrol,Irrigated,0.5,Null,Null,Null
+2016,AT34,Vorarlberg,Irrigable,0.7,Null,Null,Null
+2016,AT34,Vorarlberg,Irrigated,0.2,Null,Null,Null
+2016,BE,Belgium,Irrigable,1.8,Null,Null,Null
+2016,BE,Belgium,Irrigated,0.8,Null,Null,Null
+2016,BE10,Brussels,Irrigable,0,Null,Null,Null
+2016,BE10,Brussels,Irrigated,0,Null,Null,Null
+2016,BE21,Antwerp,Irrigable,4.5,Null,Null,Null
+2016,BE21,Antwerp,Irrigated,2.1,Null,Null,Null
+2016,BE22,Limburg,Irrigable,4.7,Null,Null,Null
+2016,BE22,Limburg,Irrigated,1.9,Null,Null,Null
+2016,BE23,East Flanders,Irrigable,0.7,Null,Null,Null
+2016,BE23,East Flanders,Irrigated,0.3,Null,Null,Null
+2016,BE24,Flemish Barbant,Irrigable,0.9,Null,Null,Null
+2016,BE24,Flemish Barbant,Irrigated,0.6,Null,Null,Null
+2016,BE25,West Flanders,Irrigable,5.1,Null,Null,Null
+2016,BE25,West Flanders,Irrigated,2,Null,Null,Null
+2016,BE31,Walloon Barbant,Irrigable,1,Null,Null,Null
+2016,BE31,Walloon Barbant,Irrigated,0.3,Null,Null,Null
+2016,BE32,Hainaut,Irrigable,0.3,Null,Null,Null
+2016,BE32,Hainaut,Irrigated,0.1,Null,Null,Null
+2016,BE33,Liége,Irrigable,1.3,Null,Null,Null
+2016,BE33,Liége,Irrigated,0.6,Null,Null,Null
+2016,BE34,Luxemburg,Irrigable,: c,Null,Null,Null
+2016,BE34,Luxemburg,Irrigated,: c,Null,Null,Null
+2016,BE35,Namur,Irrigable,0.3,Null,Null,Null
+2016,BE35,Namur,Irrigated,0.1,Null,Null,Null
+2016,BG,Bulgaria,Irrigable,3,Null,Null,Null
+2016,BG,Bulgaria,Irrigated,2.1,Null,Null,Null
+2016,BG31,Severozapaden,Irrigable,1.1,Null,Null,Null
+2016,BG31,Severozapaden,Irrigated,0.5,Null,Null,Null
+2016,BG32,Severen centralen,Irrigable,0.8,Null,Null,Null
+2016,BG32,Severen centralen,Irrigated,0.7,Null,Null,Null
+2016,BG33,Severoiztoecen,Irrigable,1,Null,Null,Null
+2016,BG33,Severoiztoecen,Irrigated,0.7,Null,Null,Null
+2016,BG34,Jugoiztecen,Irrigable,3.5,Null,Null,Null
+2016,BG34,Jugoiztecen,Irrigated,1.9,Null,Null,Null
+2016,BG41,Jugozapaden,Irrigable,3.9,Null,Null,Null
+2016,BG41,Jugozapaden,Irrigated,2.9,Null,Null,Null
+2016,BG42,Juzen centralen,Irrigable,9.7,Null,Null,Null
+2016,BG42,Juzen centralen,Irrigated,7.4,Null,Null,Null
+2016,CH,Switzerland,Irrigable,: ,Null,Null,Null
+2016,CH,Switzerland,Irrigated,: ,Null,Null,Null
+2016,CH01,Lake Geneva region,Irrigable,: ,Null,Null,Null
+2016,CH01,Lake Geneva region,Irrigated,: ,Null,Null,Null
+2016,CH02,Espace Mittelland,Irrigable,: ,Null,Null,Null
+2016,CH02,Espace Mittelland,Irrigated,: ,Null,Null,Null
+2016,CH03,Northwest Switzerland,Irrigable,: ,Null,Null,Null
+2016,CH03,Northwest Switzerland,Irrigated,: ,Null,Null,Null
+2016,CH04,Zurich,Irrigable,: ,Null,Null,Null
+2016,CH04,Zurich,Irrigated,: ,Null,Null,Null
+2016,CH05,Eastern Switzerland,Irrigable,: ,Null,Null,Null
+2016,CH05,Eastern Switzerland,Irrigated,: ,Null,Null,Null
+2016,CH06,Central Switzerland,Irrigable,: ,Null,Null,Null
+2016,CH06,Central Switzerland,Irrigated,: ,Null,Null,Null
+2016,CH07,Ticino,Irrigable,: ,Null,Null,Null
+2016,CH07,Ticino,Irrigated,: ,Null,Null,Null
+2016,CY,Cyprus,Irrigable,34.1,Null,Null,Null
+2016,CY,Cyprus,Irrigated,21,Null,Null,Null
+2016,CY00,Cyprus,Irrigable,34.1,Null,Null,Null
+2016,CY00,Cyprus,Irrigated,21,Null,Null,Null
+2016,CZ,Czech Republic,Irrigable,1.3,Null,Null,Null
+2016,CZ,Czech Republic,Irrigated,0.7,Null,Null,Null
+2016,CZ01,Prague,Irrigable,1.8,Null,Null,Null
+2016,CZ01,Prague,Irrigated,1.7,Null,Null,Null
+2016,CZ02,Central Bohemia,Irrigable,2.1,Null,Null,Null
+2016,CZ02,Central Bohemia,Irrigated,1.3,Null,Null,Null
+2016,CZ03,Southwest Bohemia,Irrigable,0.6,Null,Null,Null
+2016,CZ03,Southwest Bohemia,Irrigated,0.3,Null,Null,Null
+2016,CZ04,Northwest Bohemia,Irrigable,2.1,Null,Null,Null
+2016,CZ04,Northwest Bohemia,Irrigated,0.8,Null,Null,Null
+2016,CZ05,Northeast Bohemia,Irrigable,0.8,Null,Null,Null
+2016,CZ05,Northeast Bohemia,Irrigated,0.4,Null,Null,Null
+2016,CZ06,Southeast Bohemia,Irrigable,2.4,Null,Null,Null
+2016,CZ06,Southeast Bohemia,Irrigated,1.4,Null,Null,Null
+2016,CZ07,Central Moravia,Irrigable,0.3,Null,Null,Null
+2016,CZ07,Central Moravia,Irrigated,0.1,Null,Null,Null
+2016,CZ08,Moravian-Silesian,Irrigable,0.1,Null,Null,Null
+2016,CZ08,Moravian-Silesian,Irrigated,0.1,Null,Null,Null
+2016,DE,Germany,Irrigable,4,Null,Null,Null
+2016,DE,Germany,Irrigated,2.7,Null,Null,Null
+2016,DE1,Baden-Württemberg,Irrigable,: ,Null,Null,Null
+2016,DE1,Baden-Württemberg,Irrigated,: ,Null,Null,Null
+2016,DE11,Stuttgart,Irrigable,2.2,Null,Null,Null
+2016,DE11,Stuttgart,Irrigated,1.4,Null,Null,Null
+2016,DE12,Karlsruhe,Irrigable,5,Null,Null,Null
+2016,DE12,Karlsruhe,Irrigated,2.7,Null,Null,Null
+2016,DE13,Freiburg,Irrigable,3.2,Null,Null,Null
+2016,DE13,Freiburg,Irrigated,2.5,Null,Null,Null
+2016,DE14,Tübingen,Irrigable,0.6,Null,Null,Null
+2016,DE14,Tübingen,Irrigated,0.3,Null,Null,Null
+2016,DE2,Bavaria,Irrigable,: ,Null,Null,Null
+2016,DE2,Bavaria,Irrigated,: ,Null,Null,Null
+2016,DE21,Oberbayern,Irrigable,1.5,Null,Null,Null
+2016,DE21,Oberbayern,Irrigated,0.8,Null,Null,Null
+2016,DE22,Niederbayern,Irrigable,3,Null,Null,Null
+2016,DE22,Niederbayern,Irrigated,1.4,Null,Null,Null
+2016,DE23,Oberpfalz,Irrigable,2.8,Null,Null,Null
+2016,DE23,Oberpfalz,Irrigated,1.5,Null,Null,Null
+2016,DE24,Oberfranken,Irrigable,0.3,Null,Null,Null
+2016,DE24,Oberfranken,Irrigated,0.2,Null,Null,Null
+2016,DE25,Mittelfranken,Irrigable,0.9,Null,Null,Null
+2016,DE25,Mittelfranken,Irrigated,0.7,Null,Null,Null
+2016,DE26,Unterfranken,Irrigable,1.5,Null,Null,Null
+2016,DE26,Unterfranken,Irrigated,1.1,Null,Null,Null
+2016,DE27,Schwaben,Irrigable,1.1,Null,Null,Null
+2016,DE27,Schwaben,Irrigated,0.5,Null,Null,Null
+2016,DE3,Berlin,Irrigable,: ,Null,Null,Null
+2016,DE3,Berlin,Irrigated,: ,Null,Null,Null
+2016,DE30,Berlin,Irrigable,3.3,Null,Null,Null
+2016,DE30,Berlin,Irrigated,1.6,Null,Null,Null
+2016,DE4,Brandenburg,Irrigable,: ,Null,Null,Null
+2016,DE4,Brandenburg,Irrigated,: ,Null,Null,Null
+2016,DE40,Brandenburg,Irrigable,3,Null,Null,Null
+2016,DE40,Brandenburg,Irrigated,1.9,Null,Null,Null
+2016,DE5,Bremen,Irrigable,: ,Null,Null,Null
+2016,DE5,Bremen,Irrigated,: ,Null,Null,Null
+2016,DE50,Bremen,Irrigable,0.4,Null,Null,Null
+2016,DE50,Bremen,Irrigated,0.1,Null,Null,Null
+2016,DE6,Hamburg,Irrigable,: ,Null,Null,Null
+2016,DE6,Hamburg,Irrigated,: ,Null,Null,Null
+2016,DE60,Hamburg,Irrigable,10.7,Null,Null,Null
+2016,DE60,Hamburg,Irrigated,5.5,Null,Null,Null
+2016,DE7,Hesse,Irrigable,: ,Null,Null,Null
+2016,DE7,Hesse,Irrigated,: ,Null,Null,Null
+2016,DE71,Darmstadt,Irrigable,12.6,Null,Null,Null
+2016,DE71,Darmstadt,Irrigated,9.3,Null,Null,Null
+2016,DE72,Gieben,Irrigable,0.3,Null,Null,Null
+2016,DE72,Gieben,Irrigated,0.2,Null,Null,Null
+2016,DE73,Kassek,Irrigable,0.2,Null,Null,Null
+2016,DE73,Kassek,Irrigated,0,Null,Null,Null
+2016,DE8,Mecklenburg-Vorpommern,Irrigable,: ,Null,Null,Null
+2016,DE8,Mecklenburg-Vorpommern,Irrigated,: ,Null,Null,Null
+2016,DE80,Mecklenburg-Vorpommern,Irrigable,2.5,Null,Null,Null
+2016,DE80,Mecklenburg-Vorpommern,Irrigated,1.6,Null,Null,Null
+2016,DE9,Lower Saxony,Irrigable,: ,Null,Null,Null
+2016,DE9,Lower Saxony,Irrigated,: ,Null,Null,Null
+2016,DE91,Braunschweig,Irrigable,16.2,Null,Null,Null
+2016,DE91,Braunschweig,Irrigated,13.2,Null,Null,Null
+2016,DE92,Hannover,Irrigable,9.6,Null,Null,Null
+2016,DE92,Hannover,Irrigated,6.2,Null,Null,Null
+2016,DE93,Lüneburg,Irrigable,23.4,Null,Null,Null
+2016,DE93,Lüneburg,Irrigated,18.2,Null,Null,Null
+2016,DE94,Weser-ems,Irrigable,2.7,Null,Null,Null
+2016,DE94,Weser-ems,Irrigated,1.5,Null,Null,Null
+2016,DEA,North Rgine-Westphalia,Irrigable,: ,Null,Null,Null
+2016,DEA,North Rgine-Westphalia,Irrigated,: ,Null,Null,Null
+2016,DEA1,Düsseldorf,Irrigable,16.9,Null,Null,Null
+2016,DEA1,Düsseldorf,Irrigated,9.1,Null,Null,Null
+2016,DEA2,Köln,Irrigable,3.9,Null,Null,Null
+2016,DEA2,Köln,Irrigated,2.4,Null,Null,Null
+2016,DEA3,Münster,Irrigable,2.4,Null,Null,Null
+2016,DEA3,Münster,Irrigated,1.3,Null,Null,Null
+2016,DEA4,Detmold,Irrigable,0.8,Null,Null,Null
+2016,DEA4,Detmold,Irrigated,0.5,Null,Null,Null
+2016,DEA5,Arnsberg,Irrigable,0.3,Null,Null,Null
+2016,DEA5,Arnsberg,Irrigated,0.1,Null,Null,Null
+2016,DEB,Rhineland-Palatine,Irrigable,: ,Null,Null,Null
+2016,DEB,Rhineland-Palatine,Irrigated,: ,Null,Null,Null
+2016,DEB1,Koblenz,Irrigable,0.3,Null,Null,Null
+2016,DEB1,Koblenz,Irrigated,0.1,Null,Null,Null
+2016,DEB2,Trier,Irrigable,0.1,Null,Null,Null
+2016,DEB2,Trier,Irrigated,0.1,Null,Null,Null
+2016,DEB3,Rheinhessen-Pflaz,Irrigable,12,Null,Null,Null
+2016,DEB3,Rheinhessen-Pflaz,Irrigated,8.4,Null,Null,Null
+2016,DEC,Saarland,Irrigated,0.2,Null,Null,Null
+2016,DEC,Saarland,Irrigable,: ,Null,Null,Null
+2016,DEC,Saarland,Irrigated,: ,Null,Null,Null
+2016,DEC000,Saarland,Irrigable,0.3,Null,Null,Null
+2016,DED,Saxony,Irrigable,: ,Null,Null,Null
+2016,DED,Saxony,Irrigated,: ,Null,Null,Null
+2016,DED2,Dresden,Irrigable,1.5,Null,Null,Null
+2016,DED2,Dresden,Irrigated,0.6,Null,Null,Null
+2016,DED4,Shemnitz,Irrigable,0.1,Null,Null,Null
+2016,DED4,Shemnitz,Irrigated,0,Null,Null,Null
+2016,DED5,Leipzig,Irrigable,3,Null,Null,Null
+2016,DED5,Leipzig,Irrigated,1.3,Null,Null,Null
+2016,DEE,Saxony-Anhalt,Irrigable,: ,Null,Null,Null
+2016,DEE,Saxony-Anhalt,Irrigated,: ,Null,Null,Null
+2016,DEE0,Sachsen-Anhalt,Irrigable,2.7,Null,Null,Null
+2016,DEE0,Sachsen-Anhalt,Irrigated,1.7,Null,Null,Null
+2016,DEF,Schleswig-Holstein,Irrigable,: ,Null,Null,Null
+2016,DEF,Schleswig-Holstein,Irrigated,: ,Null,Null,Null
+2016,DEF0,Schleswig-Holstein,Irrigable,2,Null,Null,Null
+2016,DEF0,Schleswig-Holstein,Irrigated,0.7,Null,Null,Null
+2016,DEG,Thuringia,Irrigable,: ,Null,Null,Null
+2016,DEG,Thuringia,Irrigated,: ,Null,Null,Null
+2016,DEG0,Thüringen,Irrigable,0.7,Null,Null,Null
+2016,DEG0,Thüringen,Irrigated,0.3,Null,Null,Null
+2016,DK,Denmark,Irrigable,8.3,Null,Null,Null
+2016,DK,Denmark,Irrigated,5.6,Null,Null,Null
+2016,DK01,Hovedstaden,Irrigable,1.9,Null,Null,Null
+2016,DK01,Hovedstaden,Irrigated,0.8,Null,Null,Null
+2016,DK02,Sjaelland,Irrigable,1.5,Null,Null,Null
+2016,DK02,Sjaelland,Irrigated,0.7,Null,Null,Null
+2016,DK03,Southern Denmark,Irrigable,12.1,Null,Null,Null
+2016,DK03,Southern Denmark,Irrigated,8.5,Null,Null,Null
+2016,DK04,Midtjylland,Irrigable,13.2,Null,Null,Null
+2016,DK04,Midtjylland,Irrigated,8.9,Null,Null,Null
+2016,DK05,Nordjylland,Irrigable,2.2,Null,Null,Null
+2016,DK05,Nordjylland,Irrigated,1,Null,Null,Null
+2016,EE,Estonia,Irrigable,0.3,Null,Null,Null
+2016,EE,Estonia,Irrigated,0.2,Null,Null,Null
+2016,EE00,Estonia,Irrigable,0.3,Null,Null,Null
+2016,EE00,Estonia,Irrigated,0.2,Null,Null,Null
+2016,EL,Greece,Irrigable,29.7,Null,Null,Null
+2016,EL,Greece,Irrigated,23.6,Null,Null,Null
+2016,EL11,"Anatoliki Makedonia, Thraki",Irrigable,: ,Null,Null,Null
+2016,EL11,"Anatoliki Makedonia, Thraki",Irrigated,: ,Null,Null,Null
+2016,EL12,Kentriki Makedonia,Irrigable,: ,Null,Null,Null
+2016,EL12,Kentriki Makedonia,Irrigated,: ,Null,Null,Null
+2016,EL13,Dytiki Makedonia,Irrigable,: ,Null,Null,Null
+2016,EL13,Dytiki Makedonia,Irrigated,: ,Null,Null,Null
+2016,EL14,Thessalia,Irrigable,: ,Null,Null,Null
+2016,EL14,Thessalia,Irrigated,: ,Null,Null,Null
+2016,EL21,Ipeiros,Irrigable,: ,Null,Null,Null
+2016,EL21,Ipeiros,Irrigated,: ,Null,Null,Null
+2016,EL22,Ionia Nisia,Irrigable,: ,Null,Null,Null
+2016,EL22,Ionia Nisia,Irrigated,: ,Null,Null,Null
+2016,EL23,Dyitiki Ellada,Irrigable,: ,Null,Null,Null
+2016,EL23,Dyitiki Ellada,Irrigated,: ,Null,Null,Null
+2016,EL24,Sterea Ellada,Irrigable,: ,Null,Null,Null
+2016,EL24,Sterea Ellada,Irrigated,: ,Null,Null,Null
+2016,EL25,Peloponnisos,Irrigable,: ,Null,Null,Null
+2016,EL25,Peloponnisos,Irrigated,: ,Null,Null,Null
+2016,EL30,Attica,Irrigable,15.6,Null,Null,Null
+2016,EL30,Attica,Irrigated,13.6,Null,Null,Null
+2016,EL41,North Aegean,Irrigable,4.2,Null,Null,Null
+2016,EL41,North Aegean,Irrigated,3.3,Null,Null,Null
+2016,EL42,South Aegean,Irrigable,4.1,Null,Null,Null
+2016,EL42,South Aegean,Irrigated,2.4,Null,Null,Null
+2016,EL43,Crete,Irrigable,16,Null,Null,Null
+2016,EL43,Crete,Irrigated,13.3,Null,Null,Null
+2016,EL51,Eastern Macedonia and Trace,Irrigable,45.1,Null,Null,Null
+2016,EL51,Eastern Macedonia and Trace,Irrigated,35.4,Null,Null,Null
+2016,EL52,Central Macedonia,Irrigable,47.5,Null,Null,Null
+2016,EL52,Central Macedonia,Irrigated,40,Null,Null,Null
+2016,EL53,Western Macedonia,Irrigable,18.8,Null,Null,Null
+2016,EL53,Western Macedonia,Irrigated,13.2,Null,Null,Null
+2016,EL54,Epirus,Irrigable,19.2,Null,Null,Null
+2016,EL54,Epirus,Irrigated,16.6,Null,Null,Null
+2016,EL61,Thessaly,Irrigable,45.6,Null,Null,Null
+2016,EL61,Thessaly,Irrigated,33.9,Null,Null,Null
+2016,EL62,Ionian Island,Irrigable,2.8,Null,Null,Null
+2016,EL62,Ionian Island,Irrigated,1.8,Null,Null,Null
+2016,EL63,Western Greece,Irrigable,34.4,Null,Null,Null
+2016,EL63,Western Greece,Irrigated,24.6,Null,Null,Null
+2016,EL64,Central Greece,Irrigable,32.4,Null,Null,Null
+2016,EL64,Central Greece,Irrigated,25.6,Null,Null,Null
+2016,EL65,Poloponnese,Irrigable,23.4,Null,Null,Null
+2016,EL65,Poloponnese,Irrigated,21.4,Null,Null,Null
+2016,ES,Spain,Irrigable,15.7,Null,Null,Null
+2016,ES,Spain,Irrigated,13.2,Null,Null,Null
+2016,ES11,Galicia,Irrigable,4.8,Null,Null,Null
+2016,ES11,Galicia,Irrigated,3,Null,Null,Null
+2016,ES12,Principato De Asturia,Irrigable,2,Null,Null,Null
+2016,ES12,Principato De Asturia,Irrigated,0.8,Null,Null,Null
+2016,ES13,Cantabria,Irrigable,1.2,Null,Null,Null
+2016,ES13,Cantabria,Irrigated,0.4,Null,Null,Null
+2016,ES21,Pais Vasco,Irrigable,6.1,Null,Null,Null
+2016,ES21,Pais Vasco,Irrigated,4.6,Null,Null,Null
+2016,ES22,Comunidad Foral De Navarra,Irrigable,16.8,Null,Null,Null
+2016,ES22,Comunidad Foral De Navarra,Irrigated,15.1,Null,Null,Null
+2016,ES23,La Rioja,Irrigable,18.1,Null,Null,Null
+2016,ES23,La Rioja,Irrigated,13.3,Null,Null,Null
+2016,ES24,Aragón,Irrigable,18.2,Null,Null,Null
+2016,ES24,Aragón,Irrigated,16.5,Null,Null,Null
+2016,ES30,Comunidad de Madrid,Irrigable,7.9,Null,Null,Null
+2016,ES30,Comunidad de Madrid,Irrigated,5.4,Null,Null,Null
+2016,ES41,Castilla y Leon,Irrigable,10.8,Null,Null,Null
+2016,ES41,Castilla y Leon,Irrigated,8.5,Null,Null,Null
+2016,ES42,Castilla -La Mancha,Irrigable,12.3,Null,Null,Null
+2016,ES42,Castilla -La Mancha,Irrigated,9.6,Null,Null,Null
+2016,ES43,Extremadura,Irrigable,11.5,Null,Null,Null
+2016,ES43,Extremadura,Irrigated,9.2,Null,Null,Null
+2016,ES51,Cataluna,Irrigable,25.3,Null,Null,Null
+2016,ES51,Cataluna,Irrigated,22.1,Null,Null,Null
+2016,ES52,Comunidad Valenciana,Irrigable,43.1,Null,Null,Null
+2016,ES52,Comunidad Valenciana,Irrigated,40.7,Null,Null,Null
+2016,ES53,Iles Balears,Irrigable,9.3,Null,Null,Null
+2016,ES53,Iles Balears,Irrigated,6.1,Null,Null,Null
+2016,ES61,Andalucia,Irrigable,21.3,Null,Null,Null
+2016,ES61,Andalucia,Irrigated,18.6,Null,Null,Null
+2016,ES62,Region de Murcia,Irrigable,39.7,Null,Null,Null
+2016,ES62,Region de Murcia,Irrigated,36.6,Null,Null,Null
+2016,ES63,Ciudad Autonoma da Ceuta,Irrigable,: c,Null,Null,Null
+2016,ES63,Ciudad Autonoma da Ceuta,Irrigated,: c,Null,Null,Null
+2016,ES64,Ciudad autonoma di Melilla,Irrigable,0,Null,Null,Null
+2016,ES64,Ciudad autonoma di Melilla,Irrigated,0,Null,Null,Null
+2016,ES70,Canarias,Irrigable,36.6,Null,Null,Null
+2016,ES70,Canarias,Irrigated,33.6,Null,Null,Null
+2016,FI,Finland,Irrigable,2.4,Null,Null,Null
+2016,FI,Finland,Irrigated,0.4,Null,Null,Null
+2016,FI13,Eastern Finland,Irrigable,: ,Null,Null,Null
+2016,FI13,Eastern Finland,Irrigated,: ,Null,Null,Null
+2016,FI18,Southern Finland,Irrigable,: ,Null,Null,Null
+2016,FI18,Southern Finland,Irrigated,: ,Null,Null,Null
+2016,FI19,Western Finland,Irrigable,2.1,Null,Null,Null
+2016,FI19,Western Finland,Irrigated,0.3,Null,Null,Null
+2016,FI1A,Northern Finland,Irrigable,: ,Null,Null,Null
+2016,FI1A,Northern Finland,Irrigated,: ,Null,Null,Null
+2016,FI1B,Helsinki-Uusima,Irrigable,2.7,Null,Null,Null
+2016,FI1B,Helsinki-Uusima,Irrigated,0.3,Null,Null,Null
+2016,FI1C,South Finland,Irrigable,2.9,Null,Null,Null
+2016,FI1C,South Finland,Irrigated,0.6,Null,Null,Null
+2016,FI1D,North and East Finland,Irrigable,2.1,Null,Null,Null
+2016,FI1D,North and East Finland,Irrigated,0.2,Null,Null,Null
+2016,FI20,Äland Islands,Irrigable,7.3,Null,Null,Null
+2016,FI20,Äland Islands,Irrigated,3.1,Null,Null,Null
+2016,FR,France,Irrigable,9.7,Null,Null,Null
+2016,FR,France,Irrigated,4.9,Null,Null,Null
+2016,FR10,Íle de France,Irrigable,9.3,Null,Null,Null
+2016,FR10,Íle de France,Irrigated,3.1,Null,Null,Null
+2016,FR21,Champagne-Ardenne,Irrigable,5.3,Null,Null,Null
+2016,FR21,Champagne-Ardenne,Irrigated,1.2,Null,Null,Null
+2016,FR22,Picardie,Irrigable,12.3,Null,Null,Null
+2016,FR22,Picardie,Irrigated,3.1,Null,Null,Null
+2016,FR23,Haute Normandie,Irrigable,2,Null,Null,Null
+2016,FR23,Haute Normandie,Irrigated,0.6,Null,Null,Null
+2016,FR24,Centre,Irrigable,20.2,Null,Null,Null
+2016,FR24,Centre,Irrigated,6.6,Null,Null,Null
+2016,FR25,Basse-Normandie,Irrigable,0.9,Null,Null,Null
+2016,FR25,Basse-Normandie,Irrigated,0.4,Null,Null,Null
+2016,FR26,Bourgogne,Irrigable,2.2,Null,Null,Null
+2016,FR26,Bourgogne,Irrigated,0.6,Null,Null,Null
+2016,FR30,Nord-Pas-de-Calais,Irrigable,9.5,Null,Null,Null
+2016,FR30,Nord-Pas-de-Calais,Irrigated,2.2,Null,Null,Null
+2016,FR41,Lorraine,Irrigable,0.1,Null,Null,Null
+2016,FR41,Lorraine,Irrigated,0,Null,Null,Null
+2016,FR42,Alsace,Irrigable,22.2,Null,Null,Null
+2016,FR42,Alsace,Irrigated,16.5,Null,Null,Null
+2016,FR43,Franche-Comté,Irrigable,1.3,Null,Null,Null
+2016,FR43,Franche-Comté,Irrigated,0.4,Null,Null,Null
+2016,FR51,Pays de la Loire,Irrigable,11.7,Null,Null,Null
+2016,FR51,Pays de la Loire,Irrigated,6.5,Null,Null,Null
+2016,FR52,Bretagne,Irrigable,2.4,Null,Null,Null
+2016,FR52,Bretagne,Irrigated,0.9,Null,Null,Null
+2016,FR53,Poitou-Charentes,Irrigable,11.2,Null,Null,Null
+2016,FR53,Poitou-Charentes,Irrigated,5.7,Null,Null,Null
+2016,FR61,Aquitaine,Irrigable,22.6,Null,Null,Null
+2016,FR61,Aquitaine,Irrigated,17.3,Null,Null,Null
+2016,FR62,Mifi-Pyrénées,Irrigable,14.3,Null,Null,Null
+2016,FR62,Mifi-Pyrénées,Irrigated,7.7,Null,Null,Null
+2016,FR63,Limousin,Irrigable,0.5,Null,Null,Null
+2016,FR63,Limousin,Irrigated,0.3,Null,Null,Null
+2016,FR71,Rhône-Alpes,Irrigable,9.4,Null,Null,Null
+2016,FR71,Rhône-Alpes,Irrigated,6.5,Null,Null,Null
+2016,FR72,Auvergne,Irrigable,4.1,Null,Null,Null
+2016,FR72,Auvergne,Irrigated,2.4,Null,Null,Null
+2016,FR81,Languedoc-Roussillon,Irrigable,13.8,Null,Null,Null
+2016,FR81,Languedoc-Roussillon,Irrigated,8.4,Null,Null,Null
+2016,FR82,Provence-Alpes-Côte d'Azur,Irrigable,20.3,Null,Null,Null
+2016,FR82,Provence-Alpes-Côte d'Azur,Irrigated,13.7,Null,Null,Null
+2016,FR83,Corse,Irrigable,11.6,Null,Null,Null
+2016,FR83,Corse,Irrigated,7.4,Null,Null,Null
+2016,FR91,Guadelupe,Irrigable,: ,Null,Null,Null
+2016,FR91,Guadelupe,Irrigated,: ,Null,Null,Null
+2016,FR92,Martinique,Irrigable,: ,Null,Null,Null
+2016,FR92,Martinique,Irrigated,: ,Null,Null,Null
+2016,FR93,Guyane,Irrigable,: ,Null,Null,Null
+2016,FR93,Guyane,Irrigated,: ,Null,Null,Null
+2016,FR94,La Réunion,Irrigable,: ,Null,Null,Null
+2016,FR94,La Réunion,Irrigated,: ,Null,Null,Null
+2016,FRA1,Guadelupe,Irrigable,31.3,Null,Null,Null
+2016,FRA1,Guadelupe,Irrigated,12.6,Null,Null,Null
+2016,FRA2,Martinique,Irrigable,20.6,Null,Null,Null
+2016,FRA2,Martinique,Irrigated,14,Null,Null,Null
+2016,FRA3,Guyane,Irrigable,15.2,Null,Null,Null
+2016,FRA3,Guyane,Irrigated,13.9,Null,Null,Null
+2016,FRA4,La Réunion,Irrigable,25,Null,Null,Null
+2016,FRA4,La Réunion,Irrigated,22.7,Null,Null,Null
+2016,HR,Croatia,Irrigable,1.9,Null,Null,Null
+2016,HR,Croatia,Irrigated,1,Null,Null,Null
+2016,HR03,Adriatica Croatia,Irrigable,1.8,Null,Null,Null
+2016,HR03,Adriatica Croatia,Irrigated,1.3,Null,Null,Null
+2016,HR04,Continental Croatia,Irrigable,1.9,Null,Null,Null
+2016,HR04,Continental Croatia,Irrigated,0.9,Null,Null,Null
+2016,HU,Hungary,Irrigable,4.9,Null,Null,Null
+2016,HU,Hungary,Irrigated,2.6,Null,Null,Null
+2016,HU10,Central Hungary,Irrigable,3.7,Null,Null,Null
+2016,HU10,Central Hungary,Irrigated,2.3,Null,Null,Null
+2016,HU21,Central Transdanubia,Irrigable,1.8,Null,Null,Null
+2016,HU21,Central Transdanubia,Irrigated,0.7,Null,Null,Null
+2016,HU22,Western Transdanubia,Irrigable,3.4,Null,Null,Null
+2016,HU22,Western Transdanubia,Irrigated,1,Null,Null,Null
+2016,HU23,Southern Transdanubia,Irrigable,1.7,Null,Null,Null
+2016,HU23,Southern Transdanubia,Irrigated,0.9,Null,Null,Null
+2016,HU31,Northern Hungary,Irrigable,2.2,Null,Null,Null
+2016,HU31,Northern Hungary,Irrigated,0.9,Null,Null,Null
+2016,HU32,Northern great plain,Irrigable,8.2,Null,Null,Null
+2016,HU32,Northern great plain,Irrigated,4.6,Null,Null,Null
+2016,HU33,Southern Great Plain,Irrigable,7.5,Null,Null,Null
+2016,HU33,Southern Great Plain,Irrigated,4.2,Null,Null,Null
+2016,IE,Ireland,Irrigable,0,Null,Null,Null
+2016,IE,Ireland,Irrigated,0,Null,Null,Null
+2016,IE01,"Border, Midland and Westland",Irrigable,0,Null,Null,Null
+2016,IE01,"Border, Midland and Westland",Irrigated,0,Null,Null,Null
+2016,IE02,Spouthern and Eastern Ireland,Irrigable,0,Null,Null,Null
+2016,IE02,Spouthern and Eastern Ireland,Irrigated,0,Null,Null,Null
+2016,IT,Italy,Irrigable,32.6,Null,Null,Null
+2016,IT,Italy,Irrigated,20.2,Null,Null,Null
+2016,ITC1,Piemonte,Irrigable,45.2,Null,Null,Null
+2016,ITC1,Piemonte,Irrigated,37.1,Null,Null,Null
+2016,ITC2,Valle d'Aosta,Irrigable,24.2,Null,Null,Null
+2016,ITC2,Valle d'Aosta,Irrigated,23.2,Null,Null,Null
+2016,ITC3,Liguria,Irrigable,32,Null,Null,Null
+2016,ITC3,Liguria,Irrigated,17.6,Null,Null,Null
+2016,ITC4,Lombardia,Irrigable,70.7,Null,Null,Null
+2016,ITC4,Lombardia,Irrigated,53.3,Null,Null,Null
+2016,ITD1,Trentino-Alto Adige,Irrigable,: ,Null,Null,Null
+2016,ITD1,Trentino-Alto Adige,Irrigated,: ,Null,Null,Null
+2016,ITD2,Trentino-Alto Adige,Irrigable,: ,Null,Null,Null
+2016,ITD2,Trentino-Alto Adige,Irrigated,: ,Null,Null,Null
+2016,ITD3,Veneto,Irrigable,: ,Null,Null,Null
+2016,ITD3,Veneto,Irrigated,: ,Null,Null,Null
+2016,ITD4,Friuli-Venezia Giulia,Irrigable,: ,Null,Null,Null
+2016,ITD4,Friuli-Venezia Giulia,Irrigated,: ,Null,Null,Null
+2016,ITD5,Emilia-Romagna,Irrigable,: ,Null,Null,Null
+2016,ITD5,Emilia-Romagna,Irrigated,: ,Null,Null,Null
+2016,ITE1,Toscana,Irrigable,: ,Null,Null,Null
+2016,ITE1,Toscana,Irrigated,: ,Null,Null,Null
+2016,ITE2,Umbria,Irrigable,: ,Null,Null,Null
+2016,ITE2,Umbria,Irrigated,: ,Null,Null,Null
+2016,ITE3,Marche,Irrigable,: ,Null,Null,Null
+2016,ITE3,Marche,Irrigated,: ,Null,Null,Null
+2016,ITE4,Lazio,Irrigable,: ,Null,Null,Null
+2016,ITE4,Lazio,Irrigated,: ,Null,Null,Null
+2016,ITF1,Abruzzo,Irrigable,14.8,Null,Null,Null
+2016,ITF1,Abruzzo,Irrigated,7.5,Null,Null,Null
+2016,ITF2,Molise,Irrigable,14.1,Null,Null,Null
+2016,ITF2,Molise,Irrigated,8.5,Null,Null,Null
+2016,ITF3,Campania,Irrigable,24.1,Null,Null,Null
+2016,ITF3,Campania,Irrigated,18.2,Null,Null,Null
+2016,ITF4,Puglia,Irrigable,30.9,Null,Null,Null
+2016,ITF4,Puglia,Irrigated,17.4,Null,Null,Null
+2016,ITF5,Basilicata,Irrigable,17.2,Null,Null,Null
+2016,ITF5,Basilicata,Irrigated,7.8,Null,Null,Null
+2016,ITF6,Calabria,Irrigable,18.9,Null,Null,Null
+2016,ITF6,Calabria,Irrigated,13.7,Null,Null,Null
+2016,ITG1,Sicily,Irrigable,16.9,Null,Null,Null
+2016,ITG1,Sicily,Irrigated,12.1,Null,Null,Null
+2016,ITG2,Sardinia,Irrigable,17.4,Null,Null,Null
+2016,ITG2,Sardinia,Irrigated,7.7,Null,Null,Null
+2016,ITH1,Trentino-Alto Adige,Irrigable,19.1,Null,Null,Null
+2016,ITH1,Trentino-Alto Adige,Irrigated,18.3,Null,Null,Null
+2016,ITH2,Trentino-Alto Adige,Irrigable,15.8,Null,Null,Null
+2016,ITH2,Trentino-Alto Adige,Irrigated,14.7,Null,Null,Null
+2016,ITH3,Veneto,Irrigable,67.4,Null,Null,Null
+2016,ITH3,Veneto,Irrigated,42.2,Null,Null,Null
+2016,ITH4,Friuli-Venezia Giulia,Irrigable,51.2,Null,Null,Null
+2016,ITH4,Friuli-Venezia Giulia,Irrigated,36.4,Null,Null,Null
+2016,ITH5,Emilia-Romagna,Irrigable,61.3,Null,Null,Null
+2016,ITH5,Emilia-Romagna,Irrigated,26.7,Null,Null,Null
+2016,ITI1,Toscana,Irrigable,15.3,Null,Null,Null
+2016,ITI1,Toscana,Irrigated,5.3,Null,Null,Null
+2016,ITI2,Umbria,Irrigable,15.2,Null,Null,Null
+2016,ITI2,Umbria,Irrigated,5.6,Null,Null,Null
+2016,ITI3,Marche,Irrigable,9.1,Null,Null,Null
+2016,ITI3,Marche,Irrigated,3.4,Null,Null,Null
+2016,ITI4,Lazio,Irrigable,26.4,Null,Null,Null
+2016,ITI4,Lazio,Irrigated,13.9,Null,Null,Null
+2016,LT,Lithuania,Irrigable,0.2,Null,Null,Null
+2016,LT,Lithuania,Irrigated,0.1,Null,Null,Null
+2016,LT00,Lithuania,Irrigable,0.2,Null,Null,Null
+2016,LT00,Lithuania,Irrigated,0.1,Null,Null,Null
+2016,LU,Luxembourg,Irrigable,: ,Null,Null,Null
+2016,LU,Luxembourg,Irrigated,: ,Null,Null,Null
+2016,LU00,Luxembourg,Irrigable,: ,Null,Null,Null
+2016,LU00,Luxembourg,Irrigated,: ,Null,Null,Null
+2016,LV,Latvia,Irrigable,0,Null,Null,Null
+2016,LV,Latvia,Irrigated,0,Null,Null,Null
+2016,LV00,Latvia,Irrigable,0,Null,Null,Null
+2016,LV00,Latvia,Irrigated,0,Null,Null,Null
+2016,ME,Montenegro,Irrigable,: ,Null,Null,Null
+2016,ME,Montenegro,Irrigated,: ,Null,Null,Null
+2016,ME00,Montenegro,Irrigable,: ,Null,Null,Null
+2016,ME00,Montenegro,Irrigated,: ,Null,Null,Null
+2016,MK,North Macedonia,Irrigable,: ,Null,Null,Null
+2016,MK,North Macedonia,Irrigated,: ,Null,Null,Null
+2016,MK00,North Macedonia,Irrigable,: ,Null,Null,Null
+2016,MK00,North Macedonia,Irrigated,: ,Null,Null,Null
+2016,MT,Malta,Irrigable,32.9,Null,Null,Null
+2016,MT,Malta,Irrigated,31.4,Null,Null,Null
+2016,MT00,Malta,Irrigable,32.9,Null,Null,Null
+2016,MT00,Malta,Irrigated,31.4,Null,Null,Null
+2016,NL,Netherlands,Irrigable,29.1,Null,Null,Null
+2016,NL,Netherlands,Irrigated,11.2,Null,Null,Null
+2016,NL11,Groningen,Irrigable,14.7,Null,Null,Null
+2016,NL11,Groningen,Irrigated,2,Null,Null,Null
+2016,NL12,Friesland,Irrigable,14.3,Null,Null,Null
+2016,NL12,Friesland,Irrigated,1.7,Null,Null,Null
+2016,NL13,Drenthe,Irrigable,17.4,Null,Null,Null
+2016,NL13,Drenthe,Irrigated,4.8,Null,Null,Null
+2016,NL21,Overijessel,Irrigable,16.6,Null,Null,Null
+2016,NL21,Overijessel,Irrigated,4.4,Null,Null,Null
+2016,NL22,Gelderland,Irrigable,24,Null,Null,Null
+2016,NL22,Gelderland,Irrigated,7.1,Null,Null,Null
+2016,NL23,Flevoland,Irrigable,73.7,Null,Null,Null
+2016,NL23,Flevoland,Irrigated,21.6,Null,Null,Null
+2016,NL31,Uthrecht,Irrigable,19.8,Null,Null,Null
+2016,NL31,Uthrecht,Irrigated,4.5,Null,Null,Null
+2016,NL32,North Holland,Irrigable,37.4,Null,Null,Null
+2016,NL32,North Holland,Irrigated,14.8,Null,Null,Null
+2016,NL33,South Holland,Irrigable,32.5,Null,Null,Null
+2016,NL33,South Holland,Irrigated,9.7,Null,Null,Null
+2016,NL34,Zeeland,Irrigable,13.3,Null,Null,Null
+2016,NL34,Zeeland,Irrigated,5.1,Null,Null,Null
+2016,NL41,North Brabant,Irrigable,54.7,Null,Null,Null
+2016,NL41,North Brabant,Irrigated,30.9,Null,Null,Null
+2016,NL42,Limburg,Irrigable,48.7,Null,Null,Null
+2016,NL42,Limburg,Irrigated,33.3,Null,Null,Null
+2016,NO,Norway,Irrigable,: ,Null,Null,Null
+2016,NO,Norway,Irrigated,: ,Null,Null,Null
+2016,NO01,Oslo and Akersus,Irrigable,: ,Null,Null,Null
+2016,NO01,Oslo and Akersus,Irrigated,: ,Null,Null,Null
+2016,NO02,Hedmark and Oppland,Irrigable,: ,Null,Null,Null
+2016,NO02,Hedmark and Oppland,Irrigated,: ,Null,Null,Null
+2016,NO03,Sor-Ostlandet,Irrigable,: ,Null,Null,Null
+2016,NO03,Sor-Ostlandet,Irrigated,: ,Null,Null,Null
+2016,NO04,Agder and Rogaland,Irrigable,: ,Null,Null,Null
+2016,NO04,Agder and Rogaland,Irrigated,: ,Null,Null,Null
+2016,NO05,Vestlandet,Irrigable,: ,Null,Null,Null
+2016,NO05,Vestlandet,Irrigated,: ,Null,Null,Null
+2016,NO06,Trondelag,Irrigable,: ,Null,Null,Null
+2016,NO06,Trondelag,Irrigated,: ,Null,Null,Null
+2016,NO07,Nord-Norge,Irrigable,: ,Null,Null,Null
+2016,NO07,Nord-Norge,Irrigated,: ,Null,Null,Null
+2016,PL,Poland,Irrigable,1.9,Null,Null,Null
+2016,PL,Poland,Irrigated,0.9,Null,Null,Null
+2016,PL11,Lodzkie,Irrigable,3.8,Null,Null,Null
+2016,PL11,Lodzkie,Irrigated,1.9,Null,Null,Null
+2016,PL12,Mozowieckie,Irrigable,2.1,Null,Null,Null
+2016,PL12,Mozowieckie,Irrigated,1.6,Null,Null,Null
+2016,PL21,Malopolskie,Irrigable,1.2,Null,Null,Null
+2016,PL21,Malopolskie,Irrigated,0.9,Null,Null,Null
+2016,PL22,Slaskie,Irrigable,0.9,Null,Null,Null
+2016,PL22,Slaskie,Irrigated,0.4,Null,Null,Null
+2016,PL31,Lubelskie,Irrigable,1.7,Null,Null,Null
+2016,PL31,Lubelskie,Irrigated,0.6,Null,Null,Null
+2016,PL32,Podkarpackie,Irrigable,0.4,Null,Null,Null
+2016,PL32,Podkarpackie,Irrigated,0.3,Null,Null,Null
+2016,PL33,Swietokrzyskie,Irrigable,2.3,Null,Null,Null
+2016,PL33,Swietokrzyskie,Irrigated,0.4,Null,Null,Null
+2016,PL34,Podlaskie,Irrigable,0.3,Null,Null,Null
+2016,PL34,Podlaskie,Irrigated,0.1,Null,Null,Null
+2016,PL41,Wielkopolskie,Irrigable,2.8,Null,Null,Null
+2016,PL41,Wielkopolskie,Irrigated,1.1,Null,Null,Null
+2016,PL42,Zachodniopomorskie,Irrigable,0.7,Null,Null,Null
+2016,PL42,Zachodniopomorskie,Irrigated,0.2,Null,Null,Null
+2016,PL43,Lubuskie,Irrigable,0.7,Null,Null,Null
+2016,PL43,Lubuskie,Irrigated,0.4,Null,Null,Null
+2016,PL51,Dolnoslaskie,Irrigable,3.7,Null,Null,Null
+2016,PL51,Dolnoslaskie,Irrigated,1.1,Null,Null,Null
+2016,PL52,Opolskie,Irrigable,0.7,Null,Null,Null
+2016,PL52,Opolskie,Irrigated,0.4,Null,Null,Null
+2016,PL61,Kujawsko-Pomorskie,Irrigable,3.1,Null,Null,Null
+2016,PL61,Kujawsko-Pomorskie,Irrigated,2.1,Null,Null,Null
+2016,PL62,Warninsko-Mazurskie,Irrigable,1.3,Null,Null,Null
+2016,PL62,Warninsko-Mazurskie,Irrigated,0.6,Null,Null,Null
+2016,PL63,Pomorskie,Irrigable,1.2,Null,Null,Null
+2016,PL63,Pomorskie,Irrigated,0.5,Null,Null,Null
+2016,PT,Portugal,Irrigable,15.1,Null,Null,Null
+2016,PT,Portugal,Irrigated,13,Null,Null,Null
+2016,PT11,Norte,Irrigable,20.7,Null,Null,Null
+2016,PT11,Norte,Irrigated,17.6,Null,Null,Null
+2016,PT15,Algarve,Irrigable,18,Null,Null,Null
+2016,PT15,Algarve,Irrigated,17.5,Null,Null,Null
+2016,PT16,Centro,Irrigable,21.7,Null,Null,Null
+2016,PT16,Centro,Irrigated,16.8,Null,Null,Null
+2016,PT17,Area Metropolitana de Lisboa,Irrigable,33.2,Null,Null,Null
+2016,PT17,Area Metropolitana de Lisboa,Irrigated,29.6,Null,Null,Null
+2016,PT18,Alantejo,Irrigable,11.4,Null,Null,Null
+2016,PT18,Alantejo,Irrigated,10.3,Null,Null,Null
+2016,PT20,Regiao Autonoma dos Acores,Irrigable,0.4,Null,Null,Null
+2016,PT20,Regiao Autonoma dos Acores,Irrigated,0.4,Null,Null,Null
+2016,PT30,Regiao Autonoma de Madeira,Irrigable,83.6,Null,Null,Null
+2016,PT30,Regiao Autonoma de Madeira,Irrigated,75.3,Null,Null,Null
+2016,RO,Romenia,Irrigable,2.7,Null,Null,Null
+2016,RO,Romenia,Irrigated,1.9,Null,Null,Null
+2016,RO11,Nord-Vest,Irrigable,0.2,Null,Null,Null
+2016,RO11,Nord-Vest,Irrigated,0.1,Null,Null,Null
+2016,RO12,Centru,Irrigable,0.1,Null,Null,Null
+2016,RO12,Centru,Irrigated,0.1,Null,Null,Null
+2016,RO21,Macroregion 2 Nord-Est,Irrigable,0.4,Null,Null,Null
+2016,RO21,Macroregion 2 Nord-Est,Irrigated,0.4,Null,Null,Null
+2016,RO22,Macroregion 2 Sud-Est,Irrigable,9.4,Null,Null,Null
+2016,RO22,Macroregion 2 Sud-Est,Irrigated,6.9,Null,Null,Null
+2016,RO31,Sud Muntenia,Irrigable,3.5,Null,Null,Null
+2016,RO31,Sud Muntenia,Irrigated,2.2,Null,Null,Null
+2016,RO32,Bucaresti-Iifov,Irrigable,1.6,Null,Null,Null
+2016,RO32,Bucaresti-Iifov,Irrigated,1,Null,Null,Null
+2016,RO41,Sud-Vest Oltenia,Irrigable,3.2,Null,Null,Null
+2016,RO41,Sud-Vest Oltenia,Irrigated,2.4,Null,Null,Null
+2016,RO42,Vest,Irrigable,0.4,Null,Null,Null
+2016,RO42,Vest,Irrigated,0.3,Null,Null,Null
+2016,SE,Sweden,Irrigable,5.2,Null,Null,Null
+2016,SE,Sweden,Irrigated,1.7,Null,Null,Null
+2016,SE11,Stockholm,Irrigable,1.3,Null,Null,Null
+2016,SE11,Stockholm,Irrigated,0.1,Null,Null,Null
+2016,SE12,East-middle Sweden,Irrigable,2.4,Null,Null,Null
+2016,SE12,East-middle Sweden,Irrigated,0.4,Null,Null,Null
+2016,SE21,Smaland and islands,Irrigable,4.9,Null,Null,Null
+2016,SE21,Smaland and islands,Irrigated,1.7,Null,Null,Null
+2016,SE22,South Sweden,Irrigable,13.2,Null,Null,Null
+2016,SE22,South Sweden,Irrigated,6.2,Null,Null,Null
+2016,SE23,West Sweden,Irrigable,5,Null,Null,Null
+2016,SE23,West Sweden,Irrigated,0.9,Null,Null,Null
+2016,SE31,North-middle Sweden,Irrigable,2.7,Null,Null,Null
+2016,SE31,North-middle Sweden,Irrigated,0.5,Null,Null,Null
+2016,SE32,Middle Norrland,Irrigable,0.6,Null,Null,Null
+2016,SE32,Middle Norrland,Irrigated,0.2,Null,Null,Null
+2016,SE33,Upper Norrland,Irrigable,1,Null,Null,Null
+2016,SE33,Upper Norrland,Irrigated,0.2,Null,Null,Null
+2016,SI,Slovenia,Irrigable,1.1,Null,Null,Null
+2016,SI,Slovenia,Irrigated,0.7,Null,Null,Null
+2016,SI01,Eastern Slovenia,Irrigable,: ,Null,Null,Null
+2016,SI01,Eastern Slovenia,Irrigated,: ,Null,Null,Null
+2016,SI02,Western Slovenia,Irrigable,: ,Null,Null,Null
+2016,SI02,Western Slovenia,Irrigated,: ,Null,Null,Null
+2016,SI03,Eastern Slovenia,Irrigable,1.3,Null,Null,Null
+2016,SI03,Eastern Slovenia,Irrigated,0.8,Null,Null,Null
+2016,SI04,Western Slovenia,Irrigable,0.8,Null,Null,Null
+2016,SI04,Western Slovenia,Irrigated,0.5,Null,Null,Null
+2016,SK,Slovakia,Irrigable,3.9,Null,Null,Null
+2016,SK,Slovakia,Irrigated,1.5,Null,Null,Null
+2016,SK01,Bratislava Region,Irrigable,15.7,Null,Null,Null
+2016,SK01,Bratislava Region,Irrigated,7.6,Null,Null,Null
+2016,SK02,Western Slovakia,Irrigable,7.1,Null,Null,Null
+2016,SK02,Western Slovakia,Irrigated,2.5,Null,Null,Null
+2016,SK03,Central Slovakia,Irrigable,0.7,Null,Null,Null
+2016,SK03,Central Slovakia,Irrigated,0.4,Null,Null,Null
+2016,SK04,Eastern Slovakia,Irrigable,0.1,Null,Null,Null
+2016,SK04,Eastern Slovakia,Irrigated,0,Null,Null,Null
+2016,UK,United Kingdom,Irrigable,2.8,Null,Null,Null
+2016,UK,United Kingdom,Irrigated,1,Null,Null,Null
+2016,UKC1,Tees Valley and Durham,Irrigable,0.4,Null,Null,Null
+2016,UKC1,Tees Valley and Durham,Irrigated,0,Null,Null,Null
+2016,UKC2,Northumberland and Tyne and Wear,Irrigable,0.4,Null,Null,Null
+2016,UKC2,Northumberland and Tyne and Wear,Irrigated,0,Null,Null,Null
+2016,UKD1,Cumbria,Irrigable,0.1,Null,Null,Null
+2016,UKD1,Cumbria,Irrigated,0,Null,Null,Null
+2016,UKD2,Cheshire,Irrigable,: ,Null,Null,Null
+2016,UKD2,Cheshire,Irrigated,: ,Null,Null,Null
+2016,UKD3,Greater Manchester,Irrigable,1.3,Null,Null,Null
+2016,UKD3,Greater Manchester,Irrigated,0.1,Null,Null,Null
+2016,UKD4,Lancashire,Irrigable,3.1,Null,Null,Null
+2016,UKD4,Lancashire,Irrigated,1.2,Null,Null,Null
+2016,UKD5,Merseyside,Irrigable,: ,Null,Null,Null
+2016,UKD5,Merseyside,Irrigated,: ,Null,Null,Null
+2016,UKD6,Cheshire,Irrigable,3.7,Null,Null,Null
+2016,UKD6,Cheshire,Irrigated,0.2,Null,Null,Null
+2016,UKD7,Merseyside,Irrigable,5.8,Null,Null,Null
+2016,UKD7,Merseyside,Irrigated,1.1,Null,Null,Null
+2016,UKE1,East Riding and North Lincolnshire,Irrigable,6.2,Null,Null,Null
+2016,UKE1,East Riding and North Lincolnshire,Irrigated,1.3,Null,Null,Null
+2016,UKE2,North Yorkshire,Irrigable,2.9,Null,Null,Null
+2016,UKE2,North Yorkshire,Irrigated,0.8,Null,Null,Null
+2016,UKE3,South Yorkshire,Irrigable,5,Null,Null,Null
+2016,UKE3,South Yorkshire,Irrigated,0.6,Null,Null,Null
+2016,UKE4,West Yorkshire,Irrigable,1.8,Null,Null,Null
+2016,UKE4,West Yorkshire,Irrigated,0.1,Null,Null,Null
+2016,UKF1,Derbyshire and Nottinghamshire,Irrigable,8.6,Null,Null,Null
+2016,UKF1,Derbyshire and Nottinghamshire,Irrigated,3.4,Null,Null,Null
+2016,UKF2,"Leicestershire, Rutland and Northamptonshire",Irrigable,1.2,Null,Null,Null
+2016,UKF2,"Leicestershire, Rutland and Northamptonshire",Irrigated,0.2,Null,Null,Null
+2016,UKF3,Lincolnshire,Irrigable,9.1,Null,Null,Null
+2016,UKF3,Lincolnshire,Irrigated,2.3,Null,Null,Null
+2016,UKG1,"Herefordshire, Worcestersire and Warwickshire",Irrigable,3.6,Null,Null,Null
+2016,UKG1,"Herefordshire, Worcestersire and Warwickshire",Irrigated,1,Null,Null,Null
+2016,UKG2,Shropshire and Staffordshire,Irrigable,9,Null,Null,Null
+2016,UKG2,Shropshire and Staffordshire,Irrigated,3.1,Null,Null,Null
+2016,UKG3,West midlands,Irrigable,6,Null,Null,Null
+2016,UKG3,West midlands,Irrigated,0.8,Null,Null,Null
+2016,UKH1,East Anglia,Irrigable,19.8,Null,Null,Null
+2016,UKH1,East Anglia,Irrigated,8.8,Null,Null,Null
+2016,UKH2,Bedfordshire and Hertfordshire,Irrigable,3.9,Null,Null,Null
+2016,UKH2,Bedfordshire and Hertfordshire,Irrigated,0.9,Null,Null,Null
+2016,UKH3,Essex,Irrigable,8.2,Null,Null,Null
+2016,UKH3,Essex,Irrigated,3.1,Null,Null,Null
+2016,UKI1,Derbyshire and Nottinghamshire,Irrigable,: ,Null,Null,Null
+2016,UKI1,Derbyshire and Nottinghamshire,Irrigated,: ,Null,Null,Null
+2016,UKI2,"Leicestershire, Rutland and Northamptonshire",Irrigable,: ,Null,Null,Null
+2016,UKI2,"Leicestershire, Rutland and Northamptonshire",Irrigated,: ,Null,Null,Null
+2016,UKI5,Outer London- East and north-East,Irrigable,8.7,Null,Null,Null
+2016,UKI5,Outer London- East and north-East,Irrigated,4.8,Null,Null,Null
+2016,UKI6,Outer London- South,Irrigable,2.1,Null,Null,Null
+2016,UKI6,Outer London- South,Irrigated,0.8,Null,Null,Null
+2016,UKI7,Outer London - West and North-West,Irrigable,0.5,Null,Null,Null
+2016,UKI7,Outer London - West and North-West,Irrigated,0,Null,Null,Null
+2016,UKJ1,"Berkshire, Buckinghamshire and Oxfordshire",Irrigable,1.8,Null,Null,Null
+2016,UKJ1,"Berkshire, Buckinghamshire and Oxfordshire",Irrigated,1,Null,Null,Null
+2016,UKJ2,"Surrey, East and West Sussex",Irrigable,2.6,Null,Null,Null
+2016,UKJ2,"Surrey, East and West Sussex",Irrigated,0.5,Null,Null,Null
+2016,UKJ3,Hampshire and Isle of Wight,Irrigable,2.8,Null,Null,Null
+2016,UKJ3,Hampshire and Isle of Wight,Irrigated,0.7,Null,Null,Null
+2016,UKJ4,Kent,Irrigable,5.9,Null,Null,Null
+2016,UKJ4,Kent,Irrigated,2.9,Null,Null,Null
+2016,UKK1,"Gloucestershire, Wiltshire and Bristol/Bath area",Irrigable,0.6,Null,Null,Null
+2016,UKK1,"Gloucestershire, Wiltshire and Bristol/Bath area",Irrigated,0.3,Null,Null,Null
+2016,UKK2,Dorset and Somerset,Irrigable,0.8,Null,Null,Null
+2016,UKK2,Dorset and Somerset,Irrigated,0.1,Null,Null,Null
+2016,UKK3,Cornwall and Isles of Scilly,Irrigable,0.6,Null,Null,Null
+2016,UKK3,Cornwall and Isles of Scilly,Irrigated,0.1,Null,Null,Null
+2016,UKK4,Devon,Irrigable,0.6,Null,Null,Null
+2016,UKK4,Devon,Irrigated,0.1,Null,Null,Null
+2016,UKL1,West Wales and the Valleys,Irrigable,0.2,Null,Null,Null
+2016,UKL1,West Wales and the Valleys,Irrigated,0,Null,Null,Null
+2016,UKL2,East Wales,Irrigable,0.1,Null,Null,Null
+2016,UKL2,East Wales,Irrigated,0,Null,Null,Null
+2016,UKM2,Eastern Scotland,Irrigable,0.1,Null,Null,Null
+2016,UKM2,Eastern Scotland,Irrigated,0,Null,Null,Null
+2016,UKM3,South Western Scotland,Irrigable,: c,Null,Null,Null
+2016,UKM3,South Western Scotland,Irrigated,: c,Null,Null,Null
+2016,UKM5,Nprth Eastern Scotland,Irrigable,0.1,Null,Null,Null
+2016,UKM5,Nprth Eastern Scotland,Irrigated,0,Null,Null,Null
+2016,UKM6,Highlands and Islands,Irrigable,: c,Null,Null,Null
+2016,UKM6,Highlands and Islands,Irrigated,: c,Null,Null,Null
+2016,UKN0,Northern Ireland,Irrigable,0,Null,Null,Null
+2016,UKN0,Northern Ireland,Irrigated,0,Null,Null,Null
