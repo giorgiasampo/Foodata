@@ -1268,6 +1268,15 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+.footer_a {
+  color: #fff !important;
+}
+
+.footer_a:hover {
+  color: #aeec3a !important;
+}
+
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
