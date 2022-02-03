@@ -20,28 +20,28 @@ dcat:Dataset	dct:description	"The dataset contains the production different kind
 		dct:publisher	foaf:Person;
 		dct:spatial	<https://dbpedia.org/page/Europe>;
 		dct:temporal	dct:PeriodOfTime;
-		dcat:theme	<http://publications.europa.eu/resource/authority/data-theme/ENVI>;
+		dcat:theme	<http://publications.europa.eu/resource/authority/data-theme/PROD>;
 		dct:accessRights	"Open";	
 		dct:creator 	foaf:Person;
 		dct:creator 	foaf:Person;
 		dct:creator 	foaf:Person;
-		foaf:page	<NAME OF THE PAGE>;
+		foaf:page	<FOOData>;
 		dct:accrualPeriodicity	<http://publications.europa.eu/resource/authority/frequency/ANNUAL>;
-	 	dct:identifier	<IDENTIFIER>;
+	 	dct:identifier	<food_production.csv>;
 		dct:language	<http://publications.europa.eu/resource/authority/language/ENG>;
 		dct:issued	"2022/01/22";
 		dct:source	<https://www.fao.org/faostat/en/#data>;
-		dct:modified 	"2022/01/22";
+		dct:modified 	"2022/02/03";
 		prov:wasGeneratedBy	"Re-use of open access datasets.".
 
 dct:PeriodOfTime	dcat:startDate	"2009";
 			dcat:endDate	"2019".
 
-dcat:Distribution	dcat:accessURL	<NAME OF THE PAGE>;
+dcat:Distribution	dcat:accessURL	<https://giorgiasampo.github.io/Foodata/>;
 			dct:format	<http://publications.europa.eu/resource/authority/file-type/XML>;		
 			dct:license	<https://creativecommons.org/licenses/by-nc-sa/3.0/igo/>;
 			dcat:byteSize	"5,564 KB";
-			dcat:downloadURL	<NAME OF THE PAGE>;
+			dcat:downloadURL	<https://github.com/giorgiasampo/Foodata/blob/main/datasets/food_production.csv>;
 			adms:status	<http://purl.org/adms/status/Completed>.
 
 foaf:Person	foaf:name	"Giorgia Sampó".
@@ -50,8 +50,10 @@ foaf:Person	foaf:name	"Vanessa Bonanno".
 
 foaf:Person	foaf:name	"Sara Tew".
 
-vcard:Group	vcard:hasEmail	"".
+vcard:Group	vcard:hasEmail	"vanessa.bonanno@studio.unibo.it".
 
 <http://purl.org/adms/status/Completed>	skos:prefLabel	"Completed".
 
-<http://publications.europa.eu/resource/authority/data-theme/ENVI>	skos:prefLabel	"Production".
+<http://publications.europa.eu/resource/authority/data-theme/PROD>	skos:prefLabel	"Production".
+
+
