@@ -58,27 +58,33 @@
           <li><a class="nav-link scrollto" href="#visualization">Visualization</a></li>
           <li class="dropdown"><a href="#metadata"><span>Metadata</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li class="dropdown"><a href="#production_desc"><span>Dataset Food-Production Info</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a><span> Dataset Food-Production Info</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="datasets/food_production.csv">Download Food Dataset file</a></li>
-                  <li><a href="metadata">Metadata</a></li>
+                  <li><a href="metadata">RDF Metadata</a></li>
                 </ul>
               </li>
-              <li class="dropdown"><a href="#pollution_desc"><span>Dataset Pollution Info</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a><span>Dataset Pollution Info</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="datasets/pollution_dataset.csv">Download Pollution Dataset</a></li>
-                  <li><a href="https://github.com/giorgiasampo/Foodata/blob/main/dcat_ap-rdf/pollution-landuse-soilerosion-rdf.ttl" target="_blank">Metadata</a></li>
+                  <li><a href="https://github.com/giorgiasampo/Foodata/blob/main/dcat_ap-rdf/pollution-landuse-soilerosion-rdf.ttl" target="_blank">RDF Metadata</a></li>
                 </ul>
               </li>
-              <li class="dropdown"><a href="#health_desc"><span>Dataset Health Info</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a><span>Dataset Health Info</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="datasets/life_expectancy.csv">Download Health Dataset</a></li>
-                  <li><a href="https://github.com/giorgiasampo/Foodata/blob/main/dcat_ap-rdf/life_expectancy.rdf" target="_blank">Metadata</a></li>
+                  <li><a href="https://github.com/giorgiasampo/Foodata/blob/main/dcat_ap-rdf/life_expectancy.rdf" target="_blank">RDF Metadata</a></li>
                 </ul>
               </li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#documentation">Documentation</a></li>
+          <li class="dropdown"><a  href="#documentation"><span>Documentation</span><i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#production_desc">Production dataset documentation</a></li>
+              <li><a href="#pollution_desc">Pollution dataset documentation</a></li>
+              <li><a href="#health_desc">Health dataset documentation</a></li>
+            </ul>
+          </li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li><a class="nav-link" href="https://github.com/giorgiasampo/Foodata" target="_blank">GitHub<div class="icon"><i class="bx bxl-github"></i></div></a></li>
         </ul>
@@ -235,26 +241,12 @@
           <div class="map" id="pollution">
               <h3>Greenhouse gas pollution map</h3>
 
-              <div class='tableauPlaceholder' id='viz1643816563866' style='position: relative'>
-              <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-                <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
-                <param name='name' value='Foodata_book&#47;Sheet1' /><param name='tabs' value='no' />
-                <param name='toolbar' value='yes' /><param name='animate_transition' value='yes' />
-                <param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' />
-                <param name='display_overlay' value='yes' /><param name='display_count' value='yes' />
-                <param name='language' value='it-IT' /><param name='filter' value='publish=yes' />
-              </object></div>                
-              <script type='text/javascript'>
-                   var divElement = document.getElementById('viz1643816563866');
-                   var vizElement = divElement.getElementsByTagName('object')[0];                    
-                   vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
-                   var scriptElement = document.createElement('script');                    
-                   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-                   vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-              </script>
+         
 
   
           </div>
+
+
           <div class="map" id="health">
               <h3>Map 3</h3>
             <div class='tableauPlaceholder' id='viz1643839804681' style='position: relative'>
@@ -795,10 +787,7 @@
       </div>
 
         <div class="row content">
-          <div class="col-md-4" data-aos="fade-right">
-            <img src="assets/img/details-2.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-8 pt-4" data-aos="fade-up">
+          <div class="col-md-12" data-aos="fade-up">
             <h3>Crops and livestock production in European countries</h3>
             <p class="fst-italic">
               The production section is based on data found at <a href="https://www.fao.org/faostat/en/#home" target="_blank">FAOSTAT</a>, the Food and Agriculture Organization Corporate Statistical Database
@@ -812,7 +801,7 @@
               but also forestry, land, climate change and <a href="https://www.fao.org/faostat/en/#data/QCL" target="_blank">food production</a>. In turn, food production 
               is divided in three main categories: <span class="fw-bold">Crops and livestock products</span>, Production indices, Value of agricultural production.
             </p>
-
+            <br>
             <h4>Original dataset</h4>
             <p><a href="https://www.fao.org/faostat/en/#data/QCL" target="_blank">Crop statistics</a> are recorded for 173 products, covering a huge variety of categories:
                Crops Primary,
@@ -825,8 +814,15 @@
                 we opted for the most common and most produced foods in Europe.</p>
 
             <p>The time span which FAOSTAT proposes goes from 1961 to 2020. In this case we narrowed it to a period of 10 years and did not include 2020,
-               as explained <a href="#covid">below</a>.</p>
-               
+               as explained <a href="#covid">below</a>.</p><br>
+        </div>
+
+        <div class="row content">
+          <div class="col-md-5 order-2 order-md-1" data-aos="fade-left">
+            <img src="assets/img/details-2.png" class="img-fluid" alt="">
+          </div>
+        
+          <div class="col-md-7 order-1 order-md-2" data-aos="fade-right">
             <h4>Foodata production dataset</h4>  
             <p>The final information in Foodata production csv file includes:</p>
             
@@ -846,16 +842,22 @@
               chicken and pig meat; potatoes; rice; wheat. As anticipated, the period of time in which we investigate food production,
                pollution and life expectancy across Europe goes from 2009 until 2019: nonetheless, the availability of data along this period is 
                not always possible, as one can notice in the visualisation section.</p>
+          </div>
+        </div>
 
+        <div class="row">
+          <div class="col-md-12" data-aos="fade-right">
             <h4>Legal analysis</h4>
             <p>FAOSTAT datasets are are <a href="https://www.fao.org/contact-us/terms/db-terms-of-use/en/" target="_blank">licensed</a> under 
               <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/igo/" target="_blank">CC BY-NC-SA 3.0 IGO</a>,
                which states the user is free to share — copy and redistribute the material in any medium or format — and adapt — remix, transform, and build upon the material.
-               
             </p>
-
           </div>
         </div>
+             
+            
+
+  
 
       <div id="pollution_desc">
         <br>
@@ -870,7 +872,7 @@
             This datasets is devoted to pollution issues and environmental damages in European countries 
             and was obtained from the mesh-up of 5 datasets coming from Eurostat and one form the European 
             environmental Agency.
-          </p>          
+          </p>    
         </div>
       </div>
         
@@ -914,6 +916,7 @@
 
         <div class="row">
           <div class="col-md-12 " data-aos="fade-left">
+            <br> 
             <h3>Original Datasets</h3>
             <p>
               Eurostat presented a variety of datasets, from which the ones that we found were most
@@ -928,20 +931,22 @@
         </div>
 
         <div class="row">
-          <div class="col-md-12 " data-aos="fade-left">
+          <div class="col-md-12 " data-aos="fade-left" >
+            <br> 
             <h3>Foodata production datasets</h3>
             <p>
              The final information in Foodata polluction CSV includes:
-             <ul>
+             <ul style="column-count: 2; padding-bottom: 2em;">
               <li><i class="bi bi-check"></i>Year</li>
               <li><i class="bi bi-check"></i>Geographical area</li>
               <li><i class="bi bi-check"></i><a href="https://ec.europa.eu/eurostat/web/nuts/nuts-maps" target="_blank">NUTS Codes</a></li>
               <li><i class="bi bi-check"></i>Geographical Location name</li>
+              <li><i class="bi bi-check"></i>Irrigable/irrigated status</li>
               <li><i class="bi bi-check"></i>Irrigable/irrigated land crops</li>
               <li><i class="bi bi-check"></i>River basin district NUTS code</li>
               <li><i class="bi bi-check"></i>River basin district name</li>
               <li><i class="bi bi-check"></i>River basin district surface water pollution percentage</li>
-              <li><i class="bi bi-check"></i>High/Medium?low input farms hectares</li>
+              <li><i class="bi bi-check"></i>High/Medium/low input farms hectares</li>
               <li><i class="bi bi-check"></i>Soil erosion levels and sectors</li>
               <li><i class="bi bi-check"></i>Soil erosion tonnes per hectare</li>
               <li><i class="bi bi-check"></i>Greenhouse gas pollutant and sectors</li>
@@ -959,6 +964,7 @@
 
       <div class="row">
         <div class="col-md-12 " data-aos="fade-left">
+          <br> 
           <h3>Data availability</h3>
           <p>
             The datasets under consideration were published by Eurosta but collected 
@@ -985,6 +991,7 @@
 
       <div class="row">
         <div class="col-md-12 " data-aos="fade-left">
+          <br> 
           <h3>Data quality</h3>
           <p>
             The measures collected from Eurostat datasets are all indicators frequently used to
@@ -1002,6 +1009,7 @@
 
       <div class="row">
         <div class="col-md-12 " data-aos="fade-left">
+          <br> 
           <h3>Legal analysis</h3>
           <p>
             The original and edited datasets are licensed under CC-BY 4.0 and open for distribution and reuse. 
@@ -1013,6 +1021,7 @@
 
       <div class="row">
         <div class="col-md-12 " data-aos="fade-left">
+          <br> 
           <h3>Ethical analysis</h3>
           <p>
           Datasets regarding environmental damage and pollution are free of sensitive data since, even when using NUTS 3 granularity, 
@@ -1029,6 +1038,7 @@
 
       <div class="row">
         <div class="col-md-12 " data-aos="fade-left">
+          <br> 
           <h3>Gender</h3>
           <p>
             This dataset is largely free of gender bias and gender-related data.
@@ -1043,12 +1053,18 @@
       </div>
 
       <div class="row content">
-        <div class="col-md-4" data-aos="fade-right">
-          <img src="assets/img/details-4.png" class="img-fluid" alt="">
-        </div>
-        <div class="col-md-8 pt-5" data-aos="fade-up">
+        <div class="col-md-12" data-aos="fade-up">
           <h3>LIFE EXPECTANCY ACROSS EUROPE</h3>
           <p>FOOData uses life-expectancy to indicate overall population health. This data comes from Eurostat: <a href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=demo_r_mlifexp" target="_blank">Life expectancy by age, sex and NUTS 2 region</a>. The original dataset contained life expectancies by age, sex, NUTS 2, NUTS 1, and NUTS 0 regions from 1990 to 2019. The <a href="https://github.com/giorgiasampo/Foodata/blob/main/datasets/life_expectancy.csv" target="_blank">FOOData edited dataset</a> limits the Eurostat data to life expectancy at birth from 2010-2019 in current EU member countries.
+      </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-5" data-aos="fade-right">
+          <img src="assets/img/details-4.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-7 pt-5" data-aos="fade-up">
+          
           <h4>Data availability</h4>
           <p>
             The dataset was overall of high quality however there were gaps for some regions, including in all of Germany and the Netherlands above the NUTS 0 level until 2002, Denmark until 2007, Ireland until 2013, some but not all regions of Poland until 2013. Data was also overall less consistently available for regions outside the EU but included in the dataset, including Iceland, Liechtenstein, Norway, Switzerland, the UK, Montenegro, North Macedonia, Albania, Serbia, and Turkey. To mitigate this issue the final dataset was limited to current, full EU member states from 2010-2019. For more specific information on Eurostat's use of the NUTS regions with demographic data please see Eurostat's <a href="https://ec.europa.eu/eurostat/cache/metadata/en/demo_r_gind3_esms.htm" target="_blank">metadata</a>.
@@ -1060,7 +1076,11 @@
           </p><p>Although last updated in 2021, it is unspecified why data after 2019 is unavailable. Because COVID-19 had a significant and anonymous impact on health, pollution, and food production in Europe data from after 2019 has been excluded from FOOData.
 
           </p><p>The edited life expectancy dataset used in FOOData will not be updated in the future.</p>
-            
+          </div>
+          </div>
+        
+          <div class="row content">
+            <div class="col-md-12" data-aos="fade-up">            
           <h4>Data Quality</h4>
           <p>
             Life expectancy is frequently used as an overall population health indicator. Informed by many environmental, socio-economic, educational and other factors, life expectancy is relatively easy to calculate and collect accurately.
@@ -1093,12 +1113,12 @@
 
         <div class="row" data-aos="fade-left">
 
-          <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+          <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
             <div class="member" data-aos="zoom-in" data-aos-delay="200">
               <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Sarah Tew</h4>
-                <span>MA student, Digital Humanities and Digital Knowledge, University of Bologna</span>
+                <span>MA student, Digital Humanities and Digital Knowledge</span>
                 <span>BA in Classics and Art History, New College of Florida</span>
                 <div class="social">
                   <a href="https://www.linkedin.com/in/sarah-tew-31237a105/"><i class="bi bi-linkedin"></i></a>
@@ -1112,6 +1132,7 @@
               <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Vanessa Bonanno</h4>
+                <span>MA student, Digital Humanities and Digital Knowledge</span>
                 <span>Bachelor Degree in Multimedia Science and Technology</span>
                 <div class="social">
                   <a href="https://www.linkedin.com/in/vanessa-bonanno-2a1516158/"><i class="bi bi-linkedin"></i></a>
@@ -1125,6 +1146,7 @@
               <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Giorgia Sampó</h4>
+                <span>MA student, Digital Humanities and Digital Knowledge</span>
                 <span>Bachelor Degree in Communication Science</span>
                 <div class="social">
                   <a href="https://twitter.com/GiorgiaSampo"><i class="bi bi-twitter"></i></a>
