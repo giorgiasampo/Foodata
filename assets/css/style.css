@@ -635,6 +635,15 @@ section {
 .about {
   padding: 40px 0 0 0;
 }
+
+#img_first{
+  margin-top: 8em;
+}
+
+#project{
+  margin-top: -2em;
+}
+
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
@@ -642,7 +651,7 @@ section {
   margin-bottom: 15px;
 }
 .about .icon-box {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .about .icon-box .icon {
   float: left;
@@ -1259,6 +1268,15 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+.footer_a {
+  color: #fff !important;
+}
+
+.footer_a:hover {
+  color: #aeec3a !important;
+}
+
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;

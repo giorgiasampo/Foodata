@@ -395,7 +395,7 @@
       <group caption='Se Levels Set' name='[Se Levels Set]' name-style='unqualified' user:ui-builder='filter-group'>
         <groupfilter function='member' level='[SE_LEVELS]' member='&quot;Total&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
       </group>
-      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='false' units='records'>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
         <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Giorgia Sampo/OneDrive/Desktop/Foodata/assets/tableau_files/pollution_dataset.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='02/03/2022 12:08:42 PM' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
@@ -1111,7 +1111,7 @@
     </worksheet>
   </worksheets>
   <windows source-height='37'>
-    <window class='worksheet' name='Greenhouse gas emissions and air pollution'>
+    <window class='worksheet' maximized='true' name='Greenhouse gas emissions and air pollution'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1174,7 +1174,7 @@
       </cards>
       <simple-id uuid='{03B8D128-A9EC-4F1F-AFCC-C6B3C5D804DE}' />
     </window>
-    <window class='worksheet' maximized='true' name='Water pollution and Irrigation'>
+    <window class='worksheet' name='Water pollution and Irrigation'>
       <cards>
         <edge name='left'>
           <strip size='160'>

@@ -139,13 +139,12 @@
 
         <div class="row">
           <div class="col-md-4" data-aos="fade-right">
-            <img src="assets/img/detail-0.png" class="img-fluid" alt="">
+            <img src="assets/img/detail-0.png" class="img-fluid" alt="" id="img_first">
           </div>
 
           <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
             <h3>FOOData: food in data</h3>
-            <p>This project aims to show connections between food production, pollution and health conditions in European countries from 2009 to 2019.</p>
-            <p>We are focusing in particular on different countries' production of food, their health, and pollution status.</p>
+            <p>This project aims to show connections between food production, pollution and health conditions in European countries from 2009 to 2019, focusing in particular on different countries' production of food, their health, and pollution status.</p>
             <p>We hypothesize that areas with more agricultural pollution will have worse health outcomes and that different types of pollution and food production affect health differently.</p>
             <p>To do so we collected data from <a href="https://ec.europa.eu/eurostat" target="_blank">EUROSTAT</a>, the <a href="https://www.eea.europa.eu" target="_blank">European Environmental Agency</a> and <a href="https://www.fao.org/faostat/en/#home" target="_blank">FAO</a>.</p>
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
@@ -244,7 +243,27 @@
               
           </div>
           <div class="map" id="pollution">
-              <h3>Greenhouse gas pollution map</h3>
+            <h3>Food production in European countries</h3>
+            
+            <div class='tableauPlaceholder' id='viz1643917843814' style='position: relative'>
+              <noscript><a href='#'><img alt='Dashboard 1 ' src='ZK&#47;ZKN37YPY4&#47;1_rss.png' style='border: none' /></a></noscript>
+              <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;ZKN37YPY4' /> 
+                <param name='toolbar' value='yes' /><param name='static_image' value='ZK&#47;ZKN37YPY4&#47;1.png' /> 
+                <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' /><param name='language' value='it-IT' />
+                <param name='filter' value='publish=yes' /></object></div>               
+            <script type='text/javascript'>                   
+              var divElement = document.getElementById('viz1643917843814');                
+              var vizElement = divElement.getElementsByTagName('object')[0];                   
+              if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';}
+              else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';}
+              else { vizElement.style.width='100%';vizElement.style.height='727px';}                  
+              var scriptElement = document.createElement('script');                    
+              scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
 
                
           </div>
@@ -278,19 +297,6 @@
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
               <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
               <h3><a onclick="visualize_chart('chart_1')">Food Production and Life Expectancy by Country</a></h3>
-              <div class='tableauPlaceholder' id='viz1643904174860' style='position: relative'>
-                <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-                <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
-                <param name='name' value='FoodProductionandLifeExpectancybyCountry&#47;Dashboard1' />
-                <param name='tabs' value='no' /><param name='toolbar' value='yes' />
-                <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
-                <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
-                <param name='display_count' value='yes' /><param name='language' value='en-US' />
-                </object></div>                
-              <script type='text/javascript'>                    
-                var divElement = document.getElementById('viz1643904174860');                    
-                var vizElement = divElement.getElementsByTagName('object')[0];                    
-                if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 mt-4">
@@ -313,6 +319,20 @@
         <div class="row" data-aos="fade-right">
           <div class="chart hide_chart" id="chart_1">
               <h3>Chart 1</h3>
+              <div class='tableauPlaceholder' id='viz1643904174860' style='position: relative'>
+                <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+                <param name='name' value='FoodProductionandLifeExpectancybyCountry&#47;Dashboard1' />
+                <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+                <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' /><param name='language' value='en-US' />
+                </object></div>                
+              <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1643904174860');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+           
           </div>
           <div class="chart hide_chart" id="chart_2">
               <h3>Chart 2</h3>
@@ -819,7 +839,7 @@
               is divided in three main categories: <span class="fw-bold">Crops and livestock products</span>, Production indices, Value of agricultural production.
             </p>
             <br>
-            <h4>Original dataset</h4>
+            <h3>Original dataset</h3>
             <p><a href="https://www.fao.org/faostat/en/#data/QCL" target="_blank">Crop statistics</a> are recorded for 173 products, covering a huge variety of categories:
                Crops Primary,
                Fibre Crops Primary, Cereals, Coarse Grain, Fruit, and more. Data are expressed in terms of area harvested,
@@ -840,7 +860,7 @@
           </div>
         
           <div class="col-md-7 order-1 order-md-2" data-aos="fade-right">
-            <h4>Foodata production dataset</h4>  
+            <h3>Foodata production dataset</h3>  
             <p>The final information in Foodata production csv file includes:</p>
             
             <ul>
@@ -864,7 +884,7 @@
 
         <div class="row">
           <div class="col-md-12" data-aos="fade-right">
-            <h4>Legal analysis</h4>
+            <h3>Legal analysis</h3>
             <p>FAOSTAT datasets are are <a href="https://www.fao.org/contact-us/terms/db-terms-of-use/en/" target="_blank">licensed</a> under 
               <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/igo/" target="_blank">CC BY-NC-SA 3.0 IGO</a>,
                which states the user is free to share — copy and redistribute the material in any medium or format — and adapt — remix, transform, and build upon the material.
@@ -1082,7 +1102,7 @@
         </div>
         <div class="col-md-7 pt-5" data-aos="fade-up">
           
-          <h4>Data availability</h4>
+          <h3>Data availability</h3>
           <p>
             The dataset was overall of high quality however there were gaps for some regions, including in all of Germany and the Netherlands above the NUTS 0 level until 2002, Denmark until 2007, Ireland until 2013, some but not all regions of Poland until 2013. Data was also overall less consistently available for regions outside the EU but included in the dataset, including Iceland, Liechtenstein, Norway, Switzerland, the UK, Montenegro, North Macedonia, Albania, Serbia, and Turkey. To mitigate this issue the final dataset was limited to current, full EU member states from 2010-2019. For more specific information on Eurostat's use of the NUTS regions with demographic data please see Eurostat's <a href="https://ec.europa.eu/eurostat/cache/metadata/en/demo_r_gind3_esms.htm" target="_blank">metadata</a>.
 
@@ -1098,19 +1118,19 @@
         
           <div class="row content">
             <div class="col-md-12" data-aos="fade-up">            
-          <h4>Data Quality</h4>
+          <h3>Data Quality</h3>
           <p>
             Life expectancy is frequently used as an overall population health indicator. Informed by many environmental, socio-economic, educational and other factors, life expectancy is relatively easy to calculate and collect accurately.
 
           </p><p>Eurostat's dataset in particular is of very high quality since EU member states share collection, measurement, and reporting <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Eurostat_and_the_European_Statistical_System#European_Statistical_System_.28ESS.29" target="_blank">standards</a>. It is also exhaustive and seeks to represent member states and their regions equally, although, as mentioned previously, there are some gaps, especially before 2010. 
           </p>
-        <h4>Legal analysis</h4>
+        <h3>Legal analysis</h3>
           <p> The original and edited datasets are licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY 4.0</a> and open for distribution and reuse. The data was originally collected with the express intent to publish and share. There is no legal impediment to reproducing or remixing this data.
           </p>
-          <h4>Ethical analysis</h4>
+          <h3>Ethical analysis</h3>
           <p>Life expectancy is an oft-used measure of health partly because it is much less sensitive and private than other health data. As an average it gives information about the population as a whole rather than individual members and does not pose individual privacy risks.
           </p>
-          <h5>Gender</h5>
+          <h3>Gender</h3>
           <p>This dataset is largely free of gender bias, however recently binary gender classification into male and female has come under re-evaluation. That being said, the EU member states are bound by the same statistics reporting standards so the dataset is at least consistent in its use of two and only two genders.
           </p>
 
@@ -1303,8 +1323,8 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        <br><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/igo/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/igo/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/igo/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO License</a>.
+        Designed by <a class="footer_a" href="https://bootstrapmade.com/">BootstrapMade</a><br><br>
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/igo/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/igo/88x31.png" /></a><br><br>This work is licensed under a <a   class="footer_a" rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/igo/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO License</a>.
       </div>
     </div>
   </footer><!-- End Footer -->
