@@ -73,7 +73,7 @@
               </li>
               <li class="dropdown"><a><span>Dataset Pollution Info</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="datasets/pollution_dataset.csv">Pollution Dataset</a></li>
+                  <li><a href="datasets/pollution_dataset.csv">Download Pollution Dataset</a></li>
                   <li><a href="https://github.com/giorgiasampo/Foodata/blob/main/dcat_ap-rdf/pollution-landuse-soilerosion-rdf.ttl" target="_blank">RDF Metadata</a></li>
                 </ul>
               </li>
@@ -531,13 +531,13 @@
           <div class="col-lg-4 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="250">
               <i class="ri-database-2-line" style="color: #47aeff;"></i>
-              <h3><a onclick="visualize_map('chart_5', 'graph')">Random Chart</a></h3>
+              <h3><a onclick="visualize_map('chart_5', 'graph')">Greenhouse gas pollution per sector</a></h3>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
               <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-              <h3><a onclick="visualize_map('chart_6', 'graph')">Random Chart</a></h3>
+              <h3><a onclick="visualize_map('chart_6', 'graph')">Level of farming per year</a></h3>
             </div>
           </div>
         </div>
@@ -574,11 +574,51 @@
               
           </div>
           <div class="graph" id="chart_5">
-              <h3>Chart 5</h3>
+
+            <div class='tableauPlaceholder' id='viz1643992823968' style='position: relative'>
+              <noscript><a href='#'><img alt='Greenhouse gas pollution per sector ' src='8R&#47;8R9WGWB75&#47;1_rss.png' style='border: none' /></a></noscript>
+              <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;8R9WGWB75' /> 
+                <param name='toolbar' value='yes' /><param name='static_image' value='8R&#47;8R9WGWB75&#47;1.png' /> 
+                <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' /><param name='language' value='it-IT' />
+                <param name='filter' value='publish=yes' /></object></div>                
+                <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1643992823968');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.5)+'px';                    
+                var scriptElement = document.createElement('script');                    
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                </script>
+
           </div>
           <div class="graph" id="chart_6">
-              <h3>Chart 6</h3>
+            <div class='tableauPlaceholder' id='viz1643993239904' style='position: relative'><object class='tableauViz'  style='display:none;'>'
+              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+              <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+              <param name='name' value='Leveloffarmingperyear&#47;Leveloffarmingperyear' />
+              <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' />
+              <param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' />
+              <param name='display_count' value='yes' />
+              <param name='language' value='it-IT' />
+              <param name='filter' value='publish=yes' />
+            </object></div>                
+            <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1643993239904');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.5)+'px';                    
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
           </div>
+
+
         </div>
 
       </div>
@@ -2067,12 +2107,13 @@
                     <td class="s0" dir="ltr">Dataset</td>
                     <td class="s1" dir="ltr">FAOSTAT</td>
                     <td class="s2" dir="ltr">Eurostat Life Expectancy</td>
-                    <td class="s3" dir="ltr">Eurostat Life Expectancy</td></tr>
+                    <td class="s3" dir="ltr">Foodata - pollution</td></tr>
                     <tr style="height: 20px"><th id="1241102806R1" style="height: 20px;" class="row-headers-background">
                       <div class="row-header-wrapper" style="line-height: 20px">2</div>
-                    </th><td class="s4" dir="ltr">Identifier</td><td class="s5"></td>
-                    <td class="s6" dir="ltr">*URI from our github*</td>
-                    <td class="s7" dir="ltr">*URI from our github*</td></tr>
+                    </th><td class="s4" dir="ltr">Identifier</td>
+                    <td class="s5"><a href="//github.com/giorgiasampo/Foodata/blob/main/datasets/food_production.csv" target="_blank">https://github.com/giorgiasampo/Foodata/blob/main/datasets/food_production.csv</a></td>
+                    <td class="s6" dir="ltr"><a href="https://github.com/giorgiasampo/Foodata/blob/main/datasets/life_expectancy.csv" targer = "_blank">https://github.com/giorgiasampo/Foodata/blob/main/datasets/life_expectancy.csv</a></td>
+                    <td class="s7" dir="ltr"><a href="https://raw.githubusercontent.com/giorgiasampo/Foodata/main/datasets/pollution_dataset.csv" target="_blank">https://raw.githubusercontent.com/giorgiasampo/Foodata/main/datasets/pollution_dataset.csv</a></td></tr>
                     <tr style="height: 20px"><th id="1241102806R2" style="height: 20px;" class="row-headers-background"
                       ><div class="row-header-wrapper" style="line-height: 20px">3</div></th>
                       <td class="s4" dir="ltr">Title</td><td class="s5" dir="ltr">FOOData - Crops and livestock products FAOSTAT</td>

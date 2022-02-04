@@ -915,11 +915,10 @@ section {
 }
 
 .metadata{
-  height: 30em !important;
-  padding-top: 8.5em;
-  overflow: scroll;
+  padding-top: 1.5em;
+  width: 100%;
+  overflow-y: scroll;
 }
-
 
 /*--------------------------------------------------------------
 # Team
