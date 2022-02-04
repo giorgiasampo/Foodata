@@ -697,12 +697,36 @@ section {
 /*-------------------------------------------------------------
 # Visualization
 --------------------------------------------------------------*/
+
+.dropdown-menu a{
+  color: #000000;
+}
+
+.dropdown-menu li{
+  font-weight: 700;
+  margin: 1;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+  color: rgba(32, 100, 11, 0.91);
+}
+
+.dropdown-menu a:hover{
+  color: #ffffff !important;
+}
+
+.dropdown .arrow-distant{
+  padding-left: 3em;
+}
+
 .features .icon-box {
   display: flex;
   align-items: center;
   padding: 20px;
   background: rgba(174, 236, 58, 0.2);
   transition: ease-in-out 0.3s;
+  margin-bottom: 3em;
+  margin-top: 2em;
 }
 .features .icon-box i {
   font-size: 32px;
@@ -793,9 +817,6 @@ section {
   display: block !important;
 }
 
-#chart_1{
-  background-color: #1acc8d;
-}
 #chart_2{
   background-color: #ccc01a;
 }
@@ -901,6 +922,7 @@ section {
   display: flex;
   align-items: center;
   padding: 20px;
+  margin-bottom: 2em;
   background: rgba(174, 236, 58, 0.2);
   transition: ease-in-out 0.3s;
 }

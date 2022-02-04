@@ -56,9 +56,16 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#project">Project</a></li>
           <li><a class="nav-link scrollto" href="#visualization">Visualization</a></li>
+          <li class="dropdown"><a  href="#documentation"><span>Documentation</span><i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#production_desc">Production dataset documentation</a></li>
+              <li><a href="#pollution_desc">Pollution dataset documentation</a></li>
+              <li><a href="#health_desc">Health dataset documentation</a></li>
+            </ul>
+          </li>
           <li class="dropdown"><a href="#metadata"><span>Metadata</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li class="dropdown"><a><span> Dataset Food-Production Info</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a><span> Production Dataset</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="datasets/food_production.csv">Download Food Dataset file</a></li>
                   <li><a href="metadata">RDF Metadata</a></li>
@@ -66,23 +73,16 @@
               </li>
               <li class="dropdown"><a><span>Dataset Pollution Info</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="datasets/pollution_dataset.csv">Download Pollution Dataset</a></li>
+                  <li><a href="datasets/pollution_dataset.csv">Pollution Dataset</a></li>
                   <li><a href="https://github.com/giorgiasampo/Foodata/blob/main/dcat_ap-rdf/pollution-landuse-soilerosion-rdf.ttl" target="_blank">RDF Metadata</a></li>
                 </ul>
               </li>
-              <li class="dropdown"><a><span>Dataset Health Info</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a><span>Health Dataset</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="datasets/life_expectancy.csv">Download Health Dataset</a></li>
                   <li><a href="https://github.com/giorgiasampo/Foodata/blob/main/dcat_ap-rdf/life_expectancy.rdf" target="_blank">RDF Metadata</a></li>
                 </ul>
               </li>
-            </ul>
-          </li>
-          <li class="dropdown"><a  href="#documentation"><span>Documentation</span><i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#production_desc">Production dataset documentation</a></li>
-              <li><a href="#pollution_desc">Pollution dataset documentation</a></li>
-              <li><a href="#health_desc">Health dataset documentation</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
@@ -170,6 +170,50 @@
       </div>
     </section><!-- End About Section -->
 
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container">
+
+        <div class="row" data-aos="fade-up">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="447700000" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Citizens</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="28" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Countries</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Years</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="ri-database-2-line"></i>
+              <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Datasets</p>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
     <!-- ======= Features Section ======= -->
     <section id="visualization" class="features">
       <div class="container">
@@ -193,7 +237,12 @@
           <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
               <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-              <h3><a onclick="visualize_map('pollution', 'map')">Pollution Map</a></h3>
+              <h3 class="dropdown" id="dropdownpollution" data-bs-toggle="dropdown" aria-expanded="false"><a><span>Pollution Maps</a></span><i class="bi bi-chevron-down arrow-distant"></i></h3>
+            <ul class="dropdown-menu" aria-labelledby="dropdownpollution">
+              <li><a onclick="visualize_map('air_pollution', 'map')">Air Pollution Map</a></li>
+              <li><a onclick="visualize_map('soil_pollution', 'map')">Soil Pollution Map</a></li>
+              <li><a onclick="visualize_map('water_pollution', 'map')">Water Pollution Map</a></li>
+            </ul>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 mt-4 mt-md-0">
@@ -234,13 +283,81 @@
               var scriptElement = document.createElement('script');                    
               scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
               vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-            </script>
+              </script>
+
+          </div>
+          <div class="map" id="air_pollution">
+            <div class='tableauPlaceholder' id='viz1643968135385' style='position: relative'>
+              <noscript><a href='#'><img alt='Greenhouse gas emissions and air pollution ' src='X6&#47;X6MHF4BPK&#47;1_rss.png' style='border: none' /></a></noscript>
+              <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;X6MHF4BPK' /> 
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='X6&#47;X6MHF4BPK&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' /><param name='language' value='it-IT' />
+                <param name='filter' value='publish=yes' />
+              </object></div>                
+              <script type='text/javascript'>                   
+              var divElement = document.getElementById('viz1643968135385');                    
+              var vizElement = divElement.getElementsByTagName('object')[0];                    
+              vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+              var scriptElement = document.createElement('script');                    
+              scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+              vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+              </script>
           </div>
 
+          <div class="map" id="soil_pollution">
 
-          <div class="map" id="pollution">
-            
-               
+            <div class='tableauPlaceholder' id='viz1643968474693' style='position: relative'>
+              <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+                <param name='name' value='Agricultureandsoilerosion&#47;Agricultureintensityandsoilerosionlevel' />
+                <param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='it-IT' />
+                <param name='filter' value='publish=yes' />
+              </object></div>                
+              <script type='text/javascript'>                    
+              var divElement = document.getElementById('viz1643968474693');                    
+              var vizElement = divElement.getElementsByTagName('object')[0];                    
+              vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+              var scriptElement = document.createElement('script');                    
+              scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+              vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+              </script>
+
+          </div>
+
+          <div class="map" id="water_pollution">
+  
+            <div class='tableauPlaceholder' id='viz1643968531640' style='position: relative'>
+              <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+                <param name='name' value='Waterpollutionandirrigation&#47;WaterpollutionandIrrigation' />
+                <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='it-IT' />
+                <param name='filter' value='publish=yes' />
+              </object></div>                
+              <script type='text/javascript'>                    
+              var divElement = document.getElementById('viz1643968531640');                    
+              var vizElement = divElement.getElementsByTagName('object')[0];                    
+              vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+              var scriptElement = document.createElement('script');                    
+              scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+              vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+              </script>
+  
           </div>
 
 
@@ -413,410 +530,13 @@
       </div>
     </section><!-- End Features Section -->
 
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container">
+    
 
-        <div class="row" data-aos="fade-up">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Datasets</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Years</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1474994763" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Tears</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="-15" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Realized Websites</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Counts Section -->
-
-
-    <!-- ======= Metadata Section ======= -->
-    <section id="metadata" class="gallery">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Metadata</h2>
-          <p>Check our metadata</p>
-        </div>
-
-        <div class="row" data-aos="fade-left">
-
-          <div class="col-lg-4 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-              <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-              <h3><a onclick="visualize_map('metadata_1', 'metadata')">Checklist</a></h3>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-4 mt-4">
-              <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-                <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-                <h3><a onclick="visualize_map('metadata_2', 'metadata')">Original Datasets Metadata</a></h3>
-              </div>
-          </div>
-
-          <div class="col-lg-4 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-              <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-              <h3><a onclick="visualize_map('metadata_3', 'metadata')">Final Datasets Metadata</a></h3>
-            </div>
-          </div>
-        </div>
-
-          <div class="row" data-aos="fade-right">
-            <div class="metadata hide_metadata" id="metadata_1">
-                <h3>Checklist</h3>
-            </div>
-            <div class="metadata hide_metadata" id="metadata_2">
-              <h3>Original Datases Metadata</h3>
-              <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link type="text/css" rel="stylesheet" href="resources/sheet.css" >
-                <style type="text/css">.ritz .waffle a { color: inherit; }.ritz .waffle .s6{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#b6d7a8;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s12{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#d9d2e9;text-align:left;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s8{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#b6d7a8;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s11{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#d9d2e9;text-align:left;font-style:italic;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s7{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#e6b8af;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s2{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#b6d7a8;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s14{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#e6b8af;text-align:left;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s15{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#e6b8af;text-align:right;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s0{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ffe599;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s10{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#e6b8af;text-align:right;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s5{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#d9d2e9;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s16{background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s1{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#b4a7d6;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s3{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#e6b8af;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s4{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#fff2cc;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s13{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#b6d7a8;text-align:left;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s9{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#e6b8af;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}</style>
-                <div class="ritz grid-container" dir="ltr"><table class="waffle" cellspacing="0" cellpadding="0">
-                <thead><tr><th class="row-header freezebar-origin-ltr"></th>
-                  <th id="1665778861C0" style="width:202px;" class="column-headers-background">A</th>
-                  <th id="1665778861C1" style="width:340px;" class="column-headers-background">B</th>
-                  <th id="1665778861C2" style="width:347px;" class="column-headers-background">C</th>
-                  <th id="1665778861C3" style="width:358px;" class="column-headers-background">D</th>
-                  <th id="1665778861C4" style="width:277px;" class="column-headers-background">E</th>
-                  <th id="1665778861C5" style="width:317px;" class="column-headers-background">F</th>
-                  <th id="1665778861C6" style="width:319px;" class="column-headers-background">G</th>
-                  <th id="1665778861C7" style="width:304px;" class="column-headers-background">H</th>
-                  <th id="1665778861C8" style="width:270px;" class="column-headers-background">I</th>
-                </tr></thead>
-                <tbody>
-                  <tr style="height: 20px"><th id="1665778861R0" style="height: 20px;" class="row-headers-background">
-                    <div class="row-header-wrapper" style="line-height: 20px">1</div></th><td class="s0" dir="ltr">Dataset</td>
-                    <td class="s1" dir="ltr">FAOSTAT</td>
-                    <td class="s2" dir="ltr">Eurostat Life Expectancy</td>
-                    <td class="s3" dir="ltr">Eurostat 
-                <br>Greenhouse gas emissions by source sector </td><td class="s3" dir="ltr">Eurostat 
-                <br>Greenhouse gas emissions by source sector </td><td class="s3" dir="ltr">Eurostat<br>Estimated soil erosion by water, by erosion level, land cover and NUTS 3 regions</td>
-                <td class="s3" dir="ltr">European environmental Agency<br>Percentage of water bodies not in good ecological status or potential, per river basic district</td>
-                <td class="s3" dir="ltr">Eurostat<br>Utilised agricultural area (UAA) managed by low-, medium- and high-input farms</td>
-                <td class="s3" dir="ltr">Eurostat<br>
-                <br>Share of irrigable and irrigated areas in utilised agricultural area (UAA) by NUTS 2 regions</td></tr>
-                <tr style="height: 20px"><th id="1665778861R1" style="height: 20px;" class="row-headers-background">
-                <div class="row-header-wrapper" style="line-height: 20px">2</div></th>
-                <td class="s4" dir="ltr">Title</td><td class="s5" dir="ltr">Crops and livestock products FAOSTAT</td>
-                <td class="s6" dir="ltr">Life expectancy by age, sex, and NUTS 2 region</td>
-                <td class="s7" dir="ltr">Greenhouse gas emissions by NUTS 0 regions</td>
-                <td class="s7" dir="ltr">Air pollutants by source sector and NUTS 0 regions</td>
-                <td class="s7" dir="ltr">Estimated soil erosion by water, by erosion level, land cover and NUTS 3 regions</td>
-                <td class="s7" dir="ltr">Percentage of water bodies not in good ecological status or potential, per river basic district</td>
-                <td class="s7" dir="ltr">Utilised agricultural area (UAA) managed by low-, medium- and high-input farms by NUTS 2</td>
-                <td class="s7" dir="ltr">
-                <br>Share of irrigable and irrigated areas in utilised agricultural area (UAA) by NUTS 2 regions</td></tr>
-                <tr style="height: 20px"><th id="1665778861R2" style="height: 20px;" class="row-headers-background">
-                  <div class="row-header-wrapper" style="line-height: 20px">3</div></th><td class="s4" dir="ltr">Identifier</td>
-                  <td class="s5" dir="ltr"></td><td class="s6" dir="ltr">demo_r_mlifexp</td><td class="s7" dir="ltr">env_air_gge</td>
-                  <td class="s7" dir="ltr">env_air_emis</td><td class="s7" dir="ltr">aei_pr_soiler</td>
-                  <td class="s7" dir="ltr">WISE</td><td class="s7" dir="ltr">aei_ps_inp</td>
-                  <td class="s7" dir="ltr">aei_ef_ir</td></tr>
-                  <tr style="height: 20px"><th id="1665778861R3" style="height: 20px;" class="row-headers-background">
-                    <div class="row-header-wrapper" style="line-height: 20px">4</div></th>
-                    <td class="s4" dir="ltr">Description</td>
-                <td class="s5" dir="ltr">Crop statistics are recorded for 173 products, covering the following categories: Crops Primary, Fibre Crops Primary, Cereals, Coarse Grain, Citrus... (<span style="text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;"><a target="_blank" href="https://www.fao.org/faostat/en/#data/QCL">read more</a></span>)</td>
-                <td class="s8" dir="ltr">The dataset contains demographic information about the average lifespan at birth based on sex and geographic location within the EU from 2010-2019. The dataset uses 27 NUTS 0 countries (EU member states) and 302 NUTS 1 and 2 regions.</td>
-                <td class="s9" dir="ltr">This dataset includes data on greenhouse gas emissions inventory, as reported to the European Environment Agency (EEA). Note that Eurostat is not the producer of these data, only re-publishes them.
-                <br>
-                <br>The European Union (EU) as a party to the United Nations Framework Convention on Climate Change (UNFCCC) reports annually its greenhouse gas inventory for the year t-2 and within the area covered by its Member States. The inventory contains data on carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), perfluorocarbons (PFCs), hydrofluorocarbons (HFCs), sulphur hexafluoride (SF6) and nitrogen trifluoride (NF3). The EU inventory is fully consistent with national greenhouse gas inventories compiled by the EU Member States.</td>
-                <td class="s9" dir="ltr">The European Union (EU) as a party to the Convention on Long-range Transboundary Air Pollution (LRTAP Convention) reports annually its air pollution inventory for the year t-2 and within the area covered by its Member States. Under the Convention, parties are obliged to report emissions data for numerous air pollutants.
-                <br>
-                <br>This dataset includes data on air pollutants: sulphur oxides (SOx), ammonia (NH3), nitrogen oxides (NOx), non-methane volatile organic compounds (NMVOCs), particulate matters (PM10, PM2.5), Lead (Pb), Cadmium (Cd), Mercury (Hg), Arsenic (As), Chromium (Cr) Copper (Cu), Nickel (Ni), Selenium (Se) and Zinc (Zn), as reported to the European Environment Agency (EEA). The EU inventory is fully consistent with national air pollution inventories compiled by the EU Member States.
-                <br>
-                <br>Note that Eurostat is not the producer of these data, only re-publishes them. The producer of the data is the European Environment Agency. 
-                <br>
-                <br>Note that in the European Union emission inventory report 1990-2019 under the UNECE Convention on Long-range Transboundary Air Pollution, EU-28 totals do not include data from the United Kingdom. Therefore, Eurostat labels the same totals as EU-27.</td>
-                <td class="s9" dir="ltr">Data on soil erosion are published under agreement with data provider - Joint Research Centre of the European Commission (JRC – Ispra), one of the partners of the Memorandum of Understanding for cooperation on the development of Agri-environmental indicators.
-                <br>
-                <br>Soil erosion by water is one of the most widespread forms of soil degradation in Europe. Since it is difficult to measure at large scales, soil erosion models are a crucial estimation tool at regional, national and European levels.
-                <br>
-                <br>This dataset represents the soil erosion rates by water estimated on the basis of the Revised Universal Soil Loss Equation (RUSLE) empirical computer model in tonnes per ha of EU territory per year (t ha-1 yr-1), in EU-28 Member States for NUTS 3 level administrative areas. Note that Eurostat is not the producer of these data, only re-publishes them. For more information please consult the Eurostat Statistics Explained article Agri-environmental indicator – Soil erosion.</td>
-                <td class="s9" dir="ltr">The report presents only the key results, while more detailed WFD results are presented in the WISE-Freshwater WFD visualisation tool. Results are presented as interactive tables, graphs and maps (“Dashboards”), and as overviews at EU, Member State and river basin districts (RBDs) levels.
-                <br>
-                <br>More than 150 “dashboards” (Web-visualisations), presenting status and pressure information, are now available online. The dashboards present the data Member States have reported via the first (in 2010-2012) and the second River Basin Management Plans (RBMPs, in 2012-2016).</td>
-                <td class="s9" dir="ltr">This data set shows the hectares and the percentage of utilised agricultural area (UAA) managed by low-, medium- and high-input farms in the EU Member States and the United Kingdom for the time period 2005-2017. Each farm is classified according to the level of input use per hectare, which is calculated on the basis of the spending (in constant euros) on purchased inputs per hectare of UAA. The inputs considered here are purchased fertilisers and soil improvers, pesticides (plant protection products), other means for protection such as traps and baits, bird scarers, anti-hail shells, frost protection and purchased feed. This approach allows covering both crop and livestock productions.
-                <br>
-                <br>The volume of inputs used (per hectare) is estimated by dividing input expenditures (per hectare) by the input price index for the year and country in question. This results in input expenditures per hectare in constant national input prices. Fertiliser expenditure (purchased fertilisers and soil improvers) is divided by the fertiliser price index in the country of the same year in order to estimate the volume used. Similarly, crop protection expenditure (plant protection products, traps and baits, bird scares, anti-hail shells, frost protection) is divided by the pesticide price index in the country of the same year. Purchased feed cost is also divided by the feed price index in the country of the same year. The result is thus expressed in constant inputs prices (Euro per ha). The method allows not only to deduct inflation, but also the fluctuation of input prices. Thus it estimates the trend in the volume of inputs used per hectare. However, it does not capture differences in input prices between countries and the differences in prices within each category of inputs (for example between a pesticide A and a pesticide B). Therefore it does not give the exact volume of inputs used for a specific country and year.
-                <br>
-                <br>In a second step, the distribution of the UAA is considered by the ranked input intensity (bivariate approach) in each geographical level (EU, MS, NUTS) for the specific year of reference (2010 for all MSs, 2013 for HR). Three classes of intensity (low, medium, high) are then defined, by deriving the associated level of input corresponding to the 33rd (q33) and the 66th (q66) UAA quantiles:
-                <br>
-                <br>A farm is classified under the class “low intensity” if its input level is below or equal to the intensity value associated to the Q33 of UAA.
-                <br>A farm is classified under the class “high intensity” if its input level is greater than the intensity value associated to the Q66 of UAA.
-                <br>A farm is classified under the class “medium intensity”  if its input level is greater than the  intensity value associated to the Q33 of UAA and it is below the intensity value associated to the Q66 of UAA.
-                <br>For EU27_2020, as well as for EU28, those thresholds are represented by 88 euros/ha for low intensity farms, by 560 euros/ha for high intensity farms, and by between 88 and 560 euros/ha for medium intensity farms.
-                <br>
-                <br>These levels should not be considered as strict cut-off values, but rather as reference in time  in order  to be able to study the evolution of farm intensification through the years.
-                <br>
-                <br>Once the farms are classified in one of the three intensity classes (low, med, high), a global ratio indicator is computed as the weighted sum of input over the weighted sum of UAA for each intensity class.
-                <br>
-                <br>Intensification in a country with very low intensity does not mean the same for the environment than intensification in a country with high intensity. That is the purpose of the variable, &quot;average input expenditures per hectare in constant input prices&quot;. It is not the ideal measurement of intensity; however, it is the best estimate that we can obtain until now from the available data.</td>
-                <td class="s9" dir="ltr">Share of irrigable and irrigated areas in the utilised agricultural area (UAA); the irrigable area is the area which is equipped for irrigation, while the irrigated area measures the actual amount of land irrigated; based on Farm Structure Survey data.</td></tr>
-                <tr style="height: 20px"><th id="1665778861R4" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">5</div></th>
-                  <td class="s4" dir="ltr">Modified</td><td class="s5" dir="ltr">Updated 2021-02-22</td>
-                  <td class="s6" dir="ltr">Updated 03.06.2021</td>
-                  <td class="s7" dir="ltr">Updated 04.06.2021</td>
-                  <td class="s7" dir="ltr">Updated 05.10.2021</td>
-                  <td class="s7" dir="ltr">Updated 18.12.2019</td>
-                  <td class="s7" dir="ltr">Updated 03.07.2018</td>
-                  <td class="s7" dir="ltr">Updated 06.11.2020</td>
-                  <td class="s7" dir="ltr">Updated 11.03.2019</td></tr>
-                  <tr style="height: 20px"><th id="1665778861R5" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">6</div></th>
-                    <td class="s4" dir="ltr">Theme</td>
-                    <td class="s5" dir="ltr">Crops and livestock products, food production</td>
-                    <td class="s6" dir="ltr">Life expectancy, demograhic data</td>
-                    <td class="s7" dir="ltr">Greenhouse gas emissions</td>
-                    <td class="s7" dir="ltr">Air pollution</td>
-                    <td class="s7" dir="ltr">Soil erosion</td>
-                    <td class="s7" dir="ltr">Surface water pollution</td>
-                    <td class="s7" dir="ltr">Utilised agricultural area</td>
-                    <td class="s7" dir="ltr">Share or irrigable and irrigated water</td></tr>
-                    <tr style="height: 20px"><th id="1665778861R6" style="height: 20px;" class="row-headers-background">
-                      <div class="row-header-wrapper" style="line-height: 20px">7</div></th>
-                      <td class="s4" dir="ltr">Rights Holder</td>
-                      <td class="s5" dir="ltr">The Food and Agriculture Organization (FAO) of the United Nations</td>
-                      <td class="s6" dir="ltr">Eurostat</td>
-                      <td class="s7" dir="ltr">EEA</td>
-                      <td class="s7" dir="ltr">EEA</td>
-                      <td class="s7" dir="ltr">JRC</td>
-                      <td class="s7" dir="ltr">EEA</td>
-                      <td class="s7" dir="ltr">FADN</td>
-                      <td class="s7" dir="ltr">Eurostat</td></tr>
-                      <tr style="height: 20px"><th id="1665778861R7" style="height: 20px;" class="row-headers-background">
-                      <div class="row-header-wrapper" style="line-height: 20px">8</div></th><td class="s4" dir="ltr">Accrual Periodicity</td>
-                      <td class="s5" dir="ltr">Annual</td><td class="s6" dir="ltr">Annual</td><td class="s7" dir="ltr">Annual</td><td class="s7" dir="ltr">Annual</td><td class="s7" dir="ltr">2000/2010/2016</td><td class="s10" dir="ltr">2015</td><td class="s7" dir="ltr">Annual</td><td class="s7" dir="ltr">2005/2007 and then every three years</td></tr>
-                      <tr style="height: 20px">
-                      <th id="1665778861R8" style="height: 20px;" class="row-headers-background">
-                      <div class="row-header-wrapper" style="line-height: 20px">9</div></th>
-                      <td class="s4" dir="ltr">Subject</td>
-                      <td class="s5" dir="ltr">Crops and livestock products</td>
-                      <td class="s6" dir="ltr">Life expectancy</td>
-                      <td class="s7" dir="ltr">Greenhouse gas emissions</td>
-                      <td class="s7" dir="ltr">Air pollution</td>
-                      <td class="s7" dir="ltr">Soil erosion</td>
-                      <td class="s7" dir="ltr">Water pollution</td>
-                      <td class="s7" dir="ltr">Agriculture</td>
-                      <td class="s7" dir="ltr">Irrigation</td></tr>
-                      <tr style="height: 20px"><th id="1665778861R9" style="height: 20px;" class="row-headers-background">
-                      <div class="row-header-wrapper" style="line-height: 20px">10</div></th><td class="s4" dir="ltr">Publisher</td>
-                      <td class="s5" dir="ltr">FAOSTAT</td>
-                      <td class="s6" dir="ltr">Eurostat</td>
-                      <td class="s7" dir="ltr">Eurostat</td>
-                      <td class="s7" dir="ltr">Eurostat</td>
-                      <td class="s7" dir="ltr">Eurostat</td>
-                      <td class="s7" dir="ltr">European Environmental Agency</td>
-                      <td class="s7" dir="ltr">Eurostat</td>
-                      <td class="s7" dir="ltr">Eurostat</td></tr>
-                      <tr style="height: 20px"><th id="1665778861R10" style="height: 20px;" class="row-headers-background">
-                        <div class="row-header-wrapper" style="line-height: 20px">11</div></th><td class="s4" dir="ltr">Issued</td>
-                      <td class="s11" dir="ltr">01/02/2022</td>
-                      <td class="s6"></td><td class="s7"></td><td class="s7"></td><td class="s7"></td><td class="s7"></td>
-                      <td class="s7"></td><td class="s7"></td></tr>
-                      <tr style="height: 20px"><th id="1665778861R11" style="height: 20px;" class="row-headers-background">
-                      <div class="row-header-wrapper" style="line-height: 20px">12</div></th>
-                      <td class="s4" dir="ltr">Language</td><td class="s5" dir="ltr">English, Français, Español</td>
-                      <td class="s6" dir="ltr">English</td><td class="s7" dir="ltr">English</td>
-                      <td class="s7" dir="ltr">English</td><td class="s7" dir="ltr">English</td>
-                      <td class="s7" dir="ltr">English</td><td class="s7" dir="ltr">English</td>
-                      <td class="s7" dir="ltr">English</td></tr>
-                      <tr style="height: 20px"><th id="1665778861R12" style="height: 20px;" class="row-headers-background">
-                      <div class="row-header-wrapper" style="line-height: 20px">13</div></th>
-                      <td class="s4" dir="ltr">Keywords</td><td class="s5" dir="ltr">Food production, crops production, livestock production</td>
-                      <td class="s6" dir="ltr">Life expectancy, EU</td><td class="s7" dir="ltr">Greenhouse gases, environment, EU</td>
-                      <td class="s7" dir="ltr">Air pollution, Environment, EU</td><td class="s7" dir="ltr">Soil erosion, EU, land cover, water soil erosion</td>
-                      <td class="s7" dir="ltr">Water pollution, EU, surface water</td><td class="s7" dir="ltr">Agriculture, Utilised gricultural area, Farming, EU</td>
-                      <td class="s7" dir="ltr">Irrigation, EU</td></tr>
-                      <tr style="height: 20px"><th id="1665778861R13" style="height: 20px;" class="row-headers-background">
-                      <div class="row-header-wrapper" style="line-height: 20px">14</div></th><td class="s4" dir="ltr">Source</td>
-                      <td class="s5" dir="ltr"><a target="_blank" href="https://www.fao.org/faostat/en/#data">https://www.fao.org/faostat/en/#data</a></td>
-                      <td class="s6" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=demo_r_mlifexp">https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=demo_r_mlifexp</a></td>
-                      <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=demo_r_mlifexp">https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_gge&amp;lang=en</a></td>
-                      <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_emis&amp;lang=en">https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_emis&amp;lang=en</a></td>
-                      <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=aei_pr_soiler&amp;lang=en">https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=aei_pr_soiler&amp;lang=en</a></td>
-                      <td class="s13" dir="ltr"><a target="_blank" href="https://www.eea.europa.eu/data-and-maps/figures/proportion-of-classified-surface-water-7">https://www.eea.europa.eu/data-and-maps/figures/proportion-of-classified-surface-water-7</a></td>
-                      <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=aei_ps_inp&amp;lang=en">https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=aei_ps_inp&amp;lang=en</a></td>
-                      <td class="s13" dir="ltr"><a target="_blank" href="https://data.europa.eu/data/datasets/arinrajid0ph6h0uozi8w?locale=en">https://data.europa.eu/data/datasets/arinrajid0ph6h0uozi8w?locale=en</a></td></tr>
-                      <tr style="height: 20px"><th id="1665778861R14" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">15</div></th>
-                      <td class="s4" dir="ltr">Temporal Coverage</td><td class="s5" dir="ltr">1961/2020</td><td class="s8" dir="ltr">1990-2019</td><td class="s9" dir="ltr">2010-2019</td><td class="s9" dir="ltr">2010-2019</td><td class="s9" dir="ltr">2000-2016</td><td class="s15" dir="ltr">2015</td><td class="s9" dir="ltr">2010-2019</td><td class="s9" dir="ltr">2005-2016</td></tr>
-                      <tr style="height: 20px"><th id="1665778861R15" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">16</div></th><td class="s4" dir="ltr">Spatial Coverage</td>
-                        <td class="s5" dir="ltr">Countries (all over the world), Regions (e.g., continents), Special Groups (e.g., Europe)</td>
-                        <td class="s6" dir="ltr">Europe: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, The United Kingdom, Turkey, Norway, Liechtenstein, Albania, Iceland, Montenegro, North Macedonia, Serbia</td>
-                        <td class="s7" dir="ltr">Europe: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, The United Kingdom, Turkey, Norway, Liechtenstein, Albania, Iceland, Montenegro, North Macedonia, Serbia</td>
-                        <td class="s7" dir="ltr">Europe: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, The United Kingdom, Turkey, Norway, Liechtenstein, Albania, Iceland, Montenegro, North Macedonia, Serbia</td>
-                        <td class="s7" dir="ltr">Europe: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, The United Kingdom, Turkey, Norway, Liechtenstein, Albania, Iceland, Montenegro, North Macedonia, Serbia</td>
-                        <td class="s7" dir="ltr">Europe: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, The United Kingdom, Turkey, Norway, Liechtenstein, Albania, Iceland, Montenegro, North Macedonia, Serbia</td>
-                        <td class="s7" dir="ltr">Europe: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, The United Kingdom, Turkey, Norway, Liechtenstein, Albania, Iceland, Montenegro, North Macedonia, Serbia</td>
-                        <td class="s7" dir="ltr">Europe: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, The United Kingdom, Turkey, Norway, Liechtenstein, Albania, Iceland, Montenegro, North Macedonia, Serbia</td></tr>
-                        <tr style="height: 20px"><th id="1665778861R16" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">17</div></th>
-                        <td class="s4" dir="ltr">Data format</td><td class="s5" dir="ltr">XLS, CSV</td>
-                        <td class="s6" dir="ltr">TSV, SDMX-ML</td>
-                        <td class="s7" dir="ltr">XLS, CSV, HTML, PC-AXIS, SPSS, TSV, PDF</td>
-                        <td class="s7" dir="ltr">XLS, CSV, HTML, PC-AXIS, SPSS, TSV, PDF</td>
-                        <td class="s7" dir="ltr">XLS, CSV, HTML, PC-AXIS, SPSS, TSV, PDF</td>
-                        <td class="s7" dir="ltr">CSV, XLS</td>
-                        <td class="s7" dir="ltr">XLS, CSV, HTML, PC-AXIS, SPSS, TSV, PDF</td>
-                        <td class="s7" dir="ltr">TSV, SDMX-ML</td></tr>
-                        <tr style="height: 20px"><th id="1665778861R17" style="height: 20px;" class="row-headers-background">
-                        <div class="row-header-wrapper" style="line-height: 20px">18</div></th>
-                        <td class="s4" dir="ltr">URL</td>
-                        <td class="s5" dir="ltr"><a target="_blank" href="https://www.fao.org/faostat/en/#data/QCL">https://www.fao.org/faostat/en/#data/QCL</a></td>
-                        <td class="s6" dir="ltr"><a target="_blank" href="https://data.europa.eu/data/datasets/hkmclok7z575xxdc9masw">https://data.europa.eu/data/datasets/hkmclok7z575xxdc9masw</a></td>
-                        <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=demo_r_mlifexp">https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_gge&amp;lang=en</a></td>
-                        <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_emis&amp;lang=en">https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_emis&amp;lang=en</a></td>
-                        <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/show.do">https://appsso.eurostat.ec.europa.eu/nui/show.do</a></td>
-                        <td class="s13" dir="ltr"><a target="_blank" href="https://www.eea.europa.eu/data-and-maps/figures/proportion-of-classified-surface-water-7">https://www.eea.europa.eu/data-and-maps/figures/proportion-of-classified-surface-water-7</a></td>
-                        <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=aei_ps_inp&amp;lang=en">https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=aei_ps_inp&amp;lang=en</a></td>
-                        <td class="s13" dir="ltr"><a target="_blank" href="https://data.europa.eu/data/datasets/arinrajid0ph6h0uozi8w?locale=en">https://data.europa.eu/data/datasets/arinrajid0ph6h0uozi8w?locale=en</a></td></tr>
-                        <tr style="height: 20px"><th id="1665778861R18" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">19</div></th>
-                        <td class="s4" dir="ltr">License</td>
-                        <td class="s5" dir="ltr">CC BY-NC-SA 3.0 IGO</td>
-                        <td class="s6" dir="ltr">Creative Commons Attribution International 4.0</td>
-                        <td class="s7" dir="ltr">Creative Commons Attribution International 4.0</td>
-                        <td class="s7" dir="ltr">Creative Commons Attribution International 4.0</td>
-                        <td class="s7" dir="ltr">Creative Commons Attribution International 4.0</td>
-                        <td class="s7" dir="ltr">Creative Commons Attribution International 4.0</td>
-                        <td class="s7" dir="ltr">Creative Commons Attribution International 4.0</td>
-                        <td class="s7" dir="ltr">Creative Commons Attribution International 4.0</td></tr>
-                        <tr style="height: 20px"><th id="1665778861R19" style="height: 20px;" class="row-headers-background">
-                        <div class="row-header-wrapper" style="line-height: 20px">20</div></th><td class="s4" dir="ltr">Download</td>
-                        <td class="s5" dir="ltr"><a target="_blank" href="https://www.fao.org/faostat/en/#data/QCL">https://www.fao.org/faostat/en/#data/QCL</a></td>
-                        <td class="s6" dir="ltr"><a target="_blank" href="https://data.europa.eu/data/datasets/hkmclok7z575xxdc9masw?locale=en">https://data.europa.eu/data/datasets/hkmclok7z575xxdc9masw?locale=en</a></td>
-                        <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/setupDownloads.do">https://appsso.eurostat.ec.europa.eu/nui/setupDownloads.do</a></td>
-                        <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/setupDownloads.do">https://appsso.eurostat.ec.europa.eu/nui/setupDownloads.do</a></td>
-                        <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/setupDownloads.do">https://appsso.eurostat.ec.europa.eu/nui/setupDownloads.do</a></td>
-                        <td class="s13" dir="ltr"><a target="_blank" href="https://www.eea.europa.eu/data-and-maps/figures/proportion-of-classified-surface-water-7/percentage-of-number-of-water/at_download/file">https://www.eea.europa.eu/data-and-maps/figures/proportion-of-classified-surface-water-7/percentage-of-number-of-water/at_download/file</a></td>
-                        <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/setupDownloads.do">https://appsso.eurostat.ec.europa.eu/nui/setupDownloads.do</a></td><td class="s13" dir="ltr"><a target="_blank" href="https://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/aei_ef_ir.tsv.gz">https://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/aei_ef_ir.tsv.gz</a></td></tr>
-                      </tbody></table>
-                    </div>
-            </div>
-            <div class="metadata hide_metadata" id="metadata_3">
-                <h3>Final Datasets Metadata</h3>
-                <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link type="text/css" rel="stylesheet" href="resources/sheet.css" >
-                <style type="text/css">.ritz .waffle a { color: inherit; }.ritz .waffle .s11{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#d9d2e9;text-align:left;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s2{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#9fc5e8;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s12{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#9fc5e8;text-align:left;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s13{border-bottom:1px SOLID #000000;background-color:#ea9999;text-align:left;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s10{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#d9d2e9;text-align:left;font-style:italic;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s14{background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s0{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ffe599;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s5{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#d9d2e9;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s1{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#b4a7d6;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s4{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#fff2cc;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s7{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ea9999;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s9{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ea9999;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s8{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#9fc5e8;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s3{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ea9999;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s6{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#9fc5e8;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}</style>
-                <div class="ritz grid-container" dir="ltr">
-                  <table class="waffle" cellspacing="0" cellpadding="0">
-                    <thead><tr><th class="row-header freezebar-origin-ltr"></th>
-                      <th id="1241102806C0" style="width:246px;" class="column-headers-background">A</th>
-                      <th id="1241102806C1" style="width:430px;" class="column-headers-background">B</th>
-                      <th id="1241102806C2" style="width:429px;" class="column-headers-background">C</th>
-                      <th id="1241102806C3" style="width:429px;" class="column-headers-background">D</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr style="height: 20px">
-                      <th id="1241102806R0" style="height: 20px;" class="row-headers-background">
-                        <div class="row-header-wrapper" style="line-height: 20px">1</div>
-                      </th>
-                      <td class="s0" dir="ltr">Dataset</td>
-                      <td class="s1" dir="ltr">FAOSTAT</td>
-                      <td class="s2" dir="ltr">Eurostat Life Expectancy</td>
-                      <td class="s3" dir="ltr">Eurostat Life Expectancy</td></tr>
-                      <tr style="height: 20px"><th id="1241102806R1" style="height: 20px;" class="row-headers-background">
-                        <div class="row-header-wrapper" style="line-height: 20px">2</div>
-                      </th><td class="s4" dir="ltr">Identifier</td><td class="s5"></td>
-                      <td class="s6" dir="ltr">*URI from our github*</td>
-                      <td class="s7" dir="ltr">*URI from our github*</td></tr>
-                      <tr style="height: 20px"><th id="1241102806R2" style="height: 20px;" class="row-headers-background"
-                        ><div class="row-header-wrapper" style="line-height: 20px">3</div></th>
-                        <td class="s4" dir="ltr">Title</td><td class="s5" dir="ltr">FOOData - Crops and livestock products FAOSTAT</td>
-                        <td class="s6" dir="ltr">FOOData - Life expectancy at birth by sex and NUTS 2 region</td>
-                        <td class="s7" dir="ltr">FOOData - Agricultural area, soil erosion, irrigable and irrigated land, greenhouse gas emissions, air pollution and water pollution</td></tr>
-                        <tr style="height: 20px"><th id="1241102806R3" style="height: 20px;" class="row-headers-background">
-                          <div class="row-header-wrapper" style="line-height: 20px">4</div></th><td class="s4" dir="ltr">Description</td>
-                          <td class="s5" dir="ltr">The dataset contains the production different kinds of food in Europe
-                             (27 Countries). List of food selected: cheese, whole cow milk; eggs, hen, in shell; meat, 
-                             cattle; meat, chicken; meat, pig; milk, whole fresh cow; potatoes; rice, paddy; wheat.</td>
-                          <td class="s8" dir="ltr">The dataset contains demographic information about the average lifespan
-                               at birth based on sex and geographic location within the EU from 2010-2019. The dataset uses 27 
-                               UTS 0 countries (EU member states) and 302 NUTS 1 and 2 regions.</td>
-                          <td class="s9" dir="ltr">The datasets contains data relative to agricultural are employed for low, 
-                            medium and high input farms, soil erosion due to agriculture and forestry, irrigable and irrigated 
-                            land, greenhouse gas emissions due to agriculture and farming, air pollution and water pollution per 
-                            country.</td></tr><tr style="height: 20px">
-                              <th id="1241102806R4" style="height: 20px;" class="row-headers-background">
-                                <div class="row-header-wrapper" style="line-height: 20px">5</div></th>
-                          <td class="s4" dir="ltr">Modified</td><td class="s5" dir="ltr">Updated 2021-02-22</td>
-                          <td class="s6" dir="ltr">Updated 2021-01-31</td>
-                          <td class="s7" dir="ltr">Updated 2021-01-31</td></tr>
-                          <tr style="height: 24px"><th id="1241102806R5" style="height: 24px;" class="row-headers-background">
-                            <div class="row-header-wrapper" style="line-height: 24px">6</div></th><td class="s4" dir="ltr">Theme</td>
-                          <td class="s5" dir="ltr">Crops and livestock products, food production</td>
-                          <td class="s6" dir="ltr">Life expectancy, demograhic data</td>
-                          <td class="s7" dir="ltr">Resource usage and pollution</td></tr>
-                          <tr style="height: 20px"><th id="1241102806R6" style="height: 20px;" class="row-headers-background">
-                          <div class="row-header-wrapper" style="line-height: 20px">7</div></th>
-                          <td class="s4" dir="ltr">Rights Holder</td><td class="s5" dir="ltr">The Food and Agriculture Organization (FAO) of the United Nations</td>
-                          <td class="s6" dir="ltr">Eurostat</td><td class="s7" dir="ltr">Eurostat and European Environmental Agency</td></tr>
-                          <tr style="height: 20px"><th id="1241102806R7" style="height: 20px;" class="row-headers-background">
-                          <div class="row-header-wrapper" style="line-height: 20px">8</div></th><td class="s4" dir="ltr">Subject</td>
-                          <td class="s5" dir="ltr">9 types of food, 27 Countries</td><td class="s6" dir="ltr">Life expectancy</td>
-                          <td class="s7" dir="ltr">Pollution</td></tr>
-                          <tr style="height: 20px"><th id="1241102806R8" style="height: 20px;" class="row-headers-background">
-                          <div class="row-header-wrapper" style="line-height: 20px">9</div></th>
-                          <td class="s4" dir="ltr">Publisher</td>
-                          <td class="s5" dir="ltr">Giorgia Sampò, Sarah Tew, Vanessa Bonanno</td>
-                          <td class="s6" dir="ltr">Giorgia Sampò, Sarah Tew, Vanessa Bonanno</td>
-                          <td class="s7" dir="ltr">Giorgia Sampò, Sarah Tew, Vanessa Bonanno</td></tr>
-                          <tr style="height: 20px"><th id="1241102806R9" style="height: 20px;" class="row-headers-background">
-                          <div class="row-header-wrapper" style="line-height: 20px">10</div></th><td class="s4" dir="ltr">Issued</td>
-                          <td class="s10" dir="ltr">01/02/2022</td>
-                          <td class="s6"></td><td class="s7"></td></tr>
-                          <tr style="height: 20px"><th id="1241102806R10" style="height: 20px;" class="row-headers-background">
-                          <div class="row-header-wrapper" style="line-height: 20px">11</div></th><td class="s4" dir="ltr">Language</td>
-                          <td class="s5" dir="ltr">English, Français, Español</td><td class="s6" dir="ltr">English</td>
-                          <td class="s7" dir="ltr">English</td></tr>
-                          <tr style="height: 20px"><th id="1241102806R11" style="height: 20px;" class="row-headers-background">
-                          <div class="row-header-wrapper" style="line-height: 20px">12</div></th>
-                          <td class="s4" dir="ltr">Keywords</td>
-                          <td class="s5" dir="ltr">Food production, crops production, livestock production</td>
-                          <td class="s6" dir="ltr">Life expectancy, EU</td>
-                          <td class="s7" dir="ltr">Pollution, environment, water, air, soil, EU</td></tr>
-                          <tr style="height: 20px"><th id="1241102806R12" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">13</div></th><td class="s4" dir="ltr">Source</td>
-                          <td class="s11" dir="ltr"><a target="_blank" href="https://www.fao.org/faostat/en/#data/QCL">https://www.fao.org/faostat/en/#data/QCL</a></td>
-                          <td class="s12" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=demo_r_mlifexp">https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=demo_r_mlifexp</a></td>
-                          <td class="s13" dir="ltr"><span style="text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_gge&amp;lang=en">https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_gge&amp;lang=en<br></a></span><span style="color:#000000;">https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_emis&amp;lang=en<br></span>https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=aei_pr_soiler&amp;lang=en<br>https://www.eea.europa.eu/ims/ecological-status-of-surface-waters<br>https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=aei_ps_inp&amp;lang=en<br><span style="text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;"><a target="_blank" href="https://data.europa.eu/data/datasets/arinrajid0ph6h0uozi8w?locale=en">https://data.europa.eu/data/datasets/arinrajid0ph6h0uozi8w?locale=en</a></span></td></tr>
-                          <tr style="height: 20px"><th id="1241102806R13" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">14</div></th>
-                            <td class="s4" dir="ltr">Temporal Coverage</td><td class="s5" dir="ltr">2009/2019</td>
-                            <td class="s6" dir="ltr">2010-2019</td><td class="s7" dir="ltr">2010-2019</td></tr>
-                            <tr style="height: 20px"><th id="1241102806R14" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">15</div></th>
-                              <td class="s4" dir="ltr">Spatial Coverage</td><td class="s5" dir="ltr">Europe, 27 countries (Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden)</td>
-                              <td class="s6" dir="ltr">EU member states: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden</td>
-                              <td class="s7" dir="ltr">EUROPE: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Turkey, United Kingdom</td></tr><tr style="height: 20px"><th id="1241102806R15" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">16</div></th><td class="s4" dir="ltr">Data format</td><td class="s5" dir="ltr">XML, CSV, ??</td><td class="s6" dir="ltr">CSV</td><td class="s7" dir="ltr">CSV</td></tr><tr style="height: 20px"><th id="1241102806R16" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">17</div></th><td class="s4" dir="ltr">URL</td><td class="s11" dir="ltr"><a target="_blank" href="https://github.com/giorgiasampo/Foodata/tree/main/datasets">https://github.com/giorgiasampo/Foodata/tree/main/datasets</a></td><td class="s12" dir="ltr"><a target="_blank" href="https://github.com/giorgiasampo/Foodata/blob/main/datasets/life_expectancy.csv">https://github.com/giorgiasampo/Foodata/blob/main/datasets/life_expectancy.csv</a></td><td class="s7"></td></tr><tr style="height: 20px"><th id="1241102806R17" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">18</div></th><td class="s4" dir="ltr">License</td><td class="s5" dir="ltr">?</td><td class="s6" dir="ltr">Creative Commons Attribution International 4.0</td><td class="s7" dir="ltr">Creative Commons Attribution International 4.0</td></tr><tr style="height: 20px"><th id="1241102806R18" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">19</div></th><td class="s4" dir="ltr">Download</td><td class="s11" dir="ltr"><a target="_blank" href="https://github.com/giorgiasampo/Foodata/tree/main/datasets">https://github.com/giorgiasampo/Foodata/tree/main/datasets</a></td><td class="s12" dir="ltr"><a target="_blank" href="https://github.com/giorgiasampo/Foodata/blob/main/datasets/life_expectancy.csv">https://github.com/giorgiasampo/Foodata/blob/main/datasets/life_expectancy.csv</a></td><td class="s7"  dir="ltr"><a target="_blank" href="https://github.com/giorgiasampo/Foodata/blob/main/datasets/food_pollution.csv">https://github.com/giorgiasampo/Foodata/blob/main/datasets/pollution_dataset.csv</a></td></tr><tr style="height: 20px"><th id="1241102806R19" style="height: 20px;" class="row-headers-background"></td><div class="row-header-wrapper" style="line-height: 20px">20</div></th></tbody></table></div>
-            </div>
-          </div>
-
-      </div>
-    </section><!-- End Gallery Section -->
+    <br  id="documentation">
+    <br>
 
    <!-- ======= Details Section ======= -->
-   <section id="documentation" class="details">
+   <section class="details">
     <div class="container">
       <div class="section-title" data-aos="fade-up">
         <h2>Documentation</h2>
@@ -1170,6 +890,1198 @@
 
     </div>
   </section><!-- End Details Section -->
+
+  <br id="metadata">
+  <br>
+
+  <!-- ======= Metadata Section ======= -->
+  <section class="gallery">
+    <div class="container">
+
+      <div class="section-title" data-aos="fade-up">
+        <h2>Metadata</h2>
+        <p>Check our metadata</p>
+      </div>
+
+      <div class="row" data-aos="fade-left">
+
+        <div class="col-lg-4 col-md-4 mt-4">
+          <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+            <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
+            <h3><a onclick="visualize_metadata('metadata_1')">Checklist</a></h3>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+              <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
+              <h3><a onclick="visualize_metadata('metadata_2')">Original Datasets Metadata</a></h3>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 mt-4">
+          <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+            <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
+            <h3><a onclick="visualize_metadata('metadata_3')">Final Datasets Metadata</a></h3>
+          </div>
+        </div>
+      </div>
+
+        <div class="row" data-aos="fade-right">
+          <div class="metadata hide_metadata" id="metadata_1">
+              <h3>Checklist</h3>
+              <style type="text/css">.ritz .waffle a { color: inherit; }.ritz .waffle .s2{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#d9ead3;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s4{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#6fa8dc;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s12{border-bottom:1px SOLID #000000;border-right:2px SOLID #000000;background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s17{border-bottom:2px SOLID #000000;border-right:1px SOLID #000000;background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s1{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#fff2cc;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s10{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#6fa8dc;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s13{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#cfe2f3;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s3{border-bottom:1px SOLID #000000;background-color:#d9ead3;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s0{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s7{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s15{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#6fa8dc;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s11{border-bottom:1px SOLID #000000;background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s6{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#cfe2f3;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s9{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ffffff;text-align:left;color:#000000;font-family:'Times New Roman';font-size:11pt;vertical-align:top;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s16{border-bottom:2px SOLID #000000;border-right:1px SOLID #000000;background-color:#cfe2f3;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s8{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:9pt;vertical-align:top;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s5{border-bottom:1px SOLID #000000;border-right:2px SOLID #000000;background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s14{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#9fc5e8;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}</style>
+<div class="ritz grid-container" dir="ltr">
+ <table class="waffle" cellspacing="0" cellpadding="0">
+    <thead>
+       <tr>
+          <th class="row-header freezebar-origin-ltr"></th>
+          <th id="314214997C0" style="width:100px;" class="column-headers-background">A</th>
+          <th id="314214997C1" style="width:100px;" class="column-headers-background">B</th>
+          <th id="314214997C2" style="width:100px;" class="column-headers-background">C</th>
+          <th id="314214997C3" style="width:100px;" class="column-headers-background">D</th>
+          <th id="314214997C4" style="width:100px;" class="column-headers-background">E</th>
+          <th id="314214997C5" style="width:100px;" class="column-headers-background">F</th>
+          <th id="314214997C6" style="width:100px;" class="column-headers-background">G</th>
+          <th id="314214997C7" style="width:100px;" class="column-headers-background">H</th>
+          <th id="314214997C8" style="width:100px;" class="column-headers-background">I</th>
+       </tr>
+    </thead>
+    <tbody>
+       <tr style="height: 20px">
+          <th id="314214997R0" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">1</div>
+          </th>
+          <td class="s0" dir="ltr">To check:</td>
+          <td class="s1" dir="ltr">D1</td>
+          <td class="s2 softmerge" dir="ltr">
+             <div class="softmerge-inner" style="width:97px;left:-1px">D12 (Life expectancy)</div>
+          </td>
+          <td class="s1" dir="ltr">D3</td>
+          <td class="s2" dir="ltr">D4</td>
+          <td class="s1" dir="ltr">D5</td>
+          <td class="s2" dir="ltr">D6</td>
+          <td class="s1" dir="ltr">D7</td>
+          <td class="s2" dir="ltr">D8</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R1" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">2</div>
+          </th>
+          <td class="s5 softmerge" dir="ltr">
+             <div class="softmerge-inner" style="width:97px;left:-1px">1. Privacy issues</div>
+          </td>
+          <td class="s5" colspan="8"></td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R2" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">3</div>
+          </th>
+          <td class="s6" dir="ltr">1.1 Is the dataset free of any personal data as defined in the Regulation (EU) 2016/679?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R3" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">4</div>
+          </th>
+          <td class="s6" dir="ltr">1.2 Is the dataset free of any indirect personal data that could be used for identifying the natural person?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R4" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">5</div>
+          </th>
+          <td class="s6" dir="ltr">If so, is there a law that authorize the PA to release them? Or any other legal basis? Identify the legal basis.</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R5" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">6</div>
+          </th>
+          <td class="s6" dir="ltr">1.3 Is the dataset free of any particular personal data (art. 9 GDPR)?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R6" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">7</div>
+          </th>
+          <td class="s6" dir="ltr">If so is there a law that authorize the PA to release them?</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R7" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">8</div>
+          </th>
+          <td class="s6" dir="ltr">1.4 Is the dataset free of any information that combined with common data available in the web, could identify the person?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R8" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">9</div>
+          </th>
+          <td class="s6" dir="ltr">If so, is there a law that authorize the PA to release them?</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7"></td>
+          <td class="s7"></td>
+          <td class="s7"></td>
+          <td class="s7"></td>
+          <td class="s7"></td>
+          <td class="s7"></td>
+          <td class="s7"></td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R9" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">10</div>
+          </th>
+          <td class="s6" dir="ltr">1.5 Is the dataset free of any information related to human rights (e.g. refugees, witness protection, etc.)?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R10" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">11</div>
+          </th>
+          <td class="s6" dir="ltr">1.6 Do you use a tool for calculating the range of the risk of de-anonymization?</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R11" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">12</div>
+          </th>
+          <td class="s6" dir="ltr">Do you anonymize the dataset? With which technique?</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R12" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">13</div>
+          </th>
+          <td class="s6" dir="ltr">Did you check the three mandatory parameters: singling out, linking out, inference out?</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R13" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">14</div>
+          </th>
+          <td class="s6" dir="ltr">1.7 Are you using geolocalization capabilities ?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R14" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">15</div>
+          </th>
+          <td class="s6" dir="ltr">Do you check that the geolocalization process can’t identify single individuals in some circumstances?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R15" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">16</div>
+          </th>
+          <td class="s6" dir="ltr">1.8 Did you check that the open data platform respect all the privacy regulations (registration of the end-user, profiling, cookies, analytics, etc.)?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R16" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">17</div>
+          </th>
+          <td class="s6" dir="ltr">1.9 Do you know who are in your open data platform the Controller and Processor of the privacy data of the system?</td>
+          <td class="s7" dir="ltr">AO Staff Coop s.c.a r.l.</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">European Evnvironmental Agency</td>
+          <td class="s7" dir="ltr">European Evnvironmental Agency</td>
+          <td class="s7" dir="ltr">Joint Research Centre (JRC)</td>
+          <td class="s7" dir="ltr">European Environment Agency</td>
+          <td class="s7" dir="ltr">DG Agriculture <br>and Rural <br>Development</td>
+          <td class="s7" dir="ltr">Eurostat</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R17" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">18</div>
+          </th>
+          <td class="s6" dir="ltr">1.10 Where are the datasets physically stored (country and jurisdiction)?</td>
+          <td class="s7" dir="ltr">Viale delle Terme di Caracalla<br>00153 Rome, Italy</td>
+          <td class="s7" dir="ltr">Contact Point: Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</td>
+          <td class="s9" dir="ltr">2920 <br>Luxembourg<br>Luxembourg<br> </td>
+          <td class="s9" dir="ltr">2920 <br>Luxembourg<br>Luxembourg<br> </td>
+          <td class="s9" dir="ltr">2920 <br>Luxembourg<br>Luxembourg<br> </td>
+          <td class="s9" dir="ltr">2920 <br>Luxembourg<br>Luxembourg<br> </td>
+          <td class="s9" dir="ltr">2920 <br>Luxembourg<br>Luxembourg<br> </td>
+          <td class="s7" dir="ltr">Contact Point: Joseph Bech building, 5 Rue Alphonse Weicker, L-2721 Luxembourg</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R18" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">19</div>
+          </th>
+          <td class="s6" dir="ltr">Do you have a cloud computing platform?</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R19" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">20</div>
+          </th>
+          <td class="s6" dir="ltr">Have you checked the privacy regulation of the country where the dataset is physically stored? (territoriality)</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R20" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">21</div>
+          </th>
+          <td class="s6" dir="ltr">1.11 Do you have non-personal data?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R21" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">22</div>
+          </th>
+          <td class="s6" dir="ltr">Are you sure that are not “mixed data”?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R22" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">23</div>
+          </th>
+          <td class="s10" dir="ltr">2. IPR of the dataset</td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R23" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">24</div>
+          </th>
+          <td class="s6" dir="ltr">2.1 Have you created and generated the dataset ?</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R24" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">25</div>
+          </th>
+          <td class="s6" dir="ltr">2.2 Are you the owner of the dataset? Who is the owner?</td>
+          <td class="s7" dir="ltr">No, the owner is Food and Agriculture Organization of the United Nations. Otherwise there is a flag &quot;FAO estimate&quot;, &quot;unofficial figure&quot;, etc.</td>
+          <td class="s7" dir="ltr">No, Eurostat</td>
+          <td class="s7" dir="ltr">No, Eurostat</td>
+          <td class="s7" dir="ltr">No, Eurostat</td>
+          <td class="s7" dir="ltr">No, Eurostat</td>
+          <td class="s7" dir="ltr">No, European Environmental Agency</td>
+          <td class="s7" dir="ltr">No, Eurostat</td>
+          <td class="s7" dir="ltr">No, Eurostat</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R25" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">26</div>
+          </th>
+          <td class="s6" dir="ltr">2.3 Are you sure to not use third party data without the proper authorization and license ?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R26" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">27</div>
+          </th>
+          <td class="s6" dir="ltr">Are the dataset free from third party licenses or patents?</td>
+          <td class="s7" dir="ltr">Yes </td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R27" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">28</div>
+          </th>
+          <td class="s6" dir="ltr">2.4 Have you checked if there are some limitations in your national legal system for releasing some kind of datasets with open license?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R28" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">29</div>
+          </th>
+          <td class="s11" dir="ltr">3. Licenses</td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R29" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">30</div>
+          </th>
+          <td class="s6" dir="ltr">3.1 Do you release the dataset with an open data license ?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R30" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">31</div>
+          </th>
+          <td class="s6" dir="ltr">In case of the use of CC0 do you check that you have all the right necessary for this particular kind of license (e.g., jurisdiction)?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R31" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">32</div>
+          </th>
+          <td class="s6" dir="ltr">3.2 Do you include the clause: &quot;In any case the dataset can’t be used for re-identifying the person&quot; ?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R32" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">33</div>
+          </th>
+          <td class="s6" dir="ltr">3.3 Do you release the API (in case you have) with an open source license ?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R33" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">34</div>
+          </th>
+          <td class="s6" dir="ltr">3.4 Do you check that the open data/API platform license regime is compliance with your IPR policy ?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes (Using Tableau student it needs to be non-commerical which it is)</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R34" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">35</div>
+          </th>
+          <td class="s6" dir="ltr">Do you have all the licences related to the open data platform/API software?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R35" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">36</div>
+          </th>
+          <td class="s11" dir="ltr">4. Limitations on public access</td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R36" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">37</div>
+          </th>
+          <td class="s6" dir="ltr">4.1 Do you check that the dataset concerns your institutional competences, scope and finality?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R37" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">38</div>
+          </th>
+          <td class="s6" dir="ltr">Do you check if the dataset concerns other public administration competences?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R38" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">39</div>
+          </th>
+          <td class="s6" dir="ltr">4.2 Do you check the limitations for the publication stated by your national legislation or by the EU directives ?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R39" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">40</div>
+          </th>
+          <td class="s6" dir="ltr">4.3 Do you check if there are some limitations connected to the international relations, public security or national defence ?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R40" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">41</div>
+          </th>
+          <td class="s6" dir="ltr">4.4 Do you check if there are some limitations concerning the public interest ?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R41" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">42</div>
+          </th>
+          <td class="s6" dir="ltr">4.5 Do you check the international law limitations ?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R42" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">43</div>
+          </th>
+          <td class="s6" dir="ltr">4.6 Do you check the INSPIRE law limitations for the spatial data?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R43" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">44</div>
+          </th>
+          <td class="s11" dir="ltr">5. Economical Conditions</td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R44" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">45</div>
+          </th>
+          <td class="s6" dir="ltr">5.1 Do you check that the dataset could be released for free ?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R45" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">46</div>
+          </th>
+          <td class="s6" dir="ltr">5.2 Do you check if there are some agreements with some other partners in order to release the dataset with a reasonable price ?</td>
+          <td class="s7" dir="ltr">Yes, FAOSTAT data is free and available to everyone</td>
+          <td class="s7" dir="ltr">Free and public</td>
+          <td class="s7" dir="ltr">Free and Public</td>
+          <td class="s7" dir="ltr">Free and Public</td>
+          <td class="s7" dir="ltr">Free and Public</td>
+          <td class="s7" dir="ltr">Free and Public</td>
+          <td class="s7" dir="ltr">Free and Public</td>
+          <td class="s7" dir="ltr">Free and Public</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R46" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">47</div>
+          </th>
+          <td class="s6" dir="ltr">5.3 Do you check if the open data platform terms of service include a clause of “non liability agreement” regarding the dataset and API provided ?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R47" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">48</div>
+          </th>
+          <td class="s6" dir="ltr">5.4 In case you decide to release the dataset to a reasonable price do you check if the limitation imposed by the new directive 2019/1024/EU are respected ?</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R48" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">49</div>
+          </th>
+          <td class="s6" dir="ltr">Are you able to calculate the “marginal cost”?</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R49" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">50</div>
+          </th>
+          <td class="s6" dir="ltr">Are you able to justify the “reasonable return on investment”</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R50" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">51</div>
+          </th>
+          <td class="s6" dir="ltr">limited to cover the costs of collection, production, reproduction, dissemination, preservation and rights clearance?</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R51" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">52</div>
+          </th>
+          <td class="s6" dir="ltr">There is a national law that justify your public administration to apply the “reasonable return of investment”?</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R52" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">53</div>
+          </th>
+          <td class="s6" dir="ltr">5.5 In case you decide to release the dataset to a reasonable price do you check the e-Commerce directive1 and regulation?</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R53" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">54</div>
+          </th>
+          <td class="s11" dir="ltr">6. Temporary aspects</td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+          <td class="s11"></td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R54" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">55</div>
+          </th>
+          <td class="s6" dir="ltr">6.1 Do you have a temporary policy for updating the dataset ?</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+          <td class="s7" dir="ltr">No</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R55" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">56</div>
+          </th>
+          <td class="s6" dir="ltr">6.2 Do you have some mechanism for informing the end-user that the dataset is updated at a given time to avoid mis-usage and so potential risk of damage ?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R56" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">57</div>
+          </th>
+          <td class="s6" dir="ltr">6.3 Did you check if the dataset for some reason can’t be indexed by the research engines (e.g. Google, Yahoo, etc.) ?</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+          <td class="s7" dir="ltr">Yes</td>
+       </tr>
+       <tr style="height: 20px">
+          <th id="314214997R57" style="height: 20px;" class="row-headers-background">
+             <div class="row-header-wrapper" style="line-height: 20px">58</div>
+          </th>
+          <td class="s6" dir="ltr">6.4 In case of personal data, do you have a reasonable technical mechanism for collecting request of deletion (e.g. right to be forgotten)?</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+          <td class="s7" dir="ltr">N/A</td>
+       </tr>
+    </tbody>
+ </table>
+</div>
+          </div>
+          <div class="metadata hide_metadata" id="metadata_2">
+            <h3>Original Datases Metadata</h3>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link type="text/css" rel="stylesheet" href="resources/sheet.css" >
+              <style type="text/css">.ritz .waffle a { color: inherit; }.ritz .waffle .s6{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#b6d7a8;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s12{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#d9d2e9;text-align:left;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s8{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#b6d7a8;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s11{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#d9d2e9;text-align:left;font-style:italic;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s7{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#e6b8af;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s2{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#b6d7a8;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s14{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#e6b8af;text-align:left;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s15{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#e6b8af;text-align:right;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s0{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ffe599;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s10{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#e6b8af;text-align:right;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s5{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#d9d2e9;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s16{background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s1{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#b4a7d6;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s3{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#e6b8af;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s4{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#fff2cc;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s13{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#b6d7a8;text-align:left;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s9{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#e6b8af;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}</style>
+              <div class="ritz grid-container" dir="ltr"><table class="waffle" cellspacing="0" cellpadding="0">
+              <thead><tr><th class="row-header freezebar-origin-ltr"></th>
+                <th id="1665778861C0" style="width:202px;" class="column-headers-background">A</th>
+                <th id="1665778861C1" style="width:340px;" class="column-headers-background">B</th>
+                <th id="1665778861C2" style="width:347px;" class="column-headers-background">C</th>
+                <th id="1665778861C3" style="width:358px;" class="column-headers-background">D</th>
+                <th id="1665778861C4" style="width:277px;" class="column-headers-background">E</th>
+                <th id="1665778861C5" style="width:317px;" class="column-headers-background">F</th>
+                <th id="1665778861C6" style="width:319px;" class="column-headers-background">G</th>
+                <th id="1665778861C7" style="width:304px;" class="column-headers-background">H</th>
+                <th id="1665778861C8" style="width:270px;" class="column-headers-background">I</th>
+              </tr></thead>
+              <tbody>
+                <tr style="height: 20px"><th id="1665778861R0" style="height: 20px;" class="row-headers-background">
+                  <div class="row-header-wrapper" style="line-height: 20px">1</div></th><td class="s0" dir="ltr">Dataset</td>
+                  <td class="s1" dir="ltr">FAOSTAT</td>
+                  <td class="s2" dir="ltr">Eurostat Life Expectancy</td>
+                  <td class="s3" dir="ltr">Eurostat 
+              <br>Greenhouse gas emissions by source sector </td><td class="s3" dir="ltr">Eurostat 
+              <br>Greenhouse gas emissions by source sector </td><td class="s3" dir="ltr">Eurostat<br>Estimated soil erosion by water, by erosion level, land cover and NUTS 3 regions</td>
+              <td class="s3" dir="ltr">European environmental Agency<br>Percentage of water bodies not in good ecological status or potential, per river basic district</td>
+              <td class="s3" dir="ltr">Eurostat<br>Utilised agricultural area (UAA) managed by low-, medium- and high-input farms</td>
+              <td class="s3" dir="ltr">Eurostat<br>
+              <br>Share of irrigable and irrigated areas in utilised agricultural area (UAA) by NUTS 2 regions</td></tr>
+              <tr style="height: 20px"><th id="1665778861R1" style="height: 20px;" class="row-headers-background">
+              <div class="row-header-wrapper" style="line-height: 20px">2</div></th>
+              <td class="s4" dir="ltr">Title</td><td class="s5" dir="ltr">Crops and livestock products FAOSTAT</td>
+              <td class="s6" dir="ltr">Life expectancy by age, sex, and NUTS 2 region</td>
+              <td class="s7" dir="ltr">Greenhouse gas emissions by NUTS 0 regions</td>
+              <td class="s7" dir="ltr">Air pollutants by source sector and NUTS 0 regions</td>
+              <td class="s7" dir="ltr">Estimated soil erosion by water, by erosion level, land cover and NUTS 3 regions</td>
+              <td class="s7" dir="ltr">Percentage of water bodies not in good ecological status or potential, per river basic district</td>
+              <td class="s7" dir="ltr">Utilised agricultural area (UAA) managed by low-, medium- and high-input farms by NUTS 2</td>
+              <td class="s7" dir="ltr">
+              <br>Share of irrigable and irrigated areas in utilised agricultural area (UAA) by NUTS 2 regions</td></tr>
+              <tr style="height: 20px"><th id="1665778861R2" style="height: 20px;" class="row-headers-background">
+                <div class="row-header-wrapper" style="line-height: 20px">3</div></th><td class="s4" dir="ltr">Identifier</td>
+                <td class="s5" dir="ltr"></td><td class="s6" dir="ltr">demo_r_mlifexp</td><td class="s7" dir="ltr">env_air_gge</td>
+                <td class="s7" dir="ltr">env_air_emis</td><td class="s7" dir="ltr">aei_pr_soiler</td>
+                <td class="s7" dir="ltr">WISE</td><td class="s7" dir="ltr">aei_ps_inp</td>
+                <td class="s7" dir="ltr">aei_ef_ir</td></tr>
+                <tr style="height: 20px"><th id="1665778861R3" style="height: 20px;" class="row-headers-background">
+                  <div class="row-header-wrapper" style="line-height: 20px">4</div></th>
+                  <td class="s4" dir="ltr">Description</td>
+              <td class="s5" dir="ltr">Crop statistics are recorded for 173 products, covering the following categories: Crops Primary, Fibre Crops Primary, Cereals, Coarse Grain, Citrus... (<span style="text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;"><a target="_blank" href="https://www.fao.org/faostat/en/#data/QCL">read more</a></span>)</td>
+              <td class="s8" dir="ltr">The dataset contains demographic information about the average lifespan at birth based on sex and geographic location within the EU from 2010-2019. The dataset uses 27 NUTS 0 countries (EU member states) and 302 NUTS 1 and 2 regions.</td>
+              <td class="s9" dir="ltr">This dataset includes data on greenhouse gas emissions inventory, as reported to the European Environment Agency (EEA). Note that Eurostat is not the producer of these data, only re-publishes them.
+              <br>
+              <br>The European Union (EU) as a party to the United Nations Framework Convention on Climate Change (UNFCCC) reports annually its greenhouse gas inventory for the year t-2 and within the area covered by its Member States. The inventory contains data on carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), perfluorocarbons (PFCs), hydrofluorocarbons (HFCs), sulphur hexafluoride (SF6) and nitrogen trifluoride (NF3). The EU inventory is fully consistent with national greenhouse gas inventories compiled by the EU Member States.</td>
+              <td class="s9" dir="ltr">The European Union (EU) as a party to the Convention on Long-range Transboundary Air Pollution (LRTAP Convention) reports annually its air pollution inventory for the year t-2 and within the area covered by its Member States. Under the Convention, parties are obliged to report emissions data for numerous air pollutants.
+              <br>
+              <br>This dataset includes data on air pollutants: sulphur oxides (SOx), ammonia (NH3), nitrogen oxides (NOx), non-methane volatile organic compounds (NMVOCs), particulate matters (PM10, PM2.5), Lead (Pb), Cadmium (Cd), Mercury (Hg), Arsenic (As), Chromium (Cr) Copper (Cu), Nickel (Ni), Selenium (Se) and Zinc (Zn), as reported to the European Environment Agency (EEA). The EU inventory is fully consistent with national air pollution inventories compiled by the EU Member States.
+              <br>
+              <br>Note that Eurostat is not the producer of these data, only re-publishes them. The producer of the data is the European Environment Agency. 
+              <br>
+              <br>Note that in the European Union emission inventory report 1990-2019 under the UNECE Convention on Long-range Transboundary Air Pollution, EU-28 totals do not include data from the United Kingdom. Therefore, Eurostat labels the same totals as EU-27.</td>
+              <td class="s9" dir="ltr">Data on soil erosion are published under agreement with data provider - Joint Research Centre of the European Commission (JRC – Ispra), one of the partners of the Memorandum of Understanding for cooperation on the development of Agri-environmental indicators.
+              <br>
+              <br>Soil erosion by water is one of the most widespread forms of soil degradation in Europe. Since it is difficult to measure at large scales, soil erosion models are a crucial estimation tool at regional, national and European levels.
+              <br>
+              <br>This dataset represents the soil erosion rates by water estimated on the basis of the Revised Universal Soil Loss Equation (RUSLE) empirical computer model in tonnes per ha of EU territory per year (t ha-1 yr-1), in EU-28 Member States for NUTS 3 level administrative areas. Note that Eurostat is not the producer of these data, only re-publishes them. For more information please consult the Eurostat Statistics Explained article Agri-environmental indicator – Soil erosion.</td>
+              <td class="s9" dir="ltr">The report presents only the key results, while more detailed WFD results are presented in the WISE-Freshwater WFD visualisation tool. Results are presented as interactive tables, graphs and maps (“Dashboards”), and as overviews at EU, Member State and river basin districts (RBDs) levels.
+              <br>
+              <br>More than 150 “dashboards” (Web-visualisations), presenting status and pressure information, are now available online. The dashboards present the data Member States have reported via the first (in 2010-2012) and the second River Basin Management Plans (RBMPs, in 2012-2016).</td>
+              <td class="s9" dir="ltr">This data set shows the hectares and the percentage of utilised agricultural area (UAA) managed by low-, medium- and high-input farms in the EU Member States and the United Kingdom for the time period 2005-2017. Each farm is classified according to the level of input use per hectare, which is calculated on the basis of the spending (in constant euros) on purchased inputs per hectare of UAA. The inputs considered here are purchased fertilisers and soil improvers, pesticides (plant protection products), other means for protection such as traps and baits, bird scarers, anti-hail shells, frost protection and purchased feed. This approach allows covering both crop and livestock productions.
+              <br>
+              <br>The volume of inputs used (per hectare) is estimated by dividing input expenditures (per hectare) by the input price index for the year and country in question. This results in input expenditures per hectare in constant national input prices. Fertiliser expenditure (purchased fertilisers and soil improvers) is divided by the fertiliser price index in the country of the same year in order to estimate the volume used. Similarly, crop protection expenditure (plant protection products, traps and baits, bird scares, anti-hail shells, frost protection) is divided by the pesticide price index in the country of the same year. Purchased feed cost is also divided by the feed price index in the country of the same year. The result is thus expressed in constant inputs prices (Euro per ha). The method allows not only to deduct inflation, but also the fluctuation of input prices. Thus it estimates the trend in the volume of inputs used per hectare. However, it does not capture differences in input prices between countries and the differences in prices within each category of inputs (for example between a pesticide A and a pesticide B). Therefore it does not give the exact volume of inputs used for a specific country and year.
+              <br>
+              <br>In a second step, the distribution of the UAA is considered by the ranked input intensity (bivariate approach) in each geographical level (EU, MS, NUTS) for the specific year of reference (2010 for all MSs, 2013 for HR). Three classes of intensity (low, medium, high) are then defined, by deriving the associated level of input corresponding to the 33rd (q33) and the 66th (q66) UAA quantiles:
+              <br>
+              <br>A farm is classified under the class “low intensity” if its input level is below or equal to the intensity value associated to the Q33 of UAA.
+              <br>A farm is classified under the class “high intensity” if its input level is greater than the intensity value associated to the Q66 of UAA.
+              <br>A farm is classified under the class “medium intensity”  if its input level is greater than the  intensity value associated to the Q33 of UAA and it is below the intensity value associated to the Q66 of UAA.
+              <br>For EU27_2020, as well as for EU28, those thresholds are represented by 88 euros/ha for low intensity farms, by 560 euros/ha for high intensity farms, and by between 88 and 560 euros/ha for medium intensity farms.
+              <br>
+              <br>These levels should not be considered as strict cut-off values, but rather as reference in time  in order  to be able to study the evolution of farm intensification through the years.
+              <br>
+              <br>Once the farms are classified in one of the three intensity classes (low, med, high), a global ratio indicator is computed as the weighted sum of input over the weighted sum of UAA for each intensity class.
+              <br>
+              <br>Intensification in a country with very low intensity does not mean the same for the environment than intensification in a country with high intensity. That is the purpose of the variable, &quot;average input expenditures per hectare in constant input prices&quot;. It is not the ideal measurement of intensity; however, it is the best estimate that we can obtain until now from the available data.</td>
+              <td class="s9" dir="ltr">Share of irrigable and irrigated areas in the utilised agricultural area (UAA); the irrigable area is the area which is equipped for irrigation, while the irrigated area measures the actual amount of land irrigated; based on Farm Structure Survey data.</td></tr>
+              <tr style="height: 20px"><th id="1665778861R4" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">5</div></th>
+                <td class="s4" dir="ltr">Modified</td><td class="s5" dir="ltr">Updated 2021-02-22</td>
+                <td class="s6" dir="ltr">Updated 03.06.2021</td>
+                <td class="s7" dir="ltr">Updated 04.06.2021</td>
+                <td class="s7" dir="ltr">Updated 05.10.2021</td>
+                <td class="s7" dir="ltr">Updated 18.12.2019</td>
+                <td class="s7" dir="ltr">Updated 03.07.2018</td>
+                <td class="s7" dir="ltr">Updated 06.11.2020</td>
+                <td class="s7" dir="ltr">Updated 11.03.2019</td></tr>
+                <tr style="height: 20px"><th id="1665778861R5" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">6</div></th>
+                  <td class="s4" dir="ltr">Theme</td>
+                  <td class="s5" dir="ltr">Crops and livestock products, food production</td>
+                  <td class="s6" dir="ltr">Life expectancy, demograhic data</td>
+                  <td class="s7" dir="ltr">Greenhouse gas emissions</td>
+                  <td class="s7" dir="ltr">Air pollution</td>
+                  <td class="s7" dir="ltr">Soil erosion</td>
+                  <td class="s7" dir="ltr">Surface water pollution</td>
+                  <td class="s7" dir="ltr">Utilised agricultural area</td>
+                  <td class="s7" dir="ltr">Share or irrigable and irrigated water</td></tr>
+                  <tr style="height: 20px"><th id="1665778861R6" style="height: 20px;" class="row-headers-background">
+                    <div class="row-header-wrapper" style="line-height: 20px">7</div></th>
+                    <td class="s4" dir="ltr">Rights Holder</td>
+                    <td class="s5" dir="ltr">The Food and Agriculture Organization (FAO) of the United Nations</td>
+                    <td class="s6" dir="ltr">Eurostat</td>
+                    <td class="s7" dir="ltr">EEA</td>
+                    <td class="s7" dir="ltr">EEA</td>
+                    <td class="s7" dir="ltr">JRC</td>
+                    <td class="s7" dir="ltr">EEA</td>
+                    <td class="s7" dir="ltr">FADN</td>
+                    <td class="s7" dir="ltr">Eurostat</td></tr>
+                    <tr style="height: 20px"><th id="1665778861R7" style="height: 20px;" class="row-headers-background">
+                    <div class="row-header-wrapper" style="line-height: 20px">8</div></th><td class="s4" dir="ltr">Accrual Periodicity</td>
+                    <td class="s5" dir="ltr">Annual</td><td class="s6" dir="ltr">Annual</td><td class="s7" dir="ltr">Annual</td><td class="s7" dir="ltr">Annual</td><td class="s7" dir="ltr">2000/2010/2016</td><td class="s7" dir="ltr">2015</td><td class="s7" dir="ltr">Annual</td><td class="s7" dir="ltr">2005/2007 and then every three years</td></tr>
+                    <tr style="height: 20px">
+                    <th id="1665778861R8" style="height: 20px;" class="row-headers-background">
+                    <div class="row-header-wrapper" style="line-height: 20px">9</div></th>
+                    <td class="s4" dir="ltr">Subject</td>
+                    <td class="s5" dir="ltr">Crops and livestock products</td>
+                    <td class="s6" dir="ltr">Life expectancy</td>
+                    <td class="s7" dir="ltr">Greenhouse gas emissions</td>
+                    <td class="s7" dir="ltr">Air pollution</td>
+                    <td class="s7" dir="ltr">Soil erosion</td>
+                    <td class="s7" dir="ltr">Water pollution</td>
+                    <td class="s7" dir="ltr">Agriculture</td>
+                    <td class="s7" dir="ltr">Irrigation</td></tr>
+                    <tr style="height: 20px"><th id="1665778861R9" style="height: 20px;" class="row-headers-background">
+                    <div class="row-header-wrapper" style="line-height: 20px">10</div></th><td class="s4" dir="ltr">Publisher</td>
+                    <td class="s5" dir="ltr">FAOSTAT</td>
+                    <td class="s6" dir="ltr">Eurostat</td>
+                    <td class="s7" dir="ltr">Eurostat</td>
+                    <td class="s7" dir="ltr">Eurostat</td>
+                    <td class="s7" dir="ltr">Eurostat</td>
+                    <td class="s7" dir="ltr">European Environmental Agency</td>
+                    <td class="s7" dir="ltr">Eurostat</td>
+                    <td class="s7" dir="ltr">Eurostat</td></tr>
+                    <tr style="height: 20px"><th id="1665778861R10" style="height: 20px;" class="row-headers-background">
+                      <div class="row-header-wrapper" style="line-height: 20px">11</div></th><td class="s4" dir="ltr">Issued</td>
+                    <td class="s11" dir="ltr">01/02/2022</td>
+                    <td class="s6"></td><td class="s7"></td><td class="s7"></td><td class="s7"></td><td class="s7"></td>
+                    <td class="s7"></td><td class="s7"></td></tr>
+                    <tr style="height: 20px"><th id="1665778861R11" style="height: 20px;" class="row-headers-background">
+                    <div class="row-header-wrapper" style="line-height: 20px">12</div></th>
+                    <td class="s4" dir="ltr">Language</td><td class="s5" dir="ltr">English, Français, Español</td>
+                    <td class="s6" dir="ltr">English</td><td class="s7" dir="ltr">English</td>
+                    <td class="s7" dir="ltr">English</td><td class="s7" dir="ltr">English</td>
+                    <td class="s7" dir="ltr">English</td><td class="s7" dir="ltr">English</td>
+                    <td class="s7" dir="ltr">English</td></tr>
+                    <tr style="height: 20px"><th id="1665778861R12" style="height: 20px;" class="row-headers-background">
+                    <div class="row-header-wrapper" style="line-height: 20px">13</div></th>
+                    <td class="s4" dir="ltr">Keywords</td><td class="s5" dir="ltr">Food production, crops production, livestock production</td>
+                    <td class="s6" dir="ltr">Life expectancy, EU</td><td class="s7" dir="ltr">Greenhouse gases, environment, EU</td>
+                    <td class="s7" dir="ltr">Air pollution, Environment, EU</td><td class="s7" dir="ltr">Soil erosion, EU, land cover, water soil erosion</td>
+                    <td class="s7" dir="ltr">Water pollution, EU, surface water</td><td class="s7" dir="ltr">Agriculture, Utilised gricultural area, Farming, EU</td>
+                    <td class="s7" dir="ltr">Irrigation, EU</td></tr>
+                    <tr style="height: 20px"><th id="1665778861R13" style="height: 20px;" class="row-headers-background">
+                    <div class="row-header-wrapper" style="line-height: 20px">14</div></th><td class="s4" dir="ltr">Source</td>
+                    <td class="s5" dir="ltr"><a target="_blank" href="https://www.fao.org/faostat/en/#data">https://www.fao.org/faostat/en/#data</a></td>
+                    <td class="s6" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=demo_r_mlifexp">https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=demo_r_mlifexp</a></td>
+                    <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=demo_r_mlifexp">https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_gge&amp;lang=en</a></td>
+                    <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_emis&amp;lang=en">https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_emis&amp;lang=en</a></td>
+                    <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=aei_pr_soiler&amp;lang=en">https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=aei_pr_soiler&amp;lang=en</a></td>
+                    <td class="s13" dir="ltr"><a target="_blank" href="https://www.eea.europa.eu/data-and-maps/figures/proportion-of-classified-surface-water-7">https://www.eea.europa.eu/data-and-maps/figures/proportion-of-classified-surface-water-7</a></td>
+                    <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=aei_ps_inp&amp;lang=en">https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=aei_ps_inp&amp;lang=en</a></td>
+                    <td class="s13" dir="ltr"><a target="_blank" href="https://data.europa.eu/data/datasets/arinrajid0ph6h0uozi8w?locale=en">https://data.europa.eu/data/datasets/arinrajid0ph6h0uozi8w?locale=en</a></td></tr>
+                    <tr style="height: 20px"><th id="1665778861R14" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">15</div></th>
+                    <td class="s4" dir="ltr">Temporal Coverage</td><td class="s5" dir="ltr">1961/2020</td><td class="s8" dir="ltr">1990-2019</td><td class="s9" dir="ltr">2010-2019</td><td class="s9" dir="ltr">2010-2019</td><td class="s9" dir="ltr">2000-2016</td><td class="s7" dir="ltr">2015</td><td class="s9" dir="ltr">2010-2019</td><td class="s9" dir="ltr">2005-2016</td></tr>
+                    <tr style="height: 20px"><th id="1665778861R15" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">16</div></th><td class="s4" dir="ltr">Spatial Coverage</td>
+                      <td class="s5" dir="ltr">Countries (all over the world), Regions (e.g., continents), Special Groups (e.g., Europe)</td>
+                      <td class="s6" dir="ltr">Europe: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, The United Kingdom, Turkey, Norway, Liechtenstein, Albania, Iceland, Montenegro, North Macedonia, Serbia</td>
+                      <td class="s7" dir="ltr">Europe: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, The United Kingdom, Turkey, Norway, Liechtenstein, Albania, Iceland, Montenegro, North Macedonia, Serbia</td>
+                      <td class="s7" dir="ltr">Europe: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, The United Kingdom, Turkey, Norway, Liechtenstein, Albania, Iceland, Montenegro, North Macedonia, Serbia</td>
+                      <td class="s7" dir="ltr">Europe: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, The United Kingdom, Turkey, Norway, Liechtenstein, Albania, Iceland, Montenegro, North Macedonia, Serbia</td>
+                      <td class="s7" dir="ltr">Europe: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, The United Kingdom, Turkey, Norway, Liechtenstein, Albania, Iceland, Montenegro, North Macedonia, Serbia</td>
+                      <td class="s7" dir="ltr">Europe: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, The United Kingdom, Turkey, Norway, Liechtenstein, Albania, Iceland, Montenegro, North Macedonia, Serbia</td>
+                      <td class="s7" dir="ltr">Europe: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, The United Kingdom, Turkey, Norway, Liechtenstein, Albania, Iceland, Montenegro, North Macedonia, Serbia</td></tr>
+                      <tr style="height: 20px"><th id="1665778861R16" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">17</div></th>
+                      <td class="s4" dir="ltr">Data format</td><td class="s5" dir="ltr">XLS, CSV</td>
+                      <td class="s6" dir="ltr">TSV, SDMX-ML</td>
+                      <td class="s7" dir="ltr">XLS, CSV, HTML, PC-AXIS, SPSS, TSV, PDF</td>
+                      <td class="s7" dir="ltr">XLS, CSV, HTML, PC-AXIS, SPSS, TSV, PDF</td>
+                      <td class="s7" dir="ltr">XLS, CSV, HTML, PC-AXIS, SPSS, TSV, PDF</td>
+                      <td class="s7" dir="ltr">CSV, XLS</td>
+                      <td class="s7" dir="ltr">XLS, CSV, HTML, PC-AXIS, SPSS, TSV, PDF</td>
+                      <td class="s7" dir="ltr">TSV, SDMX-ML</td></tr>
+                      <tr style="height: 20px"><th id="1665778861R17" style="height: 20px;" class="row-headers-background">
+                      <div class="row-header-wrapper" style="line-height: 20px">18</div></th>
+                      <td class="s4" dir="ltr">URL</td>
+                      <td class="s5" dir="ltr"><a target="_blank" href="https://www.fao.org/faostat/en/#data/QCL">https://www.fao.org/faostat/en/#data/QCL</a></td>
+                      <td class="s6" dir="ltr"><a target="_blank" href="https://data.europa.eu/data/datasets/hkmclok7z575xxdc9masw">https://data.europa.eu/data/datasets/hkmclok7z575xxdc9masw</a></td>
+                      <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=demo_r_mlifexp">https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_gge&amp;lang=en</a></td>
+                      <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_emis&amp;lang=en">https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_emis&amp;lang=en</a></td>
+                      <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/show.do">https://appsso.eurostat.ec.europa.eu/nui/show.do</a></td>
+                      <td class="s13" dir="ltr"><a target="_blank" href="https://www.eea.europa.eu/data-and-maps/figures/proportion-of-classified-surface-water-7">https://www.eea.europa.eu/data-and-maps/figures/proportion-of-classified-surface-water-7</a></td>
+                      <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=aei_ps_inp&amp;lang=en">https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=aei_ps_inp&amp;lang=en</a></td>
+                      <td class="s13" dir="ltr"><a target="_blank" href="https://data.europa.eu/data/datasets/arinrajid0ph6h0uozi8w?locale=en">https://data.europa.eu/data/datasets/arinrajid0ph6h0uozi8w?locale=en</a></td></tr>
+                      <tr style="height: 20px"><th id="1665778861R18" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">19</div></th>
+                      <td class="s4" dir="ltr">License</td>
+                      <td class="s5" dir="ltr">CC BY-NC-SA 3.0 IGO</td>
+                      <td class="s6" dir="ltr">Creative Commons Attribution International 4.0</td>
+                      <td class="s7" dir="ltr">Creative Commons Attribution International 4.0</td>
+                      <td class="s7" dir="ltr">Creative Commons Attribution International 4.0</td>
+                      <td class="s7" dir="ltr">Creative Commons Attribution International 4.0</td>
+                      <td class="s7" dir="ltr">Creative Commons Attribution International 4.0</td>
+                      <td class="s7" dir="ltr">Creative Commons Attribution International 4.0</td>
+                      <td class="s7" dir="ltr">Creative Commons Attribution International 4.0</td></tr>
+                      <tr style="height: 20px"><th id="1665778861R19" style="height: 20px;" class="row-headers-background">
+                      <div class="row-header-wrapper" style="line-height: 20px">20</div></th><td class="s4" dir="ltr">Download</td>
+                      <td class="s5" dir="ltr"><a target="_blank" href="https://www.fao.org/faostat/en/#data/QCL">https://www.fao.org/faostat/en/#data/QCL</a></td>
+                      <td class="s6" dir="ltr"><a target="_blank" href="https://data.europa.eu/data/datasets/hkmclok7z575xxdc9masw?locale=en">https://data.europa.eu/data/datasets/hkmclok7z575xxdc9masw?locale=en</a></td>
+                      <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/setupDownloads.do">https://appsso.eurostat.ec.europa.eu/nui/setupDownloads.do</a></td>
+                      <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/setupDownloads.do">https://appsso.eurostat.ec.europa.eu/nui/setupDownloads.do</a></td>
+                      <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/setupDownloads.do">https://appsso.eurostat.ec.europa.eu/nui/setupDownloads.do</a></td>
+                      <td class="s13" dir="ltr"><a target="_blank" href="https://www.eea.europa.eu/data-and-maps/figures/proportion-of-classified-surface-water-7/percentage-of-number-of-water/at_download/file">https://www.eea.europa.eu/data-and-maps/figures/proportion-of-classified-surface-water-7/percentage-of-number-of-water/at_download/file</a></td>
+                      <td class="s13" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/setupDownloads.do">https://appsso.eurostat.ec.europa.eu/nui/setupDownloads.do</a></td><td class="s13" dir="ltr"><a target="_blank" href="https://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/aei_ef_ir.tsv.gz">https://ec.europa.eu/eurostat/estat-navtree-portlet-prod/BulkDownloadListing?file=data/aei_ef_ir.tsv.gz</a></td></tr>
+                    </tbody></table>
+                  </div>
+          </div>
+          <div class="metadata hide_metadata" id="metadata_3">
+              <h3>Final Datasets Metadata</h3>
+              <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link type="text/css" rel="stylesheet" href="resources/sheet.css" >
+              <style type="text/css">.ritz .waffle a { color: inherit; }.ritz .waffle .s11{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#d9d2e9;text-align:left;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s2{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#9fc5e8;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s12{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#9fc5e8;text-align:left;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s13{border-bottom:1px SOLID #000000;background-color:#ea9999;text-align:left;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s10{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#d9d2e9;text-align:left;font-style:italic;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s14{background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s0{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ffe599;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s5{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#d9d2e9;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s1{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#b4a7d6;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s4{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#fff2cc;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s7{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ea9999;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s9{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ea9999;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s8{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#9fc5e8;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s3{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ea9999;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s6{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#9fc5e8;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}</style>
+              <div class="ritz grid-container" dir="ltr">
+                <table class="waffle" cellspacing="0" cellpadding="0">
+                  <thead><tr><th class="row-header freezebar-origin-ltr"></th>
+                    <th id="1241102806C0" style="width:246px;" class="column-headers-background">A</th>
+                    <th id="1241102806C1" style="width:430px;" class="column-headers-background">B</th>
+                    <th id="1241102806C2" style="width:429px;" class="column-headers-background">C</th>
+                    <th id="1241102806C3" style="width:429px;" class="column-headers-background">D</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr style="height: 20px">
+                    <th id="1241102806R0" style="height: 20px;" class="row-headers-background">
+                      <div class="row-header-wrapper" style="line-height: 20px">1</div>
+                    </th>
+                    <td class="s0" dir="ltr">Dataset</td>
+                    <td class="s1" dir="ltr">FAOSTAT</td>
+                    <td class="s2" dir="ltr">Eurostat Life Expectancy</td>
+                    <td class="s3" dir="ltr">Eurostat Life Expectancy</td></tr>
+                    <tr style="height: 20px"><th id="1241102806R1" style="height: 20px;" class="row-headers-background">
+                      <div class="row-header-wrapper" style="line-height: 20px">2</div>
+                    </th><td class="s4" dir="ltr">Identifier</td><td class="s5"></td>
+                    <td class="s6" dir="ltr">*URI from our github*</td>
+                    <td class="s7" dir="ltr">*URI from our github*</td></tr>
+                    <tr style="height: 20px"><th id="1241102806R2" style="height: 20px;" class="row-headers-background"
+                      ><div class="row-header-wrapper" style="line-height: 20px">3</div></th>
+                      <td class="s4" dir="ltr">Title</td><td class="s5" dir="ltr">FOOData - Crops and livestock products FAOSTAT</td>
+                      <td class="s6" dir="ltr">FOOData - Life expectancy at birth by sex and NUTS 2 region</td>
+                      <td class="s7" dir="ltr">FOOData - Agricultural area, soil erosion, irrigable and irrigated land, greenhouse gas emissions, air pollution and water pollution</td></tr>
+                      <tr style="height: 20px"><th id="1241102806R3" style="height: 20px;" class="row-headers-background">
+                        <div class="row-header-wrapper" style="line-height: 20px">4</div></th><td class="s4" dir="ltr">Description</td>
+                        <td class="s5" dir="ltr">The dataset contains the production different kinds of food in Europe
+                           (27 Countries). List of food selected: cheese, whole cow milk; eggs, hen, in shell; meat, 
+                           cattle; meat, chicken; meat, pig; milk, whole fresh cow; potatoes; rice, paddy; wheat.</td>
+                        <td class="s8" dir="ltr">The dataset contains demographic information about the average lifespan
+                             at birth based on sex and geographic location within the EU from 2010-2019. The dataset uses 27 
+                             UTS 0 countries (EU member states) and 302 NUTS 1 and 2 regions.</td>
+                        <td class="s9" dir="ltr">The datasets contains data relative to agricultural are employed for low, 
+                          medium and high input farms, soil erosion due to agriculture and forestry, irrigable and irrigated 
+                          land, greenhouse gas emissions due to agriculture and farming, air pollution and water pollution per 
+                          country.</td></tr><tr style="height: 20px">
+                            <th id="1241102806R4" style="height: 20px;" class="row-headers-background">
+                              <div class="row-header-wrapper" style="line-height: 20px">5</div></th>
+                        <td class="s4" dir="ltr">Modified</td><td class="s5" dir="ltr">Updated 2021-02-22</td>
+                        <td class="s6" dir="ltr">Updated 2021-01-31</td>
+                        <td class="s7" dir="ltr">Updated 2021-01-31</td></tr>
+                        <tr style="height: 24px"><th id="1241102806R5" style="height: 24px;" class="row-headers-background">
+                          <div class="row-header-wrapper" style="line-height: 24px">6</div></th><td class="s4" dir="ltr">Theme</td>
+                        <td class="s5" dir="ltr">Crops and livestock products, food production</td>
+                        <td class="s6" dir="ltr">Life expectancy, demograhic data</td>
+                        <td class="s7" dir="ltr">Resource usage and pollution</td></tr>
+                        <tr style="height: 20px"><th id="1241102806R6" style="height: 20px;" class="row-headers-background">
+                        <div class="row-header-wrapper" style="line-height: 20px">7</div></th>
+                        <td class="s4" dir="ltr">Rights Holder</td><td class="s5" dir="ltr">The Food and Agriculture Organization (FAO) of the United Nations</td>
+                        <td class="s6" dir="ltr">Eurostat</td><td class="s7" dir="ltr">Eurostat and European Environmental Agency</td></tr>
+                        <tr style="height: 20px"><th id="1241102806R7" style="height: 20px;" class="row-headers-background">
+                        <div class="row-header-wrapper" style="line-height: 20px">8</div></th><td class="s4" dir="ltr">Subject</td>
+                        <td class="s5" dir="ltr">9 types of food, 27 Countries</td><td class="s6" dir="ltr">Life expectancy</td>
+                        <td class="s7" dir="ltr">Pollution</td></tr>
+                        <tr style="height: 20px"><th id="1241102806R8" style="height: 20px;" class="row-headers-background">
+                        <div class="row-header-wrapper" style="line-height: 20px">9</div></th>
+                        <td class="s4" dir="ltr">Publisher</td>
+                        <td class="s5" dir="ltr">Giorgia Sampò, Sarah Tew, Vanessa Bonanno</td>
+                        <td class="s6" dir="ltr">Giorgia Sampò, Sarah Tew, Vanessa Bonanno</td>
+                        <td class="s7" dir="ltr">Giorgia Sampò, Sarah Tew, Vanessa Bonanno</td></tr>
+                        <tr style="height: 20px"><th id="1241102806R9" style="height: 20px;" class="row-headers-background">
+                        <div class="row-header-wrapper" style="line-height: 20px">10</div></th><td class="s4" dir="ltr">Issued</td>
+                        <td class="s10" dir="ltr">01/02/2022</td>
+                        <td class="s6"></td><td class="s7"></td></tr>
+                        <tr style="height: 20px"><th id="1241102806R10" style="height: 20px;" class="row-headers-background">
+                        <div class="row-header-wrapper" style="line-height: 20px">11</div></th><td class="s4" dir="ltr">Language</td>
+                        <td class="s5" dir="ltr">English, Français, Español</td><td class="s6" dir="ltr">English</td>
+                        <td class="s7" dir="ltr">English</td></tr>
+                        <tr style="height: 20px"><th id="1241102806R11" style="height: 20px;" class="row-headers-background">
+                        <div class="row-header-wrapper" style="line-height: 20px">12</div></th>
+                        <td class="s4" dir="ltr">Keywords</td>
+                        <td class="s5" dir="ltr">Food production, crops production, livestock production</td>
+                        <td class="s6" dir="ltr">Life expectancy, EU</td>
+                        <td class="s7" dir="ltr">Pollution, environment, water, air, soil, EU</td></tr>
+                        <tr style="height: 20px"><th id="1241102806R12" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">13</div></th><td class="s4" dir="ltr">Source</td>
+                        <td class="s11" dir="ltr"><a target="_blank" href="https://www.fao.org/faostat/en/#data/QCL">https://www.fao.org/faostat/en/#data/QCL</a></td>
+                        <td class="s12" dir="ltr"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=demo_r_mlifexp">https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=demo_r_mlifexp</a></td>
+                        <td class="s13" dir="ltr"><span style="text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;"><a target="_blank" href="https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_gge&amp;lang=en">https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_gge&amp;lang=en<br></a></span><span style="color:#000000;">https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=env_air_emis&amp;lang=en<br></span>https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=aei_pr_soiler&amp;lang=en<br>https://www.eea.europa.eu/ims/ecological-status-of-surface-waters<br>https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=aei_ps_inp&amp;lang=en<br><span style="text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;"><a target="_blank" href="https://data.europa.eu/data/datasets/arinrajid0ph6h0uozi8w?locale=en">https://data.europa.eu/data/datasets/arinrajid0ph6h0uozi8w?locale=en</a></span></td></tr>
+                        <tr style="height: 20px"><th id="1241102806R13" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">14</div></th>
+                          <td class="s4" dir="ltr">Temporal Coverage</td><td class="s5" dir="ltr">2009/2019</td>
+                          <td class="s6" dir="ltr">2010-2019</td><td class="s7" dir="ltr">2010-2019</td></tr>
+                          <tr style="height: 20px"><th id="1241102806R14" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">15</div></th>
+                            <td class="s4" dir="ltr">Spatial Coverage</td><td class="s5" dir="ltr">Europe, 27 countries (Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden)</td>
+                            <td class="s6" dir="ltr">EU member states: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden</td>
+                            <td class="s7" dir="ltr">EUROPE: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Turkey, United Kingdom</td></tr><tr style="height: 20px"><th id="1241102806R15" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">16</div></th><td class="s4" dir="ltr">Data format</td><td class="s5" dir="ltr">XML, CSV, ??</td><td class="s6" dir="ltr">CSV</td><td class="s7" dir="ltr">CSV</td></tr><tr style="height: 20px"><th id="1241102806R16" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">17</div></th><td class="s4" dir="ltr">URL</td><td class="s11" dir="ltr"><a target="_blank" href="https://github.com/giorgiasampo/Foodata/tree/main/datasets">https://github.com/giorgiasampo/Foodata/tree/main/datasets</a></td><td class="s12" dir="ltr"><a target="_blank" href="https://github.com/giorgiasampo/Foodata/blob/main/datasets/life_expectancy.csv">https://github.com/giorgiasampo/Foodata/blob/main/datasets/life_expectancy.csv</a></td><td class="s7"></td></tr><tr style="height: 20px"><th id="1241102806R17" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">18</div></th><td class="s4" dir="ltr">License</td><td class="s5" dir="ltr">?</td><td class="s6" dir="ltr">Creative Commons Attribution International 4.0</td><td class="s7" dir="ltr">Creative Commons Attribution International 4.0</td></tr><tr style="height: 20px"><th id="1241102806R18" style="height: 20px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 20px">19</div></th><td class="s4" dir="ltr">Download</td><td class="s11" dir="ltr"><a target="_blank" href="https://github.com/giorgiasampo/Foodata/tree/main/datasets">https://github.com/giorgiasampo/Foodata/tree/main/datasets</a></td><td class="s12" dir="ltr"><a target="_blank" href="https://github.com/giorgiasampo/Foodata/blob/main/datasets/life_expectancy.csv">https://github.com/giorgiasampo/Foodata/blob/main/datasets/life_expectancy.csv</a></td><td class="s7"  dir="ltr"><a target="_blank" href="https://github.com/giorgiasampo/Foodata/blob/main/datasets/food_pollution.csv">https://github.com/giorgiasampo/Foodata/blob/main/datasets/pollution_dataset.csv</a></td></tr><tr style="height: 20px"><th id="1241102806R19" style="height: 20px;" class="row-headers-background"></td><div class="row-header-wrapper" style="line-height: 20px">20</div></th></tbody></table></div>
+          </div>
+        </div>
+
+    </div>
+  </section><!-- End Gallery Section -->
+
     <!-- ======= Team Section ======= -->
     <section id="team" class="team">
       <div class="container">
