@@ -771,8 +771,8 @@ section {
 
 .map{
   margin-top: 3em;
-  height: 60em;
-  overflow: scroll;
+  min-width: none;
+  min-height: 20em !important;
 }
 
 .hide{
@@ -786,10 +786,9 @@ section {
 
 
 .chart{
+  margin-top: 3em;
   min-width: none;
   min-height: 20em !important;
-  padding-top: 8.5em;
-  overflow: scroll;
 }
 
 
