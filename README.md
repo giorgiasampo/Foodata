@@ -2,7 +2,15 @@
 
 ### Introduction
 
+FOOData was created for the Open Access and Digital Ethics exam by Vanessa Bonanno, Giorgia Sampò, and Sarah Tew.FOOData explores food production, pollution, and health markers within Europe both individually and together to get a clearer picture of their interlation. FOOData uses geospatial visualizations to reconnect users with the geographic reality of food production and pollution. 
+
 ### Scenario
+
+This project aims to show connections between food production, pollution and health conditions in European countries from 2009 to 2019, focusing in particular on different countries' production of food, their health, and pollution status.
+
+We hypothesize that areas with more agricultural pollution will have worse health outcomes and that different types of pollution and food production affect health differently.
+
+To do so we collected data from EUROSTAT, the European Environmental Agency and FAOSTAT.
 
 ### General analysis (excel file ?)
 
