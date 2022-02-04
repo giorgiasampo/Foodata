@@ -3,11 +3,15 @@ function visualize_map(map_name, map_class){
     if (map_name=="all"){
     maps = document.getElementsByClassName('map');
     charts = document.getElementsByClassName('chart')
+    graphs = document.getElementsByClassName('graph')
         for (x=0;x<maps.length;x++){
             maps[x].classList.add("hide");
         } 
         for (x=0;x<charts.length;x++){
             charts[x].classList.add("hide");
+        }  
+        for (x=0;x<graphs.length;x++){
+            graphs[x].classList.add("hide");
         }  
     }
     else if (document.getElementById(map_name).classList.contains("hide")){
