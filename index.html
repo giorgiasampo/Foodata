@@ -39,7 +39,7 @@
   ======================================================== -->
 </head>
 
-<body  onload="visualize_map('all', 'map')">
+<body  onload="visualize_map('all', '')">
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center header-transparent">
@@ -422,13 +422,13 @@
           <div class="col-lg-4 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
               <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-              <h3><a onclick="visualize_chart('chart_1')">Food Production and Life Expectancy by Country</a></h3>
+              <h3><a onclick="visualize_map('chart_1', 'chart')">Food Production and Life Expectancy by Country</a></h3>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="250">
               <i class="ri-database-2-line" style="color: #47aeff;"></i>
-              <h3><a onclick="visualize_chart('chart_2')">Farm Industrialization Level and Life Expectancy</a></h3>
+              <h3><a onclick="visualize_map('chart_2', 'chart')">Farm Industrialization Level and Life Expectancy</a></h3>
               
 
 
@@ -437,13 +437,13 @@
           <div class="col-lg-4 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
               <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-              <h3><a onclick="visualize_chart('chart_3')">Air Pollution and Life Expectancy by Country</a></h3>
+              <h3><a onclick="visualize_map('chart_3', 'chart')">Air Pollution and Life Expectancy by Country</a></h3>
             </div>
           </div>
         </div>
 
         <div class="row" data-aos="fade-right">
-          <div class="chart hide_chart" id="chart_1">
+          <div class="chart" id="chart_1">
               <div class='tableauPlaceholder' id='viz1643904174860' style='position: relative'>
                 <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
                 <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
@@ -459,7 +459,7 @@
                 if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
            
           </div>
-          <div class="chart hide_chart" id="chart_2">
+          <div class="chart" id="chart_2">
               <div class='tableauPlaceholder' id='viz1643939480412' style='position: relative'>
               <object class='tableauViz'  style='display:none;'>
              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
@@ -475,7 +475,7 @@
             </object></div>                
             <script type='text/javascript'>                    var divElement = document.getElementById('viz1643939480412');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
           </div>
-          <div class="chart hide_chart" id="chart_3">
+          <div class="chart" id="chart_3">
               <div class='tableauPlaceholder' id='viz1643942467333' style='position: relative'>
               <object class='tableauViz'  style='display:none;'>
               <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
@@ -492,7 +492,14 @@
               <param name='language' value='en-US' />
               <param name='filter' value='publish=yes' />
               </object></div>                
-            <script type='text/javascript'>                    var divElement = document.getElementById('viz1643942467333');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1643942467333');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
           </div>
         </div>
 
@@ -941,27 +948,27 @@
         <div class="col-lg-4 col-md-4 mt-4">
           <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
             <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-            <h3><a onclick="visualize_metadata('metadata_1')">Checklist</a></h3>
+            <h3><a onclick="visualize_map('metadata_1', 'metadata')">Checklist</a></h3>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
               <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-              <h3><a onclick="visualize_metadata('metadata_2')">Original Datasets Metadata</a></h3>
+              <h3><a onclick="visualize_map('metadata_2', 'metadata')">Original Datasets Metadata</a></h3>
             </div>
         </div>
 
         <div class="col-lg-4 col-md-4 mt-4">
           <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
             <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-            <h3><a onclick="visualize_metadata('metadata_3')">Final Datasets Metadata</a></h3>
+            <h3><a onclick="visualize_map('metadata_3', 'metadata')">Final Datasets Metadata</a></h3>
           </div>
         </div>
       </div>
 
         <div class="row" data-aos="fade-right">
-          <div class="metadata hide_metadata" id="metadata_1">
+          <div class="metadata hide" id="metadata_1">
               <h3>Checklist</h3>
               <style type="text/css">.ritz .waffle a { color: inherit; }.ritz .waffle .s2{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#d9ead3;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s4{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#6fa8dc;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s12{border-bottom:1px SOLID #000000;border-right:2px SOLID #000000;background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s17{border-bottom:2px SOLID #000000;border-right:1px SOLID #000000;background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s1{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#fff2cc;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s10{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#6fa8dc;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s13{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#cfe2f3;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s3{border-bottom:1px SOLID #000000;background-color:#d9ead3;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s0{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s7{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s15{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#6fa8dc;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s11{border-bottom:1px SOLID #000000;background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s6{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#cfe2f3;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s9{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ffffff;text-align:left;color:#000000;font-family:'Times New Roman';font-size:11pt;vertical-align:top;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s16{border-bottom:2px SOLID #000000;border-right:1px SOLID #000000;background-color:#cfe2f3;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s8{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:9pt;vertical-align:top;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s5{border-bottom:1px SOLID #000000;border-right:2px SOLID #000000;background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s14{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#9fc5e8;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}</style>
 <div class="ritz grid-container" dir="ltr">
@@ -1794,7 +1801,7 @@
  </table>
 </div>
           </div>
-          <div class="metadata hide_metadata" id="metadata_2">
+          <div class="metadata hide" id="metadata_2">
             <h3>Original Datases Metadata</h3>
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link type="text/css" rel="stylesheet" href="resources/sheet.css" >
               <style type="text/css">.ritz .waffle a { color: inherit; }.ritz .waffle .s6{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#b6d7a8;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s12{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#d9d2e9;text-align:left;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s8{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#b6d7a8;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s11{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#d9d2e9;text-align:left;font-style:italic;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s7{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#e6b8af;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s2{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#b6d7a8;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s14{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#e6b8af;text-align:left;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s15{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#e6b8af;text-align:right;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s0{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ffe599;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s10{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#e6b8af;text-align:right;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s5{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#d9d2e9;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s16{background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s1{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#b4a7d6;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s3{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#e6b8af;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s4{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#fff2cc;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s13{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#b6d7a8;text-align:left;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s9{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#e6b8af;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}</style>
@@ -2016,7 +2023,7 @@
                     </tbody></table>
                   </div>
           </div>
-          <div class="metadata hide_metadata" id="metadata_3">
+          <div class="metadata hide" id="metadata_3">
               <h3>Final Datasets Metadata</h3>
               <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link type="text/css" rel="stylesheet" href="resources/sheet.css" >
               <style type="text/css">.ritz .waffle a { color: inherit; }.ritz .waffle .s11{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#d9d2e9;text-align:left;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s2{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#9fc5e8;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s12{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#9fc5e8;text-align:left;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s13{border-bottom:1px SOLID #000000;background-color:#ea9999;text-align:left;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;color:#1155cc;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s10{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#d9d2e9;text-align:left;font-style:italic;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s14{background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s0{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ffe599;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s5{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#d9d2e9;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s1{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#b4a7d6;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s4{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#fff2cc;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s7{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ea9999;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s9{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ea9999;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s8{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#9fc5e8;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:top;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s3{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#ea9999;text-align:left;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}.ritz .waffle .s6{border-bottom:1px SOLID #000000;border-right:1px SOLID #000000;background-color:#9fc5e8;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;word-wrap:break-word;direction:ltr;padding:2px 3px 2px 3px;}</style>
