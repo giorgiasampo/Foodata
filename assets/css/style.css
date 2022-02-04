@@ -792,19 +792,11 @@ section {
 }
 
 .graph{
+  margin-top: 1em;
   min-width: none;
   min-height: 20em !important;
-  padding-top: 8.5em;
-  overflow: scroll;
 }
 
-.hide_graph{
-  display: none !important;
-}
-
-.display_graph{
-  display: block !important;
-} 
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
