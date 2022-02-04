@@ -48,7 +48,7 @@ foaf:Person	foaf:name	"Giorgia Sampó".
 
 foaf:Person	foaf:name	"Vanessa Bonanno".
 
-foaf:Person	foaf:name	"Sara Tew".
+foaf:Person	foaf:name	"Sarah Tew".
 
 vcard:Group	vcard:hasEmail	"vanessa.bonanno@studio.unibo.it".
 
