@@ -775,13 +775,12 @@ section {
   overflow: scroll;
 }
 
-.hide_map{
+.hide{
   display: none !important;
 }
 
-.display_map{
+.display{
   display: block !important;
-  height: 100%;
 }
 
 
@@ -793,13 +792,6 @@ section {
   overflow: scroll;
 }
 
-.hide_chart{
-  display: none !important;
-}
-
-.display_chart{
-  display: block !important;
-}
 
 
 .graph{
@@ -958,13 +950,6 @@ section {
   overflow: scroll;
 }
 
-.hide_metadata{
-  display: none !important;
-}
-
-.display_metadata{
-  display: block !important;
-}
 
 /*--------------------------------------------------------------
 # Team

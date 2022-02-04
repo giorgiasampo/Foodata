@@ -1,65 +1,25 @@
-function visualize_map(map_name,map_class){
+function visualize_map(map_name, map_class){
     if (map_name=="all"){
-        document.getElementsByClassName(map_class)[0].classList.add("hide_"+map_class);
-        document.getElementsByClassName(map_class)[1].classList.add("hide_"+map_class);
-        document.getElementsByClassName(map_class)[2].classList.add("hide_"+map_class);
-        document.getElementsByClassName(map_class)[3].classList.add("hide_"+map_class);
-        document.getElementsByClassName(map_class)[4].classList.add("hide_"+map_class);
-        document.getElementsByClassName(map_class)[5].classList.add("hide_"+map_class);
+    maps = document.getElementsByClassName('map');
+    charts = document.getElementsByClassName('chart')
+        for (x=0;x<maps.length;x++){
+            maps[x].classList.add("hide");
+        } 
+        for (x=0;x<charts.length;x++){
+            charts[x].classList.add("hide");
+        }  
     }
-    else if (document.getElementById(map_name).classList.contains("hide_"+map_class)){
-        document.getElementsByClassName(map_class)[0].classList.add("hide_"+map_class);
-        document.getElementsByClassName(map_class)[1].classList.add("hide_"+map_class);
-        document.getElementsByClassName(map_class)[2].classList.add("hide_"+map_class);
-        document.getElementsByClassName(map_class)[3].classList.add("hide_"+map_class);
-        document.getElementsByClassName(map_class)[4].classList.add("hide_"+map_class);
-        document.getElementsByClassName(map_class)[5].classList.add("hide_"+map_class);
-        document.getElementsByClassName(map_class)[0].classList.remove("display_"+map_class);
-        document.getElementsByClassName(map_class)[1].classList.remove("display_"+map_class);
-        document.getElementsByClassName(map_class)[2].classList.remove("display_"+map_class);
-        document.getElementsByClassName(map_class)[3].classList.remove("display_"+map_class);
-        document.getElementsByClassName(map_class)[4].classList.remove("display_"+map_class);
-        document.getElementsByClassName(map_class)[5].classList.remove("display_"+map_class);
-        document.getElementById(map_name).classList.remove("hide_"+map_class);
-        document.getElementById(map_name).classList.add("display_"+map_class);
+    else if (document.getElementById(map_name).classList.contains("hide")){
+        for (x=0;x<map_class.length;x++){
+            document.getElementsByClassName(map_class)[x].classList.add("hide");
+            document.getElementsByClassName(map_class)[x].classList.remove("display");
+        }
+        document.getElementById(map_name).classList.remove("hide");
+        document.getElementById(map_name).classList.add("display");
     } else {
-        document.getElementById(map_name).classList.add("hide_"+map_class);
-        document.getElementById(map_name).classList.remove("display_"+map_class);
-    }
-}
-
-function visualize_chart(chart_name){
-    if (document.getElementById(chart_name).classList.contains("hide_chart")){
-        document.getElementsByClassName("chart")[0].classList.add("hide_chart");
-        document.getElementsByClassName("chart")[1].classList.add("hide_chart");
-        document.getElementsByClassName("chart")[2].classList.add("hide_chart");
-        document.getElementsByClassName("chart")[0].classList.remove("display_chart");
-        document.getElementsByClassName("chart")[1].classList.remove("display_chart");
-        document.getElementsByClassName("chart")[2].classList.remove("display_chart");
-        document.getElementById(chart_name).classList.remove("hide_chart");
-        document.getElementById(chart_name).classList.add("display_chart");
-    } else {
-        document.getElementById(chart_name).classList.add("hide_chart");
-        document.getElementById(chart_name).classList.remove("display_chart");
-    }
-
-}
-
-function visualize_metadata(metadata_name){
-    if (document.getElementById(metadata_name).classList.contains("hide_metadata")){
-        document.getElementsByClassName("metadata")[0].classList.add("hide_metadata");
-        document.getElementsByClassName("metadata")[1].classList.add("hide_metadata");
-        document.getElementsByClassName("metadata")[2].classList.add("hide_metadata");
-        document.getElementsByClassName("metadata")[0].classList.remove("display_metadata");
-        document.getElementsByClassName("metadata")[1].classList.remove("display_metadata");
-        document.getElementsByClassName("metadata")[2].classList.remove("display_metadata");
-        document.getElementById(metadata_name).classList.remove("hide_metadata");
-        document.getElementById(metadata_name).classList.add("display_metadata");
-    } else {
-        document.getElementById(metadata_name).classList.add("hide_metadata");
-        document.getElementById(metadata_name).classList.remove("display_metadata");
-    }
-
+        document.getElementById(map_name).classList.add("hide");
+        document.getElementById(map_name).classList.remove("display");
+    }  
 }
 
 function visualize_graph(graph_name){
