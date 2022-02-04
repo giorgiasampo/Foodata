@@ -33,6 +33,7 @@ FOOData uses life-expectancy to indicate overall population health. This data co
 
 ### General analysis (excel file ?)
 
+We started by collecting the original datasets in an excel table. You can download it [here](https://github.com/giorgiasampo/Foodata/blob/main/datasets/Datasets.pdf).
 
 
 
