@@ -12,6 +12,7 @@ We hypothesize that areas with more agricultural pollution will have worse healt
 
 To do so we collected data from EUROSTAT, the European Environmental Agency and FAOSTAT.
 
+
 #### **Crops and livestock production**
 
 The production section is based on data found at FAOSTAT, the Food and Agriculture Organization Corporate Statistical Database maintained by the statistics division of the Food and Agriculture Organization of the United Nations.
@@ -31,6 +32,9 @@ FOOData uses life-expectancy to indicate overall population health. This data co
 
 
 ### General analysis (excel file ?)
+
+
+
 
 ### Quality analysis of datasets (copy from our doc or put a link)
 
