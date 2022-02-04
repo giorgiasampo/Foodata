@@ -254,24 +254,32 @@
         </div>
 
         <div class="row" data-aos="fade-right">
-          <div class="map" id="production">           
-              <!--  Tableau example 1  -->
-              <div class='tableauPlaceholder' id='viz1643735566946' style='position: relative'>
-              <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-              <param name='embed_code_version' value='3' /> 
-              <param name='site_root' value='' />
-              <param name='name' value='Cartella1_16437114255280&#47;Foglio1' />
-              <param name='tabs' value='no' />
-              <param name='toolbar' value='yes' /><param name='animate_transition' value='yes' />
-              <param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' />
-              <param name='display_overlay' value='yes' /><param name='display_count' value='yes' />
-              <param name='language' value='it-IT' />
-            </object>
-            </div>                
-              <script type='text/javascript'>                    
-              var divElement = document.getElementById('viz1643735566946');                    
+          <div class="map" id="production">
+            <h3>Food production in European countries</h3>
+            <div class='tableauPlaceholder' id='viz1643965066550' style='position: relative'>
+            <noscript><a href='#'><img alt='Dashboard 1 ' src='YP&#47;YPGF8NMT7&#47;1_rss.png' style='border: none' />
+            </a></noscript>
+              <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='path' value='shared&#47;YPGF8NMT7' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='YP&#47;YPGF8NMT7&#47;1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='it-IT' />
+              </object>
+             </div>                
+             
+            <script type='text/javascript'>                    
+              var divElement = document.getElementById('viz1643965066550');                    
               var vizElement = divElement.getElementsByTagName('object')[0];                    
-              vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+              if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} 
+              else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} 
+              else { vizElement.style.width='100%';vizElement.style.height='727px';}                     
               var scriptElement = document.createElement('script');                    
               scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
               vizElement.parentNode.insertBefore(scriptElement, vizElement);                
@@ -354,7 +362,7 @@
 
 
           <div class="map" id="health">
-              <h3>Life Expectancy by sex and NUTS 2 region</h3>
+            <h3>Life Expectancy by sex and NUTS 2 region</h3>
             <div class='tableauPlaceholder' id='viz1643839804681' style='position: relative'>
             <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
             <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
@@ -386,13 +394,16 @@
           <div class="col-lg-4 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="250">
               <i class="ri-database-2-line" style="color: #47aeff;"></i>
-              <h3><a onclick="visualize_chart('chart_2')">Random Chart</a></h3>
+              <h3><a onclick="visualize_chart('chart_2')">Farm Industrialization Level and Life Expectancy</a></h3>
+              
+
+
             </div>
           </div>
           <div class="col-lg-4 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
               <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-              <h3><a onclick="visualize_chart('chart_3')">Random Chart</a></h3>
+              <h3><a onclick="visualize_chart('chart_3')">Air Pollution and Life Expectancy by Country</a></h3>
             </div>
           </div>
         </div>
@@ -415,10 +426,39 @@
            
           </div>
           <div class="chart hide_chart" id="chart_2">
-              <h3>Chart 2</h3>
+              <div class='tableauPlaceholder' id='viz1643939480412' style='position: relative'>
+              <object class='tableauViz'  style='display:none;'>
+             <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+             <param name='embed_code_version' value='3' /> 
+             <param name='site_root' value='' />
+             <param name='name' value='FarmIndustrializationandLifeExpectancybyNUTSRegions&#47;Dashboard1' />
+             <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+             <param name='animate_transition' value='yes' />
+             <param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' /><param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+           <param name='filter' value='publish=yes' />
+            </object></div>                
+            <script type='text/javascript'>                    var divElement = document.getElementById('viz1643939480412');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
           </div>
           <div class="chart hide_chart" id="chart_3">
-              <h3>Chart 3</h3>
+              <div class='tableauPlaceholder' id='viz1643942467333' style='position: relative'>
+              <object class='tableauViz'  style='display:none;'>
+              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+              <param name='embed_code_version' value='3' /> 
+              <param name='site_root' value='' />
+              <param name='name' value='AirPollutionandLifeExpectancybyCountry&#47;Sheet1' />
+              <param name='tabs' value='no' />
+              <param name='toolbar' value='yes' />
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' />
+              <param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' />
+              <param name='display_count' value='yes' />
+              <param name='language' value='en-US' />
+              <param name='filter' value='publish=yes' />
+              </object></div>                
+            <script type='text/javascript'>                    var divElement = document.getElementById('viz1643942467333');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
           </div>
         </div>
 
@@ -699,7 +739,7 @@
             confronting the geographical difference and, hen possible, incorporating the regions under the current representing label by hand.
           </p>
           <p>
-            Altough most of the datasets resulted as last updated in 2021 or 2020,  it is unspecified why data after 2019 is unavailable.
+            Although most of the datasets resulted as last updated in 2021 or 2020,  it is unspecified why data after 2019 is unavailable.
              Because COVID-19 had a significant and anonymous impact on health, pollution, and food production in Europe data from after 2019 
              has been excluded from FOOData.
           </p>
