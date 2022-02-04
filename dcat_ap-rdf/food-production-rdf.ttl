@@ -20,7 +20,7 @@ dcat:Dataset	dct:description	"The dataset contains the production different kind
 		dct:publisher	foaf:Person;
 		dct:spatial	<https://dbpedia.org/page/Europe>;
 		dct:temporal	dct:PeriodOfTime;
-		dcat:theme	<http://publications.europa.eu/resource/authority/data-theme/PROD>;
+		dcat:theme	<http://publications.europa.eu/resource/authority/data-theme/ECON>;
 		dct:accessRights	"Open";	
 		dct:creator 	foaf:Person;
 		dct:creator 	foaf:Person;
@@ -48,12 +48,12 @@ foaf:Person	foaf:name	"Giorgia Sampó".
 
 foaf:Person	foaf:name	"Vanessa Bonanno".
 
-foaf:Person	foaf:name	"Sara Tew".
+foaf:Person	foaf:name	"Sarah Tew".
 
 vcard:Group	vcard:hasEmail	"vanessa.bonanno@studio.unibo.it".
 
 <http://purl.org/adms/status/Completed>	skos:prefLabel	"Completed".
 
-<http://publications.europa.eu/resource/authority/data-theme/PROD>	skos:prefLabel	"Production".
+<http://publications.europa.eu/resource/authority/data-theme/ECON>	skos:prefLabel	"Economy".
 
 
