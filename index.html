@@ -267,7 +267,7 @@
 
           <div class="map" id="food_production1">
               <div class='tableauPlaceholder' id='viz1643965066550' style='position: relative'>
-                <noscript><a href='#'><img alt='Dashboard 1 ' src='YP&#47;YPGF8NMT7&#47;1_rss.png' style='border: none' />
+                <noscript><a href='#'><img alt='Food production' src='YP&#47;YPGF8NMT7&#47;1_rss.png' style='border: none' />
                 </a></noscript>
                 <object class='tableauViz'  style='display:none;'>
                   <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
@@ -287,14 +287,14 @@
               <script type='text/javascript'>                    
                 var divElement = document.getElementById('viz1643965066550');                    
                 var vizElement = divElement.getElementsByTagName('object')[0];                    
-                if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} 
-                else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} 
-                else { vizElement.style.width='100%';vizElement.style.height='727px';}                     
+                vizElement.style.width='100%';
+                vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                           
                 var scriptElement = document.createElement('script');                    
                 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
                 vizElement.parentNode.insertBefore(scriptElement, vizElement);                
               </script>          
           </div>
+
           <div class="map" id="food_production2">
             <div class='tableauPlaceholder' id='viz1643973747716' style='position: relative'>
               <object class='tableauViz'  style='display:none;'>
@@ -310,9 +310,8 @@
             <script type='text/javascript'>
                   var divElement = document.getElementById('viz1643973747716');                    
                   var vizElement = divElement.getElementsByTagName('object')[0];                    
-                  if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} 
-                  else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} 
-                  else { vizElement.style.width='100%';vizElement.style.height='727px';}                     
+                  vizElement.style.width='100%';
+                  vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                           
                   var scriptElement = document.createElement('script');                    
                   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
                   vizElement.parentNode.insertBefore(scriptElement, vizElement);                
@@ -410,7 +409,12 @@
             <script type='text/javascript'>                    
                 var divElement = document.getElementById('viz1643839804681');                    
                 var vizElement = divElement.getElementsByTagName('object')[0];                    
-                if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                vizElement.style.width='100%';
+                vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                           
+                var scriptElement = document.createElement('script');                   
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                </script>
           </div>
         </div>
 
