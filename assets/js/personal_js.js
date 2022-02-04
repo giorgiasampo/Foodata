@@ -5,6 +5,7 @@ function visualize_map(map_name,map_class){
         document.getElementsByClassName(map_class)[2].classList.add("hide_"+map_class);
         document.getElementsByClassName(map_class)[3].classList.add("hide_"+map_class);
         document.getElementsByClassName(map_class)[4].classList.add("hide_"+map_class);
+        document.getElementsByClassName(map_class)[5].classList.add("hide_"+map_class);
     }
     else if (document.getElementById(map_name).classList.contains("hide_"+map_class)){
         document.getElementsByClassName(map_class)[0].classList.add("hide_"+map_class);
@@ -12,11 +13,13 @@ function visualize_map(map_name,map_class){
         document.getElementsByClassName(map_class)[2].classList.add("hide_"+map_class);
         document.getElementsByClassName(map_class)[3].classList.add("hide_"+map_class);
         document.getElementsByClassName(map_class)[4].classList.add("hide_"+map_class);
+        document.getElementsByClassName(map_class)[5].classList.add("hide_"+map_class);
         document.getElementsByClassName(map_class)[0].classList.remove("display_"+map_class);
         document.getElementsByClassName(map_class)[1].classList.remove("display_"+map_class);
         document.getElementsByClassName(map_class)[2].classList.remove("display_"+map_class);
         document.getElementsByClassName(map_class)[3].classList.remove("display_"+map_class);
         document.getElementsByClassName(map_class)[4].classList.remove("display_"+map_class);
+        document.getElementsByClassName(map_class)[5].classList.remove("display_"+map_class);
         document.getElementById(map_name).classList.remove("hide_"+map_class);
         document.getElementById(map_name).classList.add("display_"+map_class);
     } else {
