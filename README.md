@@ -111,6 +111,22 @@ Furthermore, Life expectancy is an oft-used measure of health partly because it 
 
 Our technical analysis is fully available at this [link](https://giorgiasampo.github.io/Foodata/index.html#metadata).
 
+### EUROSTAT (STATISTICAL OFFICE OF THE EUROPEAN UNION)
+Format: XLS, CSV, HTML, PC-AXIS, SPSS, TSV, PDF.
+
+Metadata: A huge amount of metadata is also  provided, expressed in SDMX format, an ISO standard since 2013 for the exchange of statistical data and metadata in XML format. These metadata contain information on metadata updating, contacts, data presentation, units of measurements, reference period, institutional mandate, confidentiality, distribution policy, frequency of dissemination, accessibility, quality, relevance, accuracy, consistency, cost, review and any comments.
+
+### EUROPEAN ENVIRONMENTAL AGENCY
+Format: CSV, XLS
+
+Metadata: Information and metadata are provided about last updates, contacts, unit used and the type of data, creation date, copyright, source, definitions and countries considered.
+
+### FAO 
+Format: CSV, XLS
+
+Metadata: Information and metadata are provided about last updates, contacts, unit used and the type of data, creation date, copyright, source, definitions and countries considered.
+
+
 ### Mashup and output datasets  
 FAIR data management -> In general terms, your research data should be 'FAIR', that is findable, accessible, interoperable and re-usable
 Explain why our data are:
@@ -124,4 +140,8 @@ Explain why our data are:
 
 FOOData is based on datasets from different sources, about food production, pollution and life expectancy in European Countries. This website has been created as the final project of the Open Access and Digital Ethics course of the Master Degree in Digital Humanities and Digital Knowledge at the University of Bologna: the dataset is not actively maintained, while the datasets used for this project are currently maintained by the relative institutions or organisations. GEO/GenOp is distributed under Creative Commons Attribution 4.0 International License (CC BY-SA 4.0)
 
+### Visualizations 
 
+### RDF assertions of the metadata
+
+### Conclusion
