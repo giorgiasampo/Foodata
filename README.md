@@ -51,8 +51,6 @@ About data quality, we decided to follow four standards presented in the [Open D
 
 As for the datasets from Eurostat, they are well described thanks also to the explanatory texts (metadata). As for completeness, it depends on the availability of national data from statistical institutes. Instead, with regard to consistency, it is reported in the metadata that "the data are checked for completeness, internal consistency, and consistency over time and coherence with other relevant data sources". On the other hand, there is a lack of explicit information regarding accuracy. The data are explorable, editable and filterable. However, they can be downloaded in a few formats. The indicators are sufficient but sometimes unclear. The updating is explicitly reported.
 
-
-
 #### FAOSTAT ####
 
 The [FAO Statistics Quality Assurance Framework](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj4pvSe-ej1AhVag_0HHf9rDGAQFnoECAwQAw&url=https%3A%2F%2Funstats.un.org%2Funsd%2Funsystem%2FDocuments%2FQAF-FAO-1.pdf&usg=AOvVaw3L-_WIQ8YffLTqDLqBFN-L) (FAO SQAF) includes a definition of quality,
@@ -61,6 +59,17 @@ production processes and statistical outputs. Each principle is accompanied by
 corresponding good practices, which provide practical guidance on how to assure
 compliance with the principle. Some reported good practices are already applied by the FAO
 statistical system, while other aspects are still being developed.
+
+#### European Environment Agency ####
+
+The [Water Pollution dataset](https://www.eea.europa.eu/ims/ecological-status-of-surface-waters) found at EEA website relies on _WISE Water Framework Directive Database_
+
+WISE is an operational web based service where users can view and download maps and related information
+on water quality being collected by European and international bodies. The sharing of water-related data
+will enhance efficiency of data use and improve quality of assessments. WISE is thereby the water-related com-
+ponent of a wider Shared Environmental Information System (SEIS) currently under development following
+the concept of interoperable distributed data bases (Web 2.0). More information [here](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiqleXP_uj1AhVqgv0HHT-jBkIQFnoECAIQAQ&url=http%3A%2F%2Fwww.earthobservations.org%2Fdocuments%2Fsbas%2Fwa%2F77_WISE%2520Water%2520Information%2520System%2520for%2520Europe.pdf&usg=AOvVaw20x-sKFem3CziP1zYaR6ki).
+
 
 ### Legal analysis (same)
 
