@@ -73,7 +73,7 @@ the concept of interoperable distributed data bases (Web 2.0). More information 
 
 ### Legal analysis
 
-The first thing we wanted to achieve was to have a complete overlook on the licenses our sources applied to their original datasets and at the emerging differencies. Doing so we structured our [legal checklist](http://127.0.0.1:5500/index.html#:~:text=Final%20Datasets%20Metadata-,Checklist,-A). We took into account the standards defined by the Open Data Goldbook for Data Managers and Data Holders and we took into account the four main directives of the Open Data release:
+The first thing we wanted to achieve was to have a complete overlook on the licenses our sources applied to their original datasets and at the emerging differencies. Doing so we structured our [legal checklist](https://giorgiasampo.github.io/Foodata/#metadata). We took into account the standards defined by the Open Data Goldbook for Data Managers and Data Holders and we took into account the four main directives of the Open Data release:
 
 - Privacy: GDPR Regulation (EU) 2016/679, Regulation (EU) 2018/1807, Directive 2002/58/EC;
 
