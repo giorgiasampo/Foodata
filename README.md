@@ -101,7 +101,7 @@ You must give appropriate credit, provide a link to the license, and indicate if
 
 ### Ethical analysis 
 
-Ethical analysis was not considered in typical terms, since the choosen datasets are free of sensitive data (they tend to represent very large geographical areas). Also personal information is not included, with the only exception of sex in the Life expectancy dataset by Eurostat. As averages the data gives information about the region as a whole and do not pose individual privacy risk.
+Ethical analysis was not considered in typical terms, since the choosen datasets are free of sensitive data (they tend to represent very large geographical areas). Also, personal information is not included, with the only exception of sex in the Life expectancy dataset by Eurostat. As averages the data gives information about the region as a whole and do not pose individual privacy risk.
 
 However, for what regards air pollution, greenhouse gas emissions and surface water pollution there are chances of people acting on that information to look for better living standards outside countries boundaries, but that does not look like an ethical issue as much as a normal inferncial process granted to common citizens and perfectly sustainable. 
 
