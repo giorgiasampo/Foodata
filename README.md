@@ -2,16 +2,12 @@
 
 ### Introduction
 
-FOOData was created for the Open Access and Digital Ethics exam by Vanessa Bonanno, Giorgia Sampò, and Sarah Tew.FOOData explores food production, pollution, and health markers within Europe both individually and together to get a clearer picture of their interlation. FOOData uses geospatial visualizations to reconnect users with the geographic reality of food production and pollution. 
+FOOData was created for the [Open Access and Digital Ethics](https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/424645) exam by Vanessa Bonanno, Giorgia Sampò, and Sarah Tew. FOOData explores food production, pollution, and health markers within Europe both individually and together to get a clearer picture of their interlation. FOOData uses geospatial visualizations to reconnect users with the geographic reality of food production and pollution. 
 
 ### Scenario
 
 This project aims to show connections between food production, pollution and health conditions in European countries from 2009 to 2019, focusing in particular on different countries' production of food, their health, and pollution status.
-
-We hypothesize that areas with more agricultural pollution will have worse health outcomes and that different types of pollution and food production affect health differently.
-
-To do so we collected data from EUROSTAT, the European Environmental Agency and FAOSTAT.
-
+We hypothesize that areas with more agricultural pollution will have worse health outcomes and that different types of pollution and food production affect health differently. To do so we collected data from EUROSTAT, the European Environmental Agency and FAOSTAT.
 
 #### **Crops and livestock production**
 
@@ -36,7 +32,6 @@ FOOData uses life-expectancy to indicate overall population health. This data co
 We started by collecting the original datasets in an excel table. You can download it [here](https://github.com/giorgiasampo/Foodata/blob/main/datasets/Datasets.pdf).
 
 
-
 ### Quality analysis of datasets
 
 About data quality, we decided to follow four standards presented in the [Open Data Goldbook for Data Managers and Data Holders](file:///C:/Users/vanez/AppData/Local/Temp/european_data_portal_-_open_data_goldbook.pdf), provided by the European Data Portal: completeness, timeliness, accuracy and reusability.
@@ -45,7 +40,6 @@ About data quality, we decided to follow four standards presented in the [Open D
 - Accuracy: are the datasets accurate enough for their purpose?
 - Timeliness: are the data up to date?
 - Reusability: are the datasets made available under an **open license** so that they can be reused?
-
 
 #### Eurostat
 
