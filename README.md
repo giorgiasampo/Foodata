@@ -47,11 +47,11 @@ About data quality, we decided to follow four standards presented in the [Open D
 - Reusability: are the datasets made available under an **open license** so that they can be reused?
 
 
-#### Eurostat ####
+#### Eurostat
 
 As for the datasets from Eurostat, they are well described thanks also to the explanatory texts (metadata). As for completeness, it depends on the availability of national data from statistical institutes. Instead, with regard to consistency, it is reported in the metadata that "the data are checked for completeness, internal consistency, and consistency over time and coherence with other relevant data sources". On the other hand, there is a lack of explicit information regarding accuracy. The data are explorable, editable and filterable. However, they can be downloaded in a few formats. The indicators are sufficient but sometimes unclear. The updating is explicitly reported.
 
-#### FAOSTAT ####
+#### FAOSTAT
 
 The [FAO Statistics Quality Assurance Framework](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj4pvSe-ej1AhVag_0HHf9rDGAQFnoECAwQAw&url=https%3A%2F%2Funstats.un.org%2Funsd%2Funsystem%2FDocuments%2FQAF-FAO-1.pdf&usg=AOvVaw3L-_WIQ8YffLTqDLqBFN-L) (FAO SQAF) includes a definition of quality,
 and a series of principles to adhere to, in order to ensure the quality of FAO statistical
@@ -60,7 +60,7 @@ corresponding good practices, which provide practical guidance on how to assure
 compliance with the principle. Some reported good practices are already applied by the FAO
 statistical system, while other aspects are still being developed.
 
-#### European Environment Agency ####
+#### European Environment Agency
 
 The [Water Pollution dataset](https://www.eea.europa.eu/ims/ecological-status-of-surface-waters) found at EEA website relies on _WISE Water Framework Directive Database_
 
@@ -73,8 +73,16 @@ the concept of interoperable distributed data bases (Web 2.0). More information 
 
 ### Legal analysis (same)
 
-### Ethical analysis (same)
+### Ethical analysis 
 
+Ethical analysis was not considered in typical terms, since the choosen datasets are free of sensitive data since (they tend to represent very large geographical areas). Also personal informationn is not included, with the only exception of sex in the Life expectancy dataset by Eurostat. As averages the data gives information about the region as a whole and do not pose individual privacy risk.
+
+However, for what regards air pollution, greenhouse gas emissions and surface water pollution there are chances of people acting on that information to look for better living standards outside countries boundaries, but that does not look like an ethical issue as much as a normal inferncial process granted to common citizens and perfectly sustainable. 
+
+Life expectancy is an oft-used measure of health partly because it is much less sensitive and private than other health data. As an average it gives information about the population as a whole rather than individual members and does not pose individual privacy risks. 
+
+
+, we considered different aspects: the centrality of the human being, equality and transparency, reliability and affidability, sustainability and finally the rationality in judgment which means the freedom from cognitive bias. The principles we relied on were the ones proposed by the document “Data Ethics: Principles and Guidelines for Companies, Authorities & Organisations”. 
 
 ### Technical analysis (here: format, metadata, URI etc, we can link or copy/paste)
 
