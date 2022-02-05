@@ -37,7 +37,7 @@ We started by collecting the original datasets in an excel table. You can downlo
 
 
 
-### Quality analysis of datasets (copy from our doc or put a link)
+### Quality analysis of datasets
 
 About data quality, we decided to follow four standards presented in the [Open Data Goldbook for Data Managers and Data Holders](file:///C:/Users/vanez/AppData/Local/Temp/european_data_portal_-_open_data_goldbook.pdf), provided by the European Data Portal: completeness, timeliness, accuracy and reusability.
 
