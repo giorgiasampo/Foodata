@@ -112,16 +112,56 @@ Furthermore, Life expectancy is an oft-used measure of health partly because it 
 Our technical analysis is fully available at this [link](https://giorgiasampo.github.io/Foodata/index.html#metadata).
 
 ### Mashup and output datasets  
-FAIR data management -> In general terms, your research data should be 'FAIR', that is findable, accessible, interoperable and re-usable
-Explain why our data are:
-- findable
-- accessible
-- interoperable
-- re-usable
+
+Since not all the original datasets contained data for every year or, for example, for every country, we decided to limit the time span to only ten years and to focus only on consistent mashups and final mashups and visualisations. Also, when there is absence of data, this is clear in the visualisation.
+
+We decided to investigate six different situation, that you can find in the visualization section:
+- Food Production and Life Expectancy by Country
+- Farm Industrialization Level and Life Expectancy
+- Air Pollution and Life Expectancy by Country
+- Greenhouse emissions and food production
+- Greenhouse gas pollution per sector
+- High, low and medium input farms per year
+
+Doing this, we followed the FAIR principles stated by the [Guidelines on FAIR Data Management in Horizon 2020](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiZ67H8ien1AhWPgf0HHSSJDR4QFnoECAcQAQ&url=https%3A%2F%2Fec.europa.eu%2Fresearch%2Fparticipants%2Fdata%2Fref%2Fh2020%2Fgrants_manual%2Fhi%2Foa_pilot%2Fh2020-hi-oa-data-mgt_en.pdf&usg=AOvVaw0RrG7kc_LE3Hp74lceZDA5). In other words, we pursued the idea of making our research data findable, accessible, interoperable and re-usable (FAIR).
+
+Findable:
+
+- (Meta)data are assigned a unique identifier: both the data we retrieved in the original datasets, the mashed up data and the metadata we created according to the DCAT-AP are compliant with this point, presenting URI.
+
+- Data are described with rich metadata: we associated a rich amount of metadata compliant with the DCAT-AP specification, including not only all the mandatory classes with their respective mandatory properties but also some recommended and optional properties that were useful for our data.
+
+- Metadata clearly and explicitly include the identifier of the data they describe: for each dataset that is part of a catalogue and for our own dataset we associated to the metadata a unique identifier of the data described by means of the DCAT-AP optional property for datasets dct:identifier.
+
+Accessible:
+
+- (Meta)data are retrievable by their identifier using a standardised communications protocol: All the data we collected and mashed up and the relative metadata are retrievable through the HTTP or its extension HTTPS. Moreover, we provided also an explicit and clear contact protocol in the metadata by means of the names and emails of the data and metadata providers.
+
+- The protocol is open, free, and universally implementable: HTTP and HTTPS are compliant with these characteristics.
+
+- Metadata are accessible, even when the data are no longer available: metadata will remain accessible from the metadata web page of this web resource.
+
+Interoperable:
+
+- (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation: we used JSON, CSV and XML for the representation of the mashed up data and RDF with the Turtle syntax to describe and structure the metadata.
+
+- (Meta)data use vocabularies that follow FAIR principles. We used the ISO 3166-1 alpha-3 standard vocabulary to represent nations, the International Classification of Diseases for the health domain and the Linked Open Data vocabulary specification called DCAT-AP. These vocabularies are documented and resolvable using globally unique and persistent identifiers.
+
+Reusable:
+
+- Meta(data) is richly described with a plurality of accurate and relevant attributes: our data and metadata are described through a rich and vary series of labels including the date of collection and modification of the data, the licence, the publisher, the creator, their content.
+
+- (Meta)data are released with a clear and accessible data usage license: ODOHTEU datasets are released under the Creative Common License CC BY-SA 4.0, which is specified for the dataset and respective metadata we created.
+
+- (Meta)data are associated with detailed provenance: our project includes information about the provenance of data in a machine-readable format in the metadata codification.
+
+- (Meta)data meet domain-relevant community standards: we used the ISO 3166-1 alpha-3 standard for geographic information and the International Classification of Diseases for the health domain.
+
+The above-mentioned principles include 3 types of entities: data, metadata and infrastructure. Given the analysis, we can state that our research data are compliant with the FAIR principles.
 
 ### Sustainability
 
-FOOData is based on datasets from different sources, about food production, pollution and life expectancy in European Countries. This website has been created as the final project of the [Open Access and Digital Ethics] course of the Master Degree in [Digital Humanities and Digital Knowledge] (academic year 2021/22) at the [University of Bologna]: the dataset is not actively maintained, while the original datasets used for this project are currently maintained by the relative institutions or organisations. 
+FOOData is based on datasets from different sources, about food production, pollution and life expectancy in European Countries. This website has been created as the final project of the [Open Access and Digital Ethics](https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/424645) course of the Master Degree in [Digital Humanities and Digital Knowledge](https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge) (academic year 2021/22) at the [University of Bologna](https://www.unibo.it/it): the dataset is not actively maintained, while the original datasets used for this project are currently maintained by the relative institutions or organisations. 
 
 ### License
 
