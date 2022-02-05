@@ -48,7 +48,7 @@ dct:PeriodOfTime	dcat:startDate	"2009";
 dcat:Distribution	dcat:accessURL	<https://github.com/giorgiasampo/Foodata/edit/main/dcat_ap-rdf/pollution-landuse-soilerosion-rdf.ttl>;
 			dct:format	<http://publications.europa.eu/resource/authority/file-type/XML>;		
 			dct:license	<https://creativecommons.org/licenses/by-sa/4.0/>;
-			dcat:byteSize	"5,564 KB";
+			dcat:byteSize	"3, 52 MB";
 			dcat:downloadURL	<https://github.com/giorgiasampo/Foodata/edit/main/dcat_ap-rdf/pollution-landuse-soilerosion-rdf.ttl>;
 			adms:status	<http://purl.org/adms/status/Completed>.
 
