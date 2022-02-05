@@ -109,7 +109,7 @@ Furthermore, Life expectancy is an oft-used measure of health partly because it 
 
 ### Technical analysis
 
-Our technical analysis is fully available at this [link](https://giorgiasampo.github.io/Foodata/index.html#metadata).
+Our technical analysis is fully available at this [link](https://giorgiasampo.github.io/Foodata/index.html#metadata). You will find the Legal checklist, the metadata for the original and final datasets. In the window menu under "Metadata" you can easily reach and download the cleaned and mashed [datasets](https://github.com/giorgiasampo/Foodata/tree/main/datasets) for food production, pollution and health. [RDF metadata](https://github.com/giorgiasampo/Foodata/tree/main/dcat_ap-rdf) are also available.
 
 ### Mashup and output datasets  
 FAIR data management -> In general terms, your research data should be 'FAIR', that is findable, accessible, interoperable and re-usable
