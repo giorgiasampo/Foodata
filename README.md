@@ -75,14 +75,11 @@ the concept of interoperable distributed data bases (Web 2.0). More information 
 
 ### Ethical analysis 
 
-Ethical analysis was not considered in typical terms, since the choosen datasets are free of sensitive data since (they tend to represent very large geographical areas). Also personal informationn is not included, with the only exception of sex in the Life expectancy dataset by Eurostat. As averages the data gives information about the region as a whole and do not pose individual privacy risk.
+Ethical analysis was not considered in typical terms, since the choosen datasets are free of sensitive data (they tend to represent very large geographical areas). Also personal information is not included, with the only exception of sex in the Life expectancy dataset by Eurostat. As averages the data gives information about the region as a whole and do not pose individual privacy risk.
 
 However, for what regards air pollution, greenhouse gas emissions and surface water pollution there are chances of people acting on that information to look for better living standards outside countries boundaries, but that does not look like an ethical issue as much as a normal inferncial process granted to common citizens and perfectly sustainable. 
 
-Life expectancy is an oft-used measure of health partly because it is much less sensitive and private than other health data. As an average it gives information about the population as a whole rather than individual members and does not pose individual privacy risks. 
-
-
-, we considered different aspects: the centrality of the human being, equality and transparency, reliability and affidability, sustainability and finally the rationality in judgment which means the freedom from cognitive bias. The principles we relied on were the ones proposed by the document “Data Ethics: Principles and Guidelines for Companies, Authorities & Organisations”. 
+Furthermore, Life expectancy is an oft-used measure of health partly because it is much less sensitive and private than other health data. As an average it gives information about the population as a whole rather than individual members and does not pose individual privacy risks. This dataset is largely free of gender bias, however recently binary gender classification into male and female has come under re-evaluation. That being said, the EU member states are bound by the same statistics reporting standards so the dataset is at least consistent in its use of two and only two genders.  
 
 ### Technical analysis (here: format, metadata, URI etc, we can link or copy/paste)
 
