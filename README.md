@@ -120,8 +120,13 @@ Explain why our data are:
 - re-usable
 
 
-### Sostenibility of the update the datasets over the time
 
-FOOData is based on datasets from different sources, about food production, pollution and life expectancy in European Countries. This website has been created as the final project of the Open Access and Digital Ethics course of the Master Degree in Digital Humanities and Digital Knowledge at the University of Bologna: the dataset is not actively maintained, while the datasets used for this project are currently maintained by the relative institutions or organisations. GEO/GenOp is distributed under Creative Commons Attribution 4.0 International License (CC BY-SA 4.0)
+### Sustainability
+
+FOOData is based on datasets from different sources, about food production, pollution and life expectancy in European Countries. This website has been created as the final project of the [Open Access and Digital Ethics] course of the Master Degree in [Digital Humanities and Digital Knowledge] (academic year 2021/22) at the [University of Bologna]: the dataset is not actively maintained, while the original datasets used for this project are currently maintained by the relative institutions or organisations. 
+
+### License
+
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO License. More about our license [here](https://giorgiasampo.github.io/Foodata/index.html#metadata).
 
 
