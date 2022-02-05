@@ -73,7 +73,7 @@ the concept of interoperable distributed data bases (Web 2.0). More information 
 
 ### Legal analysis
 
-The first thing we wanted to achieve was to have a complete overlook on the licenses our sources applied to their original datasets and at the emerging differencies. Doing so we structured our legal checklist. We took into account the standards defined by the Open Data Goldbook for Data Managers and Data Holders and we took into account the four main directives of the Open Data release:
+The first thing we wanted to achieve was to have a complete overlook on the licenses our sources applied to their original datasets and at the emerging differencies. Doing so we structured our [legal checklist](https://giorgiasampo.github.io/Foodata/#metadata). We took into account the standards defined by the Open Data Goldbook for Data Managers and Data Holders and we took into account the four main directives of the Open Data release:
 
 - Privacy: GDPR Regulation (EU) 2016/679, Regulation (EU) 2018/1807, Directive 2002/58/EC;
 
@@ -85,14 +85,14 @@ The first thing we wanted to achieve was to have a complete overlook on the lice
 
 We then checked for specific licenses applied by our sources:
 
-EUROSTAT
+### EUROSTAT
 It is under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. Reuse is authorised as long as the source is acknowledged. The reuse policy of European Commission documents is regulated by Decision 2011/833/EU (OJ L 330, 14.12.2011, p. 39). In the Privacy policy section there is information about Personal Data Protection policy, which is based on Regulation (EU) No 1725/2018 of the European Parliament and of the Council of 23 October 2018 on the protection of natural persons with regard to the processing of personal data by the Union institutions, bodies, offices and agencies and on the free movement of such data (repealing Regulation (EC) No 45/2001 of 18 December 2000 and Decision No 1247/2002/EC).
 
-EUROPEAN ENVIRONMENTAL AGENCY
+### EUROPEAN ENVIRONMENTAL AGENCY
 EEA standard re-use policy: unless otherwise indicated, re-use of content on the EEA website for commercial or non-commercial purposes is permitted free of charge, provided that the source is acknowledged (https://www.eea.europa.eu/legal/copyright). Copyright holder: European Environment Agency (EEA). 
 Information, documents and material available on this website and for which the EEA holds the rights of use are public and may be re-used without prior permission, free of charge, for commercial or non-commercial purposes, provided that the EEA is always acknowledged as the original source of the material and that the original meaning or message of the content is not distorted. Such acknowledgment must be included in each copy of the material. The re-use of the content on the EEA website covers the reproduction, adaptation and/or distribution, irrespective of the means and/or the format used. The re-use of certain data may be subject to different conditions, and if so the item concerned is accompanied by a copyright mark or other mention of the specific conditions relating to it. The above mentioned permissions do not apply to content supplied by third parties. Therefore, for documents where the copyright lies with a third party, permission for reproduction must be obtained from the copyright holder.
 
-FAO 
+### FAO 
 It is under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO (CC BY-NC-SA 3.0 IGO) license. You are free to:
 - Share — copy and redistribute the material in any medium or format
 - Adapt — remix, transform, and build upon the material
@@ -109,7 +109,7 @@ Furthermore, Life expectancy is an oft-used measure of health partly because it 
 
 ### Technical analysis
 
-Our technical analysis is fully available at this [link](https://giorgiasampo.github.io/Foodata/index.html#metadata). You will find the Legal checklist, the metadata for the original and final datasets. In the window menu under "Metadata" you can easily reach and download the cleaned and mashed [datasets](https://github.com/giorgiasampo/Foodata/tree/main/datasets) for food production, pollution and health. [RDF metadata](https://github.com/giorgiasampo/Foodata/tree/main/dcat_ap-rdf) are also available.
+Our technical analysis is fully available at this [link](https://giorgiasampo.github.io/Foodata/index.html#metadata).
 
 ### Mashup and output datasets  
 FAIR data management -> In general terms, your research data should be 'FAIR', that is findable, accessible, interoperable and re-usable
