@@ -71,7 +71,7 @@ ponent of a wider Shared Environmental Information System (SEIS) currently under
 the concept of interoperable distributed data bases (Web 2.0). More information [here](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiqleXP_uj1AhVqgv0HHT-jBkIQFnoECAIQAQ&url=http%3A%2F%2Fwww.earthobservations.org%2Fdocuments%2Fsbas%2Fwa%2F77_WISE%2520Water%2520Information%2520System%2520for%2520Europe.pdf&usg=AOvVaw20x-sKFem3CziP1zYaR6ki).
 
 
-### Legal analysis (same)
+### Legal analysis
 
 The first thing we wanted to achieve was to have a complete overlook on the licenses our sources applied to their original datasets and at the emerging differencies. Doing so we structured our legal checklist. We took into account the standards defined by the Open Data Goldbook for Data Managers and Data Holders and we took into account the four main directives of the Open Data release:
 
@@ -107,7 +107,9 @@ However, for what regards air pollution, greenhouse gas emissions and surface wa
 
 Furthermore, Life expectancy is an oft-used measure of health partly because it is much less sensitive and private than other health data. As an average it gives information about the population as a whole rather than individual members and does not pose individual privacy risks. This dataset is largely free of gender bias, however recently binary gender classification into male and female has come under re-evaluation. That being said, the EU member states are bound by the same statistics reporting standards so the dataset is at least consistent in its use of two and only two genders.  
 
-### Technical analysis (here: format, metadata, URI etc, we can link or copy/paste)
+### Technical analysis
+
+Our technical analysis is fully available at this [link](https://giorgiasampo.github.io/Foodata/index.html#metadata).
 
 ### Mashup and output datasets  
 FAIR data management -> In general terms, your research data should be 'FAIR', that is findable, accessible, interoperable and re-usable
