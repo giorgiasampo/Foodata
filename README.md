@@ -73,6 +73,32 @@ the concept of interoperable distributed data bases (Web 2.0). More information 
 
 ### Legal analysis (same)
 
+The first thing we wanted to achieve was to have a complete overlook on the licenses our sources applied to their original datasets and at the emerging differencies. Doing so we structured our legal checklist. We took into account the standards defined by the Open Data Goldbook for Data Managers and Data Holders and we took into account the four main directives of the Open Data release:
+
+- Privacy: GDPR Regulation (EU) 2016/679, Regulation (EU) 2018/1807, Directive 2002/58/EC;
+
+- PSI: Directive (EU) 2019/1024;
+
+- CDSM: DIRECTIVE (EU) 2019/790;
+
+- INSPIRE: Directive 2007/2/EC that define particular limitation on public access for the spatial and geo data.
+
+We then checked for specific licenses applied by our sources:
+
+EUROSTAT
+It is under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. Reuse is authorised as long as the source is acknowledged. The reuse policy of European Commission documents is regulated by Decision 2011/833/EU (OJ L 330, 14.12.2011, p. 39). In the Privacy policy section there is information about Personal Data Protection policy, which is based on Regulation (EU) No 1725/2018 of the European Parliament and of the Council of 23 October 2018 on the protection of natural persons with regard to the processing of personal data by the Union institutions, bodies, offices and agencies and on the free movement of such data (repealing Regulation (EC) No 45/2001 of 18 December 2000 and Decision No 1247/2002/EC).
+
+EUROPEAN ENVIRONMENTAL AGENCY
+EEA standard re-use policy: unless otherwise indicated, re-use of content on the EEA website for commercial or non-commercial purposes is permitted free of charge, provided that the source is acknowledged (https://www.eea.europa.eu/legal/copyright). Copyright holder: European Environment Agency (EEA). 
+Information, documents and material available on this website and for which the EEA holds the rights of use are public and may be re-used without prior permission, free of charge, for commercial or non-commercial purposes, provided that the EEA is always acknowledged as the original source of the material and that the original meaning or message of the content is not distorted. Such acknowledgment must be included in each copy of the material. The re-use of the content on the EEA website covers the reproduction, adaptation and/or distribution, irrespective of the means and/or the format used. The re-use of certain data may be subject to different conditions, and if so the item concerned is accompanied by a copyright mark or other mention of the specific conditions relating to it. The above mentioned permissions do not apply to content supplied by third parties. Therefore, for documents where the copyright lies with a third party, permission for reproduction must be obtained from the copyright holder.
+
+FAO 
+It is under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO (CC BY-NC-SA 3.0 IGO) license. You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material
+The licensor cannot revoke these freedoms as long as you follow the license terms.
+You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. You may not use the material for commercial purposes. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
 ### Ethical analysis 
 
 Ethical analysis was not considered in typical terms, since the choosen datasets are free of sensitive data (they tend to represent very large geographical areas). Also, personal information is not included, with the only exception of sex in the Life expectancy dataset by Eurostat. As averages the data gives information about the region as a whole and do not pose individual privacy risk.
