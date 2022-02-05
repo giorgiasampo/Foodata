@@ -119,8 +119,6 @@ Explain why our data are:
 - interoperable
 - re-usable
 
-
-
 ### Sustainability
 
 FOOData is based on datasets from different sources, about food production, pollution and life expectancy in European Countries. This website has been created as the final project of the [Open Access and Digital Ethics] course of the Master Degree in [Digital Humanities and Digital Knowledge] (academic year 2021/22) at the [University of Bologna]: the dataset is not actively maintained, while the original datasets used for this project are currently maintained by the relative institutions or organisations. 
