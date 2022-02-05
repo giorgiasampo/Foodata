@@ -144,7 +144,10 @@ FOOData is based on datasets from different sources, about food production, poll
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO License. More about our license [here](https://giorgiasampo.github.io/Foodata/index.html#metadata).
 
 ### Visualizations 
-
+To allow users to make full use of the data, twelve visualizations have been developed: of them six are general mappings of the phenomena under consideration, namely two for food production, three for pollution and one for health in European countries. 
+These first visualization are pretty complex and aim at representing in a straighforward and complete way each of the thematics treated in this project.
+The other six visualizations adopt a "philosophy" aiming to follow a simple and essential line to avoid falling into the error of looking for too convoluted visualizations. Here the ultimate goal is to always provide a picture that is clear and never ambiguous, preferring substance to form.
 ### RDF assertions of the metadata
+In order to reach the objective of giving the user better reusable and interoperable data, their metadata are provided, following the DCAT_AP version 2.0.0 documentation. Metadata are provided for the whole final dataset, but also for each of them individually.
 
 ### Conclusion
