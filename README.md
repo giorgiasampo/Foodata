@@ -85,14 +85,14 @@ The first thing we wanted to achieve was to have a complete overlook on the lice
 
 We then checked for specific licenses applied by our sources:
 
-### EUROSTAT
+#### EUROSTAT
 It is under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. Reuse is authorised as long as the source is acknowledged. The reuse policy of European Commission documents is regulated by Decision 2011/833/EU (OJ L 330, 14.12.2011, p. 39). In the Privacy policy section there is information about Personal Data Protection policy, which is based on Regulation (EU) No 1725/2018 of the European Parliament and of the Council of 23 October 2018 on the protection of natural persons with regard to the processing of personal data by the Union institutions, bodies, offices and agencies and on the free movement of such data (repealing Regulation (EC) No 45/2001 of 18 December 2000 and Decision No 1247/2002/EC).
 
-### EUROPEAN ENVIRONMENTAL AGENCY
+#### EUROPEAN ENVIRONMENTAL AGENCY
 EEA standard re-use policy: unless otherwise indicated, re-use of content on the EEA website for commercial or non-commercial purposes is permitted free of charge, provided that the source is acknowledged (https://www.eea.europa.eu/legal/copyright). Copyright holder: European Environment Agency (EEA). 
 Information, documents and material available on this website and for which the EEA holds the rights of use are public and may be re-used without prior permission, free of charge, for commercial or non-commercial purposes, provided that the EEA is always acknowledged as the original source of the material and that the original meaning or message of the content is not distorted. Such acknowledgment must be included in each copy of the material. The re-use of the content on the EEA website covers the reproduction, adaptation and/or distribution, irrespective of the means and/or the format used. The re-use of certain data may be subject to different conditions, and if so the item concerned is accompanied by a copyright mark or other mention of the specific conditions relating to it. The above mentioned permissions do not apply to content supplied by third parties. Therefore, for documents where the copyright lies with a third party, permission for reproduction must be obtained from the copyright holder.
 
-### FAO 
+#### FAO 
 It is under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO (CC BY-NC-SA 3.0 IGO) license. You are free to:
 - Share — copy and redistribute the material in any medium or format
 - Adapt — remix, transform, and build upon the material
@@ -135,10 +135,13 @@ Explain why our data are:
 - interoperable
 - re-usable
 
+### Sustainability
 
-### Sostenibility of the update the datasets over the time
+FOOData is based on datasets from different sources, about food production, pollution and life expectancy in European Countries. This website has been created as the final project of the [Open Access and Digital Ethics] course of the Master Degree in [Digital Humanities and Digital Knowledge] (academic year 2021/22) at the [University of Bologna]: the dataset is not actively maintained, while the original datasets used for this project are currently maintained by the relative institutions or organisations. 
 
-FOOData is based on datasets from different sources, about food production, pollution and life expectancy in European Countries. This website has been created as the final project of the Open Access and Digital Ethics course of the Master Degree in Digital Humanities and Digital Knowledge at the University of Bologna: the dataset is not actively maintained, while the datasets used for this project are currently maintained by the relative institutions or organisations. GEO/GenOp is distributed under Creative Commons Attribution 4.0 International License (CC BY-SA 4.0)
+### License
+
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO License. More about our license [here](https://giorgiasampo.github.io/Foodata/index.html#metadata).
 
 ### Visualizations 
 
