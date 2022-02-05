@@ -39,6 +39,29 @@ We started by collecting the original datasets in an excel table. You can downlo
 
 ### Quality analysis of datasets (copy from our doc or put a link)
 
+About data quality, we decided to follow four standards presented in the [Open Data Goldbook for Data Managers and Data Holders](file:///C:/Users/vanez/AppData/Local/Temp/european_data_portal_-_open_data_goldbook.pdf), provided by the European Data Portal: completeness, timeliness, accuracy and reusability.
+
+- Completeness: are the datasets complete?
+- Accuracy: are the datasets accurate enough for their purpose?
+- Timeliness: are the data up to date?
+- Reusability: are the datasets made available under an **open license** so that they can be reused?
+
+
+#### Eurostat ####
+
+As for the datasets from Eurostat, they are well described thanks also to the explanatory texts (metadata). As for completeness, it depends on the availability of national data from statistical institutes. Instead, with regard to consistency, it is reported in the metadata that "the data are checked for completeness, internal consistency, and consistency over time and coherence with other relevant data sources". On the other hand, there is a lack of explicit information regarding accuracy. The data are explorable, editable and filterable. However, they can be downloaded in a few formats. The indicators are sufficient but sometimes unclear. The updating is explicitly reported.
+
+
+
+#### FAOSTAT ####
+
+The [FAO Statistics Quality Assurance Framework](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj4pvSe-ej1AhVag_0HHf9rDGAQFnoECAwQAw&url=https%3A%2F%2Funstats.un.org%2Funsd%2Funsystem%2FDocuments%2FQAF-FAO-1.pdf&usg=AOvVaw3L-_WIQ8YffLTqDLqBFN-L) (FAO SQAF) includes a definition of quality,
+and a series of principles to adhere to, in order to ensure the quality of FAO statistical
+production processes and statistical outputs. Each principle is accompanied by
+corresponding good practices, which provide practical guidance on how to assure
+compliance with the principle. Some reported good practices are already applied by the FAO
+statistical system, while other aspects are still being developed.
+
 ### Legal analysis (same)
 
 ### Ethical analysis (same)
