@@ -209,6 +209,9 @@ Also, we must underline the food production is not a synonym of consumption: the
 Catches the eye....
 
 # Greenhouse gas emissions and food production for country
+In 10 years:
+- maggior produttori agriculture: 1. France, Germany, 3. Poland, 4. Romania
+- maggiori produttori livestock: 
 
 
 # Greenhouse gas emissions per sector
