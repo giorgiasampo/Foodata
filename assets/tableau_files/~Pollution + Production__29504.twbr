@@ -12,7 +12,7 @@
     <SheetIdentifierTracking />
     <WindowsPersistSimpleIdentifiers />
   </document-format-change-manifest>
-  <repository-location id='Agriculturalareaandproduction' path='/workbooks' revision='1.1' />
+  <repository-location id='PollutionProduction' path='/workbooks' revision='1.1' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -567,15 +567,12 @@
         <groupfilter from='2009' function='range' level='[yr:Year:ok]' to='2019' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
       </group>
       <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Giorgia Sampo/OneDrive/Desktop/Foodata/assets/tableau_files/pollution_dataset.csv+ (Multiple Connections).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='02/06/2022 09:51:42 PM' username='tableau_internal_user'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Giorgia Sampo/OneDrive/Desktop/Foodata/assets/tableau_files/pollution_dataset.csv+ (Multiple Connections).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7' table='[Extract].[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
             <relation name='pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685' table='[Extract].[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]' type='table' />
             <relation name='food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7' table='[Extract].[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]' type='table' />
           </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-          <refresh increment-key='' incremental-updates='false'>
-            <refresh-event add-from-file-path='pollution_dataset.csv+ (Multiple Connections)' increment-value='%null%' refresh-type='create' rows-inserted='48679' timestamp-start='2022-02-06 21:51:40.924' />
-          </refresh>
           <metadata-records>
             <metadata-record class='column'>
               <remote-name>TIME</remote-name>
@@ -589,7 +586,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>10</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>GEO_NAME</remote-name>
@@ -604,7 +600,6 @@
               <approx-count>3387</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RGB' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>GEO</remote-name>
@@ -619,7 +614,6 @@
               <approx-count>3441</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RGB' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>IRRIGATION</remote-name>
@@ -634,7 +628,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RGB' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>IRRIGATED_CROPS</remote-name>
@@ -648,7 +641,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>449</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>WATER_RDB_CODE</remote-name>
@@ -663,7 +655,6 @@
               <approx-count>236</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RGB' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>WATER_RDB_NAME</remote-name>
@@ -678,7 +669,6 @@
               <approx-count>236</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RGB' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>WATER_POL_PERCENTAGE</remote-name>
@@ -692,7 +682,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>236</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>INDIC_AG</remote-name>
@@ -707,7 +696,6 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RGB' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>AG_HECTARES</remote-name>
@@ -721,7 +709,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>17625</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>SE_LEVELS</remote-name>
@@ -736,7 +723,6 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RGB' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>SE_SECTOR</remote-name>
@@ -751,7 +737,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RGB' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>SE_TONNES PER HECTARE</remote-name>
@@ -765,7 +750,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>470</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>GREEN_POL</remote-name>
@@ -780,7 +764,6 @@
               <approx-count>12</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RGB' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>GREEN_POL_SRC</remote-name>
@@ -795,7 +778,6 @@
               <approx-count>3</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RGB' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>GREEN_POL_THOUSAND_TONNES</remote-name>
@@ -809,7 +791,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>5841</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>AIRPOL</remote-name>
@@ -824,7 +805,6 @@
               <approx-count>7</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RGB' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>AIRPOL_VALUE</remote-name>
@@ -838,7 +818,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>2965</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Area</remote-name>
@@ -853,7 +832,6 @@
               <approx-count>27</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RGB' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>NUTS</remote-name>
@@ -868,7 +846,6 @@
               <approx-count>27</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RGB' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Item Code (FAO)</remote-name>
@@ -882,7 +859,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>9</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Item</remote-name>
@@ -897,7 +873,6 @@
               <approx-count>9</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RGB' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Year</remote-name>
@@ -911,7 +886,6 @@
               <aggregation>Year</aggregation>
               <approx-count>11</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Unit</remote-name>
@@ -926,7 +900,6 @@
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RGB' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Value</remote-name>
@@ -940,7 +913,6 @@
               <aggregation>Sum</aggregation>
               <approx-count>2117</approx-count>
               <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Flag</remote-name>
@@ -955,7 +927,6 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RGB' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Flag Description</remote-name>
@@ -970,7 +941,6 @@
               <approx-count>4</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RGB' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -1238,10 +1208,10 @@
             </groupfilter>
           </filter>
           <filter class='categorical' column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[YEAR(Year) Set]'>
-            <groupfilter function='member' level='[yr:Year:ok]' member='2016' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[yr:Year:ok]' member='2009' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[io:Item Set:nk]'>
-            <groupfilter function='member' level='[io:Item Set:nk]' member='true' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='level-members' level='[io:Item Set:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <filter class='quantitative' column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:WATER_POL_PERCENTAGE:qk]' included-values='non-null' />
           <slices>
@@ -1260,6 +1230,11 @@
             <format attr='title' field='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[io:Item Set:nk]' value='Meat and dairy or not'>
               <formatted-text>
                 <run>Meat and dairy or not</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[YEAR(Year) Set]' value='Year'>
+              <formatted-text>
+                <run>Year</run>
               </formatted-text>
             </format>
           </style-rule>
@@ -1305,7 +1280,7 @@
     </worksheet>
   </worksheets>
   <windows source-height='37'>
-    <window class='worksheet' name='Water pollution on food production'>
+    <window class='worksheet' maximized='true' name='Water pollution on food production'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1327,6 +1302,7 @@
         </edge>
         <edge name='right'>
           <strip size='160'>
+            <card mode='slider' param='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[YEAR(Year) Set]' show-all='false' type='filter' />
             <card param='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[io:Item Set:nk]' type='filter' />
             <card pane-specification-id='4' param='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[:Measure Names]' type='color' />
           </strip>
@@ -1334,7 +1310,7 @@
       </cards>
       <simple-id uuid='{61854D3C-CA04-48B9-A677-931D72CD08F4}' />
     </window>
-    <window class='worksheet' maximized='true' name='Agricultural area and production'>
+    <window class='worksheet' name='Agricultural area and production'>
       <cards>
         <edge name='left'>
           <strip size='160'>
