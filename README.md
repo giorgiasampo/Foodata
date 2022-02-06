@@ -210,8 +210,10 @@ Catches the eye....
 
 # Greenhouse gas emissions and food production for country
 In 10 years:
-- maggior produttori agriculture: 1. France, Germany, 3. Poland, 4. Romania
-- maggiori produttori livestock: 
+- maggior produttori agriculture: 1. France, Germany, 3. Poland, 4. Romania, 5. Italy -> poland e romania no dati x pollution
+- maggiori produttori livestock: 1. Germany, 2. France, (3. Poland 4. Netherlands) 5. Italy
+
+
 
 
 # Greenhouse gas emissions per sector
