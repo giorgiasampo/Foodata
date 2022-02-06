@@ -216,7 +216,7 @@ The schema seems to repeat even for the females media of life expectancy values:
 
 #### Air Pollution and Life Expectancy by Country
 
-Some peculiar correlations were found between life expectancy (total of females and males) and air pollution. The most polluted air is to be found in Italy, France and Poland (higher than 3000000); Germany and Spain have still relevant values (higher than 2000000). Interestingly, the only country that has both a quite low life expectancy (76 years old circa) and a high sum of pollutants is Poland. The other mentioned countries have a life expectancy over 80 years old. In particular, Italy has the higher life expectancy (83 years old circa) and France the higher air pollutants (3600000 circa)
+Some peculiar correlations were found between life expectancy (total of females and males) and air pollution. The most polluted air is to be found in Italy, France and Poland (higher than 3000000); Germany and Spain have still relevant values (higher than 2000000). Interestingly, the only country that has both a quite low life expectancy (76 years old circa) and a high sum of pollutants is Poland. The other mentioned countries have a life expectancy over 80 years old. In particular, Italy has the higher life expectancy (83 years old circa) and France the higher air pollutants (3600000 circa).
 
 #### Greenhouse gas emissions and food production by Country
 
