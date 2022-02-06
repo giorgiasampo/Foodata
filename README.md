@@ -191,37 +191,41 @@ We started by wondering whether areas with more agricultural pollution will have
 The outcomes of our search made it clear that there are correlations between these three dimensions, in a time span of ten years and considering the European Countries as spatial area. In particular, we noticed some interesting correlations in our mashup visualizations.
 
 #### Pollution
-From the visualizations we developed and the data we used, it is possible to notice how greenhouse gas emissions seems to be stronger in central europe and UK, except for Italy, while the same cannot be said for air pollutants, which show a major concentration also in Turkey, Spain and Italy itself. This ;ast value seems to be diminishing coming closer to recent times, while the first countries interms of greenhouse gas production remain Germany, France and UK, wirh a relevant change in the maximum amount of greenhouse gas tonnes coming from almost 56 thouand tonnes in 2011 to less than 50 thousand the year later.
+From the visualizations we developed and the data we used, it is possible to notice how greenhouse gas emissions seems to be stronger in central europe and UK, except for Italy, while the same cannot be said for air pollutants, which show a major concentration also in Turkey, Spain and Italy itself. This last value seems to be diminishing coming closer to recent times, while the first countries interms of greenhouse gas production remain Germany, France and UK, wirh a relevant change in the maximum amount of greenhouse gas tonnes coming from almost 56 thouand tonnes in 2011 to less than 50 thousand the year later.
 
 For what regards high, low and medium input farms the countries that present the higher amounts of hectares employed are still central Europe, UK, Germany and Spain, while the soil erosion levels seem to be higher in Germany and northern Italy, Eastern europe along the coast and the center of UK itself. These latter values here seem no to show considerable variations among the years, while the amount of high input farms show an increment from 2010 to 2014 and a decrease in the latter years in favour of low or medium input farms, depending on the country.
 
 Looking at surface water pollution percentage, the highest values are shown in Poland and Belgium, followed by Germany, Luxembourg, France, Spain and UK, that, along with Hungary cover the last 10% of the scale. Following we have Latvia, Finland, Lithuania, Czech Republic, Italy and Sweden. This puts under the highlight, as alwasys, the center of Europe plus Spain and Uk, but adds the norther Countries, since now left untouched from pollution issues. The relation between irrigable and irrigated land seems stable.
 
 #### Food Production and Life Expectancy by Country
+Considering the production of meat (cattle, chicken and pig), the three major productors in Europe are Germany first, followed by Spain and France. If we take into consideration the life expectancy in these three countries, we will notice the subsequent trends (in a time span of 10 years):
 
-Considering the production of meat (cattle, chicken and pig), the three major productors in Europe are Germany first, followed by Spain and France. If we take into consideration the life expectancy in these three countries, we will notice the subsequent trends:
-- life expectancy for males in Germany is near 78 years old;
-- life expectancy for females in Germany is near 83 years old;
+- life expectancy for males in Germany is the lower of the three countries, with a value near 78 years old and France is next with value 79 y.o.;
+- Germany is again the first for lowest life expectancy for females with 83 years old, while Spain and France values are 85 y.o.
 
-....
-Also, we must underline the food production is not a synonym of consumption: the correlations found in this map are probably significant, but only demonstrative, thus should be analysed with attention.
+It catches the eyes how Germany is the the greatest producer of meat (pig meat in particular) and also has the lower life expectancy between the three major producers. Also, we must underline the food production is not a synonym of food consumption: the correlations found in this map are probably significant, but only demonstrative, thus further analysis should be done.
 
-Catches the eye....
 
-# Greenhouse gas emissions and food production for country
+#### Farm Industrialization Level and Life Expectancy
+
+
+#### Air Pollution and Life Expectancy by Country
+
+
+#### Greenhouse gas emissions and food production by Country
 For this visualization we opted for a graph that takes into account greenhouse pollution, agriculture and livestock products in 10 years, considering the media of the emissions in this period:
 - maggior produttori agriculture: 1. France, Germany,() 3. Poland, 4. Romania), 5. Italy -> poland e romania no dati x pollution
 - maggiori produttori livestock: 1. Germany, 2. France, (3. Poland 4. Netherlands) 5. Italy, 6. denmark, 7. IRELAND
 
 - greenhouse: 1. IRELAND (livestock: 7 place) 2. portugal, 3. germany, 4. italy (livestock and agri 5th)
 
-# Greenhouse gas emissions per sector
+#### Greenhouse gas emissions per sector
 
 The data regarding greenhouse gas emissions is divided in Agriculture and Land use plus forestry: while the first value is almost always positive the second is almost aleways negative. This is due to the fact that this second sector tend to absorb CO2 from the atmosphere, while the first tends to produce it, and the missions in this sector can be reduced to CO2 calculations )that is what is possible to be done in the dataset). 
 That said it was possible to observe a common trend considering the whole 27 (or 28) european countries, which consist in a slight decrease in absorbed CO2 and a stable production, around 400K of tonnes: while the peaks in such negative production can be observed around 2014 in countries such as Greece, Slovenia and Slovakia, with a relative increase or stabilization in the following years, the other countries experienced a sligh increase from 2014 on, with the exception of Czechia and Estonia that had a sharper growth and Hungary, which decreased in 2014 and Iceland and UK that maintained a stable positive value on that field. Turkey makes an exeption being the lowest point around a negative of 100k tonnes.
 Regarding agriculture the production seems much more stable, with higher values comprised between 20k and 40k in Turkey, Spain, Romania, Poland, Italy, and peaking at 50k in France.
 
-# High, Low and Medium input farms
+#### High, Low and Medium input farms
 
 The countries that show an overall higher production here are France, Spain, Germany, UK, Poland, Romania and Italy, with regions of France and Spain following stictly after, overcoming even on entire other countries such as Scotland and Hungary: this situation remains unchanged until 2019 where Romania is also overcome by Centro (ES).
 The overall tendency sees a small decrease on high input farms over the years, in favour of low and medium input fams, but overall the production seems evenly subdivided, except for Romania and Spain where high input farming seems privileged.
