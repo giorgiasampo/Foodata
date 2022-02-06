@@ -191,6 +191,7 @@ We started by wondering whether areas with more agricultural pollution will have
 The outcomes of our search made it clear that there are correlations between these three dimensions, in a time span of ten years and considering the European Countries as spatial area. In particular, we noticed some interesting correlations in our mashup visualizations.
 
 #### Pollution
+
 From the visualizations we developed and the data we used, it is possible to notice how greenhouse gas emissions seems to be stronger in central europe and UK, except for Italy, while the same cannot be said for air pollutants, which show a major concentration also in Turkey, Spain and Italy itself. This last value seems to be diminishing coming closer to recent times, while the first countries interms of greenhouse gas production remain Germany, France and UK, wirh a relevant change in the maximum amount of greenhouse gas tonnes coming from almost 56 thouand tonnes in 2011 to less than 50 thousand the year later.
 
 For what regards high, low and medium input farms the countries that present the higher amounts of hectares employed are still central Europe, UK, Germany and Spain, while the soil erosion levels seem to be higher in Germany and northern Italy, Eastern europe along the coast and the center of UK itself. These latter values here seem no to show considerable variations among the years, while the amount of high input farms show an increment from 2010 to 2014 and a decrease in the latter years in favour of low or medium input farms, depending on the country.
@@ -198,6 +199,7 @@ For what regards high, low and medium input farms the countries that present the
 Looking at surface water pollution percentage, the highest values are shown in Poland and Belgium, followed by Germany, Luxembourg, France, Spain and UK, that, along with Hungary cover the last 10% of the scale. Following we have Latvia, Finland, Lithuania, Czech Republic, Italy and Sweden. This puts under the highlight, as alwasys, the center of Europe plus Spain and Uk, but adds the norther Countries, since now left untouched from pollution issues. The relation between irrigable and irrigated land seems stable.
 
 #### Food Production and Life Expectancy by Country
+
 Considering the production of meat (cattle, chicken and pig), the three major productors in Europe are Germany first, followed by Spain and France. If we take into consideration the life expectancy in these three countries, we will notice the subsequent trends (in a time span of 10 years):
 
 - life expectancy for males in Germany is the lower of the three countries, with a value near 78 years old and France is next with value 79 y.o.;
@@ -208,16 +210,21 @@ It catches the eyes how Germany is the the greatest producer of meat (pig meat i
 
 #### Farm Industrialization Level and Life Expectancy
 
+About this mashup, the territories that pop up for high- and medium- and low-input farms are some regions in France, Spain, Poland, Lithuania and the norther portion of Finland too.  
+In regards of the life expectancy in the quoted countries, we can notice how the males in Lithuania have the lower expectancy: only 69 years old. Then 72 years old in Poland, 77 in Finland and France with 79. 
+The schema seems to repeat even for the females media of life expectancy values: 79 years old in Lithuania, 81 in Poland, 83 in Finland, 85 oin Spain and 86 in France. 
 
 #### Air Pollution and Life Expectancy by Country
 
+Some peculiar correlations were found between life expectancy and air pollution. The most polluted air is to be found in Italy, France and Poland (higher than 3000000); Germany and Spain have still relevant values (higher than 2000000). 
 
 #### Greenhouse gas emissions and food production by Country
+
 For this visualization we opted for a graph that takes into account greenhouse pollutants (carbon dioxide, hydrofluorocarbones, methane, nitrogen trifluoride, nitrous oxide, perfluorocarbones, sulphur hexafluoride), agriculture products (rice paddy, potatoes and wheat) and livestock products (meat: cattle, pig, chicken; eggs; cheese; milk) in 10 years, considering the media of the emissions and food production of the mentioned categories in this period. It turned out that:
 - the major productors in the agriculture sector are: 1. France, 2. Germany, 3. Poland, 4. Romania, 5. Italy
 - instead, in the livestock products sector: 1. Germany, 2. France, 3. Poland 4. Netherlands, 5. Italy, 6. Denmark, 7. Ireland
 
-It is important to notice that Ireland is only at seventh position as livestock producer and it covers an even lower position for what concearns agricultural sector. The fact that in ten years this Country produced the majority of pollutants in Europe (490 tonnes circa) is relevant in our graphs. Probably the pollution there is not strictly related to the food production, a question that goes beyond our study. Also Portugal is one of the most polluted Countries in these 10 years, but the production values are not relevant.
+It is important to notice that Ireland is only at seventh position as livestock producer and it covers an even lower position for what concearns agricultural sector. The fact that in ten years this Country produced the majority of pollutants in Europe (490 tonnes circa) is relevant in our graphs. Probably the pollution there is not strictly related to the food production, a question that goes beyond our study. Also Portugal is one of the most polluted countries in these 10 years, but the production values are not relevant.
 
 If we consider the most productive States, Germany, France and Italy recorded quite high greenhouse pollution values. A bright spot is Cyprus with a negative value on emissions (-66 tonnes), but also one of the less productive countries in Europe.
 
