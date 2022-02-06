@@ -209,12 +209,11 @@ Also, we must underline the food production is not a synonym of consumption: the
 Catches the eye....
 
 # Greenhouse gas emissions and food production for country
-In 10 years:
-- maggior produttori agriculture: 1. France, Germany, 3. Poland, 4. Romania, 5. Italy -> poland e romania no dati x pollution
-- maggiori produttori livestock: 1. Germany, 2. France, (3. Poland 4. Netherlands) 5. Italy
+For this visualization we opted for a graph that takes into account greenhouse pollution, agriculture and livestock products in 10 years, considering the media of the emissions in this period:
+- maggior produttori agriculture: 1. France, Germany,() 3. Poland, 4. Romania), 5. Italy -> poland e romania no dati x pollution
+- maggiori produttori livestock: 1. Germany, 2. France, (3. Poland 4. Netherlands) 5. Italy, 6. denmark, 7. IRELAND
 
-
-
+- greenhouse: 1. IRELAND (livestock: 7 place) 2. portugal, 3. germany, 4. italy (livestock and agri 5th)
 
 # Greenhouse gas emissions per sector
 
