@@ -213,13 +213,13 @@ It catches the eyes how Germany is the the greatest producer of meat (pig meat i
 
 
 #### Greenhouse gas emissions and food production by Country
-For this visualization we opted for a graph that takes into account greenhouse pollutants (carbon dioxide, hydrofluorocarbones, methane, nitrogen trifluoride, nitrous oxide, perfluorocarbones, sulphur hexafluoride), agriculture (rice paddy, potatoes and wheat) and livestock products (meat: cattle, pig, chicken; eggs; cheese; milk) in 10 years, considering the media of the emissions and food production of the mentioned categories in this period. It turned out that:
+For this visualization we opted for a graph that takes into account greenhouse pollutants (carbon dioxide, hydrofluorocarbones, methane, nitrogen trifluoride, nitrous oxide, perfluorocarbones, sulphur hexafluoride), agriculture products (rice paddy, potatoes and wheat) and livestock products (meat: cattle, pig, chicken; eggs; cheese; milk) in 10 years, considering the media of the emissions and food production of the mentioned categories in this period. It turned out that:
 - the major productors in the agriculture sector are: 1. France, 2. Germany, 3. Poland, 4. Romania, 5. Italy
-- instead, in the livestock products sector: 1. Germany, 2. France, (3. Poland 4. Netherlands) 5. Italy, 6. Denmark, 7. Ireland
+- instead, in the livestock products sector: 1. Germany, 2. France, 3. Poland 4. Netherlands, 5. Italy, 6. Denmark, 7. Ireland
 
-It is important to notice that Ireland is only at seventh position as livestock producer 
+It is important to notice that Ireland is only at seventh position as livestock producer and it covers an even lower position for what concearns agricultural sector. The fact that in ten years this Country produced the majority of pollutants in Europe (490 tonnes circa) is relevant in our graphs. Probably the pollution there is not strictly related to the food production, a question that goes beyond our study. Also Portugal is one of the most polluted Countries in these 10 years, but the production values are not relevant.
 
-- greenhouse: 1. IRELAND (livestock: 7 place) 2. portugal, 3. germany, 4. italy (livestock and agri 5th)
+If we consider the most productive States, Germany, France and Italy recorded quite high greenhouse pollution values. A bright spot is Cyprus with a negative value on emissions (-66 tonnes), but also one of the less productive countries in Europe.
 
 #### Greenhouse gas emissions per sector
 
