@@ -212,11 +212,11 @@ It catches the eyes how Germany is the the greatest producer of meat (pig meat i
 
 About this mashup, the territories that pop up for high- and medium- and low-input farms are some regions in France, Spain, Poland, Lithuania and the norther portion of Finland too.  
 In regards of the life expectancy in the quoted countries, we can notice how the males in Lithuania have the lower expectancy: only 69 years old. Then 72 years old in Poland, 77 in Finland and France with 79. 
-The schema seems to repeat even for the females media of life expectancy values: 79 years old in Lithuania, 81 in Poland, 83 in Finland, 85 oin Spain and 86 in France. 
+The schema seems to repeat even for the females media of life expectancy values: 79 years old in Lithuania, 81 in Poland, 83 in Finland, 85 in Spain and 86 in France. 
 
 #### Air Pollution and Life Expectancy by Country
 
-Some peculiar correlations were found between life expectancy and air pollution. The most polluted air is to be found in Italy, France and Poland (higher than 3000000); Germany and Spain have still relevant values (higher than 2000000). 
+Some peculiar correlations were found between life expectancy (total of females and males) and air pollution. The most polluted air is to be found in Italy, France and Poland (higher than 3000000); Germany and Spain have still relevant values (higher than 2000000). Interestingly, the only country that has both a quite low life expectancy (76 years old circa) and a high sum of pollutants is Poland. The other mentioned countries have a life expectancy over 80 years old. In particular, Italy has the higher life expectancy (83 years old circa) and France the higher air pollutants (3600000 circa)
 
 #### Greenhouse gas emissions and food production by Country
 
