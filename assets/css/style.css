@@ -841,6 +841,34 @@ section {
   font-size: 14px;
 }
 
+
+/*--------------------------------------------------------------
+# Analysis
+--------------------------------------------------------------*/
+.analysis .content + .content {
+  margin-top: 20px;
+}
+.analysis .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+  color: rgba(32, 100, 11, 0.91);
+}
+.analysis .content ul {
+  list-style: none;
+  padding: 0;
+}
+.analysis .content ul li {
+  padding-bottom: 10px;
+}
+.analysis .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #aeec3a;
+}
+.analysis .content p:last-child {
+  margin-bottom: 0;
+}
+
 /*--------------------------------------------------------------
 # Details
 --------------------------------------------------------------*/

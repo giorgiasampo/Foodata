@@ -1,0 +1,1690 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0108.1039                               -->
+<workbook original-version='18.1' source-build='2021.4.3 (20214.22.0108.1039)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <repository-location id='Agriculturalareaandproduction' path='/workbooks' revision='1.1' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='pollution_dataset.csv+ (Multiple Connections)' inline='true' name='federated.15omvdj1iz0wlc12z3a881d7k5ne' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='pollution_dataset' name='textscan.0y3uxre1rwt7wn18b7nx61xhr9cf'>
+            <connection class='textscan' directory='C:/Users/Giorgia Sampo/OneDrive/Desktop/Foodata/datasets' filename='pollution_dataset.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+          <named-connection caption='food_production' name='textscan.0nfxyb90l1zd3t1fgrah51vysi9z'>
+            <connection class='textscan' directory='C:/Users/Giorgia Sampo/OneDrive/Desktop/Foodata/datasets' filename='food_production.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0nfxyb90l1zd3t1fgrah51vysi9z' name='food_production.csv' table='[food_production#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=';'>
+            <column datatype='string' name='Area' ordinal='0' />
+            <column datatype='string' name='NUTS' ordinal='1' />
+            <column datatype='integer' name='Item Code (FAO)' ordinal='2' />
+            <column datatype='string' name='Item' ordinal='3' />
+            <column datatype='date' date-parse-format='yyyy' name='Year' ordinal='4' />
+            <column datatype='string' name='Unit' ordinal='5' />
+            <column datatype='integer' name='Value' ordinal='6' />
+            <column datatype='string' name='Flag' ordinal='7' />
+            <column datatype='string' name='Flag Description' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='textscan.0y3uxre1rwt7wn18b7nx61xhr9cf' name='pollution_dataset.csv' table='[pollution_dataset#csv]' type='table'>
+            <columns character-set='windows-1252' header='yes' locale='en_GB' separator=','>
+              <column datatype='integer' name='TIME' ordinal='0' />
+              <column datatype='string' name='GEO_NAME' ordinal='1' />
+              <column datatype='string' name='GEO' ordinal='2' />
+              <column datatype='string' name='IRRIGATION' ordinal='3' />
+              <column datatype='real' name='IRRIGATED_CROPS' ordinal='4' />
+              <column datatype='string' name='WATER_RDB_CODE' ordinal='5' />
+              <column datatype='string' name='WATER_RDB_NAME' ordinal='6' />
+              <column datatype='real' name='WATER_POL_PERCENTAGE' ordinal='7' />
+              <column datatype='string' name='INDIC_AG' ordinal='8' />
+              <column datatype='integer' name='AG_HECTARES' ordinal='9' />
+              <column datatype='string' name='SE_LEVELS' ordinal='10' />
+              <column datatype='string' name='SE_SECTOR' ordinal='11' />
+              <column datatype='real' name='SE_TONNES PER HECTARE' ordinal='12' />
+              <column datatype='string' name='GREEN_POL' ordinal='13' />
+              <column datatype='string' name='GREEN_POL_SRC' ordinal='14' />
+              <column datatype='real' name='GREEN_POL_THOUSAND_TONNES' ordinal='15' />
+              <column datatype='string' name='AIRPOL' ordinal='16' />
+              <column datatype='integer' name='AIRPOL_VALUE' ordinal='17' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0nfxyb90l1zd3t1fgrah51vysi9z' name='food_production.csv' table='[food_production#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_GB' separator=';'>
+              <column datatype='string' name='Area' ordinal='0' />
+              <column datatype='string' name='NUTS' ordinal='1' />
+              <column datatype='integer' name='Item Code (FAO)' ordinal='2' />
+              <column datatype='string' name='Item' ordinal='3' />
+              <column datatype='date' date-parse-format='yyyy' name='Year' ordinal='4' />
+              <column datatype='string' name='Unit' ordinal='5' />
+              <column datatype='integer' name='Value' ordinal='6' />
+              <column datatype='string' name='Flag' ordinal='7' />
+              <column datatype='string' name='Flag Description' ordinal='8' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <refresh increment-key='' incremental-updates='false' />
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;windows-1252&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[food_production.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TIME</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TIME]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>TIME</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GEO_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GEO_NAME]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>GEO_NAME</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GEO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GEO]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>GEO</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IRRIGATION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[IRRIGATION]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>IRRIGATION</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IRRIGATED_CROPS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IRRIGATED_CROPS]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>IRRIGATED_CROPS</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WATER_RDB_CODE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WATER_RDB_CODE]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>WATER_RDB_CODE</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WATER_RDB_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WATER_RDB_NAME]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>WATER_RDB_NAME</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WATER_POL_PERCENTAGE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WATER_POL_PERCENTAGE]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>WATER_POL_PERCENTAGE</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INDIC_AG</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[INDIC_AG]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>INDIC_AG</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AG_HECTARES</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AG_HECTARES]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>AG_HECTARES</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SE_LEVELS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SE_LEVELS]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>SE_LEVELS</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SE_SECTOR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SE_SECTOR]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>SE_SECTOR</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SE_TONNES PER HECTARE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SE_TONNES PER HECTARE]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>SE_TONNES PER HECTARE</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GREEN_POL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GREEN_POL]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>GREEN_POL</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GREEN_POL_SRC</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GREEN_POL_SRC]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>GREEN_POL_SRC</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GREEN_POL_THOUSAND_TONNES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GREEN_POL_THOUSAND_TONNES]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>GREEN_POL_THOUSAND_TONNES</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AIRPOL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AIRPOL]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>AIRPOL</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AIRPOL_VALUE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AIRPOL_VALUE]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>AIRPOL_VALUE</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Area</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Area]</local-name>
+            <parent-name>[food_production.csv]</parent-name>
+            <remote-alias>Area</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NUTS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NUTS]</local-name>
+            <parent-name>[food_production.csv]</parent-name>
+            <remote-alias>NUTS</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Item Code (FAO)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Item Code (FAO)]</local-name>
+            <parent-name>[food_production.csv]</parent-name>
+            <remote-alias>Item Code (FAO)</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Item</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Item]</local-name>
+            <parent-name>[food_production.csv]</parent-name>
+            <remote-alias>Item</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[food_production.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unit</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Unit]</local-name>
+            <parent-name>[food_production.csv]</parent-name>
+            <remote-alias>Unit</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Value]</local-name>
+            <parent-name>[food_production.csv]</parent-name>
+            <remote-alias>Value</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Flag</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Flag]</local-name>
+            <parent-name>[food_production.csv]</parent-name>
+            <remote-alias>Flag</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Flag Description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Flag Description]</local-name>
+            <parent-name>[food_production.csv]</parent-name>
+            <remote-alias>Flag Description</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Ag Hectares' datatype='integer' name='[AG_HECTARES]' role='measure' type='quantitative' />
+      <column caption='Airpol' datatype='string' name='[AIRPOL]' role='dimension' type='nominal' />
+      <column caption='Airpol Value' datatype='integer' name='[AIRPOL_VALUE]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Area]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;Germany&quot;' value='Germany (until 1990 former territory of the FRG)' />
+        </aliases>
+      </column>
+      <column caption='Geo Name' datatype='string' name='[GEO_NAME]' role='dimension' type='nominal' />
+      <column caption='Green Pol' datatype='string' name='[GREEN_POL]' role='dimension' type='nominal' />
+      <column caption='Green Pol Src' datatype='string' name='[GREEN_POL_SRC]' role='dimension' type='nominal' />
+      <column caption='Green Pol Thousand Tonnes' datatype='real' name='[GREEN_POL_THOUSAND_TONNES]' role='measure' type='quantitative' />
+      <column caption='Indic Ag' datatype='string' name='[INDIC_AG]' role='dimension' type='nominal' />
+      <column caption='Irrigated Crops' datatype='real' name='[IRRIGATED_CROPS]' role='measure' type='quantitative' />
+      <column caption='Irrigation' datatype='string' name='[IRRIGATION]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Item]' role='dimension' type='nominal' />
+      <column caption='Nuts' datatype='string' name='[NUTS]' role='dimension' semantic-role='[NUTS].[Name]' type='nominal' />
+      <column caption='Se Levels' datatype='string' name='[SE_LEVELS]' role='dimension' type='nominal' />
+      <column caption='Se Sector' datatype='string' name='[SE_SECTOR]' role='dimension' type='nominal' />
+      <column caption='Se Tonnes Per Hectare' datatype='real' name='[SE_TONNES PER HECTARE]' role='measure' type='quantitative' />
+      <column caption='Time' datatype='integer' name='[TIME]' role='measure' type='quantitative' />
+      <column caption='Production' datatype='integer' name='[Value]' role='measure' type='quantitative' />
+      <column caption='Water Pol Percentage' datatype='real' name='[WATER_POL_PERCENTAGE]' role='measure' type='quantitative' />
+      <column caption='Water Rdb Code' datatype='string' name='[WATER_RDB_CODE]' role='dimension' type='nominal' />
+      <column caption='Water Rdb Name' datatype='string' name='[WATER_RDB_NAME]' role='dimension' type='nominal' />
+      <column datatype='date' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='food_production.csv' datatype='table' name='[__tableau_internal_object_id__].[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='pollution_dataset.csv' datatype='table' name='[__tableau_internal_object_id__].[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]' role='measure' type='quantitative' />
+      <column-instance column='[AG_HECTARES]' derivation='Avg' name='[avg:AG_HECTARES:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Item Set]' derivation='InOut' name='[io:Item Set:nk]' pivot='key' type='nominal'>
+        <aliases>
+          <alias key='false' value='Non meat products' />
+          <alias key='true' value='Meat products' />
+        </aliases>
+      </column-instance>
+      <column-instance column='[AG_HECTARES]' derivation='Sum' name='[sum:AG_HECTARES:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[IRRIGATED_CROPS]' derivation='Sum' name='[sum:IRRIGATED_CROPS:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Value]' derivation='Sum' name='[sum:Value:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[WATER_POL_PERCENTAGE]' derivation='Sum' name='[sum:WATER_POL_PERCENTAGE:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Year]' derivation='Year' name='[yr:Year:ok]' pivot='key' type='ordinal' />
+      <group caption='Indic Ag Set' name='[Indic Ag Set]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+          <groupfilter function='level-members' level='[INDIC_AG]' />
+          <groupfilter function='member' level='[INDIC_AG]' member='%null%' />
+        </groupfilter>
+      </group>
+      <group caption='Irrigation Set' name='[Irrigation Set]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+          <groupfilter function='level-members' level='[IRRIGATION]' />
+          <groupfilter function='member' level='[IRRIGATION]' member='%null%' />
+        </groupfilter>
+      </group>
+      <group caption='Item Set' name='[Item Set]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter from='&quot;Cheese whole cow milk&quot;' function='range' level='[Item]' to='&quot;Milk whole fresh cow&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </group>
+      <group caption='YEAR(Year) Set' name='[YEAR(Year) Set]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter from='2009' function='range' level='[yr:Year:ok]' to='2019' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Giorgia Sampo/OneDrive/Desktop/Foodata/assets/tableau_files/pollution_dataset.csv+ (Multiple Connections).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='02/06/2022 09:51:42 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7' table='[Extract].[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+            <relation name='pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685' table='[Extract].[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]' type='table' />
+            <relation name='food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7' table='[Extract].[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]' type='table' />
+          </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+          <refresh increment-key='' incremental-updates='false'>
+            <refresh-event add-from-file-path='pollution_dataset.csv+ (Multiple Connections)' increment-value='%null%' refresh-type='create' rows-inserted='48679' timestamp-start='2022-02-06 21:51:40.924' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>TIME</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[TIME]</local-name>
+              <parent-name>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</parent-name>
+              <remote-alias>TIME</remote-alias>
+              <ordinal>0</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GEO_NAME</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[GEO_NAME]</local-name>
+              <parent-name>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</parent-name>
+              <remote-alias>GEO_NAME</remote-alias>
+              <ordinal>1</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3387</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GEO</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[GEO]</local-name>
+              <parent-name>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</parent-name>
+              <remote-alias>GEO</remote-alias>
+              <ordinal>2</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3441</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IRRIGATION</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[IRRIGATION]</local-name>
+              <parent-name>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</parent-name>
+              <remote-alias>IRRIGATION</remote-alias>
+              <ordinal>3</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IRRIGATED_CROPS</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IRRIGATED_CROPS]</local-name>
+              <parent-name>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</parent-name>
+              <remote-alias>IRRIGATED_CROPS</remote-alias>
+              <ordinal>4</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>449</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WATER_RDB_CODE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[WATER_RDB_CODE]</local-name>
+              <parent-name>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</parent-name>
+              <remote-alias>WATER_RDB_CODE</remote-alias>
+              <ordinal>5</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>236</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WATER_RDB_NAME</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[WATER_RDB_NAME]</local-name>
+              <parent-name>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</parent-name>
+              <remote-alias>WATER_RDB_NAME</remote-alias>
+              <ordinal>6</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>236</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WATER_POL_PERCENTAGE</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[WATER_POL_PERCENTAGE]</local-name>
+              <parent-name>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</parent-name>
+              <remote-alias>WATER_POL_PERCENTAGE</remote-alias>
+              <ordinal>7</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>236</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>INDIC_AG</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[INDIC_AG]</local-name>
+              <parent-name>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</parent-name>
+              <remote-alias>INDIC_AG</remote-alias>
+              <ordinal>8</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AG_HECTARES</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AG_HECTARES]</local-name>
+              <parent-name>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</parent-name>
+              <remote-alias>AG_HECTARES</remote-alias>
+              <ordinal>9</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17625</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SE_LEVELS</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SE_LEVELS]</local-name>
+              <parent-name>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</parent-name>
+              <remote-alias>SE_LEVELS</remote-alias>
+              <ordinal>10</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SE_SECTOR</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SE_SECTOR]</local-name>
+              <parent-name>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</parent-name>
+              <remote-alias>SE_SECTOR</remote-alias>
+              <ordinal>11</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SE_TONNES PER HECTARE</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[SE_TONNES PER HECTARE]</local-name>
+              <parent-name>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</parent-name>
+              <remote-alias>SE_TONNES PER HECTARE</remote-alias>
+              <ordinal>12</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>470</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GREEN_POL</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[GREEN_POL]</local-name>
+              <parent-name>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</parent-name>
+              <remote-alias>GREEN_POL</remote-alias>
+              <ordinal>13</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GREEN_POL_SRC</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[GREEN_POL_SRC]</local-name>
+              <parent-name>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</parent-name>
+              <remote-alias>GREEN_POL_SRC</remote-alias>
+              <ordinal>14</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GREEN_POL_THOUSAND_TONNES</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[GREEN_POL_THOUSAND_TONNES]</local-name>
+              <parent-name>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</parent-name>
+              <remote-alias>GREEN_POL_THOUSAND_TONNES</remote-alias>
+              <ordinal>15</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5841</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AIRPOL</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[AIRPOL]</local-name>
+              <parent-name>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</parent-name>
+              <remote-alias>AIRPOL</remote-alias>
+              <ordinal>16</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AIRPOL_VALUE</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AIRPOL_VALUE]</local-name>
+              <parent-name>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</parent-name>
+              <remote-alias>AIRPOL_VALUE</remote-alias>
+              <ordinal>17</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2965</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Area</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Area]</local-name>
+              <parent-name>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</parent-name>
+              <remote-alias>Area</remote-alias>
+              <ordinal>18</ordinal>
+              <family>food_production.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>27</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NUTS</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[NUTS]</local-name>
+              <parent-name>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</parent-name>
+              <remote-alias>NUTS</remote-alias>
+              <ordinal>19</ordinal>
+              <family>food_production.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>27</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Item Code (FAO)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Item Code (FAO)]</local-name>
+              <parent-name>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</parent-name>
+              <remote-alias>Item Code (FAO)</remote-alias>
+              <ordinal>20</ordinal>
+              <family>food_production.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Item</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Item]</local-name>
+              <parent-name>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</parent-name>
+              <remote-alias>Item</remote-alias>
+              <ordinal>21</ordinal>
+              <family>food_production.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>22</ordinal>
+              <family>food_production.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Unit</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Unit]</local-name>
+              <parent-name>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</parent-name>
+              <remote-alias>Unit</remote-alias>
+              <ordinal>23</ordinal>
+              <family>food_production.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Value</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Value]</local-name>
+              <parent-name>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</parent-name>
+              <remote-alias>Value</remote-alias>
+              <ordinal>24</ordinal>
+              <family>food_production.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2117</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Flag</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Flag]</local-name>
+              <parent-name>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</parent-name>
+              <remote-alias>Flag</remote-alias>
+              <ordinal>25</ordinal>
+              <family>food_production.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Flag Description</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Flag Description]</local-name>
+              <parent-name>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</parent-name>
+              <remote-alias>Flag Description</remote-alias>
+              <ordinal>26</ordinal>
+              <family>food_production.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[io:Item Set:nk]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>false</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>true</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:IRRIGATED_CROPS:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.15omvdj1iz0wlc12z3a881d7k5ne].[avg:AG_HECTARES:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:AG_HECTARES:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:WATER_POL_PERCENTAGE:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:Value:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italy&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='food_production.csv' id='food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7'>
+            <properties context=''>
+              <relation connection='textscan.0nfxyb90l1zd3t1fgrah51vysi9z' name='food_production.csv' table='[food_production#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=';'>
+                  <column datatype='string' name='Area' ordinal='0' />
+                  <column datatype='string' name='NUTS' ordinal='1' />
+                  <column datatype='integer' name='Item Code (FAO)' ordinal='2' />
+                  <column datatype='string' name='Item' ordinal='3' />
+                  <column datatype='date' date-parse-format='yyyy' name='Year' ordinal='4' />
+                  <column datatype='string' name='Unit' ordinal='5' />
+                  <column datatype='integer' name='Value' ordinal='6' />
+                  <column datatype='string' name='Flag' ordinal='7' />
+                  <column datatype='string' name='Flag Description' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7' table='[Extract].[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]' type='table' />
+            </properties>
+          </object>
+          <object caption='pollution_dataset.csv' id='pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685'>
+            <properties context=''>
+              <relation connection='textscan.0y3uxre1rwt7wn18b7nx61xhr9cf' name='pollution_dataset.csv' table='[pollution_dataset#csv]' type='table'>
+                <columns character-set='windows-1252' header='yes' locale='en_GB' separator=','>
+                  <column datatype='integer' name='TIME' ordinal='0' />
+                  <column datatype='string' name='GEO_NAME' ordinal='1' />
+                  <column datatype='string' name='GEO' ordinal='2' />
+                  <column datatype='string' name='IRRIGATION' ordinal='3' />
+                  <column datatype='real' name='IRRIGATED_CROPS' ordinal='4' />
+                  <column datatype='string' name='WATER_RDB_CODE' ordinal='5' />
+                  <column datatype='string' name='WATER_RDB_NAME' ordinal='6' />
+                  <column datatype='real' name='WATER_POL_PERCENTAGE' ordinal='7' />
+                  <column datatype='string' name='INDIC_AG' ordinal='8' />
+                  <column datatype='integer' name='AG_HECTARES' ordinal='9' />
+                  <column datatype='string' name='SE_LEVELS' ordinal='10' />
+                  <column datatype='string' name='SE_SECTOR' ordinal='11' />
+                  <column datatype='real' name='SE_TONNES PER HECTARE' ordinal='12' />
+                  <column datatype='string' name='GREEN_POL' ordinal='13' />
+                  <column datatype='string' name='GREEN_POL_SRC' ordinal='14' />
+                  <column datatype='real' name='GREEN_POL_THOUSAND_TONNES' ordinal='15' />
+                  <column datatype='string' name='AIRPOL' ordinal='16' />
+                  <column datatype='integer' name='AIRPOL_VALUE' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685' table='[Extract].[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='AND'>
+              <expression op='='>
+                <expression op='[GEO_NAME]' />
+                <expression op='[NUTS]' />
+              </expression>
+              <expression op='='>
+                <expression op='[GEO]' />
+                <expression op='[Area]' />
+              </expression>
+            </expression>
+            <first-end-point object-id='pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685' />
+            <second-end-point object-id='food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Agricultural area and production'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Agricultural area and production</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='pollution_dataset.csv+ (Multiple Connections)' name='federated.15omvdj1iz0wlc12z3a881d7k5ne' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15omvdj1iz0wlc12z3a881d7k5ne'>
+            <column caption='Ag Hectares' datatype='integer' name='[AG_HECTARES]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Area]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Germany&quot;' value='Germany (until 1990 former territory of the FRG)' />
+              </aliases>
+            </column>
+            <column datatype='string' name='[Item]' role='dimension' type='nominal' />
+            <column caption='Se Tonnes Per Hectare' datatype='real' name='[SE_TONNES PER HECTARE]' role='measure' type='quantitative' />
+            <column caption='Production' datatype='integer' name='[Value]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[AG_HECTARES]' derivation='Avg' name='[avg:AG_HECTARES:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Area]' derivation='None' name='[none:Area:nk]' pivot='key' type='nominal' />
+            <column-instance column='[AG_HECTARES]' derivation='Sum' name='[sum:AG_HECTARES:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SE_TONNES PER HECTARE]' derivation='Sum' name='[sum:SE_TONNES PER HECTARE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Value]' derivation='Sum' name='[sum:Value:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='Year' name='[yr:Year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[Item Set]'>
+            <groupfilter function='member' level='[Item]' member='&quot;Meat chicken&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[YEAR(Year) Set]'>
+            <groupfilter function='member' level='[yr:Year:ok]' member='2019' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[none:Area:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Area:nk]' />
+              <groupfilter function='member' level='[none:Area:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:AG_HECTARES:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:SE_TONNES PER HECTARE:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:SE_TONNES PER HECTARE:qk]</column>
+            <column>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:AG_HECTARES:qk]</column>
+            <column>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[none:Area:nk]</column>
+            <column>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[YEAR(Year) Set]</column>
+            <column>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[Item Set]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[avg:AG_HECTARES:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[YEAR(Year) Set]' value='Year'>
+              <formatted-text>
+                <run>Year</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:Value:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.0434806346893311' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[avg:AG_HECTARES:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.71364641189575195' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:Value:qk] + [federated.15omvdj1iz0wlc12z3a881d7k5ne].[avg:AG_HECTARES:qk])</rows>
+        <cols>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[none:Area:nk]</cols>
+      </table>
+      <simple-id uuid='{C4A86644-FCBC-4DA8-B9DE-62556A494BC1}' />
+    </worksheet>
+    <worksheet name='Water pollution on food production'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Water pollution on production of meat and dairy products and not</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='pollution_dataset.csv+ (Multiple Connections)' name='federated.15omvdj1iz0wlc12z3a881d7k5ne' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15omvdj1iz0wlc12z3a881d7k5ne'>
+            <column datatype='string' name='[Area]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Germany&quot;' value='Germany (until 1990 former territory of the FRG)' />
+              </aliases>
+            </column>
+            <column caption='Irrigated Crops' datatype='real' name='[IRRIGATED_CROPS]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Item]' role='dimension' type='nominal' />
+            <column caption='Production' datatype='integer' name='[Value]' role='measure' type='quantitative' />
+            <column caption='Water Pol Percentage' datatype='real' name='[WATER_POL_PERCENTAGE]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Item Set]' derivation='InOut' name='[io:Item Set:nk]' pivot='key' type='nominal'>
+              <aliases>
+                <alias key='false' value='Non meat products' />
+                <alias key='true' value='Meat products' />
+              </aliases>
+            </column-instance>
+            <column-instance column='[Area]' derivation='None' name='[none:Area:nk]' pivot='key' type='nominal' />
+            <column-instance column='[IRRIGATED_CROPS]' derivation='Sum' name='[sum:IRRIGATED_CROPS:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Value]' derivation='Sum' name='[sum:Value:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[WATER_POL_PERCENTAGE]' derivation='Sum' name='[sum:WATER_POL_PERCENTAGE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='Year' name='[yr:Year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:IRRIGATED_CROPS:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:Value:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[YEAR(Year) Set]'>
+            <groupfilter function='member' level='[yr:Year:ok]' member='2016' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[io:Item Set:nk]'>
+            <groupfilter function='member' level='[io:Item Set:nk]' member='true' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:WATER_POL_PERCENTAGE:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[io:Item Set:nk]</column>
+            <column>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[:Measure Names]</column>
+            <column>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[YEAR(Year) Set]</column>
+            <column>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:WATER_POL_PERCENTAGE:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:WATER_POL_PERCENTAGE:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[io:Item Set:nk]' value='Meat and dairy or not'>
+              <formatted-text>
+                <run>Meat and dairy or not</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:Value:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:WATER_POL_PERCENTAGE:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-transparency' value='155' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:Value:qk] + [federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:WATER_POL_PERCENTAGE:qk])</rows>
+        <cols>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[none:Area:nk]</cols>
+      </table>
+      <simple-id uuid='{07BA7A7B-694E-496B-A460-54E91BC13E4F}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Water pollution on food production'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[io:Item Set:nk]' type='filter' />
+            <card pane-specification-id='4' param='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[:Measure Names]</field>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[Irrigation Set]</field>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[YEAR(Year) Set]</field>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[io:Item Set:nk]</field>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[none:Area:nk]</field>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[none:IRRIGATION:nk]</field>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[none:Item:nk]</field>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[none:NUTS:nk]</field>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[none:WATER_POL_PERCENTAGE:nk]</field>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[yr:Year:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{61854D3C-CA04-48B9-A677-931D72CD08F4}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Agricultural area and production'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='slider' param='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[YEAR(Year) Set]' type='filter' />
+            <card param='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[Item Set]' type='filter' />
+            <card pane-specification-id='2' param='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[:Measure Names]</field>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[Indic Ag Set]</field>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[Item Set]</field>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[YEAR(Year) Set]</field>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[none:Area:nk]</field>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[tyr:Year:qk]</field>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[yr:Year:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{4BC24AB3-BA9D-4411-9963-2743C4630697}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Agricultural area and production' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAgAElEQVR4nO2deYwkWV7fPxGR951ZR1Zl1l3VXX1Mz7Fz7c4u7AK7K3OIXWEZMAYh4wOD
+      hPAfWLIAGyPLEoi1bLAttDIIGxsWyTIStowxLGvMngOzM7M9fdd95VF535mRcfiP6s7u6qqM
+      rOquqqzufB+ppX6vfvXiF1HxjffivV/8nmSapolAMKDI/XZAIOgnZyKAWq2GYRhncSiB4Fic
+      iQDEzf+sYvKNv/wStfbzO0q29dsBwflFLSdZW9+AoW30zB30ho7hdhGfmaeU3qat+PjIa9f6
+      7eZTId4BBF1ZunUDW3CE5dvX2U5kUOwuKppCvZhmJ1Pk3tLdfrv41IgeQNAVR2iKz76xyN1b
+      N5FlmZn4MG+/f4fIUJRSucl4LN5vF58a6cE0aLVaRdf1UzlIo9HA5XIhSdKptC8QPCmdHsDn
+      853KAR68AHs8HiEAwbnjWEMgQ1dZuruEip3RkIvdTJbR2DTJnS0CkVFktUyx3mYuFqHtHqGQ
+      TrEwN4UsyyiKgiyLVw7B+eJYd6Qk25mciCErCiNjMbwuB/l8ntmLV9CaVVTTzmwsQjaT4+23
+      32F84tkfIwqeb6TjhELoap0Pbq9y6dJFdtaW8I9O4NCq5Fsy9UoJ2dBwOxUcdpmGEsQ0TBam
+      x6lWKni9XtEDCM4dxxoCSbJC0O8hk80TDIcpF3NEY5P4ihnGFxaQtQbFusZw0I0uu2g3a6fl
+      t0BwIhyrB3hSKqIHEJxTxDrAgNLSWry3/U6nHPFEuDh6uY8enS1Gs0njvfeFAAaVSqvMb/zl
+      r3XKr099eLAEUCqT+/XfEKEQgsFGCEAw0Igh0IDitXv54Q/9WKc8HhjMNRshgAHF7fDw/S/8
+      zX670XeONwQyTZqNOk21jaFr1OoNwKRRr6HpBrqmUm+2MA0N3YR2u306XgsEJ8TxYoGMNqlk
+      ilypit8lY+ptnIERKtUqkqwgt+sYpslIyEPLMUy9XuPS3ORp+S4QPDXHEoAs23EoMDQaRa2X
+      ubgQ46vfWOfFV18gvb2O6fIRDbvJZTLcvHuLT33HWxiGgWEY6LouPo0UnBu0+6H/xxJAu1ni
+      3lqCielpHJLO+9dXWLwyx/Kdm3iCERS1zMpmmZlYiDfGL7C6ssblxXkRDSo4fygKIEIhBAOK
+      lt4l8bP/WKwDCAYbIQDBQCMEIBhohAAEA40QgGCgEQIQDDRCAIKBRghAMNAIAQgGmmMJwDRN
+      NpdvUmoaZFPb3Lhxk6aqcufWDdK5EpnkFrfvrdKq5qmqJqlU6rT8FghOhON9D2AaOFGptEyq
+      uQJ+u8mde2tMTM2TS24CEqNBJ8lEkmRlh4WFeUzTxDRNEQgnOFcY5t79eMzMcAoej/t+AyYO
+      jwu9qWKYRudGNw0TSQKboqBp2sPfFXlBBeeQY+YGbbGVqWNUNhkZipArVLh87SLbaytERidQ
+      2hWylTYzsRjD9hDVwi5IASRJQpIkEQwnODfI0t69KKJBBQOJiAYVCBDToIIBRwhAMNAIAQgG
+      GiEAwUAjBCAYaIQABAONEIBgoBECEAw0xwqFMA2dG29/icjV74L8KsVai8l4jKXVdTyBMEqr
+      TKWpMTMeQnWNUspluXRh5pRcFwienmNvkjczPUnJNEml0rg8blY3kly4dHUvNaLDy0J0LzXi
+      jZsJPi1SIwrOKU+UGtHQVba3U9QCPgKBACgSDtPB6soSNrsTpV1lfbvM2JCPV16aZmV1gysX
+      Z0VqRMH5435qxGP2ADZmr70JkozTEaPVbuN0OmirKorNgWTqaIaJXVEwJZnYkP9UfBcITorj
+      CUCScbndnbLL6QTA4XB2mnMo922hozKB4LwixiSCgUYIQDDQCAEIBhohAMFAIwQgGGiEAAQD
+      jRCAYKARAhAMNMdMjWiwfOMd8nUD0zT45rvvYbSb3PjgOtupLInNVW7cuku9tEupqbO1tXNa
+      fgsEJ8IxUyNC2O+k3jbR8lvUNZPcbpr47CKZxDqgEB/2kE6lWdld57UPvSSC4QTnEv1JguEk
+      WcZht9MAcsUitUKGYsCFx9lA0w0wDZpNsNlsxMajlMpVgp5IJxhOpEcUnBueJBjO0Fvs5FXM
+      2iaLV19mfLJEMOBnc22F2OQMcrtKrtJmIu5nWPHRqBTgkZteCEBw3hCpEQUDiUiNKBAgpkEF
+      A44QgGCgEQIQDDRCAIKBRghAMNAIAQgGGiEAwUBzbAEYuo5hmpiGTqulYpom7baKYZgYuk67
+      rWEaBob5MN5CIDivHDs14s23v0j46idx1BMU8xlMR4R6o4rd6UJRq7Q0g/FhP6pjmGqlzOWF
+      6dPyXSB4aroK4Mtf/J9kym3mLr/My5fngPupEWemKQGhUIjdbAm/A8bjF/dSI7r8zIbvp0bc
+      vilSIwrOLT1TIzYbTUz2J7Yy9Bara9vU/Q5S9QROfwSv283SnZt4/CFktcLyRonp8RCvRxdY
+      WVnjyuK8SI0oOH/0igZ94dqLfPPGMtHRkU6drDh56aOfvF+a69QPj0YPbWM8Mn8CngoEp0fX
+      R/K99W2+8zs+ytLtW2fpj0BwZtwc1boL4MqFeb7+9ntcvvbCWfokEJwZptRlCLR6+z02kjl2
+      0xk2tpKMBBfO2jfBKdO8fQcem6aWPR4cc7N98qg/HCqAyZkFrt9d4+WXrpEtFc/aJ8EZkP3c
+      v8ao1fbVORcXif7yL/XJo7PHpUndXoIlXE4XsmJnYSF+tl4JBGfEQk45/B3A7vbhdjkYHxti
+      6d7yWfslEJwZXV+CL85O8qd/9mUuXFo8S38EgjOl6zpAvdliLBrmzp0lxj/66ln6JHhGKf/R
+      /6D8v/74QP3oP/tFHJMTffCoN4cKwDRN7A4nHm+A6ISI5REcDaPVwiiXD/nB2QVFJv/pz4Ou
+      7atzLi4S+ft/71D7QwWwce86f/znX2F8PEquqhMfHQL2guHuvP8Nhhc/gpZbJ50rM39xgdXl
+      FQKRUWS1TLHWZi4eoe0apribYm526oRPUSDoTntr68D0rhKJdLU/VAAziy/xWnqXXK2Fx+N5
+      +ANJJjYapqKZ1Js6L16Z4OvvLHH15avs7qyDpDA97iOTyXI3ucG3vfW6CIY7pxyWDMo0TTRN
+      O+QnR6Pb31fX9adq92k57Lx6BsONx2LsfLDEC1P7p0FN00TXDfS2Sj5bIDzkp1gsomo6ktGm
+      XNZwupwszI2QTmeZmxoTwXDnEImDIpAkCZvteOliH0WWZXTJ3NeuYoKiKE/V7tNy6Hn1CoZb
+      3UrxNz79Cf7qvbtMjr4JgGm0yTbsSFqS+flZUrkyVy5FSe1sMzq/gKzVyVc1omEPuuJGbVRP
+      76wE55L/+iGV29GHQ5Cf/3M34330pxddBeB32/n6X1/nldfe6NTJioOFixc75an43vBoLD65
+      V+EMEvPu/VcBHD7fyXssEJwgXcckudQmWzsJNrYSZ+mPQHCmHNoDpDfuUdZdfPy7PsXMWPCs
+      fRI8w4zUJGqFh89V5ZzPexwqgJXNbd5443U+ePcrhD72cUIBMZQRHI3vuePotwvH4tAh0Nz0
+      FGtrG/h8frLFyln7JBCcGYf2AGNTC4xNiW8ABM8/YmJeMNAIAQgGGiEAwUDzxAJotxrsZvOY
+      mBTzOVptHbVZp1CqYGgqmgHNZvMkfRUITpwnDtC4d/ceQY/MrXwJmyLRTmeRdRWbItH0OGja
+      wmhamwvTsZP0VyA4UZ5YAHYbZIp1bG4HYxOz7G6vY9o8RMNucpkst3bu8V0f/4iIBj2niGjQ
+      J9go+1FkWcHudBAKBVm9ewtfeBhbq8zqdpXZWJgPTyyysbbO4sU5EQ16DjmtaNDDeCajQXux
+      cOlhwqyJ+NihNsP+uUPrBYLzgngkCwYaIQDBQCMEIBhohAAEA40QgGCgEQIQDDRCAIKBRghA
+      MNAIAQgGmideCS7nd9lKZpibX2Bt+S7B0QmUVplcVWUuHqbtHKKSTRGPi2A4wfnliQWwvLyC
+      0xtgN5VgbGaR7M76XurEIRepZJqN/CYvXru6LxjONA8LwRL0g27BcLr+5IlszS7BcIZuPFW7
+      T4tpcuD4uvGUwXB2l4eFuTHef3cNh38I3TABHVVto9gUIuEQtVqDsNeJJEnIsiyC4c4RhwXD
+      IXUPaDtSm5J0aH2///bSIef1oPzkwXBz06xt7vLKmy+zvbZCND6JrFbJVdtMxkYYtvmpl3Ig
+      SUiP/BOcXySe8m/U7Xel7uI4Kx4/vsRe+YkF4PaFuLQYAmDuwoNdZLyEhvf+5wA8w8NP2rxA
+      cCaIMYlgoBECEAw0QgCCgUYIQDDQCAEIBhohAMFAIwQgGGj6l6viCJT/+H/TXls7UB/56Z/q
+      +8LKIFGo57mRut4pXxt/iZA73EePTo4nF4Bpks5kGB0ZIbG1QWg0jtyukau2GR/yosl7m+T5
+      /f4nPkTr1i0a73zzQH3kp3/qidsUHJ/t4ia/+ZV/2yn/wqf/pRBAvZzjm9fv8LEXVXSHn7XV
+      ZSTDIOi1kdzJUZf8OBzOpxKAQHDaPLEAbt68haQ32NotEp8dpVnOgWTH53NRyOVZTW7y1odf
+      e6rUiN2iR3VN6x53IjgSx0mN+HgkpdEl1eFApUZ8/a1vZ3Nri/hohJt3bhMYGkNWS2ymSszG
+      RwhNXSGT2sE/O/3EqRG7jfMVm028Azwlx0mNOBGe4kdf+4lOORaaONRuoFIjAkxN7u0P/OJL
+      L92viTL1yM/Ds9NP0/yx0HSNX/niv+iUJ8PT/Pgb/+DMjv88M+wb4XuufH+/3TgVzvUs0HEw
+      MbiVvtEpa0b/PsAQPDs8NwIQnA5mu03j+gcH6h2zs9giz/5MkBCAwBKj3iD7a587UD/0sz+D
+      7SMf6YNHJ8tzIwCbbOe3fvj3OmVZUs7ch7XcCqu55U75pdgrDPtGz9wPwdF5bgQgSRIeh7ev
+      Pry7/df892/9Qaf8c9/xC0IA5xwRCyQYaJ6bHkDw/GKaJl+89yedctAV5I3pt06k7b4IoKW1
+      OnlZANx293OxsPXKxGv7YmQmw93XQf7v0p+xkl3qlP/Wyz9C0B06Vf+eVUxMfuftz3fK80MX
+      nm0B/Ju/+BWuJ97rlD//g7+L3xXohysnytzQAnNDC0eyvZm8ztfWv9wpf+/VzwoB9IEnFsBu
+      YpN0Ns/45CyJzXWCw2PIaplCrX0/NeIwpUyKmenJk/RXIDhRnlgAw2NxmvUq6VSaqYXL7N5P
+      jTgVDZBJZ7mX2uAjb756aDDc40Fu3YKlnudgOOOI1+C4/O47v4Vm7LUTcof5gWs/dKjdUYPh
+      DP1wnwzdOGh7SsFwJiZ/9/Wf7JQDruCx2juVYLittRX8ozMEm3lK1QptTQdTo1Y1sDvtzExP
+      ks0VCEyMHgiGm47Mdv5IAA6749Bgqec5GO6HPvSjfN/Vz3bK0UAUm/L0I9K/XPkSqq4CEA9O
+      8IOv/J1D7Y4aDKd38UlW5AO2pxkM96nL3/3Ev3sqwXAOh53U9jqTMwvImR2m5+b3PoiptBkf
+      8qErblr1yqFPmh959cef9LDPDVH/GIhPJU6cktvkDy81O+X5nMKnLeyfWADjk7OM3/+/f3p2
+      7z8uBx7/w4adgWf/xfaoaLk8rdu3D9Q7Lixgj0b31bW3t1HXNw7Yul68hjJA1+wL7/4upUYR
+      AIfi4Cc+/I+eus2WDe6OPhyKeVTrkcK5Xwf4i7k2dfteP+LQJT65bO+zR4ejrq2S+/f/4UB9
+      5Cf/4QEBNN59j+Lvf+GAbfSXf+mpBfDL3/2rmPf7Xbt8Pq/VA/564+ukKklgbyr8JARwXM69
+      AN6e0ih49v6gHpVzK4DzQO2rXyNcKOyrqzju4P/0p/rk0fnnzAVQ+/rXabz73oH60N/+YWyR
+      yJn4sF3c5F/96T/vlN+a/XZ+7PWfsPiN/vLe9jtUWxVg74XuY3OfONSu8if/B3VpaV+d7PcP
+      lACGaxK/8EV3p2w3gKvd7c9cAO21depf/sqB+uBnPgNnc/+jGzqlZrFTbrTrZ3PgJ+S/vf/7
+      rOdXgb289t0E8Kzxc9/5i2hGGwBZ6h6W1rp7D6PZ2FcnORy4Ll8+YCsb4NePPkN47odAP/Qt
+      B+3710ax2GEp95ufR8tl99XZIkMM/fTZjysFRyMWjB/JLv/bv017c2tfnTIyQvzf/fpT+3Du
+      BTBTOFpcf2tpCS2R2Fenj48daqvICmH3w+7G2+cwakH/OPcCOA2G1nJ8buFn9tW1Vldxzs31
+      ySNrvvfKZyg3y8AzvwB+7hhIAWR+9dcO1Llf/RAj/+TnDtRXWxV2K6lOOeIdPvOsaB+d+/iZ
+      Hu8saKfTGNXagXrH3OyZrvKfqAA0tUWjreN12TElO7qm4nA4TvIQZ4pWKPC1L3yO/+S72an7
+      TH2B77v6Wbzf9rEz8UGvVDBbrQP1SiSC9Azvuln6wh9Q/8bbB+on/8t/BvvZTXWfnABMk3t3
+      74IEkYCLpj2C2mxycXbixA5x1piNBq2lJXjlYZ26sYHq3+Ss3hqKv/f71P7i/x2oj//Hz6OI
+      tJNPjWSe1O7VpsG95TWiYTe5TIab2xU++Ym3cCpQqVQ6wXBGNoeaybAXiiWhKDKGYWKfnUFy
+      ODoBVYZh0N7ZwaxWkWUZXTd4EL7lubq3AfcD12VZRl1bQ2/sTZU92JfYVGzY5/bCNBRFwTRN
+      DMOgdeduZ9tW4/6HOYrfj3Nqal+7kqbx1Xf+iN/Z+cPOaf7A+Kf51ML3YBsd6bRrGAZ6pUJ7
+      e3uf/wD2WAx7OLw/vWCxiJrexTSNjv8gYZucQHK7O/4bhkE7kUQvFVFkBcM0O7/jWlxEun/s
+      B+esbW2h12qPXBcFFBn7/HznOJIkoes66tISpm7cv/575yy7PThnZ/b5LxkG7ZUVdF1HkuTO
+      NbPH4yiBQMdP0zTRs1mMfAEwH/FLxjk3h2m37fvbtLa20culR85/75jOxUWk+/sKP7hm6to6
+      stbGMB6ev+J04pif33f+sizTuHX7oY2iYBgmkseDfXJi33HMdpv26upJCsBk+e5Nyg2N2ViY
+      tjtKLrXDpYvzVCsVvF7vM7lR9mp2mS8t/Wmn/Mb0W7wYe7mPHglOkpMTgAWVZ1gAgucbcUcK
+      BhohAMFAIwQgGGiEAAQDjRCAYKDpLIRVq9UDW+GcFI1G4/48sghkEZwvOgLw+XyndhBZlo88
+      DarrOopytAjQfts+WFg7iq1hGJ3Ft374elq2uq53Ftj6cfynte3bEEhvt0gmU2RzhX2ZIw4T
+      idqsk06nKZQq++oPs61XS6RSKcrVek/bcjFPMpmi3lR72JpUqxV2trZQdcPS1jR0dtMpUukM
+      +iNLLIfdIPVKkWq9xdbGJo/2vYf52m41SKVS5Aoly+NXS3nu3LnDysoKO6lMj/OCarlAoVA8
+      wjXQKeTyPL5qdFibzVqFQrl6JFu1USeVSpEvlnva1qtlUqkUpUqvv61JtVolk9qhanleZv8E
+      kFhdYWU7SWpnZ58ADrtR1lZWcTid2O37Q5cOtV1dJrmTYmtrp4etxvraPZKbW2wlCj1sW9x+
+      732KlRKpTGWf3eO29cIut6/fJZFK0dTNrraG3qZWb/JXX/4STdPGo60cdl6bq6tsbCdJbG9b
+      +urxBWm3WkxMTlDIZixtwWRjc4nEVpL1jUQPWxlTb/HVr36N9e1k52922DVwOF1Ucwm+9o23
+      SaRzlue1trrK9k6Sne39H7wcaru2TDKRZnurl63B+soy2dwuW5u7lrZ9C4cemZjAXqlRa+r0
+      6jxNvU0ymcIXDOPzuC1t41PzVEs57N6hHq0qTM4sUsgkCY/0ysTgIDo5gdvrxR+yHiq6AxGu
+      vnKZdKaES7Y4M0lCa7V54bU3sSu2ntcgGp/AV6vS0KyfWbKiMDszwfraOtF4r7SUEpHgMIlU
+      gampXrZtdjMl3vjwmzRr1fuRXIfTqFUw7D4+/OYFqpVyF6s9xicmCNWrNI3eEaDxyTlq5TxK
+      j3D0crGE3WHH4fYSCFvZSv3pAdRGjWZbp9VScTl7h0s73U4OT+a3n0q5jN5uoWPDbrceE5bL
+      ZdRmHcXpxWZ1o94nHI7QKmfJlZsWVhqlSp1GrYHP48a0aFaWbfg9EksrG1SrNcuza5TLaBg0
+      VQ3nEa5XMpkC06Stqj0sTXLFOi+/dJHMI0/qw1Fo1oskdpJ4g8GuN47WbpIvVjDaLXYSKfzB
+      YNcW6+Uyqtamqeq4HNYCqJTL6FoLzVQOjAQex+G0U6m2CHlt7GZKlrZ9EYDD7UWvlbD7QowO
+      9/4SfmR0DL/PS6Vk/TTxBwIUcnlGomMEfdYByx63nd1MmXDASWq3aGkLBvlcnpZpw++xugFt
+      uB2QL5VpNBoHxsCP43D7cClQrlQs7dyBAPVCgXqjQbPV66YGvd3maFuSS0yMD3HjzjqTU+M9
+      bGVcTg+lUtlSrDa7C6epsrKZIJ1KWViCJxDAIe/NEpYP+TjmUfyBAMVcjmajgdq2zgvqcvsY
+      GwmSzpYYGbHOuN23dwBJsVPYTbK8ut7z2b4322J2Eppa4fe5WVleJlOwVr6mttF1lWyhwUR8
+      uGe7mUyOyHAUt8OqZ9HZXF2jXLXqJR6STyTQbA7QNXqdmdqqo2pHu61jExPY7bYjzLqZbO+k
+      CQUDewmHLWmzsbw3nu5l6fL5mIpHcbqsh6uwl+hYkhXCod4JwWq16hGFbdJoNEFSkHvcXX0S
+      gM69m3fQJGjUG5aWarOF4nDi8/mYPUKq9d1MimK+yO5jMyCP4/L60NUi22ubbOz06v4lwkEP
+      WzvJrhmQ91CYmZ9n8fIlhgLeAxmgHyc6d4Grc5MEh4bpNQKOTc7gcdjwejw9LGE7kURtahSy
+      6Z62YFBvNNC0XhK08eLrCximidLDtlnXmF5YIOL39Hy41RsaFy5eoF62fmABzC9cJOD39xwu
+      AZQrVZxOJ4rS452pZ0ungszVD73M3ESc+OSE5QugJIF5P726putdU6Y/YDQ2Q2wsTCjca7MJ
+      mfj0RUZHA4QCvW4qjUrDYMgrkS8f/DzxcX8TG2tspTI9P2DP72ywspNCbbZ6Ptm21jeIzcyR
+      TmxZ2mltlZGRKF63gj880qNVcLvtVIsVag3r8wKNZLoIrTrfunHLwl+dne1N7ty6hSopljeY
+      YahsrK1y6+ZNJEfv3mJ9Y43sbp7Ezk4PS4mR4RDFfJGWatVf9W0aVKKUSXNnbYtsKmH5x7c7
+      nWytr9NoNrlz81vcW922sIZCJoWqmSQ2l9ktWie8qhRymLJyhFQLCqbWoFCuk9zatBwC2Fxe
+      /G43k3NT2Hq0a1OgVmsdaWg3NDzE1toKnoC1sB/sneD2BfF7XT3b1bGB0aRes+6JwU7I70Dx
+      +BgfHer60Gq3WrhDYeyA3tYsewBZdhCPjVEqlcllrXtsgKHhURx2vec1AINqo45dhnze+r2x
+      b9Ogo5OTtHdL+LzuniqMhINkK3UiI2N4XNbdn4SMy+vB0FuUClVGQ92e7gbNlkYg6KZea0LE
+      enozGAwiORxMDUctL1q9mCWxk6Ghq7h9AXy27u8Mum7icrtw9uzSNa6/e53I9CTNsvULs9Pt
+      obC+hqTY8WEj6LeeDIiER7h48WCGtYMYqJqBw+YiGot1FYDd6eHSlStHaG8Pm8vNSCSAavYe
+      1oRCYTweDxvbuzARtbBUmFu4QimXITBsZSf1TwCSbCfo97CxscXQcPcnSrNWoaGB1+3G5Q0Q
+      He4+r9tWW8Smpmm22kSjsR5ThhKBYIiRsShuV68npQQSaJpOcnMT15VFurXs8PoJDflQZAeO
+      Hi+hrkAIuZiiWpN6jJUVXnz9VWx2G412D1fZW2QzJaXncBEgublMYneXWGyS4bDVR/Ym9VqT
+      sYmRnmsWxyE+OQXAznavYc3e+kK51iAyZL3GU8ztki1UsNttuNtt3I7ut3nfBKBpKpVKBY/P
+      b3lBXV4/nnKRTLmFotSB7gLQNY1SsUirrYFix+1yWvpQK+WoNpuMx6eIdH0PMEmldpmZv0Cr
+      lqcl+bre/ACNUoGWLqFms9Tm53DI3XuAZqWINxJlxOfq0QtK5HbTVDVQgJFI97n1arnM6Hic
+      SrWOo8d8+ebGFlMTM8jhYfwWN8keMuOxKGr7CAo8Io1KkY2dvanSaqNNfMI6VWKxUETVTQKe
+      7ucPEBoaZn1tg/jsPA7LnWnMfgnARG21qOTz2EO9pyBrtQaZRILW0CgTFhfJ5fEyPCKhqk02
+      d3Ytb5T19U0uv/wqplpmK9OwFEA6kSQ8NEImncIRmbX0VXL6uHZtjOJuCm+PGQj/6ATVdIZG
+      EwIEuj4I1EaD+MwkuUILZ4+RgqEb+EMBnO4AXo/1A6BSzJGp1ZGDBabikwxZrnJLBEJhVu8t
+      o09PcLTQM2vc/hCXLh1tZ8xyIctWMk0sFkPpOb0rEQp5yabTmLIDV9eLZvRHAI1ylg9ur+DS
+      DSZfjFv2AHq7CXY3MzMTOAO9ZzXq1QqVep3IsHU3qTerbO0k0Gp57EGr6VWZqy9cYW1thUAk
+      zmjYasaoxeZWhqsvhGhWqqhRw7IHqOwmWdnKExvyMTI22rUXyKxv4F+colKoUqHJ8HD3h8bu
+      zg6+to9s1mR+Lobb1b2/unztpYcpYCyyM+9hUi4WcPj8fblpfIEwVy5fIRgMUK5YL5qBQb1V
+      w2x7yGaKjIa7CVvuzyyQOzDCR996k4WrF8hvJyzHv6nVNZweiXxNIZ+yHicmN1fZSiQplWt7
+      CyEWzC1eJehxMRKfZyJq3aXaHC4uXFwkOhzqMWHkxO+Fm7duUlccPXsAbziMgzYtQ7Z8ovqH
+      Q2zeXaPeLGIo1l3A+FQcTZUJ+BUaTeupzQebF+7lbLIe2Sc218mUCxi6ccTFqJNFazd47913
+      WVpeplDplc5eIToyTkNTmZoctbDr50uwJBEaGiHUI2bN6fOSyhVp11UcPbYPKhYqeBwSdZxU
+      i0WYjlkePxg++Q0JpmYvHMnO0FWWVjcZGYnsTUVaEBgZ44WRwzNdP443EMLbc5W/ZSgAAAFC
+      SURBVJrw+MSm5vBRJkB/9jBTVZNr166gaga+nttIGSR2MoRC/vvbo3bvBc99ctzh+BS93xL2
+      mL2wQK3RJAK43Oc75Xmzkkd2hRgbC7O5vIoKWI/Y+0tic41ivYGMg4VLC2d+43j9Prx+H2BS
+      6BHmspvcoVyvY3e7MQzrmTCRGKtP6FqLdCoLsgSSwth4VHygbUGtXCRfqgAm2XyFV16y2PcI
+      nXQqz+hogHSmzli0+8zhue8BnlcUm5NYj2k/wUMcLjeR++8/o1HryNVaKc+NGzcYHx9hJG49
+      aycEIHgmsDuc2B1HGyR6g8NMxoOYOPdW+UPdh8Oi1xU8h5hgGmxubPaMRhU9gOC5I5NMYMg+
+      JqbcOOznMhxaIDg9hqPjBLwuJNlGKGgd5CgEIHjuuPvBu2zv7m3U0Wxaf0IqpkEFA83/B4Sr
+      BxM5V88SAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Water pollution on food production' width='192'>
+      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
+      TkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
