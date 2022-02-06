@@ -212,7 +212,8 @@ It catches the eyes how Germany is the the greatest producer of meat (pig meat i
 
 About this mashup, the territories that pop up for high- and medium- and low-input farms are some regions in France, Spain, Poland, Lithuania and the norther portion of Finland too.  
 In regards of the life expectancy in the quoted countries, we can notice how the males in Lithuania have the lower expectancy: only 69 years old. Then 72 years old in Poland, 77 in Finland and France with 79. 
-The schema seems to repeat even for the females media of life expectancy values: 79 years old in Lithuania, 81 in Poland, 83 in Finland, 85 in Spain and 86 in France. 
+The schema seems to repeat even for the females media of life expectancy values: 79 years old in Lithuania, 81 in Poland, 83 in Finland, 85 in Spain and 86 in France.
+Concearning this analysis it seems the dimension of farms is not relevant if related to life expectancy.
 
 #### Air Pollution and Life Expectancy by Country
 
