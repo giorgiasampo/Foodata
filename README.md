@@ -240,5 +240,4 @@ Regarding agriculture the production seems much more stable, with higher values 
 The countries that show an overall higher production here are France, Spain, Germany, UK, Poland, Romania and Italy, with regions of France and Spain following stictly after, overcoming even on entire other countries such as Scotland and Hungary: this situation remains unchanged until 2019 where Romania is also overcome by Centro (ES).
 The overall tendency sees a small decrease on high input farms over the years, in favour of low and medium input fams, but overall the production seems evenly subdivided, except for Romania and Spain where high input farming seems privileged.
 
-### Conclusions
 
