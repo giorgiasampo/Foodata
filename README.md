@@ -105,17 +105,17 @@ Furthermore, Life expectancy is an oft-used measure of health partly because it 
 
 Our technical analysis is fully available at this [link](https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4jTDM9La_zBVXOWZ2kFlT-qN_4PL3nnhY1UyXkulzJduMhlx82bKH6FJng07FVCMEo1TvN7SwZUCQ/pubhtml?gid=2120843932&single=true).
 
-### EUROSTAT (STATISTICAL OFFICE OF THE EUROPEAN UNION)
+#### EUROSTAT (STATISTICAL OFFICE OF THE EUROPEAN UNION)
 Format: XLS, CSV, HTML, PC-AXIS, SPSS, TSV, PDF.
 
 Metadata: A huge amount of metadata is also  provided, expressed in SDMX format, an ISO standard since 2013 for the exchange of statistical data and metadata in XML format. These metadata contain information on metadata updating, contacts, data presentation, units of measurements, reference period, institutional mandate, confidentiality, distribution policy, frequency of dissemination, accessibility, quality, relevance, accuracy, consistency, cost, review and any comments.
 
-### EUROPEAN ENVIRONMENTAL AGENCY
+#### EUROPEAN ENVIRONMENTAL AGENCY
 Format: CSV, XLS
 
 Metadata: Information and metadata are provided about last updates, contacts, unit used and the type of data, creation date, copyright, source, definitions and countries considered.
 
-### FAO 
+#### FAO 
 Format: CSV, XLS
 
 Metadata: Information and metadata are provided about last updates, contacts, unit used and the type of data, creation date, copyright, source, definitions and countries considered.
@@ -123,7 +123,7 @@ Metadata: Information and metadata are provided about last updates, contacts, un
 
 ### Mashup and output datasets  
 
-Since not all the original datasets contained data for every year or, for example, for every country, we decided to limit the time span to only ten years and to focus only on consistent mashups and final mashups and visualisations. Also, when there is absence of data, this is clear in the visualisation.
+Since not all the original datasets contained data for every year or, for example, for every country, we decided to limit the time span to only ten years and to focus only on consistent mashups and final mashups and visualizations. Also, when there is absence of data, this is clear in the visualization.
 
 We decided to investigate six different situation, that you can find in the visualization section:
 - Food Production and Life Expectancy by Country
@@ -179,9 +179,24 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 
 ### Visualizations 
 To allow users to make full use of the data, twelve visualizations have been developed: of them six are general mappings of the phenomena under consideration, namely two for food production, three for pollution and one for health in European countries. 
-These first visualization are pretty complex and aim at representing in a straighforward and complete way each of the thematics treated in this project.
+These first visualizations are pretty complex and aim at representing in a straighforward and complete way each of the thematics treated in this project.
 The other six visualizations adopt a "philosophy" aiming to follow a simple and essential line to avoid falling into the error of looking for too convoluted visualizations. Here the ultimate goal is to always provide a picture that is clear and never ambiguous, preferring substance to form.
 ### RDF assertions of the metadata
 In order to reach the objective of giving the user better reusable and interoperable data, their metadata are provided, following the DCAT_AP version 2.0.0 documentation. Metadata are provided for the whole final dataset, but also for each of them individually.
 
 ### Conclusion
+
+We started by wondering whether areas with more agricultural pollution will have worse health outcomes and how different types of pollution and food production are correlated with life expectancy.
+
+The outcomes of our search made it clear that there are correlations between these three dimensions, in a time span of ten years and considering the European Countries as spatial area. In particular, we noticed some interesting correlations in our mashup visualizations.
+
+#### Food Production and Life Expectancy by Country
+
+Considering the production of meat (cattle, chicken and pig), the three major productors in Europe are Germany first, followed by Spain and France. If we take into consideration the life expectancy in these three countries, we will notice the subsequent trends:
+- life expectancy for males in Germany is near 78 years old;
+- life expectancy for females in Germany is near 83 years old;
+
+....
+Also, we must underline the food production is not a synonym of consumption: the correlations found in this map are probably significant, but only demonstrative, thus should be analysed with attention.
+
+Catches the eye....
