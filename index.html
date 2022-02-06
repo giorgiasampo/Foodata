@@ -56,6 +56,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#project">Project</a></li>
           <li><a class="nav-link scrollto" href="#visualization">Visualization</a></li>
+          <li><a class="nav-link scrollto" href="#analysis">Analysis</a></li>
           <li class="dropdown"><a  href="#documentation"><span>Documentation</span><i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#production_desc">Production dataset documentation</a></li>
@@ -149,20 +150,20 @@
             <p>We hypothesize that areas with more agricultural pollution will have worse health outcomes and that different types of pollution and food production affect health differently.</p>
             <p>To do so we collected data from <a href="https://ec.europa.eu/eurostat" target="_blank">EUROSTAT</a>, the <a href="https://www.eea.europa.eu" target="_blank">European Environmental Agency</a> and <a href="https://www.fao.org/faostat/en/#home" target="_blank">FAO</a>.</p>
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-              <div class="icon"><i class="bx bxs-florist"></i></div>
-              <h4 class="title"><a href="">Food Production</a></h4>
+              <div class="icon"><a href="#production_desc"><i class="bx bxs-florist"></i></a></div>
+              <h4 class="title"><a href="#production_desc">Food Production</a></h4>
               <p class="description">What do European country produce and how much?</p>
             </div>
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-              <div class="icon"><i class="bx bxs-factory"></i></div>
-              <h4 class="title"><a href="">Pollution</a></h4>
+              <div class="icon"><a href="#pollution_desc"><i class="bx bxs-factory"></i></a></div>
+              <h4 class="title"><a href="#pollution_desc">Pollution</a></h4>
               <p class="description">What are the environmental issue european countries have to face?</p>            
             </div>
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
-              <div class="icon"><i class="bx bxs-injection"></i></div>
-              <h4 class="title"><a href="">Health</a></h4>
+              <div class="icon"><a href="#health_desc"><i class="bx bxs-injection"></i></a></div>
+              <h4 class="title"><a href="#health_desc">Health</a></h4>
               <p class="description">How are european countries doing in term of health?</p>
             </div>
           </div>
@@ -686,7 +687,114 @@
       </div>
     </section><!-- End Features Section -->
 
-    
+    <br>
+    <br>
+
+   <section class="details"   id="analysis">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up">
+        <h2>Analysis</h2>
+        <p>Foodata's data analysis</p>
+      </div>
+
+      <div class="row content">
+        <div class="col-md-12" data-aos="fade-right">
+          <p>
+            We started by wondering whether areas with more agricultural pollution will have worse health outcomes and how 
+            different types of pollution and food production are correlated with life expectancy.
+            The outcomes of our search made it clear that there are correlations between these three dimensions, 
+            in a time span of ten years and considering the European Countries as spatial area. 
+            In particular, we noticed some interesting correlations in our mashup visualizations.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-5 order-2 order-md-1" data-aos="fade-left">
+          <img src="assets/img/details-6.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-7 pt-4 order-1 order-md-2" data-aos="fade-up">
+        <h3>Food Production and Life Expectancy by Country</h3>
+        <p>
+Considering the production of meat (cattle, chicken and pig), the three major productors in Europe are Germany first, followed by Spain and France. If we take into consideration the life expectancy in these three countries, we will notice the subsequent trends (in a time span of 10 years):
+
+- life expectancy for males in Germany is the lower of the three countries, with a value near 78 years old and France is next with value 79 y.o.;
+- Germany is again the first for lowest life expectancy for females with 83 years old, while Spain and France values are 85 y.o.
+
+It catches the eyes how Germany is the the greatest producer of meat (pig meat in particular) and also has the lower life expectancy between the three major producers. Also, we must underline the food production is not a synonym of food consumption: the correlations found in this map are probably significant, but only demonstrative, thus further analysis should be done.
+<br>        
+</p>
+        <h3>Farm Industrialization Level and Life Expectancy</h3>
+        <p>
+          About this mashup, the territories that pop up for high- and medium- and low-input farms are some regions in France, Spain, Poland, Lithuania and the norther portion of Finland too.  
+          In regards of the life expectancy in the quoted countries, we can notice how the males in Lithuania have the lower expectancy: only 69 years old. Then 72 years old in Poland, 77 in Finland and France with 79. 
+          The schema seems to repeat even for the females media of life expectancy values: 79 years old in Lithuania, 81 in Poland, 83 in Finland, 85 in Spain and 86 in France. 
+        </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12" data-aos="fade-right">
+        <h3>Air Pollution and Life Expectancy by Country</h3>
+        <p>
+          Some peculiar correlations were found between life expectancy (total of females and males) and air pollution. 
+          The most polluted air is to be found in Italy, France and Poland (higher than 3000000); Germany and Spain have still 
+          relevant values (higher than 2000000). Interestingly, the only country that has both a quite low life expectancy 
+          (76 years old circa) and a high sum of pollutants is Poland. The other mentioned countries have a life expectancy over
+           80 years old. In particular, Italy has the higher life expectancy (83 years old circa) and France the higher air 
+           pollutants (3600000 circa).
+           <br>
+         </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12" data-aos="fade-right">
+        <h3>Greenhouse gas emissions and food production by Country</h3>
+        <p>
+          For this visualization we opted for a graph that takes into account greenhouse pollutants (carbon dioxide, hydrofluorocarbones, methane, nitrogen trifluoride, nitrous oxide, perfluorocarbones, sulphur hexafluoride), agriculture products (rice paddy, potatoes and wheat) and livestock products (meat: cattle, pig, chicken; eggs; cheese; milk) in 10 years, considering the media of the emissions and food production of the mentioned categories in this period. It turned out that:
+          - the major productors in the agriculture sector are: 1. France, 2. Germany, 3. Poland, 4. Romania, 5. Italy
+          - instead, in the livestock products sector: 1. Germany, 2. France, 3. Poland 4. Netherlands, 5. Italy, 6. Denmark, 7. Ireland
+          
+          It is important to notice that Ireland is only at seventh position as livestock producer and it covers an even lower position for what concearns agricultural sector. The fact that in ten years this Country produced the majority of pollutants in Europe (490 tonnes circa) is relevant in our graphs. Probably the pollution there is not strictly related to the food production, a question that goes beyond our study. Also Portugal is one of the most polluted countries in these 10 years, but the production values are not relevant.
+          
+          If we consider the most productive States, Germany, France and Italy recorded quite high greenhouse pollution values. A bright spot is Cyprus with a negative value on emissions (-66 tonnes), but also one of the less productive countries in Europe.
+        <br>
+        </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12" data-aos="fade-right">
+        <h3>Different viz 1</h3>
+        <p>
+          For this visualization we opted for a graph that takes into account greenhouse pollutants (carbon dioxide, hydrofluorocarbones, methane, nitrogen trifluoride, nitrous oxide, perfluorocarbones, sulphur hexafluoride), agriculture products (rice paddy, potatoes and wheat) and livestock products (meat: cattle, pig, chicken; eggs; cheese; milk) in 10 years, considering the media of the emissions and food production of the mentioned categories in this period. It turned out that:
+          - the major productors in the agriculture sector are: 1. France, 2. Germany, 3. Poland, 4. Romania, 5. Italy
+          - instead, in the livestock products sector: 1. Germany, 2. France, 3. Poland 4. Netherlands, 5. Italy, 6. Denmark, 7. Ireland
+          
+          It is important to notice that Ireland is only at seventh position as livestock producer and it covers an even lower position for what concearns agricultural sector. The fact that in ten years this Country produced the majority of pollutants in Europe (490 tonnes circa) is relevant in our graphs. Probably the pollution there is not strictly related to the food production, a question that goes beyond our study. Also Portugal is one of the most polluted countries in these 10 years, but the production values are not relevant.
+          
+          If we consider the most productive States, Germany, France and Italy recorded quite high greenhouse pollution values. A bright spot is Cyprus with a negative value on emissions (-66 tonnes), but also one of the less productive countries in Europe.
+        <br> 
+        </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12" data-aos="fade-right">
+        <h3>Different viz 2</h3>
+        <p>
+          For this visualization we opted for a graph that takes into account greenhouse pollutants (carbon dioxide, hydrofluorocarbones, methane, nitrogen trifluoride, nitrous oxide, perfluorocarbones, sulphur hexafluoride), agriculture products (rice paddy, potatoes and wheat) and livestock products (meat: cattle, pig, chicken; eggs; cheese; milk) in 10 years, considering the media of the emissions and food production of the mentioned categories in this period. It turned out that:
+          - the major productors in the agriculture sector are: 1. France, 2. Germany, 3. Poland, 4. Romania, 5. Italy
+          - instead, in the livestock products sector: 1. Germany, 2. France, 3. Poland 4. Netherlands, 5. Italy, 6. Denmark, 7. Ireland
+          
+          It is important to notice that Ireland is only at seventh position as livestock producer and it covers an even lower position for what concearns agricultural sector. The fact that in ten years this Country produced the majority of pollutants in Europe (490 tonnes circa) is relevant in our graphs. Probably the pollution there is not strictly related to the food production, a question that goes beyond our study. Also Portugal is one of the most polluted countries in these 10 years, but the production values are not relevant.
+          
+          If we consider the most productive States, Germany, France and Italy recorded quite high greenhouse pollution values. A bright spot is Cyprus with a negative value on emissions (-66 tonnes), but also one of the less productive countries in Europe. 
+        </p>
+        </div>
+      </div>
+
 
     <br  id="documentation">
     <br>
@@ -804,7 +912,8 @@
 
             <h3>Gender</h3>
             <p>As stated above, there are no gender-related data.</p>
-
+            <br>
+        <a href="#project">Back to top</a>
           </div>
         </div>
              
@@ -998,6 +1107,8 @@
           <p>
             This dataset is largely free of gender bias and gender-related data.
           </p>
+          <br>
+        <a href="#project">Back to top</a>
         </div>
       </div>
 
@@ -1051,7 +1162,8 @@
           <h3>Gender</h3>
           <p>This dataset is largely free of gender bias, however recently binary gender classification into male and female has come under re-evaluation. That being said, the EU member states are bound by the same statistics reporting standards so the dataset is at least consistent in its use of two and only two genders.
           </p>
-
+          <br>
+        <a href="#project">Back to top</a>
         </div>
       </div>
 

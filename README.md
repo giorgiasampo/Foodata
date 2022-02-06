@@ -184,12 +184,7 @@ The other six visualizations adopt a "philosophy" aiming to follow a simple and 
 ### RDF assertions of the metadata
 In order to reach the objective of giving the user better reusable and interoperable data, their metadata are provided, following the DCAT_AP version 2.0.0 documentation. Metadata are provided for the whole final dataset, but also for each of them individually.
 
-### Analysis
-
-We started by wondering whether areas with more agricultural pollution will have worse health outcomes and how different types of pollution and food production are correlated with life expectancy.
-
-The outcomes of our search made it clear that there are correlations between these three dimensions, in a time span of ten years and considering the European Countries as spatial area. In particular, we noticed some interesting correlations in our mashup visualizations.
-
+### General analysis
 #### Pollution
 
 From the visualizations we developed and the data we used, it is possible to notice how greenhouse gas emissions seems to be stronger in central europe and UK, except for Italy, while the same cannot be said for air pollutants, which show a major concentration also in Turkey, Spain and Italy itself. This last value seems to be diminishing coming closer to recent times, while the first countries interms of greenhouse gas production remain Germany, France and UK, wirh a relevant change in the maximum amount of greenhouse gas tonnes coming from almost 56 thouand tonnes in 2011 to less than 50 thousand the year later.
@@ -197,6 +192,7 @@ From the visualizations we developed and the data we used, it is possible to not
 For what regards high, low and medium input farms the countries that present the higher amounts of hectares employed are still central Europe, UK, Germany and Spain, while the soil erosion levels seem to be higher in Germany and northern Italy, Eastern europe along the coast and the center of UK itself. These latter values here seem no to show considerable variations among the years, while the amount of high input farms show an increment from 2010 to 2014 and a decrease in the latter years in favour of low or medium input farms, depending on the country.
 
 Looking at surface water pollution percentage, the highest values are shown in Poland and Belgium, followed by Germany, Luxembourg, France, Spain and UK, that, along with Hungary cover the last 10% of the scale. Following we have Latvia, Finland, Lithuania, Czech Republic, Italy and Sweden. This puts under the highlight, as alwasys, the center of Europe plus Spain and Uk, but adds the norther Countries, since now left untouched from pollution issues. The relation between irrigable and irrigated land seems stable.
+<<<<<<< HEAD
 
 #### Production
 
@@ -248,3 +244,5 @@ The countries that show an overall higher production here are France, Spain, Ger
 The overall tendency sees a small decrease on high input farms over the years, in favour of low and medium input fams, but overall the production seems evenly subdivided, except for Romania and Spain where high input farming seems privileged.
 
 
+=======
+>>>>>>> c03f72d512f2da69f3d9d3972bc6fee9aca8ef75
