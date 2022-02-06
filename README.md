@@ -196,5 +196,5 @@ Looking at surface water pollution percentage, the highest values are shown in P
 #### Production
 
 Concerning the livestock (cheese, milk, eggs, meat) in Europe the top three producers in 2009 were Germany, France, Poland. Italy and Spain are right after. On the other hand, in 2009 the major producers of crops (wheat, rice, potatoes) are: France, Germany and Poland.
-If we take into account only meat production, Spain has an increase from 5.068.468 in 2009 to 6.748.550 tonnes, while the other major producers (Germanmy, France, Italy and Poland) remain quite steady.
-Finally, the major productors of food (the sum of every item used in this analysis) between 2009 and 2019 are France, at first place, and Germany, which was first only in year 2016. The third one is Poland and right after Italy.
+If we take into account only meat production, Spain has an increase from 5.068.468 in 2009 to 6.748.550 tonnes, while the other major producers (Germany, France, Italy and Poland) remain quite steady.
+Finally, the major producers of food (the sum of every item used in this analysis) between 2009 and 2019 are France, at first place, and Germany, which was first only in year 2016. The third one is Poland and right after Italy.
