@@ -198,6 +198,13 @@ For what regards high, low and medium input farms the countries that present the
 
 Looking at surface water pollution percentage, the highest values are shown in Poland and Belgium, followed by Germany, Luxembourg, France, Spain and UK, that, along with Hungary cover the last 10% of the scale. Following we have Latvia, Finland, Lithuania, Czech Republic, Italy and Sweden. This puts under the highlight, as alwasys, the center of Europe plus Spain and Uk, but adds the norther Countries, since now left untouched from pollution issues. The relation between irrigable and irrigated land seems stable.
 
+#### Production
+
+Concerning the livestock (cheese, milk, eggs, meat) in Europe the top three producers in 2009 were Germany, France, Poland. Italy and Spain are right after. On the other hand, in 2009 the major productors of crops (wheat, rice, potatoes) are: France, Germany and Poland.
+If we take into account only meat production, Spain has an increase from 5.068.468 in 2009 to 6.748.550 tonnes, while the other major producers (Germanmy, France, Italy and Poland) remain quite steady.
+Finally, the major productors of food (the sum of every item used in this analysis) between 2009 and 2019 are France, at first place, and Germany, which was first only in year 2016. The third one is Poland and right after Italy.
+
+
 #### Food Production and Life Expectancy by Country
 
 Considering the production of meat (cattle, chicken and pig), the three major productors in Europe are Germany first, followed by Spain and France. If we take into consideration the life expectancy in these three countries, we will notice the subsequent trends (in a time span of 10 years):
@@ -213,7 +220,7 @@ It is striking how Germany is the greatest producer of meat (pig meat in particu
 About this mashup, the territories that pop up for high- and medium- and low-input farms are some regions in France, Spain, Poland, Lithuania and the norther portion of Finland too.  
 In regards of the life expectancy in the quoted countries, we can notice how the males in Lithuania have the lower expectancy: only 69 years old. Then 72 years old in Poland, 77 in Finland and France with 79. 
 The schema seems to repeat even for the females media of life expectancy values: 79 years old in Lithuania, 81 in Poland, 83 in Finland, 85 in Spain and 86 in France.
-Concearning this analysis it seems the dimension of farms is not relevant if related to life expectancy.
+Concerning this analysis it seems the dimension of farms is not relevant if related to life expectancy.
 
 #### Air Pollution and Life Expectancy by Country
 
@@ -225,7 +232,7 @@ For this visualization we opted for a graph that takes into account greenhouse p
 - the major productors in the agriculture sector are: 1. France, 2. Germany, 3. Poland, 4. Romania, 5. Italy
 - instead, in the livestock products sector: 1. Germany, 2. France, 3. Poland 4. Netherlands, 5. Italy, 6. Denmark, 7. Ireland
 
-It is important to notice that Ireland is only at seventh position as livestock producer and it covers an even lower position for what concearns agricultural sector. The fact that in ten years this Country produced the majority of pollutants in Europe (490 tonnes circa) is relevant in our graphs. Probably the pollution there is not strictly related to the food production, a question that goes beyond our study. Also Portugal is one of the most polluted countries in these 10 years, but the production values are not relevant.
+It is important to notice that Ireland is only at seventh position as livestock producer and it covers an even lower position for what concerns agricultural sector. The fact that in ten years this Country produced the majority of pollutants in Europe (490 tonnes circa) is relevant in our graphs. Probably the pollution there is not strictly related to the food production, a question that goes beyond our study. Also Portugal is one of the most polluted countries in these 10 years, but the production values are not relevant.
 
 If we consider the most productive States, Germany, France and Italy recorded quite high greenhouse pollution values. A bright spot is Cyprus with a negative value on emissions (-66 tonnes), but also one of the less productive countries in Europe.
 
