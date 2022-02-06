@@ -205,7 +205,7 @@ Considering the production of meat (cattle, chicken and pig), the three major pr
 - life expectancy for males in Germany is the lower of the three countries, with a value near 78 years old and France is next with value 79 y.o.;
 - Germany is again the first for lowest life expectancy for females with 83 years old, while Spain and France values are 85 y.o.
 
-It catches the eyes how Germany is the the greatest producer of meat (pig meat in particular) and also has the lower life expectancy between the three major producers. Also, we must underline the food production is not a synonym of food consumption: the correlations found in this map are probably significant, but only demonstrative, thus further analysis should be done.
+It is striking how Germany is the greatest producer of meat (pig meat in particular) and also has the lowest life expectancy between the three major producers. Also, we must underline the food production is not a synonym of food consumption: the correlations found in this map are probably significant, but only demonstrative, thus further analysis should be done.
 
 
 #### Farm Industrialization Level and Life Expectancy
