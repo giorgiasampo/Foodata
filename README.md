@@ -103,7 +103,7 @@ Furthermore, Life expectancy is an oft-used measure of health partly because it 
 
 ### Technical analysis
 
-Our technical analysis is fully available at this [link](https://giorgiasampo.github.io/Foodata/index.html#metadata).
+Our technical analysis is fully available at this [link](<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4jTDM9La_zBVXOWZ2kFlT-qN_4PL3nnhY1UyXkulzJduMhlx82bKH6FJng07FVCMEo1TvN7SwZUCQ/pubhtml?widget=true&amp;headers=false"></iframe>).
 
 ### EUROSTAT (STATISTICAL OFFICE OF THE EUROPEAN UNION)
 Format: XLS, CSV, HTML, PC-AXIS, SPSS, TSV, PDF.
