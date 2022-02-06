@@ -193,7 +193,7 @@ The outcomes of our search made it clear that there are correlations between the
 #### Pollution
 From the visualizations we developed and the data we used, it is possible to notice how greenhouse gas emissions seems to be stronger in central europe and UK, except for Italy, while the same cannot be said for air pollutants, which show a major concentration also in Turkey, Spain and Italy itself. This ;ast value seems to be diminishing coming closer to recent times, while the first countries interms of greenhouse gas production remain Germany, France and UK, wirh a relevant change in the maximum amount of greenhouse gas tonnes coming from almost 56 thouand tonnes in 2011 to less than 50 thousand the year later.
 
-For what regards high, low and medium input farms the countries that present the higher amounts of hectares employed are still central Europe, UK, Germany and Spain, while the soil erosion levels seem to be higher in Germany and northern Italy, Eastern europe along the coast and the center of UK itself. These latter values here seem no to show considerable variations among the years, while the amount of high input farms show an increment from 2010 to 2014 and a decrease in the latter years in favour of low and medium input farms, depending on the country.
+For what regards high, low and medium input farms the countries that present the higher amounts of hectares employed are still central Europe, UK, Germany and Spain, while the soil erosion levels seem to be higher in Germany and northern Italy, Eastern europe along the coast and the center of UK itself. These latter values here seem no to show considerable variations among the years, while the amount of high input farms show an increment from 2010 to 2014 and a decrease in the latter years in favour of low or medium input farms, depending on the country.
 
 Looking at surface water pollution percentage, the highest values are shown in Poland and Belgium, followed by Germany, Luxembourg, France, Spain and UK, that, along with Hungary cover the last 10% of the scale. Following we have Latvia, Finland, Lithuania, Czech Republic, Italy and Sweden. This puts under the highlight, as alwasys, the center of Europe plus Spain and Uk, but adds the norther Countries, since now left untouched from pollution issues. The relation between irrigable and irrigated land seems stable.
 
@@ -208,3 +208,16 @@ Also, we must underline the food production is not a synonym of consumption: the
 
 Catches the eye....
 
+# Greenhouse gas emissions and food production for country
+
+
+# Greenhouse gas emissions per sector
+
+The data regarding greenhouse gas emissions is divided in Agriculture and Land use plus forestry: while the first value is almost always positive the second is almost aleways negative. This is due to the fact that this second sector tend to absorb CO2 from the atmosphere, while the first tends to produce it, and the missions in this sector can be reduced to CO2 calculations )that is what is possible to be done in the dataset). 
+That said it was possible to observe a common trend considering the whole 27 (or 28) european countries, which consist in a slight decrease in absorbed CO2 and a stable production, around 400K of tonnes: while the peaks in such negative production can be observed around 2014 in countries such as Greece, Slovenia and Slovakia, with a relative increase or stabilization in the following years, the other countries experienced a sligh increase from 2014 on, with the exception of Czechia and Estonia that had a sharper growth and Hungary, which decreased in 2014 and Iceland and UK that maintained a stable positive value on that field. Turkey makes an exeption being the lowest point around a negative of 100k tonnes.
+Regarding agriculture the production seems much more stable, with higher values comprised between 20k and 40k in Turkey, Spain, Romania, Poland, Italy, and peaking at 50k in France.
+
+# High, Low and Medium input farms
+
+The countries that show an overall higher production here re France, Spain, Germany, UK, Poland, Romania and Italy, with regions of France and Spain following stictly after, overcoming even on entire other countries such as Scotland and Hungary: this situation remains unchanged until 2019 where Romania is also overcome by Centro (ES).
+The overall tendency sees a small decrease on high input farms over the years, in favour of low and medium input fams, but overall the production seems evenly subdivided, except for Romania and Spain where high input farming seems privileged.
