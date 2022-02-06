@@ -1,0 +1,3624 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0108.1039                               -->
+<workbook original-version='18.1' source-build='2021.4.3 (20214.22.0108.1039)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <Heatmap />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <repository-location derived-from='https://public.tableau.com/workbooks/Leveloffarmingperyear?rev=1.1' id='Grrenhousegasemissionandairpollution' path='/workbooks' revision='1.2' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='pollution_dataset' inline='true' name='federated.0du0l430wqaewt19n7pg71nsiye6' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='pollution_dataset' name='textscan.16jvc6c08n2cxq137iu65133ooa9'>
+            <connection class='textscan' directory='C:/Users/Giorgia Sampo/OneDrive/Desktop/Foodata/datasets' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.16jvc6c08n2cxq137iu65133ooa9' name='pollution_dataset.csv' table='[pollution_dataset#csv]' type='table'>
+          <columns character-set='windows-1252' header='yes' locale='en_GB' separator=','>
+            <column datatype='date' date-parse-format='yyyy' name='TIME' ordinal='0' />
+            <column datatype='string' name='GEO_NAME' ordinal='1' />
+            <column datatype='string' name='GEO' ordinal='2' />
+            <column datatype='string' name='IRRIGATION' ordinal='3' />
+            <column datatype='real' name='IRRIGATED_CROPS' ordinal='4' />
+            <column datatype='string' name='WATER_RDB_CODE' ordinal='5' />
+            <column datatype='string' name='WATER_RDB_NAME' ordinal='6' />
+            <column datatype='string' name='WATER_POL_PERCENTAGE' ordinal='7' />
+            <column datatype='string' name='INDIC_AG' ordinal='8' />
+            <column datatype='integer' name='AG_HECTARES' ordinal='9' />
+            <column datatype='string' name='SE_LEVELS' ordinal='10' />
+            <column datatype='string' name='SE_SECTOR' ordinal='11' />
+            <column datatype='real' name='SE_TONNES PER HECTARE' ordinal='12' />
+            <column datatype='string' name='GREEN_POL' ordinal='13' />
+            <column datatype='string' name='GREEN_POL_SRC' ordinal='14' />
+            <column datatype='real' name='GREEN_POL_THOUSAND_TONNES' ordinal='15' />
+            <column datatype='string' name='AIRPOL' ordinal='16' />
+            <column datatype='integer' name='AIRPOL_VALUE' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.16jvc6c08n2cxq137iu65133ooa9' name='pollution_dataset.csv' table='[pollution_dataset#csv]' type='table'>
+          <columns character-set='windows-1252' header='yes' locale='en_GB' separator=','>
+            <column datatype='date' date-parse-format='yyyy' name='TIME' ordinal='0' />
+            <column datatype='string' name='GEO_NAME' ordinal='1' />
+            <column datatype='string' name='GEO' ordinal='2' />
+            <column datatype='string' name='IRRIGATION' ordinal='3' />
+            <column datatype='real' name='IRRIGATED_CROPS' ordinal='4' />
+            <column datatype='string' name='WATER_RDB_CODE' ordinal='5' />
+            <column datatype='string' name='WATER_RDB_NAME' ordinal='6' />
+            <column datatype='string' name='WATER_POL_PERCENTAGE' ordinal='7' />
+            <column datatype='string' name='INDIC_AG' ordinal='8' />
+            <column datatype='integer' name='AG_HECTARES' ordinal='9' />
+            <column datatype='string' name='SE_LEVELS' ordinal='10' />
+            <column datatype='string' name='SE_SECTOR' ordinal='11' />
+            <column datatype='real' name='SE_TONNES PER HECTARE' ordinal='12' />
+            <column datatype='string' name='GREEN_POL' ordinal='13' />
+            <column datatype='string' name='GREEN_POL_SRC' ordinal='14' />
+            <column datatype='real' name='GREEN_POL_THOUSAND_TONNES' ordinal='15' />
+            <column datatype='string' name='AIRPOL' ordinal='16' />
+            <column datatype='integer' name='AIRPOL_VALUE' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <refresh increment-key='' incremental-updates='false' />
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;windows-1252&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TIME</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[TIME]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>TIME</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_DCDEFC43A4AE417B9FB77E4BB7F5C836]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GEO_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GEO_NAME]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>GEO_NAME</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_DCDEFC43A4AE417B9FB77E4BB7F5C836]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GEO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GEO]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>GEO</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_DCDEFC43A4AE417B9FB77E4BB7F5C836]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IRRIGATION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[IRRIGATION]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>IRRIGATION</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_DCDEFC43A4AE417B9FB77E4BB7F5C836]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IRRIGATED_CROPS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IRRIGATED_CROPS]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>IRRIGATED_CROPS</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_DCDEFC43A4AE417B9FB77E4BB7F5C836]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WATER_RDB_CODE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WATER_RDB_CODE]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>WATER_RDB_CODE</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_DCDEFC43A4AE417B9FB77E4BB7F5C836]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WATER_RDB_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WATER_RDB_NAME]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>WATER_RDB_NAME</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_DCDEFC43A4AE417B9FB77E4BB7F5C836]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WATER_POL_PERCENTAGE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WATER_POL_PERCENTAGE]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>WATER_POL_PERCENTAGE</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_DCDEFC43A4AE417B9FB77E4BB7F5C836]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INDIC_AG</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[INDIC_AG]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>INDIC_AG</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_DCDEFC43A4AE417B9FB77E4BB7F5C836]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AG_HECTARES</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AG_HECTARES]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>AG_HECTARES</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_DCDEFC43A4AE417B9FB77E4BB7F5C836]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SE_LEVELS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SE_LEVELS]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>SE_LEVELS</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_DCDEFC43A4AE417B9FB77E4BB7F5C836]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SE_SECTOR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SE_SECTOR]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>SE_SECTOR</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_DCDEFC43A4AE417B9FB77E4BB7F5C836]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SE_TONNES PER HECTARE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SE_TONNES PER HECTARE]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>SE_TONNES PER HECTARE</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_DCDEFC43A4AE417B9FB77E4BB7F5C836]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GREEN_POL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GREEN_POL]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>GREEN_POL</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_DCDEFC43A4AE417B9FB77E4BB7F5C836]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GREEN_POL_SRC</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GREEN_POL_SRC]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>GREEN_POL_SRC</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_DCDEFC43A4AE417B9FB77E4BB7F5C836]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GREEN_POL_THOUSAND_TONNES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GREEN_POL_THOUSAND_TONNES]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>GREEN_POL_THOUSAND_TONNES</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_DCDEFC43A4AE417B9FB77E4BB7F5C836]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AIRPOL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[AIRPOL]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>AIRPOL</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_DCDEFC43A4AE417B9FB77E4BB7F5C836]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AIRPOL_VALUE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AIRPOL_VALUE]</local-name>
+            <parent-name>[pollution_dataset.csv]</parent-name>
+            <remote-alias>AIRPOL_VALUE</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pollution_dataset.csv_DCDEFC43A4AE417B9FB77E4BB7F5C836]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Ag Hectares' datatype='integer' name='[AG_HECTARES]' role='measure' type='quantitative' />
+      <column caption='Airpol' datatype='string' name='[AIRPOL]' role='dimension' type='nominal' />
+      <column caption='Airpol Value' datatype='integer' name='[AIRPOL_VALUE]' role='measure' type='quantitative' />
+      <column datatype='string' name='[GEO]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+        <aliases>
+          <alias key='&quot;?l?skie&quot;' value='Slaskie' />
+          <alias key='&quot;?ódzkie&quot;' value='Pódzkie' />
+          <alias key='&quot;?wi?tokrzyskie&quot;' value='Swiztokrzyskie' />
+        </aliases>
+        <semantic-values semantic-role='[Country].[Name]'>
+          <semantic-value key='&quot;Germany (until 1990 former territory of the FRG)&quot;' value='&quot;Germany&quot;' />
+        </semantic-values>
+      </column>
+      <column caption='Geo Name' datatype='string' name='[GEO_NAME]' role='dimension' semantic-role='[NUTS].[Name]' type='nominal'>
+        <semantic-values semantic-role='[NUTS].[Name]'>
+          <semantic-value key='&quot;37226&quot;' value='&quot;DEE01&quot;' />
+          <semantic-value key='&quot;37591&quot;' value='&quot;DEE02&quot;' />
+          <semantic-value key='&quot;37956&quot;' value='&quot;DEE03&quot;' />
+          <semantic-value key='&quot;38322&quot;' value='&quot;DEE03&quot;' />
+          <semantic-value key='&quot;38687&quot;' value='&quot;DEE05&quot;' />
+          <semantic-value key='&quot;39052&quot;' value='&quot;DEE06&quot;' />
+          <semantic-value key='&quot;BE11&quot;' value='&quot;BE1&quot;' />
+          <semantic-value key='&quot;BE12&quot;' value='&quot;BE1&quot;' />
+          <semantic-value key='&quot;BE224&quot;' value='&quot;BE2&quot;' />
+          <semantic-value key='&quot;BE225&quot;' value='&quot;BE2&quot;' />
+          <semantic-value key='&quot;BE328&quot;' value='&quot;BE3&quot;' />
+          <semantic-value key='&quot;BE32A&quot;' value='&quot;BE32&quot;' />
+          <semantic-value key='&quot;BE32B&quot;' value='&quot;BE32&quot;' />
+          <semantic-value key='&quot;BE32C&quot;' value='&quot;BE32&quot;' />
+          <semantic-value key='&quot;BE32D&quot;' value='&quot;BE32&quot;' />
+          <semantic-value key='&quot;BE4&quot;' value='&quot;BE&quot;' />
+          <semantic-value key='&quot;BE5&quot;' value='&quot;BE&quot;' />
+          <semantic-value key='&quot;BE6&quot;' value='&quot;BE&quot;' />
+          <semantic-value key='&quot;DEC000&quot;' value='&quot;DEE0&quot;' />
+          <semantic-value key='&quot;DEE1&quot;' value='&quot;DEE&quot;' />
+          <semantic-value key='&quot;DEE2&quot;' value='&quot;DEE01&quot;' />
+          <semantic-value key='&quot;DEE3&quot;' value='&quot;DEE02&quot;' />
+          <semantic-value key='&quot;EE009&quot;' value='&quot;EE00&quot;' />
+          <semantic-value key='&quot;EE00A&quot;' value='&quot;EE00&quot;' />
+          <semantic-value key='&quot;EL11&quot;' value='&quot;EL&quot;' />
+          <semantic-value key='&quot;EL12&quot;' value='&quot;EL&quot;' />
+          <semantic-value key='&quot;EL13&quot;' value='&quot;EL&quot;' />
+          <semantic-value key='&quot;EL14&quot;' value='&quot;EL&quot;' />
+          <semantic-value key='&quot;EL21&quot;' value='&quot;EL&quot;' />
+          <semantic-value key='&quot;EL22&quot;' value='&quot;EL&quot;' />
+          <semantic-value key='&quot;EL23&quot;' value='&quot;EL&quot;' />
+          <semantic-value key='&quot;EL24&quot;' value='&quot;EL&quot;' />
+          <semantic-value key='&quot;EL25&quot;' value='&quot;EL&quot;' />
+          <semantic-value key='&quot;EL67&quot;' value='&quot;EL6&quot;' />
+          <semantic-value key='&quot;EL68&quot;' value='&quot;EL6&quot;' />
+          <semantic-value key='&quot;EL69&quot;' value='&quot;EL6&quot;' />
+          <semantic-value key='&quot;EL73&quot;' value='&quot;EL&quot;' />
+          <semantic-value key='&quot;EL74&quot;' value='&quot;EL&quot;' />
+          <semantic-value key='&quot;EL75&quot;' value='&quot;EL&quot;' />
+          <semantic-value key='&quot;FI13&quot;' value='&quot;FI1&quot;' />
+          <semantic-value key='&quot;FI18&quot;' value='&quot;FI1&quot;' />
+          <semantic-value key='&quot;FI1A&quot;' value='&quot;FI1&quot;' />
+          <semantic-value key='&quot;FR2&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR21&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR22&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR23&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR24&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR25&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR26&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR30&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR4&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR41&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR42&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR43&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR5&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR51&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR52&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR53&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR6&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR61&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR62&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR63&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR7&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR71&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR72&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR8&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR81&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR82&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR83&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR9&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR91&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FR94&quot;' value='&quot;FR&quot;' />
+          <semantic-value key='&quot;FRA1&quot;' value='&quot;FR1&quot;' />
+          <semantic-value key='&quot;FRA4&quot;' value='&quot;FR1&quot;' />
+          <semantic-value key='&quot;GE&quot;' value='&quot;DE&quot;' />
+          <semantic-value key='&quot;HR021&quot;' value='&quot;HR0&quot;' />
+          <semantic-value key='&quot;HR022&quot;' value='&quot;HR0&quot;' />
+          <semantic-value key='&quot;HR023&quot;' value='&quot;HR0&quot;' />
+          <semantic-value key='&quot;HR024&quot;' value='&quot;HR0&quot;' />
+          <semantic-value key='&quot;HR025&quot;' value='&quot;HR0&quot;' />
+          <semantic-value key='&quot;HR026&quot;' value='&quot;HR0&quot;' />
+          <semantic-value key='&quot;HR027&quot;' value='&quot;HR0&quot;' />
+          <semantic-value key='&quot;HR028&quot;' value='&quot;HR0&quot;' />
+          <semantic-value key='&quot;HR050&quot;' value='&quot;HR0&quot;' />
+          <semantic-value key='&quot;HR061&quot;' value='&quot;HR0&quot;' />
+          <semantic-value key='&quot;HR062&quot;' value='&quot;HR0&quot;' />
+          <semantic-value key='&quot;HR063&quot;' value='&quot;HR0&quot;' />
+          <semantic-value key='&quot;HR064&quot;' value='&quot;HR0&quot;' />
+          <semantic-value key='&quot;HR065&quot;' value='&quot;HR0&quot;' />
+          <semantic-value key='&quot;HU10&quot;' value='&quot;HU1&quot;' />
+          <semantic-value key='&quot;IE01&quot;' value='&quot;IE&quot;' />
+          <semantic-value key='&quot;IE02&quot;' value='&quot;IE0&quot;' />
+          <semantic-value key='&quot;ITD1&quot;' value='&quot;IT&quot;' />
+          <semantic-value key='&quot;ITD2&quot;' value='&quot;IT&quot;' />
+          <semantic-value key='&quot;ITD3&quot;' value='&quot;IT&quot;' />
+          <semantic-value key='&quot;ITD4&quot;' value='&quot;IT&quot;' />
+          <semantic-value key='&quot;ITD5&quot;' value='&quot;IT&quot;' />
+          <semantic-value key='&quot;ITE1&quot;' value='&quot;IT&quot;' />
+          <semantic-value key='&quot;ITE2&quot;' value='&quot;IT&quot;' />
+          <semantic-value key='&quot;ITE3&quot;' value='&quot;IT&quot;' />
+          <semantic-value key='&quot;ITE4&quot;' value='&quot;IT&quot;' />
+          <semantic-value key='&quot;ITG2D&quot;' value='&quot;ITG2&quot;' />
+          <semantic-value key='&quot;ITG2E&quot;' value='&quot;ITG2&quot;' />
+          <semantic-value key='&quot;ITG2F&quot;' value='&quot;ITG2&quot;' />
+          <semantic-value key='&quot;ITG2G&quot;' value='&quot;ITG2&quot;' />
+          <semantic-value key='&quot;LT00&quot;' value='&quot;LT0&quot;' />
+          <semantic-value key='&quot;PL11&quot;' value='&quot;PL&quot;' />
+          <semantic-value key='&quot;PL12&quot;' value='&quot;PL&quot;' />
+          <semantic-value key='&quot;PL31&quot;' value='&quot;PL&quot;' />
+          <semantic-value key='&quot;PL32&quot;' value='&quot;PL&quot;' />
+          <semantic-value key='&quot;PL33&quot;' value='&quot;PL&quot;' />
+          <semantic-value key='&quot;PL34&quot;' value='&quot;PL&quot;' />
+          <semantic-value key='&quot;SI01&quot;' value='&quot;SI0&quot;' />
+          <semantic-value key='&quot;SI02&quot;' value='&quot;SI0&quot;' />
+          <semantic-value key='&quot;UKD2&quot;' value='&quot;UKD&quot;' />
+          <semantic-value key='&quot;UKD5&quot;' value='&quot;UKD&quot;' />
+          <semantic-value key='&quot;UKI1&quot;' value='&quot;UKI&quot;' />
+          <semantic-value key='&quot;UKI2&quot;' value='&quot;UKI&quot;' />
+          <semantic-value key='&quot;UKK24&quot;' value='&quot;UKK2&quot;' />
+          <semantic-value key='&quot;UKK25&quot;' value='&quot;UKK2&quot;' />
+          <semantic-value key='&quot;UKM2&quot;' value='&quot;UKM&quot;' />
+          <semantic-value key='&quot;UKM3&quot;' value='&quot;UKM&quot;' />
+          <semantic-value key='&quot;UKN0A&quot;' value='&quot;UKN0&quot;' />
+          <semantic-value key='&quot;UKN0B&quot;' value='&quot;UKN0&quot;' />
+          <semantic-value key='&quot;UKN0C&quot;' value='&quot;UKN0&quot;' />
+          <semantic-value key='&quot;UKN0D&quot;' value='&quot;UKN0&quot;' />
+          <semantic-value key='&quot;UKN0E&quot;' value='&quot;UKN0&quot;' />
+          <semantic-value key='&quot;UKN0F&quot;' value='&quot;UKN0&quot;' />
+          <semantic-value key='&quot;UKN0G&quot;' value='&quot;UKN0&quot;' />
+        </semantic-values>
+      </column>
+      <column caption='Green Pol' datatype='string' name='[GREEN_POL]' role='dimension' type='nominal' />
+      <column caption='Green Pol Src' datatype='string' name='[GREEN_POL_SRC]' role='dimension' type='nominal' />
+      <column caption='Green Pol Thousand Tonnes' datatype='real' name='[GREEN_POL_THOUSAND_TONNES]' role='measure' type='quantitative' />
+      <column caption='Indic Ag' datatype='string' name='[INDIC_AG]' role='dimension' type='nominal' />
+      <column caption='Irrigated Crops' datatype='real' name='[IRRIGATED_CROPS]' role='measure' type='quantitative' />
+      <column caption='Irrigation' datatype='string' name='[IRRIGATION]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='%null%' value='Select only for 2015' />
+        </aliases>
+      </column>
+      <column caption='Se Levels' datatype='string' name='[SE_LEVELS]' role='dimension' type='nominal' />
+      <column caption='Se Sector' datatype='string' name='[SE_SECTOR]' role='dimension' type='nominal' />
+      <column caption='Se Tonnes Per Hectare' datatype='real' name='[SE_TONNES PER HECTARE]' role='measure' type='quantitative' />
+      <column caption='Time' datatype='date' name='[TIME]' role='dimension' type='quantitative' />
+      <column caption='Water Pol Percentage' datatype='string' name='[WATER_POL_PERCENTAGE]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='%null%' value='All included countries' />
+        </aliases>
+      </column>
+      <column caption='Water Rdb Code' datatype='string' name='[WATER_RDB_CODE]' role='dimension' semantic-role='[NUTS].[Name]' type='nominal' />
+      <column caption='Water Rdb Name' datatype='string' name='[WATER_RDB_NAME]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='pollution_dataset.csv' datatype='table' name='[__tableau_internal_object_id__].[pollution_dataset.csv_DCDEFC43A4AE417B9FB77E4BB7F5C836]' role='measure' type='quantitative' />
+      <column-instance column='[Indic Ag Set]' derivation='InOut' name='[io:Indic Ag Set:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Se Levels Set]' derivation='InOut' name='[io:Se Levels Set:nk]' pivot='key' type='nominal' />
+      <column-instance column='[GEO]' derivation='None' name='[none:GEO:nk]' pivot='key' type='nominal' />
+      <column-instance column='[GEO_NAME]' derivation='None' name='[none:GEO_NAME:nk]' pivot='key' type='nominal' />
+      <column-instance column='[GREEN_POL]' derivation='None' name='[none:GREEN_POL:nk]' pivot='key' type='nominal' />
+      <column-instance column='[GREEN_POL_SRC]' derivation='None' name='[none:GREEN_POL_SRC:nk]' pivot='key' type='nominal' />
+      <column-instance column='[INDIC_AG]' derivation='None' name='[none:INDIC_AG:nk]' pivot='key' type='nominal' />
+      <column-instance column='[WATER_POL_PERCENTAGE]' derivation='None' name='[none:WATER_POL_PERCENTAGE:nk]' pivot='key' type='nominal' />
+      <column-instance column='[WATER_RDB_NAME]' derivation='None' name='[none:WATER_RDB_NAME:nk]' pivot='key' type='nominal' />
+      <column-instance column='[TIME]' derivation='Year' name='[yr:TIME:ok]' pivot='key' type='ordinal' />
+      <group caption='Airpol Set' name='[Airpol Set]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter from='&quot;Ammonia&quot;' function='range' level='[AIRPOL]' to='&quot;Sulphur oxides&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </group>
+      <group hidden='true' name='[Exclusions (GEO,Geo Name,IN/OUT(Indic Ag Set))]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:GEO:nk]' />
+          <groupfilter function='level-members' level='[none:GEO_NAME:nk]' />
+          <groupfilter function='level-members' level='[io:Indic Ag Set:nk]' />
+        </groupfilter>
+      </group>
+      <group hidden='true' name='[Exclusions (GEO,IN/OUT(Se Levels Set))]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:GEO:nk]' />
+          <groupfilter function='level-members' level='[io:Se Levels Set:nk]' />
+        </groupfilter>
+      </group>
+      <group caption='GEO NUTS 0' name='[GEO NUTS 0]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Austria&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Belgium&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Bulgaria&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Croatia&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Cyprus&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Czechia&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Denmark&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Estonia&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;European Union - 27 countries (from 2020)&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;European Union - 28 countries (2013-2020)&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;European Union - 28 countries (2013-2020) and Iceland under the Kyoto Protocol&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Finland&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;France&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Germany (until 1990 former territory of the FRG)&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Greece&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Hungary&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Iceland&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Ireland&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Italy&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Latvia&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Lithuania&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Luxembourg&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Malta&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Netherlands&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Norway&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Poland&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Portugal&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Romania&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Slovakia&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Slovenia&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Spain&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Sweden&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Switzerland&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Turkey&quot;' />
+          <groupfilter function='member' level='[none:GEO:nk]' member='&quot;United Kingdom&quot;' />
+        </groupfilter>
+      </group>
+      <group caption='Green Pol Set (all)' name='[Green Pol Set (all)]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+          <groupfilter function='level-members' level='[GREEN_POL]' />
+          <groupfilter function='member' level='[GREEN_POL]' member='%null%' />
+        </groupfilter>
+      </group>
+      <group caption='Green Pol Set' name='[Green Pol Set]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter function='member' level='[GREEN_POL]' member='&quot;Greenhouse gases (CO2, N2O in CO2 equivalent, CH4 in CO2 equivalent, HFC in CO2 equivalent, PFC in CO2 equivalent, SF6 in CO2 equivalent, NF3 in CO2 equivalent)&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </group>
+      <group caption='Indic Ag Set' name='[Indic Ag Set]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+          <groupfilter function='level-members' level='[INDIC_AG]' />
+          <groupfilter function='member' level='[INDIC_AG]' member='%null%' />
+        </groupfilter>
+      </group>
+      <group caption='Se Levels Set' name='[Se Levels Set]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter function='member' level='[SE_LEVELS]' member='&quot;Total&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </group>
+      <group caption='Water Pol Percentage Set' name='[Water Pol Percentage Set]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+          <groupfilter function='level-members' level='[WATER_POL_PERCENTAGE]' />
+          <groupfilter function='member' level='[WATER_POL_PERCENTAGE]' member='%null%' />
+        </groupfilter>
+      </group>
+      <group caption='Water Rdb Name Set' name='[Water Rdb Name Set]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter from='&quot;?àLAND RIVER BASIN DISTRICT&quot;' function='range' level='[none:WATER_RDB_NAME:nk]' to='&quot;WESTERN WALES&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </group>
+      <group caption='Year' name='[YEAR(Time) Set]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='member' level='[yr:TIME:ok]' member='2010' />
+          <groupfilter function='member' level='[yr:TIME:ok]' member='2013' />
+          <groupfilter function='member' level='[yr:TIME:ok]' member='2015' />
+          <groupfilter function='member' level='[yr:TIME:ok]' member='2016' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Giorgia Sampo/OneDrive/Desktop/Foodata/assets/tableau_files/pollution_dataset.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username=''>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>TIME</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[TIME]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TIME</remote-alias>
+              <ordinal>0</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GEO_NAME</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[GEO_NAME]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GEO_NAME</remote-alias>
+              <ordinal>1</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3387</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GEO</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[GEO]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GEO</remote-alias>
+              <ordinal>2</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3456</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IRRIGATION</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[IRRIGATION]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IRRIGATION</remote-alias>
+              <ordinal>3</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IRRIGATED_CROPS</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IRRIGATED_CROPS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IRRIGATED_CROPS</remote-alias>
+              <ordinal>4</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>449</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WATER_RDB_CODE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[WATER_RDB_CODE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WATER_RDB_CODE</remote-alias>
+              <ordinal>5</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>236</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WATER_RDB_NAME</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[WATER_RDB_NAME]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WATER_RDB_NAME</remote-alias>
+              <ordinal>6</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>236</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WATER_POL_PERCENTAGE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[WATER_POL_PERCENTAGE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WATER_POL_PERCENTAGE</remote-alias>
+              <ordinal>7</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>236</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>INDIC_AG</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[INDIC_AG]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>INDIC_AG</remote-alias>
+              <ordinal>8</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AG_HECTARES</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AG_HECTARES]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AG_HECTARES</remote-alias>
+              <ordinal>9</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17625</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SE_LEVELS</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SE_LEVELS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SE_LEVELS</remote-alias>
+              <ordinal>10</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SE_SECTOR</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SE_SECTOR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SE_SECTOR</remote-alias>
+              <ordinal>11</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SE_TONNES PER HECTARE</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[SE_TONNES PER HECTARE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SE_TONNES PER HECTARE</remote-alias>
+              <ordinal>12</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>470</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GREEN_POL</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[GREEN_POL]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GREEN_POL</remote-alias>
+              <ordinal>13</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GREEN_POL_SRC</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[GREEN_POL_SRC]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GREEN_POL_SRC</remote-alias>
+              <ordinal>14</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GREEN_POL_THOUSAND_TONNES</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[GREEN_POL_THOUSAND_TONNES]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GREEN_POL_THOUSAND_TONNES</remote-alias>
+              <ordinal>15</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5841</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AIRPOL</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[AIRPOL]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AIRPOL</remote-alias>
+              <ordinal>16</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AIRPOL_VALUE</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AIRPOL_VALUE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AIRPOL_VALUE</remote-alias>
+              <ordinal>17</ordinal>
+              <family>pollution_dataset.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2965</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[Water Pol Percentage Set]' type='palette'>
+            <map to='#499894'>
+              <bucket>(&quot;15&quot;)</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>(&quot;37&quot;)</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>(&quot;61&quot;)</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>(&quot;84&quot;)</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>(&quot;100&quot;)</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>(&quot;29&quot;)</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>(&quot;52&quot;)</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>(&quot;74&quot;)</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>(&quot;33&quot;)</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>(&quot;4&quot;)</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>(&quot;57&quot;)</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>(&quot;79&quot;)</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>(&quot;19&quot;)</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>(&quot;42&quot;)</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>(&quot;65&quot;)</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>(&quot;89&quot;)</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>(&quot;16&quot;)</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>(&quot;38&quot;)</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>(&quot;62&quot;)</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>(&quot;85&quot;)</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>(&quot;34&quot;)</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>(&quot;58&quot;)</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>(&quot;6&quot;)</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>(&quot;80&quot;)</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>(&quot;25&quot;)</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>(&quot;27&quot;)</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>(&quot;48&quot;)</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>(&quot;71&quot;)</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>(&quot;97&quot;)</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>(&quot;0&quot;)</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>(&quot;30&quot;)</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>(&quot;53&quot;)</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>(&quot;76&quot;)</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>(&quot;23&quot;)</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>(&quot;46&quot;)</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>(&quot;69&quot;)</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>(&quot;95&quot;)</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>(&quot;35&quot;)</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>(&quot;59&quot;)</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>(&quot;7&quot;)</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>(&quot;82&quot;)</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>(&quot;20&quot;)</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>(&quot;43&quot;)</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>(&quot;66&quot;)</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>(&quot;90&quot;)</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>(&quot;21&quot;)</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>(&quot;44&quot;)</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>(&quot;67&quot;)</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>(&quot;92&quot;)</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>(&quot;24&quot;)</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>(&quot;47&quot;)</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>(&quot;70&quot;)</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>(&quot;96&quot;)</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>(&quot;28&quot;)</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>(&quot;51&quot;)</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>(&quot;73&quot;)</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>(&quot;99&quot;)</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>(&quot;17&quot;)</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>(&quot;40&quot;)</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>(&quot;63&quot;)</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>(&quot;86&quot;)</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>(&quot;12&quot;)</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>(&quot;36&quot;)</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>(&quot;60&quot;)</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>(&quot;83&quot;)</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>(&quot;2&quot;)</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>(&quot;31&quot;)</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>(&quot;55&quot;)</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>(&quot;77&quot;)</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>(&quot;22&quot;)</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>(&quot;45&quot;)</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>(&quot;68&quot;)</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>(&quot;94&quot;)</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>(&quot;18&quot;)</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>(&quot;41&quot;)</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>(&quot;64&quot;)</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>(&quot;87&quot;)</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>(&quot;3&quot;)</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>(&quot;32&quot;)</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>(&quot;56&quot;)</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>(&quot;78&quot;)</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:GREEN_POL_SRC:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Agriculture&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Land use, land use change, and forestry (LULUCF)&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:INDIC_AG:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;High-input farms&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Medium-input farms&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Low-input farms&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:GEO:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Alsace&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Brandenburg&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Champagne-Ardenne&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Dolno?l?skie&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Estonia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Halle (NUTS 2003)&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Hamburg&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Kärnten&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Leipzig&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Makroregion pó?nocny&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Niederösterreich&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;North Yorkshire&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Picardie&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Prov. West-Vlaanderen&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Scotland&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;St?ední ?echy&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Thüringen&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Warmi?sko-mazurskie&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;?esko&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Basse-Normandie&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Castilla-la Mancha&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Danmark&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;East Yorkshire and Northern Lincolnshire&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Galicia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Ionia Nisia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;La Rioja&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Luxembourg&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Midi-Pyrénées&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Noreste&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Östra Mellansverige&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Prov. Brabant wallon&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Romania&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Slovenija&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Südösterreich&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Vest&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Yuzhen tsentralen&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Abruzzo&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Belgium&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Centro (ES)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Denmark&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Emilia-Romagna&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Gloucestershire, Wiltshire and Bristol/Bath area&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Latvia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Macroregiunea trei&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Moravskoslezsko&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Norte&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Övre Norrland&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Prov. Luxembourg (BE)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Salzburg&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;South East (England)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Syddanmark&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Voreio Aigaio&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Zeeland&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Aragón&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Bucure?ti-Ilfov&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Comunidad Foral de Navarra&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Dunántúl&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Extremadura&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Helsinki-Uusimaa&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Kentriki Makedonia&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Limousin&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Malta&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Noord-Holland&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Nyugat-Dunántúl&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Pohjois- ja Itä-Suomi&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Puglia&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Severovýchod&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Stockholm&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Tübingen&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;West Yorkshire&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Anatoliki Makedonia, Thraki&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Bratislavský kraj&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Chemnitz&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Dorset and Somerset&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Észak-Alföld&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Hampshire and Isle of Wight&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Kassel&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Lietuva&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Makroregion po?udniowo-zachodni&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Niedersachsen&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Northern Ireland&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Piemonte&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Provence-Alpes-Côte d’Azur&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Severen tsentralen&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;St?ední Morava&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Tirol&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Weser-Ems&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Alentejo&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Berkshire, Buckinghamshire and Oxfordshire&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Centro (IT)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Derbyshire and Nottinghamshire&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Essex&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Greater Manchester&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Jihovýchod&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Latvija&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Macroregiunea unu&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Münster&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;North East (England)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;País Vasco&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Prov. Namur&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sardegna&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;South West (England)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sydsverige&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Východné Slovensko&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Zuid-Holland&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Baden-Württemberg&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Cantabria&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Cyprus&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;East of England&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Friesland (NL)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Ile-de-France&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Kujawsko-Pomorskie&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Lubuskie&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Mellersta Norrland&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Nordjylland&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Opolskie&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Principado de Asturias&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Rheinland-Pfalz&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Slovakia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Sud-Ouest (FR) (NUTS 2013)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Västsverige&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Yugozapaden&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;?l?skie&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bassin Parisien (NUTS 2013)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Cataluña&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Darmstadt&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Eastern Scotland&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Gelderland&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Ipeiros&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Lancashire&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Ma?opolskie&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Midtjylland&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Noroeste&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Östra Sverige&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Prov. Hainaut&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Saarland&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Slovensko&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Sur&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Vlaams Gewest&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Zachodniopomorskie&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Austria&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Campania&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Corse&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;East Anglia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Franche-Comté&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Hovedstaden&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Közép-Magyarország&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Lorraine&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Mecklenburg-Vorpommern&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Nord-Pas de Calais&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Oberpfalz&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Portugal&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Région wallonne&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Sicilia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Sud-Est&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Utrecht&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Yorkshire and The Humber&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Alföld és Észak&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Border, Midland and Western (NUTS 2013)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Centro (PT)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Detmold&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Est (FR) (NUTS 2013)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Greece&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Jihozápad&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Lazio&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Makroregion centralny&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Netherlands&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;North Eastern Scotland&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Pays de la Loire&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Prov. Oost-Vlaanderen&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Schleswig-Holstein&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;South Yorkshire&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Tees Valley and Durham&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Vzhodna Slovenija&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Zuid-Nederland&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Área Metropolitana de Lisboa&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Bulgaria&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Comunitat Valenciana&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Düsseldorf&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Finland&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Herefordshire, Worcestershire and Warwickshire&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Koblenz&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Lincolnshire&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Manner-Suomi&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Noord-Nederland&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Oberbayern&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Poitou-Charentes&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Região Autónoma da Madeira&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Severozápad&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Stredné Slovensko&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Umbria&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;West-Nederland&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Arnsberg&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Burgenland&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Continente&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Dytiki Elláda&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Flevoland&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Hessen&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Köln&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Lithuania&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Marche&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Nord-Est&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Oberfranken&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Poland&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Região Autónoma dos Açores&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Severozapaden&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Stuttgart&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;United Kingdom&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Westösterreich&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Auvergne-Rhône-Alpes&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Canarias&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Cumbria&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;East Midlands (England)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Freiburg&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Hungary&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Kriti&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Lubelskie&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Méditerranée (NUTS 2013)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Nord-Vest&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Oost-Nederland&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Praha&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Rheinhessen-Pfalz&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Sjælland&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Sud-Muntenia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Valle d’Aosta/Vallée d’Aoste&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Yugoiztochen&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Basilicata&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Castilla y León&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Czechia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;East Wales&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Friuli-Venezia Giulia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Illes Balears&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Kýpros&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Lüneburg&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Merseyside&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Nordrhein-Westfalen&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Ostösterreich&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Prov. Antwerpen&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Rhône-Alpes&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Slovenia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Sud-Vest Oltenia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Veneto&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Yugozapadna i yuzhna tsentralna Bulgaria&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Andalucía&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Braunschweig&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Cheshire&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Drenthe&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Észak-Magyarország&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Hannover&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Kent&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Liguria&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Makroregion po?udniowy&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Nisia Aigaiou, Kriti&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Northumberland and Tyne and Wear&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Podkarpackie&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Provincia Autonoma di Bolzano/Bozen&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Severna i yugoiztochna Bulgaria&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Steiermark&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Toscana&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;West Midlands&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Algarve&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Bourgogne&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Centru&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Devon&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Este&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Groningen&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Karlsruhe&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Leicestershire, Rutland and Northamptonshire&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Makroregion pó?nocno-zachodni&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Niederbayern&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;North West (England)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Peloponnisos&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Prov. Vlaams-Brabant&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Schwaben&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Thessalia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Wales&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;?ódzkie&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Bayern&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Centre (FR) (NUTS 2013)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Dél-Alföld&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Eesti&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Germany (until 1990 former territory of the FRG)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ireland&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Languedoc-Roussillon&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Macroregiunea doi&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Mittelfranken&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Norra Mellansverige&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ouest (FR) (NUTS 2013)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Prov. Liège&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Sachsen&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Småland med öarna&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Surrey, East and West Sussex&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Vorarlberg&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Zahodna Slovenija&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Attiki&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Calabria&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Cornwall and Isles of Scilly&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Dytiki Makedonia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Highlands and Islands&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Közép-Dunántúl&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Lombardia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Mazowiecki regionalny&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Nord-Ovest&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Oberösterreich&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Pomorskie&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Región de Murcia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Shropshire and Staffordshire&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Sud&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Unterfranken&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Wielkopolskie&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Aquitaine&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Bretagne&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Comunidad de Madrid&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Dresden&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Etelä-Suomi&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Haute-Normandie&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Kentriki Elláda&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Limburg (NL)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Makroregion wschodni&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Noord-Brabant&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Notio Aigaio&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Podlaskie&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Provincia Autonoma di Trento&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Severoiztochen&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Sterea Elláda&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Trier&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;West Wales and The Valleys&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;?wi?tokrzyskie&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Bedfordshire and Hertfordshire&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Centre-Est (FR) (NUTS 2013)&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Dél-Dunántúl&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Éire/Ireland&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Gießen&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Isole&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Länsi-Suomi&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Macroregiunea patru&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Molise&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Norra Sverige&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Overijssel&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Prov. Limburg (BE)&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Sachsen-Anhalt&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Södra Sverige&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Sweden&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Voreia Elláda&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Západné Slovensko&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:GREEN_POL:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Methane (CO2 equivalent)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Nitrous oxide&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Hydrofluorocarbones and perfluorocarbones - not specified mix (CO2 equivalent)&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Sulphur hexafluoride (CO2 equivalent)&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Methane&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Nitrous oxide (CO2 equivalent)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Greenhouse gases (CO2, N2O in CO2 equivalent, CH4 in CO2 equivalent, HFC in CO2 equivalent, PFC in CO2 equivalent, SF6 in CO2 equivalent, NF3 in CO2 equivalent)&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Hydrofluorocarbones (CO2 equivalent)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Carbon dioxide&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Perfluorocarbones (CO2 equivalent)&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:WATER_POL_PERCENTAGE:nk]' palette='blue_teal_10_0' type='palette'>
+            <map to='#45a2b9'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;100&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;15&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;60&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;63&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;0&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;28&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;51&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;96&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;32&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;41&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;47&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;56&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;78&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;38&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;19&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;64&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;82&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;87&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;16&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;37&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;65&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;84&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;57&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;6&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;68&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;79&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;25&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;4&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;66&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;70&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;12&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;29&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;52&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;74&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;2&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;36&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;45&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;94&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;58&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;61&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;7&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;80&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;20&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;42&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;83&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;89&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;21&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;43&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;90&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;97&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;24&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;3&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;46&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;95&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;27&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;48&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;71&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;34&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;67&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;69&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;85&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;33&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;59&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;62&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;99&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;17&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;22&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;30&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;53&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;76&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;35&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;44&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;92&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;18&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;40&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;73&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;86&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;23&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;31&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;55&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;77&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italy&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='TIME' />
+        <field-sort-custom-order field='GEO_NAME' />
+        <field-sort-custom-order field='GEO' />
+        <field-sort-custom-order field='IRRIGATION' />
+        <field-sort-custom-order field='IRRIGATED_CROPS' />
+        <field-sort-custom-order field='WATER_RDB_CODE' />
+        <field-sort-custom-order field='WATER_RDB_NAME' />
+        <field-sort-custom-order field='WATER_POL_PERCENTAGE' />
+        <field-sort-custom-order field='INDIC_AG' />
+        <field-sort-custom-order field='AG_HECTARES' />
+        <field-sort-custom-order field='SE_LEVELS' />
+        <field-sort-custom-order field='SE_SECTOR' />
+        <field-sort-custom-order field='SE_TONNES PER HECTARE' />
+        <field-sort-custom-order field='GREEN_POL' />
+        <field-sort-custom-order field='GREEN_POL_SRC' />
+        <field-sort-custom-order field='GREEN_POL_THOUSAND_TONNES' />
+        <field-sort-custom-order field='AIRPOL' />
+        <field-sort-custom-order field='AIRPOL_VALUE' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='pollution_dataset.csv' id='pollution_dataset.csv_DCDEFC43A4AE417B9FB77E4BB7F5C836'>
+            <properties context=''>
+              <relation connection='textscan.16jvc6c08n2cxq137iu65133ooa9' name='pollution_dataset.csv' table='[pollution_dataset#csv]' type='table'>
+                <columns character-set='windows-1252' header='yes' locale='en_GB' separator=','>
+                  <column datatype='date' date-parse-format='yyyy' name='TIME' ordinal='0' />
+                  <column datatype='string' name='GEO_NAME' ordinal='1' />
+                  <column datatype='string' name='GEO' ordinal='2' />
+                  <column datatype='string' name='IRRIGATION' ordinal='3' />
+                  <column datatype='real' name='IRRIGATED_CROPS' ordinal='4' />
+                  <column datatype='string' name='WATER_RDB_CODE' ordinal='5' />
+                  <column datatype='string' name='WATER_RDB_NAME' ordinal='6' />
+                  <column datatype='string' name='WATER_POL_PERCENTAGE' ordinal='7' />
+                  <column datatype='string' name='INDIC_AG' ordinal='8' />
+                  <column datatype='integer' name='AG_HECTARES' ordinal='9' />
+                  <column datatype='string' name='SE_LEVELS' ordinal='10' />
+                  <column datatype='string' name='SE_SECTOR' ordinal='11' />
+                  <column datatype='real' name='SE_TONNES PER HECTARE' ordinal='12' />
+                  <column datatype='string' name='GREEN_POL' ordinal='13' />
+                  <column datatype='string' name='GREEN_POL_SRC' ordinal='14' />
+                  <column datatype='real' name='GREEN_POL_THOUSAND_TONNES' ordinal='15' />
+                  <column datatype='string' name='AIRPOL' ordinal='16' />
+                  <column datatype='integer' name='AIRPOL_VALUE' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_FBC41DB7FEB24675A4C119BEC0DC3F8A]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Greenhouse gas emissions and air pollution' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='IN/OUT(Green Pol Set)' />
+        <param name='target' value='Greenhouse gas emissions and air pollution' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Agriculture intensity and soil erosion level'>
+      <repository-location derived-from='https://public.tableau.com/workbooks/Leveloffarmingperyear/Agricultureintensityandsoilerosionlevel?rev=' id='54382418' path='/workbooks/Leveloffarmingperyear' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='pollution_dataset' name='federated.0du0l430wqaewt19n7pg71nsiye6' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0du0l430wqaewt19n7pg71nsiye6'>
+            <column caption='Ag Hectares' datatype='integer' name='[AG_HECTARES]' role='measure' type='quantitative' />
+            <column datatype='string' name='[GEO]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+              <aliases>
+                <alias key='&quot;?l?skie&quot;' value='Slaskie' />
+                <alias key='&quot;?ódzkie&quot;' value='Pódzkie' />
+                <alias key='&quot;?wi?tokrzyskie&quot;' value='Swiztokrzyskie' />
+              </aliases>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;Germany (until 1990 former territory of the FRG)&quot;' value='&quot;Germany&quot;' />
+              </semantic-values>
+            </column>
+            <column caption='Geo Name' datatype='string' name='[GEO_NAME]' role='dimension' semantic-role='[NUTS].[Name]' type='nominal'>
+              <semantic-values semantic-role='[NUTS].[Name]'>
+                <semantic-value key='&quot;37226&quot;' value='&quot;DEE01&quot;' />
+                <semantic-value key='&quot;37591&quot;' value='&quot;DEE02&quot;' />
+                <semantic-value key='&quot;37956&quot;' value='&quot;DEE03&quot;' />
+                <semantic-value key='&quot;38322&quot;' value='&quot;DEE03&quot;' />
+                <semantic-value key='&quot;38687&quot;' value='&quot;DEE05&quot;' />
+                <semantic-value key='&quot;39052&quot;' value='&quot;DEE06&quot;' />
+                <semantic-value key='&quot;BE11&quot;' value='&quot;BE1&quot;' />
+                <semantic-value key='&quot;BE12&quot;' value='&quot;BE1&quot;' />
+                <semantic-value key='&quot;BE224&quot;' value='&quot;BE2&quot;' />
+                <semantic-value key='&quot;BE225&quot;' value='&quot;BE2&quot;' />
+                <semantic-value key='&quot;BE328&quot;' value='&quot;BE3&quot;' />
+                <semantic-value key='&quot;BE32A&quot;' value='&quot;BE32&quot;' />
+                <semantic-value key='&quot;BE32B&quot;' value='&quot;BE32&quot;' />
+                <semantic-value key='&quot;BE32C&quot;' value='&quot;BE32&quot;' />
+                <semantic-value key='&quot;BE32D&quot;' value='&quot;BE32&quot;' />
+                <semantic-value key='&quot;BE4&quot;' value='&quot;BE&quot;' />
+                <semantic-value key='&quot;BE5&quot;' value='&quot;BE&quot;' />
+                <semantic-value key='&quot;BE6&quot;' value='&quot;BE&quot;' />
+                <semantic-value key='&quot;DEC000&quot;' value='&quot;DEE0&quot;' />
+                <semantic-value key='&quot;DEE1&quot;' value='&quot;DEE&quot;' />
+                <semantic-value key='&quot;DEE2&quot;' value='&quot;DEE01&quot;' />
+                <semantic-value key='&quot;DEE3&quot;' value='&quot;DEE02&quot;' />
+                <semantic-value key='&quot;EE009&quot;' value='&quot;EE00&quot;' />
+                <semantic-value key='&quot;EE00A&quot;' value='&quot;EE00&quot;' />
+                <semantic-value key='&quot;EL11&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;EL12&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;EL13&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;EL14&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;EL21&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;EL22&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;EL23&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;EL24&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;EL25&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;EL67&quot;' value='&quot;EL6&quot;' />
+                <semantic-value key='&quot;EL68&quot;' value='&quot;EL6&quot;' />
+                <semantic-value key='&quot;EL69&quot;' value='&quot;EL6&quot;' />
+                <semantic-value key='&quot;EL73&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;EL74&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;EL75&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;FI13&quot;' value='&quot;FI1&quot;' />
+                <semantic-value key='&quot;FI18&quot;' value='&quot;FI1&quot;' />
+                <semantic-value key='&quot;FI1A&quot;' value='&quot;FI1&quot;' />
+                <semantic-value key='&quot;FR2&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR21&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR22&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR23&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR24&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR25&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR26&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR30&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR4&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR41&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR42&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR43&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR5&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR51&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR52&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR53&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR6&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR61&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR62&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR63&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR7&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR71&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR72&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR8&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR81&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR82&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR83&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR9&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR91&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR94&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FRA1&quot;' value='&quot;FR1&quot;' />
+                <semantic-value key='&quot;FRA4&quot;' value='&quot;FR1&quot;' />
+                <semantic-value key='&quot;GE&quot;' value='&quot;DE&quot;' />
+                <semantic-value key='&quot;HR021&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR022&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR023&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR024&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR025&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR026&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR027&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR028&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR050&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR061&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR062&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR063&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR064&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR065&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HU10&quot;' value='&quot;HU1&quot;' />
+                <semantic-value key='&quot;IE01&quot;' value='&quot;IE&quot;' />
+                <semantic-value key='&quot;IE02&quot;' value='&quot;IE0&quot;' />
+                <semantic-value key='&quot;ITD1&quot;' value='&quot;IT&quot;' />
+                <semantic-value key='&quot;ITD2&quot;' value='&quot;IT&quot;' />
+                <semantic-value key='&quot;ITD3&quot;' value='&quot;IT&quot;' />
+                <semantic-value key='&quot;ITD4&quot;' value='&quot;IT&quot;' />
+                <semantic-value key='&quot;ITD5&quot;' value='&quot;IT&quot;' />
+                <semantic-value key='&quot;ITE1&quot;' value='&quot;IT&quot;' />
+                <semantic-value key='&quot;ITE2&quot;' value='&quot;IT&quot;' />
+                <semantic-value key='&quot;ITE3&quot;' value='&quot;IT&quot;' />
+                <semantic-value key='&quot;ITE4&quot;' value='&quot;IT&quot;' />
+                <semantic-value key='&quot;ITG2D&quot;' value='&quot;ITG2&quot;' />
+                <semantic-value key='&quot;ITG2E&quot;' value='&quot;ITG2&quot;' />
+                <semantic-value key='&quot;ITG2F&quot;' value='&quot;ITG2&quot;' />
+                <semantic-value key='&quot;ITG2G&quot;' value='&quot;ITG2&quot;' />
+                <semantic-value key='&quot;LT00&quot;' value='&quot;LT0&quot;' />
+                <semantic-value key='&quot;PL11&quot;' value='&quot;PL&quot;' />
+                <semantic-value key='&quot;PL12&quot;' value='&quot;PL&quot;' />
+                <semantic-value key='&quot;PL31&quot;' value='&quot;PL&quot;' />
+                <semantic-value key='&quot;PL32&quot;' value='&quot;PL&quot;' />
+                <semantic-value key='&quot;PL33&quot;' value='&quot;PL&quot;' />
+                <semantic-value key='&quot;PL34&quot;' value='&quot;PL&quot;' />
+                <semantic-value key='&quot;SI01&quot;' value='&quot;SI0&quot;' />
+                <semantic-value key='&quot;SI02&quot;' value='&quot;SI0&quot;' />
+                <semantic-value key='&quot;UKD2&quot;' value='&quot;UKD&quot;' />
+                <semantic-value key='&quot;UKD5&quot;' value='&quot;UKD&quot;' />
+                <semantic-value key='&quot;UKI1&quot;' value='&quot;UKI&quot;' />
+                <semantic-value key='&quot;UKI2&quot;' value='&quot;UKI&quot;' />
+                <semantic-value key='&quot;UKK24&quot;' value='&quot;UKK2&quot;' />
+                <semantic-value key='&quot;UKK25&quot;' value='&quot;UKK2&quot;' />
+                <semantic-value key='&quot;UKM2&quot;' value='&quot;UKM&quot;' />
+                <semantic-value key='&quot;UKM3&quot;' value='&quot;UKM&quot;' />
+                <semantic-value key='&quot;UKN0A&quot;' value='&quot;UKN0&quot;' />
+                <semantic-value key='&quot;UKN0B&quot;' value='&quot;UKN0&quot;' />
+                <semantic-value key='&quot;UKN0C&quot;' value='&quot;UKN0&quot;' />
+                <semantic-value key='&quot;UKN0D&quot;' value='&quot;UKN0&quot;' />
+                <semantic-value key='&quot;UKN0E&quot;' value='&quot;UKN0&quot;' />
+                <semantic-value key='&quot;UKN0F&quot;' value='&quot;UKN0&quot;' />
+                <semantic-value key='&quot;UKN0G&quot;' value='&quot;UKN0&quot;' />
+              </semantic-values>
+            </column>
+            <column caption='Indic Ag' datatype='string' name='[INDIC_AG]' role='dimension' type='nominal' />
+            <column caption='Se Levels' datatype='string' name='[SE_LEVELS]' role='dimension' type='nominal' />
+            <column caption='Se Tonnes Per Hectare' datatype='real' name='[SE_TONNES PER HECTARE]' role='measure' type='quantitative' />
+            <column caption='Time' datatype='date' name='[TIME]' role='dimension' type='quantitative' />
+            <column-instance column='[Indic Ag Set]' derivation='InOut' name='[io:Indic Ag Set:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Se Levels Set]' derivation='InOut' name='[io:Se Levels Set:nk]' pivot='key' type='nominal' />
+            <column-instance column='[GEO]' derivation='None' name='[none:GEO:nk]' pivot='key' type='nominal' />
+            <column-instance column='[GEO_NAME]' derivation='None' name='[none:GEO_NAME:nk]' pivot='key' type='nominal' />
+            <column-instance column='[AG_HECTARES]' derivation='Sum' name='[sum:AG_HECTARES:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SE_TONNES PER HECTARE]' derivation='Sum' name='[sum:SE_TONNES PER HECTARE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TIME]' derivation='Year' name='[yr:TIME:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0du0l430wqaewt19n7pg71nsiye6].[Exclusions (GEO,Geo Name,IN/OUT(Indic Ag Set))]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:GEO:nk]' />
+                <groupfilter function='level-members' level='[none:GEO_NAME:nk]' />
+                <groupfilter function='level-members' level='[io:Indic Ag Set:nk]' />
+              </groupfilter>
+              <groupfilter function='reorder-dimensionality'>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[io:Indic Ag Set:nk]' member='true' />
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Bassin Parisien (NUTS 2013)&quot;' />
+                    <groupfilter function='member' level='[none:GEO_NAME:nk]' member='&quot;FR2&quot;' />
+                  </groupfilter>
+                </groupfilter>
+                <order>
+                  <hierarchy name='[none:GEO:nk]' />
+                  <hierarchy name='[none:GEO_NAME:nk]' />
+                  <hierarchy name='[io:Indic Ag Set:nk]' />
+                </order>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0du0l430wqaewt19n7pg71nsiye6].[Exclusions (GEO,IN/OUT(Se Levels Set))]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:GEO:nk]' />
+                <groupfilter function='level-members' level='[io:Se Levels Set:nk]' />
+              </groupfilter>
+              <groupfilter function='reorder-dimensionality'>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[io:Se Levels Set:nk]' member='false' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Czech Republic&quot;' />
+                    <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Danmark&quot;' />
+                    <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Germany&quot;' />
+                    <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Guadeloupe&quot;' />
+                    <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Guyane&quot;' />
+                    <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Iceland&quot;' />
+                    <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Liechtenstein&quot;' />
+                    <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Lietuva&quot;' />
+                    <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Martinique&quot;' />
+                    <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Montenegro&quot;' />
+                    <groupfilter function='member' level='[none:GEO:nk]' member='&quot;North Macedonia&quot;' />
+                    <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Norway&quot;' />
+                    <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Sud&quot;' />
+                    <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Sur&quot;' />
+                    <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Switzerland&quot;' />
+                    <groupfilter function='member' level='[none:GEO:nk]' member='&quot;Turkey&quot;' />
+                  </groupfilter>
+                </groupfilter>
+                <order>
+                  <hierarchy name='[none:GEO:nk]' />
+                  <hierarchy name='[io:Se Levels Set:nk]' />
+                </order>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)]' included-values='in-range'>
+            <min>-21.1313</min>
+            <max>66.238</max>
+          </filter>
+          <filter class='quantitative' column='[federated.0du0l430wqaewt19n7pg71nsiye6].[Longitude (generated)]' included-values='in-range'>
+            <min>-61.677700000000002</min>
+            <max>55.536999999999999</max>
+          </filter>
+          <filter class='categorical' column='[federated.0du0l430wqaewt19n7pg71nsiye6].[yr:TIME:ok]'>
+            <groupfilter function='member' level='[yr:TIME:ok]' member='2010' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0du0l430wqaewt19n7pg71nsiye6].[yr:TIME:ok]</column>
+            <column>[federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)]</column>
+            <column>[federated.0du0l430wqaewt19n7pg71nsiye6].[Longitude (generated)]</column>
+            <column>[federated.0du0l430wqaewt19n7pg71nsiye6].[Exclusions (GEO,IN/OUT(Se Levels Set))]</column>
+            <column>[federated.0du0l430wqaewt19n7pg71nsiye6].[Exclusions (GEO,Geo Name,IN/OUT(Indic Ag Set))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)]' field-type='quantitative' fold='true' max='11748132.036337588' min='4221414.6967776744' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[Longitude (generated)]' field-type='quantitative' max='8578984.0552955475' min='-4525854.8297302509' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)]' field-type='quantitative' max='11748132.036337588' min='4221414.6967776744' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[sum:AG_HECTARES:qk]' palette='green_gold_10_0' type='interpolated' />
+            <encoding attr='color' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[sum:SE_TONNES PER HECTARE:qk]' palette='orange_blue_white_diverging_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO_NAME:nk]' value='false' />
+            <format attr='break-on-special' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO_NAME:nk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO_NAME:nk]' value='false' />
+            <format attr='omit-on-special' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO:nk]' value='false' />
+            <format attr='break-on-special' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO:nk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO:nk]' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='in-tooltip' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[io:Indic Ag Set:nk]' value='false' />
+            <format attr='in-tooltip' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[io:Se Levels Set:nk]' value='false' />
+            <format attr='in-tooltip' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO_NAME:nk]' value='false' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[sum:AG_HECTARES:qk]' value='Total agricultural Hectares'>
+              <formatted-text>
+                <run>Total agricultural Hectares</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[Se Levels Set]' value='Soil erosion Levels'>
+              <formatted-text>
+                <run>Soil erosion Levels</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[io:Se Levels Set:nk]' value='Countries with relevation of Soil Erosion Levels'>
+              <formatted-text>
+                <run>Countries with relevation of Soil Erosion Levels</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[yr:TIME:ok]' value='Year'>
+              <formatted-text>
+                <run>Year</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <lod column='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO:nk]' />
+              <lod column='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO_NAME:nk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <lod column='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO:nk]' />
+              <lod column='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO_NAME:nk]' />
+              <lod column='[federated.0du0l430wqaewt19n7pg71nsiye6].[io:Indic Ag Set:nk]' />
+              <color column='[federated.0du0l430wqaewt19n7pg71nsiye6].[sum:AG_HECTARES:qk]' />
+              <geometry column='[federated.0du0l430wqaewt19n7pg71nsiye6].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Heatmap' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO:nk]' />
+              <lod column='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO_NAME:nk]' />
+              <lod column='[federated.0du0l430wqaewt19n7pg71nsiye6].[io:Se Levels Set:nk]' />
+              <color column='[federated.0du0l430wqaewt19n7pg71nsiye6].[sum:SE_TONNES PER HECTARE:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.40580111742019653' />
+                <format attr='mark-color' value='#b6992d' />
+                <format attr='density-kernel-size' value='0.44977900385856628' />
+                <format attr='density-intensity' value='0.12572574615478516' />
+                <encoding attr='density-color' palette='orange_gold_10_0' type='interpolated' />
+                <format attr='mark-transparency' value='155' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)] + [federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)])</rows>
+        <cols>[federated.0du0l430wqaewt19n7pg71nsiye6].[Longitude (generated)]</cols>
+        <table-calculations>
+          <partitionable-measures>
+            <column>[federated.0du0l430wqaewt19n7pg71nsiye6].[attr:GEO:nk]</column>
+          </partitionable-measures>
+        </table-calculations>
+      </table>
+      <simple-id uuid='{92464D80-C267-4462-AEA5-739EA326A4C5}' />
+    </worksheet>
+    <worksheet name='Greenhouse gas emissions and air pollution'>
+      <repository-location derived-from='https://public.tableau.com/workbooks/Leveloffarmingperyear/Greenhousegasemissionsandairpollution?rev=' id='54382417' path='/workbooks/Leveloffarmingperyear' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='pollution_dataset' name='federated.0du0l430wqaewt19n7pg71nsiye6' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0du0l430wqaewt19n7pg71nsiye6'>
+            <column caption='Airpol' datatype='string' name='[AIRPOL]' role='dimension' type='nominal' />
+            <column caption='Airpol Value' datatype='integer' name='[AIRPOL_VALUE]' role='measure' type='quantitative' />
+            <column datatype='string' name='[GEO]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+              <aliases>
+                <alias key='&quot;?l?skie&quot;' value='Slaskie' />
+                <alias key='&quot;?ódzkie&quot;' value='Pódzkie' />
+                <alias key='&quot;?wi?tokrzyskie&quot;' value='Swiztokrzyskie' />
+              </aliases>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;Germany (until 1990 former territory of the FRG)&quot;' value='&quot;Germany&quot;' />
+              </semantic-values>
+            </column>
+            <column caption='Green Pol' datatype='string' name='[GREEN_POL]' role='dimension' type='nominal' />
+            <column caption='Green Pol Thousand Tonnes' datatype='real' name='[GREEN_POL_THOUSAND_TONNES]' role='measure' type='quantitative' />
+            <column caption='Time' datatype='date' name='[TIME]' role='dimension' type='quantitative' />
+            <column-instance column='[Airpol Set]' derivation='InOut' name='[io:Airpol Set:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Green Pol Set]' derivation='InOut' name='[io:Green Pol Set:nk]' pivot='key' type='nominal' />
+            <column-instance column='[GEO]' derivation='None' name='[none:GEO:nk]' pivot='key' type='nominal' />
+            <column-instance column='[AIRPOL_VALUE]' derivation='Sum' name='[sum:AIRPOL_VALUE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[GREEN_POL_THOUSAND_TONNES]' derivation='Sum' name='[sum:GREEN_POL_THOUSAND_TONNES:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TIME]' derivation='Year' name='[yr:TIME:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.0du0l430wqaewt19n7pg71nsiye6].[Longitude (generated)]' included-values='non-null' />
+          <filter class='categorical' column='[federated.0du0l430wqaewt19n7pg71nsiye6].[yr:TIME:ok]'>
+            <groupfilter function='member' level='[yr:TIME:ok]' member='2012' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0du0l430wqaewt19n7pg71nsiye6].[yr:TIME:ok]</column>
+            <column>[federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)]</column>
+            <column>[federated.0du0l430wqaewt19n7pg71nsiye6].[Longitude (generated)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)]' field-type='quantitative' fold='true' max='10195297.79416026' min='3185179.3334244713' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[Longitude (generated)]' field-type='quantitative' max='8291543.0646265931' min='-3913840.6170540699' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)]' field-type='quantitative' max='10195297.79416026' min='3185179.3334244713' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[sum:GREEN_POL_THOUSAND_TONNES:qk]' palette='orange_blue_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO:nk]' value='false' />
+            <format attr='break-on-special' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO:nk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO:nk]' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='in-tooltip' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[io:Airpol Set:nk]' value='false' />
+            <format attr='in-tooltip' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[io:Green Pol Set:nk]' value='false' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='size' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[sum:AIRPOL_VALUE:qk]' value='Air pollution total value'>
+              <formatted-text>
+                <run>Air pollution total value</run>
+              </formatted-text>
+            </format>
+            <format attr='color' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[sum:GREEN_POL_THOUSAND_TONNES:qk]' value='Greenhouse gas pollution thousand of tonnes'>
+              <formatted-text>
+                <run>Greenhouse gas pollution thousand of tonnes</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[yr:TIME:ok]' value='Year'>
+              <formatted-text>
+                <run>Year</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Heatmap' />
+            <encodings>
+              <lod column='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO:nk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <lod column='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO:nk]' />
+              <lod column='[federated.0du0l430wqaewt19n7pg71nsiye6].[io:Green Pol Set:nk]' />
+              <color column='[federated.0du0l430wqaewt19n7pg71nsiye6].[sum:GREEN_POL_THOUSAND_TONNES:qk]' />
+              <geometry column='[federated.0du0l430wqaewt19n7pg71nsiye6].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <encoding attr='density-color' palette='red_blue_diverging_10_0' type='interpolated' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO:nk]' />
+              <size column='[federated.0du0l430wqaewt19n7pg71nsiye6].[sum:AIRPOL_VALUE:qk]' />
+              <lod column='[federated.0du0l430wqaewt19n7pg71nsiye6].[io:Airpol Set:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='density-kernel-size' value='1.5272375345230103' />
+                <encoding attr='density-color' palette='blue_10_0' type='interpolated' />
+                <format attr='mark-color' value='#4e79a7' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='size' value='1.9450275897979736' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)] + [federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)])</rows>
+        <cols>[federated.0du0l430wqaewt19n7pg71nsiye6].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{078781B3-DC91-435B-80DC-FBBF45B6C040}' />
+    </worksheet>
+    <worksheet name='Greenhouse gas pollution per sector'>
+      <repository-location derived-from='https://public.tableau.com/workbooks/Leveloffarmingperyear/Greenhousegaspollutionpersector?rev=' id='54382420' path='/workbooks/Leveloffarmingperyear' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='pollution_dataset' name='federated.0du0l430wqaewt19n7pg71nsiye6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0du0l430wqaewt19n7pg71nsiye6'>
+            <column datatype='string' name='[GEO]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+              <aliases>
+                <alias key='&quot;?l?skie&quot;' value='Slaskie' />
+                <alias key='&quot;?ódzkie&quot;' value='Pódzkie' />
+                <alias key='&quot;?wi?tokrzyskie&quot;' value='Swiztokrzyskie' />
+              </aliases>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;Germany (until 1990 former territory of the FRG)&quot;' value='&quot;Germany&quot;' />
+              </semantic-values>
+            </column>
+            <column caption='Green Pol' datatype='string' name='[GREEN_POL]' role='dimension' type='nominal' />
+            <column caption='Green Pol Src' datatype='string' name='[GREEN_POL_SRC]' role='dimension' type='nominal' />
+            <column caption='Green Pol Thousand Tonnes' datatype='real' name='[GREEN_POL_THOUSAND_TONNES]' role='measure' type='quantitative' />
+            <column caption='Time' datatype='date' name='[TIME]' role='dimension' type='quantitative' />
+            <column-instance column='[GEO]' derivation='None' name='[none:GEO:nk]' pivot='key' type='nominal' />
+            <column-instance column='[GREEN_POL]' derivation='None' name='[none:GREEN_POL:nk]' pivot='key' type='nominal' />
+            <column-instance column='[GREEN_POL_SRC]' derivation='None' name='[none:GREEN_POL_SRC:nk]' pivot='key' type='nominal' />
+            <column-instance column='[GREEN_POL_THOUSAND_TONNES]' derivation='Sum' name='[sum:GREEN_POL_THOUSAND_TONNES:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TIME]' derivation='Year-Trunc' name='[tyr:TIME:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0du0l430wqaewt19n7pg71nsiye6].[GEO NUTS 0]'>
+            <groupfilter function='member' level='[none:GEO:nk]' member='&quot;European Union - 28 countries (2013-2020)&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0du0l430wqaewt19n7pg71nsiye6].[Green Pol Set (all)]'>
+            <groupfilter function='member' level='[GREEN_POL]' member='&quot;Greenhouse gases (CO2, N2O in CO2 equivalent, CH4 in CO2 equivalent, HFC in CO2 equivalent, PFC in CO2 equivalent, SF6 in CO2 equivalent, NF3 in CO2 equivalent)&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0du0l430wqaewt19n7pg71nsiye6].[Green Pol Set (all)]</column>
+            <column>[federated.0du0l430wqaewt19n7pg71nsiye6].[GEO NUTS 0]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[sum:GREEN_POL_THOUSAND_TONNES:qk]' value='false' />
+            <format attr='break-on-special' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[sum:GREEN_POL_THOUSAND_TONNES:qk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[sum:GREEN_POL_THOUSAND_TONNES:qk]' value='false' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GREEN_POL:nk]' value='Greenhouse gas under consideration'>
+              <formatted-text>
+                <run>Greenhouse gas under consideration</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[Green Pol Set (all)]' value='Greenhouse gas'>
+              <formatted-text>
+                <run>Greenhouse gas</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GREEN_POL:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0du0l430wqaewt19n7pg71nsiye6].[none:GREEN_POL_SRC:nk] * [federated.0du0l430wqaewt19n7pg71nsiye6].[sum:GREEN_POL_THOUSAND_TONNES:qk])</rows>
+        <cols>([federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO:nk] * [federated.0du0l430wqaewt19n7pg71nsiye6].[tyr:TIME:qk])</cols>
+      </table>
+      <simple-id uuid='{796DAF76-59F6-4156-B8D0-3EE5ABA652B3}' />
+    </worksheet>
+    <worksheet name='Level of farming per year'>
+      <repository-location derived-from='https://public.tableau.com/workbooks/Leveloffarmingperyear/Leveloffarmingperyear?rev=' id='54382421' path='/workbooks/Leveloffarmingperyear' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='pollution_dataset' name='federated.0du0l430wqaewt19n7pg71nsiye6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0du0l430wqaewt19n7pg71nsiye6'>
+            <column caption='Ag Hectares' datatype='integer' name='[AG_HECTARES]' role='measure' type='quantitative' />
+            <column datatype='string' name='[GEO]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+              <aliases>
+                <alias key='&quot;?l?skie&quot;' value='Slaskie' />
+                <alias key='&quot;?ódzkie&quot;' value='Pódzkie' />
+                <alias key='&quot;?wi?tokrzyskie&quot;' value='Swiztokrzyskie' />
+              </aliases>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;Germany (until 1990 former territory of the FRG)&quot;' value='&quot;Germany&quot;' />
+              </semantic-values>
+            </column>
+            <column caption='Indic Ag' datatype='string' name='[INDIC_AG]' role='dimension' type='nominal' />
+            <column caption='Time' datatype='date' name='[TIME]' role='dimension' type='quantitative' />
+            <column-instance column='[GEO]' derivation='None' name='[none:GEO:nk]' pivot='key' type='nominal' />
+            <column-instance column='[INDIC_AG]' derivation='None' name='[none:INDIC_AG:nk]' pivot='key' type='nominal' />
+            <column-instance column='[AG_HECTARES]' derivation='Sum' name='[sum:AG_HECTARES:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TIME]' derivation='Year' name='[yr:TIME:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0du0l430wqaewt19n7pg71nsiye6].[Indic Ag Set]' />
+          <computed-sort column='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO:nk]' direction='DESC' using='[federated.0du0l430wqaewt19n7pg71nsiye6].[sum:AG_HECTARES:qk]' />
+          <filter class='quantitative' column='[federated.0du0l430wqaewt19n7pg71nsiye6].[sum:AG_HECTARES:qk]' included-values='non-null' />
+          <filter class='categorical' column='[federated.0du0l430wqaewt19n7pg71nsiye6].[yr:TIME:ok]'>
+            <groupfilter function='member' level='[yr:TIME:ok]' member='2019' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0du0l430wqaewt19n7pg71nsiye6].[sum:AG_HECTARES:qk]</column>
+            <column>[federated.0du0l430wqaewt19n7pg71nsiye6].[yr:TIME:ok]</column>
+            <column>[federated.0du0l430wqaewt19n7pg71nsiye6].[Indic Ag Set]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:INDIC_AG:nk]' value='Level of farm input'>
+              <formatted-text>
+                <run>Level of farm input</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[yr:TIME:ok]' value='Year'>
+              <formatted-text>
+                <run>Year</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:INDIC_AG:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0du0l430wqaewt19n7pg71nsiye6].[sum:AG_HECTARES:qk]</rows>
+        <cols>[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO:nk]</cols>
+      </table>
+      <simple-id uuid='{76C2F79A-9D27-498F-87F0-4075C2D248B7}' />
+    </worksheet>
+    <worksheet name='Water pollution and Irrigation'>
+      <repository-location derived-from='https://public.tableau.com/workbooks/Leveloffarmingperyear/WaterpollutionandIrrigation?rev=' id='54382419' path='/workbooks/Leveloffarmingperyear' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='pollution_dataset' name='federated.0du0l430wqaewt19n7pg71nsiye6' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0du0l430wqaewt19n7pg71nsiye6'>
+            <column datatype='string' name='[GEO]' role='dimension' semantic-role='[Country].[Name]' type='nominal'>
+              <aliases>
+                <alias key='&quot;?l?skie&quot;' value='Slaskie' />
+                <alias key='&quot;?ódzkie&quot;' value='Pódzkie' />
+                <alias key='&quot;?wi?tokrzyskie&quot;' value='Swiztokrzyskie' />
+              </aliases>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;Germany (until 1990 former territory of the FRG)&quot;' value='&quot;Germany&quot;' />
+              </semantic-values>
+            </column>
+            <column caption='Geo Name' datatype='string' name='[GEO_NAME]' role='dimension' semantic-role='[NUTS].[Name]' type='nominal'>
+              <semantic-values semantic-role='[NUTS].[Name]'>
+                <semantic-value key='&quot;37226&quot;' value='&quot;DEE01&quot;' />
+                <semantic-value key='&quot;37591&quot;' value='&quot;DEE02&quot;' />
+                <semantic-value key='&quot;37956&quot;' value='&quot;DEE03&quot;' />
+                <semantic-value key='&quot;38322&quot;' value='&quot;DEE03&quot;' />
+                <semantic-value key='&quot;38687&quot;' value='&quot;DEE05&quot;' />
+                <semantic-value key='&quot;39052&quot;' value='&quot;DEE06&quot;' />
+                <semantic-value key='&quot;BE11&quot;' value='&quot;BE1&quot;' />
+                <semantic-value key='&quot;BE12&quot;' value='&quot;BE1&quot;' />
+                <semantic-value key='&quot;BE224&quot;' value='&quot;BE2&quot;' />
+                <semantic-value key='&quot;BE225&quot;' value='&quot;BE2&quot;' />
+                <semantic-value key='&quot;BE328&quot;' value='&quot;BE3&quot;' />
+                <semantic-value key='&quot;BE32A&quot;' value='&quot;BE32&quot;' />
+                <semantic-value key='&quot;BE32B&quot;' value='&quot;BE32&quot;' />
+                <semantic-value key='&quot;BE32C&quot;' value='&quot;BE32&quot;' />
+                <semantic-value key='&quot;BE32D&quot;' value='&quot;BE32&quot;' />
+                <semantic-value key='&quot;BE4&quot;' value='&quot;BE&quot;' />
+                <semantic-value key='&quot;BE5&quot;' value='&quot;BE&quot;' />
+                <semantic-value key='&quot;BE6&quot;' value='&quot;BE&quot;' />
+                <semantic-value key='&quot;DEC000&quot;' value='&quot;DEE0&quot;' />
+                <semantic-value key='&quot;DEE1&quot;' value='&quot;DEE&quot;' />
+                <semantic-value key='&quot;DEE2&quot;' value='&quot;DEE01&quot;' />
+                <semantic-value key='&quot;DEE3&quot;' value='&quot;DEE02&quot;' />
+                <semantic-value key='&quot;EE009&quot;' value='&quot;EE00&quot;' />
+                <semantic-value key='&quot;EE00A&quot;' value='&quot;EE00&quot;' />
+                <semantic-value key='&quot;EL11&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;EL12&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;EL13&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;EL14&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;EL21&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;EL22&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;EL23&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;EL24&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;EL25&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;EL67&quot;' value='&quot;EL6&quot;' />
+                <semantic-value key='&quot;EL68&quot;' value='&quot;EL6&quot;' />
+                <semantic-value key='&quot;EL69&quot;' value='&quot;EL6&quot;' />
+                <semantic-value key='&quot;EL73&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;EL74&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;EL75&quot;' value='&quot;EL&quot;' />
+                <semantic-value key='&quot;FI13&quot;' value='&quot;FI1&quot;' />
+                <semantic-value key='&quot;FI18&quot;' value='&quot;FI1&quot;' />
+                <semantic-value key='&quot;FI1A&quot;' value='&quot;FI1&quot;' />
+                <semantic-value key='&quot;FR2&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR21&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR22&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR23&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR24&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR25&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR26&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR30&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR4&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR41&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR42&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR43&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR5&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR51&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR52&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR53&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR6&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR61&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR62&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR63&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR7&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR71&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR72&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR8&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR81&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR82&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR83&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR9&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR91&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FR94&quot;' value='&quot;FR&quot;' />
+                <semantic-value key='&quot;FRA1&quot;' value='&quot;FR1&quot;' />
+                <semantic-value key='&quot;FRA4&quot;' value='&quot;FR1&quot;' />
+                <semantic-value key='&quot;GE&quot;' value='&quot;DE&quot;' />
+                <semantic-value key='&quot;HR021&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR022&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR023&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR024&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR025&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR026&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR027&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR028&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR050&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR061&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR062&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR063&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR064&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HR065&quot;' value='&quot;HR0&quot;' />
+                <semantic-value key='&quot;HU10&quot;' value='&quot;HU1&quot;' />
+                <semantic-value key='&quot;IE01&quot;' value='&quot;IE&quot;' />
+                <semantic-value key='&quot;IE02&quot;' value='&quot;IE0&quot;' />
+                <semantic-value key='&quot;ITD1&quot;' value='&quot;IT&quot;' />
+                <semantic-value key='&quot;ITD2&quot;' value='&quot;IT&quot;' />
+                <semantic-value key='&quot;ITD3&quot;' value='&quot;IT&quot;' />
+                <semantic-value key='&quot;ITD4&quot;' value='&quot;IT&quot;' />
+                <semantic-value key='&quot;ITD5&quot;' value='&quot;IT&quot;' />
+                <semantic-value key='&quot;ITE1&quot;' value='&quot;IT&quot;' />
+                <semantic-value key='&quot;ITE2&quot;' value='&quot;IT&quot;' />
+                <semantic-value key='&quot;ITE3&quot;' value='&quot;IT&quot;' />
+                <semantic-value key='&quot;ITE4&quot;' value='&quot;IT&quot;' />
+                <semantic-value key='&quot;ITG2D&quot;' value='&quot;ITG2&quot;' />
+                <semantic-value key='&quot;ITG2E&quot;' value='&quot;ITG2&quot;' />
+                <semantic-value key='&quot;ITG2F&quot;' value='&quot;ITG2&quot;' />
+                <semantic-value key='&quot;ITG2G&quot;' value='&quot;ITG2&quot;' />
+                <semantic-value key='&quot;LT00&quot;' value='&quot;LT0&quot;' />
+                <semantic-value key='&quot;PL11&quot;' value='&quot;PL&quot;' />
+                <semantic-value key='&quot;PL12&quot;' value='&quot;PL&quot;' />
+                <semantic-value key='&quot;PL31&quot;' value='&quot;PL&quot;' />
+                <semantic-value key='&quot;PL32&quot;' value='&quot;PL&quot;' />
+                <semantic-value key='&quot;PL33&quot;' value='&quot;PL&quot;' />
+                <semantic-value key='&quot;PL34&quot;' value='&quot;PL&quot;' />
+                <semantic-value key='&quot;SI01&quot;' value='&quot;SI0&quot;' />
+                <semantic-value key='&quot;SI02&quot;' value='&quot;SI0&quot;' />
+                <semantic-value key='&quot;UKD2&quot;' value='&quot;UKD&quot;' />
+                <semantic-value key='&quot;UKD5&quot;' value='&quot;UKD&quot;' />
+                <semantic-value key='&quot;UKI1&quot;' value='&quot;UKI&quot;' />
+                <semantic-value key='&quot;UKI2&quot;' value='&quot;UKI&quot;' />
+                <semantic-value key='&quot;UKK24&quot;' value='&quot;UKK2&quot;' />
+                <semantic-value key='&quot;UKK25&quot;' value='&quot;UKK2&quot;' />
+                <semantic-value key='&quot;UKM2&quot;' value='&quot;UKM&quot;' />
+                <semantic-value key='&quot;UKM3&quot;' value='&quot;UKM&quot;' />
+                <semantic-value key='&quot;UKN0A&quot;' value='&quot;UKN0&quot;' />
+                <semantic-value key='&quot;UKN0B&quot;' value='&quot;UKN0&quot;' />
+                <semantic-value key='&quot;UKN0C&quot;' value='&quot;UKN0&quot;' />
+                <semantic-value key='&quot;UKN0D&quot;' value='&quot;UKN0&quot;' />
+                <semantic-value key='&quot;UKN0E&quot;' value='&quot;UKN0&quot;' />
+                <semantic-value key='&quot;UKN0F&quot;' value='&quot;UKN0&quot;' />
+                <semantic-value key='&quot;UKN0G&quot;' value='&quot;UKN0&quot;' />
+              </semantic-values>
+            </column>
+            <column caption='Irrigated Crops' datatype='real' name='[IRRIGATED_CROPS]' role='measure' type='quantitative' />
+            <column caption='Irrigation' datatype='string' name='[IRRIGATION]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='%null%' value='Select only for 2015' />
+              </aliases>
+            </column>
+            <column caption='Time' datatype='date' name='[TIME]' role='dimension' type='quantitative' />
+            <column caption='Water Pol Percentage' datatype='string' name='[WATER_POL_PERCENTAGE]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='%null%' value='All included countries' />
+              </aliases>
+            </column>
+            <column-instance column='[GEO]' derivation='None' name='[none:GEO:nk]' pivot='key' type='nominal' />
+            <column-instance column='[GEO_NAME]' derivation='None' name='[none:GEO_NAME:nk]' pivot='key' type='nominal' />
+            <column-instance column='[IRRIGATION]' derivation='None' name='[none:IRRIGATION:nk]' pivot='key' type='nominal' />
+            <column-instance column='[WATER_POL_PERCENTAGE]' derivation='None' name='[none:WATER_POL_PERCENTAGE:nk]' pivot='key' type='nominal' />
+            <column-instance column='[IRRIGATED_CROPS]' derivation='Sum' name='[sum:IRRIGATED_CROPS:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TIME]' derivation='Year' name='[yr:TIME:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.0du0l430wqaewt19n7pg71nsiye6].[Longitude (generated)]' included-values='non-null' />
+          <filter class='categorical' column='[federated.0du0l430wqaewt19n7pg71nsiye6].[YEAR(Time) Set]'>
+            <groupfilter function='member' level='[yr:TIME:ok]' member='2015' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:IRRIGATION:nk]'>
+            <groupfilter function='member' level='[none:IRRIGATION:nk]' member='%null%' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0du0l430wqaewt19n7pg71nsiye6].[YEAR(Time) Set]</column>
+            <column>[federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)]</column>
+            <column>[federated.0du0l430wqaewt19n7pg71nsiye6].[Longitude (generated)]</column>
+            <column>[federated.0du0l430wqaewt19n7pg71nsiye6].[none:IRRIGATION:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)]' field-type='quantitative' fold='true' max='9412157.6904706247' min='3099094.2656360688' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[Longitude (generated)]' field-type='quantitative' max='6619866.2062574131' min='-2800337.6474826336' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)]' field-type='quantitative' max='9412157.6904706247' min='3099094.2656360688' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[sum:IRRIGATED_CROPS:qk]' palette='blue_teal_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO_NAME:nk]' value='false' />
+            <format attr='break-on-special' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO_NAME:nk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO_NAME:nk]' value='false' />
+            <format attr='omit-on-special' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO:nk]' value='false' />
+            <format attr='break-on-special' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO:nk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO:nk]' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='in-tooltip' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:WATER_POL_PERCENTAGE:nk]' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.0du0l430wqaewt19n7pg71nsiye6].[YEAR(Time) Set]' value='Year'>
+              <formatted-text>
+                <run>Year</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <lod column='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO:nk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Heatmap' />
+            <encodings>
+              <color column='[federated.0du0l430wqaewt19n7pg71nsiye6].[sum:IRRIGATED_CROPS:qk]' />
+              <lod column='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO:nk]' />
+              <lod column='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO_NAME:nk]' />
+              <lod column='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:IRRIGATION:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-transparency' value='255' />
+                <format attr='density-kernel-size' value='1.0214917659759521' />
+                <format attr='density-intensity' value='0.029787063598632812' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GEO:nk]' />
+              <color column='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:WATER_POL_PERCENTAGE:nk]' />
+              <geometry column='[federated.0du0l430wqaewt19n7pg71nsiye6].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='3.8784530162811279' />
+                <format attr='mark-color' value='#4e79a7' />
+                <format attr='mark-transparency' value='52' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)] + [federated.0du0l430wqaewt19n7pg71nsiye6].[Latitude (generated)])</rows>
+        <cols>[federated.0du0l430wqaewt19n7pg71nsiye6].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{FE96DDAB-9313-43B8-A93E-E2E484FF3564}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='37'>
+    <window class='worksheet' name='Greenhouse gas emissions and air pollution'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='slider' param='[federated.0du0l430wqaewt19n7pg71nsiye6].[yr:TIME:ok]' show-all='false' type='filter' />
+            <card pane-specification-id='2' param='[federated.0du0l430wqaewt19n7pg71nsiye6].[sum:AIRPOL_VALUE:qk]' type='size' />
+            <card pane-specification-id='1' param='[federated.0du0l430wqaewt19n7pg71nsiye6].[sum:GREEN_POL_THOUSAND_TONNES:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{96D82864-6784-44B6-ABA3-AC90E40DD322}' />
+    </window>
+    <window class='worksheet' name='Agriculture intensity and soil erosion level'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='slider' param='[federated.0du0l430wqaewt19n7pg71nsiye6].[yr:TIME:ok]' show-all='false' type='filter' />
+            <card pane-specification-id='1' param='[federated.0du0l430wqaewt19n7pg71nsiye6].[sum:AG_HECTARES:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{03B8D128-A9EC-4F1F-AFCC-C6B3C5D804DE}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Water pollution and Irrigation'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='slider' param='[federated.0du0l430wqaewt19n7pg71nsiye6].[YEAR(Time) Set]' show-all='false' type='filter' />
+            <card mode='radiolist' param='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:IRRIGATION:nk]' show-all='false' type='filter' values='relevant' />
+            <card pane-specification-id='2' param='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:WATER_POL_PERCENTAGE:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0B7433B0-31FF-422B-864D-E2BB1E9B417F}' />
+    </window>
+    <window class='worksheet' name='Greenhouse gas pollution per sector'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='radiolist' param='[federated.0du0l430wqaewt19n7pg71nsiye6].[GEO NUTS 0]' show-all='false' type='filter' />
+            <card mode='radiolist' param='[federated.0du0l430wqaewt19n7pg71nsiye6].[Green Pol Set (all)]' show-all='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:GREEN_POL:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1CDBA2CE-8B32-435A-ADBA-3627E64919F5}' />
+    </window>
+    <window class='worksheet' name='Level of farming per year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='slider' param='[federated.0du0l430wqaewt19n7pg71nsiye6].[yr:TIME:ok]' show-all='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.0du0l430wqaewt19n7pg71nsiye6].[none:INDIC_AG:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E842E42C-5816-4BEE-96E1-20463DDDB701}' />
+    </window>
+  </windows>
+</workbook>
