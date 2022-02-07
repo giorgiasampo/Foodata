@@ -12,7 +12,7 @@
     <SheetIdentifierTracking />
     <WindowsPersistSimpleIdentifiers />
   </document-format-change-manifest>
-  <repository-location id='PollutionProduction' path='/workbooks' revision='1.1' />
+  <repository-location id='Agriculturalareaandproduction' path='/workbooks' revision='1.7' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -32,18 +32,17 @@
           <named-connection caption='food_production' name='textscan.0nfxyb90l1zd3t1fgrah51vysi9z'>
             <connection class='textscan' directory='C:/Users/Giorgia Sampo/OneDrive/Desktop/Foodata/datasets' filename='food_production.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
+          <named-connection caption='Agricultural Area By Low, Medium and High Input Farms' name='textscan.1uac5gl0gz02jb1e2wtw200qq3lk'>
+            <connection class='textscan' directory='C:/Users/Giorgia Sampo/OneDrive/Desktop/Palmirani/Useless Stuff/Pure datasets' filename='Agricultural Area By Low, Medium and High Input Farms.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
         </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0nfxyb90l1zd3t1fgrah51vysi9z' name='food_production.csv' table='[food_production#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=';'>
-            <column datatype='string' name='Area' ordinal='0' />
-            <column datatype='string' name='NUTS' ordinal='1' />
-            <column datatype='integer' name='Item Code (FAO)' ordinal='2' />
-            <column datatype='string' name='Item' ordinal='3' />
-            <column datatype='date' date-parse-format='yyyy' name='Year' ordinal='4' />
-            <column datatype='string' name='Unit' ordinal='5' />
-            <column datatype='integer' name='Value' ordinal='6' />
-            <column datatype='string' name='Flag' ordinal='7' />
-            <column datatype='string' name='Flag Description' ordinal='8' />
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1uac5gl0gz02jb1e2wtw200qq3lk' name='Agricultural Area By Low, Medium and High Input Farms.csv' table='[Agricultural Area By Low, Medium and High Input Farms#csv]' type='table'>
+          <columns character-set='windows-1252' header='yes' locale='en_GB' separator=','>
+            <column datatype='date' date-parse-format='yyyy' name='TIME' ordinal='0' />
+            <column datatype='string' name='GEO_NAME' ordinal='1' />
+            <column datatype='string' name='GEO' ordinal='2' />
+            <column datatype='string' name='INDIC_AG' ordinal='3' />
+            <column datatype='string' name='HECTARES' ordinal='4' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
         <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
@@ -82,8 +81,50 @@
               <column datatype='string' name='Flag Description' ordinal='8' />
             </columns>
           </relation>
+          <relation connection='textscan.1uac5gl0gz02jb1e2wtw200qq3lk' name='Agricultural Area By Low, Medium and High Input Farms.csv' table='[Agricultural Area By Low, Medium and High Input Farms#csv]' type='table'>
+            <columns character-set='windows-1252' header='yes' locale='en_GB' separator=','>
+              <column datatype='date' date-parse-format='yyyy' name='TIME' ordinal='0' />
+              <column datatype='string' name='GEO_NAME' ordinal='1' />
+              <column datatype='string' name='GEO' ordinal='2' />
+              <column datatype='string' name='INDIC_AG' ordinal='3' />
+              <column datatype='string' name='HECTARES' ordinal='4' />
+            </columns>
+          </relation>
         </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-        <refresh increment-key='' incremental-updates='false' />
+        <cols>
+          <map key='[AG_HECTARES]' value='[pollution_dataset.csv].[AG_HECTARES]' />
+          <map key='[AIRPOL]' value='[pollution_dataset.csv].[AIRPOL]' />
+          <map key='[AIRPOL_VALUE]' value='[pollution_dataset.csv].[AIRPOL_VALUE]' />
+          <map key='[Area]' value='[food_production.csv].[Area]' />
+          <map key='[Flag Description]' value='[food_production.csv].[Flag Description]' />
+          <map key='[Flag]' value='[food_production.csv].[Flag]' />
+          <map key='[GEO (Agricultural Area By Low, Medium and High Input Farms.csv)]' value='[Agricultural Area By Low, Medium and High Input Farms.csv].[GEO]' />
+          <map key='[GEO]' value='[pollution_dataset.csv].[GEO]' />
+          <map key='[GEO_NAME (Agricultural Area By Low, Medium and High Input Farms.csv)]' value='[Agricultural Area By Low, Medium and High Input Farms.csv].[GEO_NAME]' />
+          <map key='[GEO_NAME]' value='[pollution_dataset.csv].[GEO_NAME]' />
+          <map key='[GREEN_POL]' value='[pollution_dataset.csv].[GREEN_POL]' />
+          <map key='[GREEN_POL_SRC]' value='[pollution_dataset.csv].[GREEN_POL_SRC]' />
+          <map key='[GREEN_POL_THOUSAND_TONNES]' value='[pollution_dataset.csv].[GREEN_POL_THOUSAND_TONNES]' />
+          <map key='[HECTARES]' value='[Agricultural Area By Low, Medium and High Input Farms.csv].[HECTARES]' />
+          <map key='[INDIC_AG (Agricultural Area By Low, Medium and High Input Farms.csv)]' value='[Agricultural Area By Low, Medium and High Input Farms.csv].[INDIC_AG]' />
+          <map key='[INDIC_AG]' value='[pollution_dataset.csv].[INDIC_AG]' />
+          <map key='[IRRIGATED_CROPS]' value='[pollution_dataset.csv].[IRRIGATED_CROPS]' />
+          <map key='[IRRIGATION]' value='[pollution_dataset.csv].[IRRIGATION]' />
+          <map key='[Item Code (FAO)]' value='[food_production.csv].[Item Code (FAO)]' />
+          <map key='[Item]' value='[food_production.csv].[Item]' />
+          <map key='[NUTS]' value='[food_production.csv].[NUTS]' />
+          <map key='[SE_LEVELS]' value='[pollution_dataset.csv].[SE_LEVELS]' />
+          <map key='[SE_SECTOR]' value='[pollution_dataset.csv].[SE_SECTOR]' />
+          <map key='[SE_TONNES PER HECTARE]' value='[pollution_dataset.csv].[SE_TONNES PER HECTARE]' />
+          <map key='[TIME (Agricultural Area By Low, Medium and High Input Farms.csv)]' value='[Agricultural Area By Low, Medium and High Input Farms.csv].[TIME]' />
+          <map key='[TIME]' value='[pollution_dataset.csv].[TIME]' />
+          <map key='[Unit]' value='[food_production.csv].[Unit]' />
+          <map key='[Value]' value='[food_production.csv].[Value]' />
+          <map key='[WATER_POL_PERCENTAGE]' value='[pollution_dataset.csv].[WATER_POL_PERCENTAGE]' />
+          <map key='[WATER_RDB_CODE]' value='[pollution_dataset.csv].[WATER_RDB_CODE]' />
+          <map key='[WATER_RDB_NAME]' value='[pollution_dataset.csv].[WATER_RDB_NAME]' />
+          <map key='[Year]' value='[food_production.csv].[Year]' />
+        </cols>
         <metadata-records>
           <metadata-record class='capability'>
             <remote-name />
@@ -118,6 +159,25 @@
               <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
               <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
               <attribute datatype='string' name='field-delimiter'>&quot;;&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Agricultural Area By Low, Medium and High Input Farms.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;windows-1252&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
               <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
               <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
               <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
@@ -502,21 +562,92 @@
             <collation flag='0' name='LEN_RGB' />
             <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TIME</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[TIME (Agricultural Area By Low, Medium and High Input Farms.csv)]</local-name>
+            <parent-name>[Agricultural Area By Low, Medium and High Input Farms.csv]</parent-name>
+            <remote-alias>TIME</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GEO_NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GEO_NAME (Agricultural Area By Low, Medium and High Input Farms.csv)]</local-name>
+            <parent-name>[Agricultural Area By Low, Medium and High Input Farms.csv]</parent-name>
+            <remote-alias>GEO_NAME</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GEO</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GEO (Agricultural Area By Low, Medium and High Input Farms.csv)]</local-name>
+            <parent-name>[Agricultural Area By Low, Medium and High Input Farms.csv]</parent-name>
+            <remote-alias>GEO</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INDIC_AG</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[INDIC_AG (Agricultural Area By Low, Medium and High Input Farms.csv)]</local-name>
+            <parent-name>[Agricultural Area By Low, Medium and High Input Farms.csv]</parent-name>
+            <remote-alias>INDIC_AG</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HECTARES</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[HECTARES]</local-name>
+            <parent-name>[Agricultural Area By Low, Medium and High Input Farms.csv]</parent-name>
+            <remote-alias>HECTARES</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
       <column caption='Ag Hectares' datatype='integer' name='[AG_HECTARES]' role='measure' type='quantitative' />
       <column caption='Airpol' datatype='string' name='[AIRPOL]' role='dimension' type='nominal' />
       <column caption='Airpol Value' datatype='integer' name='[AIRPOL_VALUE]' role='measure' type='quantitative' />
-      <column datatype='string' name='[Area]' role='dimension' type='nominal'>
-        <aliases>
-          <alias key='&quot;Germany&quot;' value='Germany (until 1990 former territory of the FRG)' />
-        </aliases>
-      </column>
+      <column caption='GEO NAME (Agricultural Area By Low, Medium and High Input Farms.csv)' datatype='string' name='[GEO_NAME (Agricultural Area By Low, Medium and High Input Farms.csv)]' role='dimension' type='nominal' />
       <column caption='Geo Name' datatype='string' name='[GEO_NAME]' role='dimension' type='nominal' />
       <column caption='Green Pol' datatype='string' name='[GREEN_POL]' role='dimension' type='nominal' />
       <column caption='Green Pol Src' datatype='string' name='[GREEN_POL_SRC]' role='dimension' type='nominal' />
       <column caption='Green Pol Thousand Tonnes' datatype='real' name='[GREEN_POL_THOUSAND_TONNES]' role='measure' type='quantitative' />
+      <column caption='Hectares' datatype='real' datatype-customized='true' name='[HECTARES]' role='measure' type='quantitative' />
+      <column caption='INDIC AG (Agricultural Area By Low, Medium and High Input Farms.csv)' datatype='string' name='[INDIC_AG (Agricultural Area By Low, Medium and High Input Farms.csv)]' role='dimension' type='nominal' />
       <column caption='Indic Ag' datatype='string' name='[INDIC_AG]' role='dimension' type='nominal' />
       <column caption='Irrigated Crops' datatype='real' name='[IRRIGATED_CROPS]' role='measure' type='quantitative' />
       <column caption='Irrigation' datatype='string' name='[IRRIGATION]' role='dimension' type='nominal' />
@@ -525,12 +656,14 @@
       <column caption='Se Levels' datatype='string' name='[SE_LEVELS]' role='dimension' type='nominal' />
       <column caption='Se Sector' datatype='string' name='[SE_SECTOR]' role='dimension' type='nominal' />
       <column caption='Se Tonnes Per Hectare' datatype='real' name='[SE_TONNES PER HECTARE]' role='measure' type='quantitative' />
+      <column datatype='date' name='[TIME (Agricultural Area By Low, Medium and High Input Farms.csv)]' role='dimension' type='quantitative' />
       <column caption='Time' datatype='integer' name='[TIME]' role='measure' type='quantitative' />
       <column caption='Production' datatype='integer' name='[Value]' role='measure' type='quantitative' />
       <column caption='Water Pol Percentage' datatype='real' name='[WATER_POL_PERCENTAGE]' role='measure' type='quantitative' />
       <column caption='Water Rdb Code' datatype='string' name='[WATER_RDB_CODE]' role='dimension' type='nominal' />
       <column caption='Water Rdb Name' datatype='string' name='[WATER_RDB_NAME]' role='dimension' type='nominal' />
       <column datatype='date' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Agricultural Area By Low, Medium and High Input Farms.csv' datatype='table' name='[__tableau_internal_object_id__].[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='food_production.csv' datatype='table' name='[__tableau_internal_object_id__].[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]' role='measure' type='quantitative' />
       <_.fcp.ObjectModelTableType.true...column caption='pollution_dataset.csv' datatype='table' name='[__tableau_internal_object_id__].[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]' role='measure' type='quantitative' />
       <column-instance column='[AG_HECTARES]' derivation='Avg' name='[avg:AG_HECTARES:qk]' pivot='key' type='quantitative' />
@@ -540,11 +673,17 @@
           <alias key='true' value='Meat products' />
         </aliases>
       </column-instance>
+      <column-instance column='[INDIC_AG (Agricultural Area By Low, Medium and High Input Farms.csv)]' derivation='None' name='[none:INDIC_AG (Agricultural Area By Low, Medium and High Input Farms.csv):nk]' pivot='key' type='nominal' />
       <column-instance column='[AG_HECTARES]' derivation='Sum' name='[sum:AG_HECTARES:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[HECTARES]' derivation='Sum' name='[sum:HECTARES:qk]' pivot='key' type='quantitative' />
       <column-instance column='[IRRIGATED_CROPS]' derivation='Sum' name='[sum:IRRIGATED_CROPS:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Value]' derivation='Sum' name='[sum:Value:qk]' pivot='key' type='quantitative' />
       <column-instance column='[WATER_POL_PERCENTAGE]' derivation='Sum' name='[sum:WATER_POL_PERCENTAGE:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[TIME (Agricultural Area By Low, Medium and High Input Farms.csv)]' derivation='Year' name='[yr:TIME (Agricultural Area By Low, Medium and High Input Farms.csv):ok]' pivot='key' type='ordinal' />
       <column-instance column='[Year]' derivation='Year' name='[yr:Year:ok]' pivot='key' type='ordinal' />
+      <group caption='INDIC AG (Agricultural Area By Low, Medium and High Input Farms.csv) Set' name='[INDIC AG (Agricultural Area By Low, Medium and High Input Farms.csv) Set]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter from='&quot;High-input farms&quot;' function='range' level='[none:INDIC_AG (Agricultural Area By Low, Medium and High Input Farms.csv):nk]' to='&quot;Medium-input farms&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </group>
       <group caption='Indic Ag Set' name='[Indic Ag Set]' name-style='unqualified' user:ui-builder='filter-group'>
         <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
           <groupfilter function='level-members' level='[INDIC_AG]' />
@@ -563,18 +702,56 @@
       <group caption='Item Set' name='[Item Set]' name-style='unqualified' user:ui-builder='filter-group'>
         <groupfilter from='&quot;Cheese whole cow milk&quot;' function='range' level='[Item]' to='&quot;Milk whole fresh cow&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
       </group>
+      <group caption='YEAR(TIME (Agricultural Area By Low, Medium and High Input Farms.csv)) Set' name='[YEAR(TIME (Agricultural Area By Low, Medium and High Input Farms.csv)) Set]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter from='2010' function='range' level='[yr:TIME (Agricultural Area By Low, Medium and High Input Farms.csv):ok]' to='2019' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </group>
       <group caption='YEAR(Year) Set' name='[YEAR(Year) Set]' name-style='unqualified' user:ui-builder='filter-group'>
         <groupfilter from='2009' function='range' level='[yr:Year:ok]' to='2019' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
       </group>
       <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Giorgia Sampo/OneDrive/Desktop/Foodata/assets/tableau_files/pollution_dataset.csv+ (Multiple Connections).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='02/06/2022 09:51:42 PM' username='tableau_internal_user'>
-          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7' table='[Extract].[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]' type='table' />
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Giorgia Sampo/OneDrive/Desktop/Foodata/assets/tableau_files/pollution_dataset.csv+ (Multiple Connections).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='02/07/2022 10:17:59 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF' table='[Extract].[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
             <relation name='pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685' table='[Extract].[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685]' type='table' />
             <relation name='food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7' table='[Extract].[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]' type='table' />
+            <relation name='Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF' table='[Extract].[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF]' type='table' />
           </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-          <refresh increment-key='' incremental-updates='false'>
-            <refresh-event add-from-file-path='pollution_dataset.csv+ (Multiple Connections)' increment-value='%null%' refresh-type='create' rows-inserted='48679' timestamp-start='2022-02-06 21:51:40.924' />
+          <cols>
+            <map key='[AG_HECTARES]' value='[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685].[AG_HECTARES]' />
+            <map key='[AIRPOL]' value='[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685].[AIRPOL]' />
+            <map key='[AIRPOL_VALUE]' value='[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685].[AIRPOL_VALUE]' />
+            <map key='[Area]' value='[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7].[Area]' />
+            <map key='[Flag Description]' value='[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7].[Flag Description]' />
+            <map key='[Flag]' value='[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7].[Flag]' />
+            <map key='[GEO (Agricultural Area By Low, Medium and High Input Farms.csv)]' value='[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF].[GEO]' />
+            <map key='[GEO]' value='[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685].[GEO]' />
+            <map key='[GEO_NAME (Agricultural Area By Low, Medium and High Input Farms.csv)]' value='[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF].[GEO_NAME]' />
+            <map key='[GEO_NAME]' value='[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685].[GEO_NAME]' />
+            <map key='[GREEN_POL]' value='[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685].[GREEN_POL]' />
+            <map key='[GREEN_POL_SRC]' value='[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685].[GREEN_POL_SRC]' />
+            <map key='[GREEN_POL_THOUSAND_TONNES]' value='[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685].[GREEN_POL_THOUSAND_TONNES]' />
+            <map key='[HECTARES]' value='[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF].[HECTARES]' />
+            <map key='[INDIC_AG (Agricultural Area By Low, Medium and High Input Farms.csv)]' value='[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF].[INDIC_AG]' />
+            <map key='[INDIC_AG]' value='[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685].[INDIC_AG]' />
+            <map key='[IRRIGATED_CROPS]' value='[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685].[IRRIGATED_CROPS]' />
+            <map key='[IRRIGATION]' value='[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685].[IRRIGATION]' />
+            <map key='[Item Code (FAO)]' value='[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7].[Item Code (FAO)]' />
+            <map key='[Item]' value='[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7].[Item]' />
+            <map key='[NUTS]' value='[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7].[NUTS]' />
+            <map key='[SE_LEVELS]' value='[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685].[SE_LEVELS]' />
+            <map key='[SE_SECTOR]' value='[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685].[SE_SECTOR]' />
+            <map key='[SE_TONNES PER HECTARE]' value='[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685].[SE_TONNES PER HECTARE]' />
+            <map key='[TIME (Agricultural Area By Low, Medium and High Input Farms.csv)]' value='[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF].[TIME]' />
+            <map key='[TIME]' value='[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685].[TIME]' />
+            <map key='[Unit]' value='[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7].[Unit]' />
+            <map key='[Value]' value='[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7].[Value]' />
+            <map key='[WATER_POL_PERCENTAGE]' value='[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685].[WATER_POL_PERCENTAGE]' />
+            <map key='[WATER_RDB_CODE]' value='[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685].[WATER_RDB_CODE]' />
+            <map key='[WATER_RDB_NAME]' value='[pollution_dataset.csv_C256932123E34CC3A4AC6DE5AF302685].[WATER_RDB_NAME]' />
+            <map key='[Year]' value='[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7].[Year]' />
+          </cols>
+          <refresh>
+            <refresh-event add-from-file-path='pollution_dataset.csv+ (Multiple Connections)' increment-value='%null%' refresh-type='create' rows-inserted='63139' timestamp-start='2022-02-07 10:17:58.589' />
           </refresh>
           <metadata-records>
             <metadata-record class='column'>
@@ -972,10 +1149,83 @@
               <collation flag='0' name='LEN_RGB' />
               <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TIME</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[TIME (Agricultural Area By Low, Medium and High Input Farms.csv)]</local-name>
+              <parent-name>[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF]</parent-name>
+              <remote-alias>TIME</remote-alias>
+              <ordinal>27</ordinal>
+              <family>Agricultural Area By Low, Medium and High Input Farms.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GEO_NAME</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[GEO_NAME (Agricultural Area By Low, Medium and High Input Farms.csv)]</local-name>
+              <parent-name>[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF]</parent-name>
+              <remote-alias>GEO_NAME</remote-alias>
+              <ordinal>28</ordinal>
+              <family>Agricultural Area By Low, Medium and High Input Farms.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>586</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GEO</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[GEO (Agricultural Area By Low, Medium and High Input Farms.csv)]</local-name>
+              <parent-name>[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF]</parent-name>
+              <remote-alias>GEO</remote-alias>
+              <ordinal>29</ordinal>
+              <family>Agricultural Area By Low, Medium and High Input Farms.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>585</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>INDIC_AG</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[INDIC_AG (Agricultural Area By Low, Medium and High Input Farms.csv)]</local-name>
+              <parent-name>[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF]</parent-name>
+              <remote-alias>INDIC_AG</remote-alias>
+              <ordinal>30</ordinal>
+              <family>Agricultural Area By Low, Medium and High Input Farms.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>HECTARES</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[HECTARES]</local-name>
+              <parent-name>[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF]</parent-name>
+              <remote-alias>HECTARES</remote-alias>
+              <ordinal>31</ordinal>
+              <family>Agricultural Area By Low, Medium and High Input Farms.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6837</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
           </metadata-records>
         </connection>
       </extract>
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='10000' show-aliased-fields='true' show-structure='true' />
       <style>
         <style-rule element='mark'>
           <encoding attr='color' field='[io:Item Set:nk]' type='palette'>
@@ -996,6 +1246,9 @@
             <map to='#59a14f'>
               <bucket>&quot;[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:AG_HECTARES:qk]&quot;</bucket>
             </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:HECTARES:qk]&quot;</bucket>
+            </map>
             <map to='#76b7b2'>
               <bucket>&quot;[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:WATER_POL_PERCENTAGE:qk]&quot;</bucket>
             </map>
@@ -1011,6 +1264,22 @@
       <date-options start-of-week='monday' />
       <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
         <objects>
+          <object caption='Agricultural Area By Low, Medium and High Input Farms.csv' id='Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF'>
+            <properties context=''>
+              <relation connection='textscan.1uac5gl0gz02jb1e2wtw200qq3lk' name='Agricultural Area By Low, Medium and High Input Farms.csv' table='[Agricultural Area By Low, Medium and High Input Farms#csv]' type='table'>
+                <columns character-set='windows-1252' header='yes' locale='en_GB' separator=','>
+                  <column datatype='date' date-parse-format='yyyy' name='TIME' ordinal='0' />
+                  <column datatype='string' name='GEO_NAME' ordinal='1' />
+                  <column datatype='string' name='GEO' ordinal='2' />
+                  <column datatype='string' name='INDIC_AG' ordinal='3' />
+                  <column datatype='string' name='HECTARES' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF' table='[Extract].[Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF]' type='table' />
+            </properties>
+          </object>
           <object caption='food_production.csv' id='food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7'>
             <properties context=''>
               <relation connection='textscan.0nfxyb90l1zd3t1fgrah51vysi9z' name='food_production.csv' table='[food_production#csv]' type='table'>
@@ -1065,6 +1334,20 @@
           <relationship>
             <expression op='AND'>
               <expression op='='>
+                <expression op='[Area]' />
+                <expression op='[GEO (Agricultural Area By Low, Medium and High Input Farms.csv)]' />
+              </expression>
+              <expression op='='>
+                <expression op='[Year]' />
+                <expression op='[TIME (Agricultural Area By Low, Medium and High Input Farms.csv)]' />
+              </expression>
+            </expression>
+            <first-end-point object-id='food_production.csv_84CB8BD2808F444F9E98992C51C8B6D7' />
+            <second-end-point object-id='Agricultural Area By Low, Medium and High Input Farms.csv_08E6246DD07A4E6EB831101EEDFEFFFF' />
+          </relationship>
+          <relationship>
+            <expression op='AND'>
+              <expression op='='>
                 <expression op='[GEO_NAME]' />
                 <expression op='[NUTS]' />
               </expression>
@@ -1095,60 +1378,66 @@
             <datasource caption='pollution_dataset.csv+ (Multiple Connections)' name='federated.15omvdj1iz0wlc12z3a881d7k5ne' />
           </datasources>
           <datasource-dependencies datasource='federated.15omvdj1iz0wlc12z3a881d7k5ne'>
-            <column caption='Ag Hectares' datatype='integer' name='[AG_HECTARES]' role='measure' type='quantitative' />
-            <column datatype='string' name='[Area]' role='dimension' type='nominal'>
-              <aliases>
-                <alias key='&quot;Germany&quot;' value='Germany (until 1990 former territory of the FRG)' />
-              </aliases>
-            </column>
+            <column datatype='string' name='[GEO (Agricultural Area By Low, Medium and High Input Farms.csv)]' role='dimension' type='nominal' />
+            <column caption='Hectares' datatype='real' datatype-customized='true' name='[HECTARES]' role='measure' type='quantitative' />
+            <column caption='INDIC AG (Agricultural Area By Low, Medium and High Input Farms.csv)' datatype='string' name='[INDIC_AG (Agricultural Area By Low, Medium and High Input Farms.csv)]' role='dimension' type='nominal' />
             <column datatype='string' name='[Item]' role='dimension' type='nominal' />
-            <column caption='Se Tonnes Per Hectare' datatype='real' name='[SE_TONNES PER HECTARE]' role='measure' type='quantitative' />
+            <column datatype='date' name='[TIME (Agricultural Area By Low, Medium and High Input Farms.csv)]' role='dimension' type='quantitative' />
             <column caption='Production' datatype='integer' name='[Value]' role='measure' type='quantitative' />
-            <column datatype='date' name='[Year]' role='dimension' type='quantitative' />
-            <column-instance column='[AG_HECTARES]' derivation='Avg' name='[avg:AG_HECTARES:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Area]' derivation='None' name='[none:Area:nk]' pivot='key' type='nominal' />
-            <column-instance column='[AG_HECTARES]' derivation='Sum' name='[sum:AG_HECTARES:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[SE_TONNES PER HECTARE]' derivation='Sum' name='[sum:SE_TONNES PER HECTARE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[GEO (Agricultural Area By Low, Medium and High Input Farms.csv)]' derivation='None' name='[none:GEO (Agricultural Area By Low, Medium and High Input Farms.csv):nk]' pivot='key' type='nominal' />
+            <column-instance column='[INDIC_AG (Agricultural Area By Low, Medium and High Input Farms.csv)]' derivation='None' name='[none:INDIC_AG (Agricultural Area By Low, Medium and High Input Farms.csv):nk]' pivot='key' type='nominal' />
+            <column-instance column='[HECTARES]' derivation='Sum' name='[sum:HECTARES:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Value]' derivation='Sum' name='[sum:Value:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[Year]' derivation='Year' name='[yr:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[TIME (Agricultural Area By Low, Medium and High Input Farms.csv)]' derivation='Year' name='[yr:TIME (Agricultural Area By Low, Medium and High Input Farms.csv):ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
+          <filter class='categorical' column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[INDIC AG (Agricultural Area By Low, Medium and High Input Farms.csv) Set]'>
+            <groupfilter function='level-members' level='[none:INDIC_AG (Agricultural Area By Low, Medium and High Input Farms.csv):nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
           <filter class='categorical' column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[Item Set 2]'>
-            <groupfilter function='level-members' level='[Item]' user:ui-enumeration='all' user:ui-marker='enumerate' />
-          </filter>
-          <filter class='categorical' column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[YEAR(Year) Set]'>
-            <groupfilter function='member' level='[yr:Year:ok]' member='2019' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
-          </filter>
-          <filter class='categorical' column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[none:Area:nk]'>
-            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
-              <groupfilter function='level-members' level='[none:Area:nk]' />
-              <groupfilter function='member' level='[none:Area:nk]' member='%null%' />
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[Item]' member='&quot;Potatoes&quot;' />
+              <groupfilter function='member' level='[Item]' member='&quot;Rice paddy&quot;' />
+              <groupfilter function='member' level='[Item]' member='&quot;Wheat&quot;' />
             </groupfilter>
           </filter>
-          <filter class='quantitative' column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:AG_HECTARES:qk]' included-values='non-null' />
-          <filter class='quantitative' column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:SE_TONNES PER HECTARE:qk]' included-values='non-null' />
+          <filter class='categorical' column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[YEAR(TIME (Agricultural Area By Low, Medium and High Input Farms.csv)) Set]'>
+            <groupfilter function='member' level='[yr:TIME (Agricultural Area By Low, Medium and High Input Farms.csv):ok]' member='2010' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:HECTARES:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:Value:qk]' included-values='non-null' />
           <slices>
-            <column>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:SE_TONNES PER HECTARE:qk]</column>
-            <column>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:AG_HECTARES:qk]</column>
-            <column>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[none:Area:nk]</column>
-            <column>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[YEAR(Year) Set]</column>
+            <column>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:Value:qk]</column>
+            <column>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:HECTARES:qk]</column>
+            <column>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[YEAR(TIME (Agricultural Area By Low, Medium and High Input Farms.csv)) Set]</column>
+            <column>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[INDIC AG (Agricultural Area By Low, Medium and High Input Farms.csv) Set]</column>
             <column>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[Item Set 2]</column>
           </slices>
           <aggregation value='true' />
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[avg:AG_HECTARES:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:Value:qk]' field-type='quantitative' fold='true' scope='cols' type='space' />
           </style-rule>
           <style-rule element='quick-filter'>
-            <format attr='title' field='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[YEAR(Year) Set]' value='Year'>
+            <format attr='title' field='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[YEAR(TIME (Agricultural Area By Low, Medium and High Input Farms.csv)) Set]' value='Year'>
               <formatted-text>
                 <run>Year</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[INDIC AG (Agricultural Area By Low, Medium and High Input Farms.csv) Set]' value='Farm level'>
+              <formatted-text>
+                <run>Farm level</run>
+              </formatted-text>
+            </format>
+            <format attr='title' field='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[Item Set 2]' value='Products'>
+              <formatted-text>
+                <run>Products</run>
               </formatted-text>
             </format>
           </style-rule>
         </style>
         <panes>
-          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
             <view>
               <breakdown value='auto' />
             </view>
@@ -1157,23 +1446,7 @@
               <color column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[:Measure Names]' />
             </encodings>
           </pane>
-          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:Value:qk]'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Bar' />
-            <mark-sizing mark-sizing-setting='marks-scaling-off' />
-            <encodings>
-              <color column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[:Measure Names]' />
-            </encodings>
-            <style>
-              <style-rule element='mark'>
-                <format attr='size' value='1.0434806346893311' />
-                <format attr='mark-transparency' value='255' />
-              </style-rule>
-            </style>
-          </pane>
-          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[avg:AG_HECTARES:qk]'>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:HECTARES:qk]'>
             <view>
               <breakdown value='auto' />
             </view>
@@ -1184,14 +1457,29 @@
             </encodings>
             <style>
               <style-rule element='mark'>
-                <format attr='size' value='0.71364641189575195' />
-                <format attr='mark-transparency' value='255' />
+                <format attr='size' value='1.637182354927063' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:Value:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.0214917659759521' />
+                <format attr='mark-transparency' value='206' />
               </style-rule>
             </style>
           </pane>
         </panes>
-        <rows>([federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:Value:qk] + [federated.15omvdj1iz0wlc12z3a881d7k5ne].[avg:AG_HECTARES:qk])</rows>
-        <cols>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[none:Area:nk]</cols>
+        <rows>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[none:GEO (Agricultural Area By Low, Medium and High Input Farms.csv):nk]</rows>
+        <cols>([federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:HECTARES:qk] + [federated.15omvdj1iz0wlc12z3a881d7k5ne].[sum:Value:qk])</cols>
       </table>
       <simple-id uuid='{C4A86644-FCBC-4DA8-B9DE-62556A494BC1}' />
     </worksheet>
@@ -1209,11 +1497,7 @@
             <datasource caption='pollution_dataset.csv+ (Multiple Connections)' name='federated.15omvdj1iz0wlc12z3a881d7k5ne' />
           </datasources>
           <datasource-dependencies datasource='federated.15omvdj1iz0wlc12z3a881d7k5ne'>
-            <column datatype='string' name='[Area]' role='dimension' type='nominal'>
-              <aliases>
-                <alias key='&quot;Germany&quot;' value='Germany (until 1990 former territory of the FRG)' />
-              </aliases>
-            </column>
+            <column datatype='string' name='[Area]' role='dimension' type='nominal' />
             <column caption='Irrigated Crops' datatype='real' name='[IRRIGATED_CROPS]' role='measure' type='quantitative' />
             <column datatype='string' name='[Item]' role='dimension' type='nominal' />
             <column caption='Production' datatype='integer' name='[Value]' role='measure' type='quantitative' />
@@ -1310,7 +1594,7 @@
     </worksheet>
   </worksheets>
   <windows saved-dpi-scale-factor='1.25' source-height='37'>
-    <window class='worksheet' maximized='true' name='Water pollution on food production'>
+    <window class='worksheet' name='Water pollution on food production'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1356,7 +1640,7 @@
       </viewpoint>
       <simple-id uuid='{61854D3C-CA04-48B9-A677-931D72CD08F4}' />
     </window>
-    <window class='worksheet' name='Agricultural area and production'>
+    <window class='worksheet' maximized='true' name='Agricultural area and production'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1378,9 +1662,10 @@
         </edge>
         <edge name='right'>
           <strip size='160'>
+            <card mode='slider' param='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[YEAR(TIME (Agricultural Area By Low, Medium and High Input Farms.csv)) Set]' show-all='false' type='filter' />
+            <card mode='radiolist' param='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[INDIC AG (Agricultural Area By Low, Medium and High Input Farms.csv) Set]' type='filter' />
             <card param='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[Item Set 2]' type='filter' />
-            <card mode='slider' param='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[YEAR(Year) Set]' type='filter' />
-            <card pane-specification-id='2' param='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[:Measure Names]' type='color' />
+            <card pane-specification-id='1' param='[federated.15omvdj1iz0wlc12z3a881d7k5ne].[:Measure Names]' type='color' />
           </strip>
         </edge>
       </cards>
@@ -1388,13 +1673,19 @@
         <highlight>
           <color-one-way>
             <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[:Measure Names]</field>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[INDIC AG (Agricultural Area By Low, Medium and High Input Farms.csv) Set]</field>
             <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[Indic Ag Set]</field>
             <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[Item Set 2]</field>
             <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[Item Set]</field>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[TIME (Agricultural Area By Low, Medium and High Input Farms.csv) Set]</field>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[YEAR(TIME (Agricultural Area By Low, Medium and High Input Farms.csv)) Set]</field>
             <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[YEAR(Year) Set]</field>
             <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[none:Area:nk]</field>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[none:GEO (Agricultural Area By Low, Medium and High Input Farms.csv):nk]</field>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[none:INDIC_AG (Agricultural Area By Low, Medium and High Input Farms.csv):nk]</field>
             <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[none:Item:nk]</field>
             <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[tyr:Year:qk]</field>
+            <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[yr:TIME (Agricultural Area By Low, Medium and High Input Farms.csv):ok]</field>
             <field>[federated.15omvdj1iz0wlc12z3a881d7k5ne].[yr:Year:ok]</field>
           </color-one-way>
         </highlight>
@@ -1405,150 +1696,224 @@
   <thumbnails>
     <thumbnail height='192' name='Agricultural area and production' width='192'>
       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
-      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
+      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
+      AAAAAElFTkSuQmCC
     </thumbnail>
     <thumbnail height='192' name='Water pollution on food production' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
