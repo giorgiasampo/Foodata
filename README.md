@@ -198,3 +198,11 @@ Looking at surface water pollution percentage, the highest values are shown in P
 Concerning the livestock (cheese, milk, eggs, meat) in Europe the top three producers in 2009 were Germany, France, Poland. Italy and Spain are right after. On the other hand, in 2009 the major producers of crops (wheat, rice, potatoes) are: France, Germany and Poland.
 If we take into account only meat production, Spain has an increase from 5.068.468 in 2009 to 6.748.550 tonnes, while the other major producers (Germany, France, Italy and Poland) remain quite steady.
 Finally, the major producers of food (the sum of every item used in this analysis) between 2009 and 2019 are France, at first place, and Germany, which was first only in year 2016. The third one is Poland and right after Italy.
+
+#### Life Expectancy
+
+Overall, life expectancy accross Europe has increased from 2009 to 2019. 
+
+Life expectancy is greatest in southern Europe. The average life expectancies for the total populations of in Spain, Italy, and Portgual were all above 81 years. Life expectancy in Eastern Europe is lower than Western, Southern, and Northern Europe.
+
+Women have longer life expectancies than men across all of Europe with women expected to live an average of 5.8 years longer than men in 2019. The difference in life expectancy between men and women is less pronounced in Southern Europe and most pronounced in Eastern Europe. The largest difference occurs in Lithuania where women are expected to live almost 10 years longer than men. The Netherlands had the smallest difference (3.1 years) between men and women in 2019.
