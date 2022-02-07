@@ -759,7 +759,7 @@ section {
 }
 
 .features .dropdown-menu.show{
-  width: 70%;
+  width: 100%;
   border: solid 4px rgba(255, 255, 255, 0.91);
   background: #aeec3a;
   padding: 1em;
