@@ -68,19 +68,19 @@
             <ul>
               <li class="dropdown"><a><span> Production Dataset</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="datasets/food_production.csv">Download Food Dataset file</a></li>
+                  <li><a href="datasets/food_production.csv">Download Dataset </a></li>
                   <li><a href="https://github.com/giorgiasampo/Foodata/blob/main/dcat_ap-rdf/food-production-rdf.ttl" target="_blank">RDF Metadata</a></li>
                 </ul>
               </li>
-              <li class="dropdown"><a><span>Dataset Pollution Info</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a><span>pollution and environment Dataset</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="datasets/pollution_dataset.csv">Download Pollution Dataset</a></li>
+                  <li><a href="datasets/pollution_dataset.csv">Download Dataset</a></li>
                   <li><a href="https://github.com/giorgiasampo/Foodata/blob/main/dcat_ap-rdf/pollution-landuse-soilerosion-rdf.ttl" target="_blank">RDF Metadata</a></li>
                 </ul>
               </li>
               <li class="dropdown"><a><span>Health Dataset</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="datasets/life_expectancy.csv">Download Health Dataset</a></li>
+                  <li><a href="datasets/life_expectancy.csv">Download Dataset</a></li>
                   <li><a href="https://github.com/giorgiasampo/Foodata/blob/main/dcat_ap-rdf/life_expectancy.rdf" target="_blank">RDF Metadata</a></li>
                 </ul>
               </li>
@@ -104,7 +104,7 @@
         <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
           <div data-aos="zoom-out">
             <h1> We are what we <span>Eat</span></h1>
-            <h2>Discover food impact on health and pollution in Europe</h2>
+            <h2>Discover food impact on health and environment in Europe</h2>
             <div class="text-center text-lg-start">
               <a href="#project" class="btn-get-started scrollto">Learn more</a>
             </div>
@@ -146,8 +146,8 @@
 
           <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
             <h3>FOOData: food in data</h3>
-            <p>This project aims to show connections between food production, pollution and health conditions in European countries from 2009 to 2019, focusing in particular on different countries' production of food, their health, and pollution status.</p>
-            <p>We hypothesize that areas with more agricultural pollution will have worse health outcomes and that different types of pollution and food production affect health differently.</p>
+            <p>This project aims to show connections between food production, environment and health conditions in European countries from 2009 to 2019, focusing in particular on different countries' production of food, their health, and pollution status.</p>
+            <p>We hypothesize that areas with more agricultural environmental damage will have worse health outcomes and that different types of pollution and food production affect health differently.</p>
             <p>To do so we collected data from <a href="https://ec.europa.eu/eurostat" target="_blank">EUROSTAT</a>, the <a href="https://www.eea.europa.eu" target="_blank">European Environmental Agency</a> and <a href="https://www.fao.org/faostat/en/#home" target="_blank">FAO</a>.</p>
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon"><a href="#production_desc"><i class="bx bxs-florist"></i></a></div>
@@ -157,7 +157,7 @@
 
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
               <div class="icon"><a href="#pollution_desc"><i class="bx bxs-factory"></i></a></div>
-              <h4 class="title"><a href="#pollution_desc">Pollution</a></h4>
+              <h4 class="title"><a href="#pollution_desc">Pollution and environment</a></h4>
               <p class="description">What are the environmental issue european countries have to face?</p>            
             </div>
 
@@ -248,11 +248,11 @@
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
               <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
               <h3 class="dropdown" id="dropdownpollution" data-bs-toggle="dropdown" aria-expanded="false">
-                <a href="#c0" class="pe-auto"><span>Pollution Maps</a></span><i class="bi bi-chevron-down arrow-distant"></i></h3>
+                <a href="#c0" class="pe-auto"><span>Pollution and Environment Maps</a></span><i class="bi bi-chevron-down arrow-distant"></i></h3>
             <ul class="dropdown-menu" aria-labelledby="dropdownpollution">
-              <li><a href="#c0" class="pe-auto" onclick="visualize_map('air_pollution', 'map')">Air Pollution Map</a></li>
-              <li><a href="#c0" class="pe-auto" onclick="visualize_map('soil_pollution', 'map')">Soil Pollution Map</a></li>
-              <li><a href="#c0" class="pe-auto" onclick="visualize_map('water_pollution', 'map')">Water Pollution Map</a></li>
+              <li><a href="#c0" class="pe-auto" onclick="visualize_map('air_pollution', 'map')">Air pollution and greenhouse gases</a></li>
+              <li><a href="#c0" class="pe-auto" onclick="visualize_map('soil_pollution', 'map')">Soil erosion and agriculture intensity</a></li>
+              <li><a href="#c0" class="pe-auto" onclick="visualize_map('water_pollution', 'map')">Water Pollution and irrigation</a></li>
             </ul>
             </div>
           </div>
@@ -825,7 +825,7 @@ Germany is the the greatest producer of meat (pig meat in particular) and also h
           <br>Here what is possible to notice is that:
           <ul>
             <li><i class=" bi bi-check"></i>France and Germany show the biggest amounts of both food production and water pollution</li>
-            <li><i class=" bi bi-check"></i>Spain andbBelgium follow in terms of food production but present a percentage of water pollution visibly inferior</li>
+            <li><i class=" bi bi-check"></i>Spain and Belgium follow in terms of food production but present a percentage of water pollution visibly inferior</li>
             <li><i class=" bi bi-check"></i>The following four countries in terms of water pollution are Poland, Sweden, Greece and Italy</li>
             <li><i class=" bi bi-check"></i>Of this four Greece and Sweden are less productive in terms of food than Italy and Greece but present a higher level of water pollution</li>
           </ul>
