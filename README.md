@@ -80,7 +80,7 @@ The first thing we wanted to achieve was to have a complete overlook on the lice
 We then checked for specific licenses applied by our sources:
 
 #### EUROSTAT
-It is under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. Reuse is authorised as long as the source is acknowledged. The reuse policy of European Commission documents is regulated by Decision 2011/833/EU (OJ L 330, 14.12.2011, p. 39). In the Privacy policy section there is information about Personal Data Protection policy, which is based on Regulation (EU) No 1725/2018 of the European Parliament and of the Council of 23 October 2018 on the protection of natural persons with regard to the processing of personal data by the Union institutions, bodies, offices and agencies and on the free movement of such data (repealing Regulation (EC) No 45/2001 of 18 December 2000 and Decision No 1247/2002/EC).
+It is under the [Creative Commons Attribution 4.0 International (CC BY 4.0) license](https://creativecommons.org/licenses/by/4.0/). Reuse is authorised as long as the source is acknowledged. The reuse policy of European Commission documents is regulated by Decision 2011/833/EU (OJ L 330, 14.12.2011, p. 39). In the Privacy policy section there is information about Personal Data Protection policy, which is based on Regulation (EU) No 1725/2018 of the European Parliament and of the Council of 23 October 2018 on the protection of natural persons with regard to the processing of personal data by the Union institutions, bodies, offices and agencies and on the free movement of such data (repealing Regulation (EC) No 45/2001 of 18 December 2000 and Decision No 1247/2002/EC).
 
 #### EUROPEAN ENVIRONMENTAL AGENCY
 EEA standard re-use policy: unless otherwise indicated, re-use of content on the EEA website for commercial or non-commercial purposes is permitted free of charge, provided that the source is acknowledged (https://www.eea.europa.eu/legal/copyright). Copyright holder: European Environment Agency (EEA). 
@@ -161,7 +161,7 @@ Reusable:
 
 - Meta(data) is richly described with a plurality of accurate and relevant attributes: our data and metadata are described through a rich and vary series of labels including the date of collection and modification of the data, the licence, the publisher, the creator, their content.
 
-- (Meta)data are released with a clear and accessible data usage license: ODOHTEU datasets are released under the Creative Common License CC BY-SA 4.0, which is specified for the dataset and respective metadata we created.
+- (Meta)data are released with a clear and accessible data usage license: Foodata datasets are released under the Creative Common License CC BY-NC-SA-IGO 3.0, which is specified for the dataset and respective metadata we created.
 
 - (Meta)data are associated with detailed provenance: our project includes information about the provenance of data in a machine-readable format in the metadata codification.
 
